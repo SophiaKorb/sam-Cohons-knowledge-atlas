@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-09-22",
+  "source_records_total": 312,
+  "standalone_blog_records": 47,
+  "beit_simcha_blog_records": 265,
+  "beit_simcha_records_with_dates": 265,
+  "beit_simcha_date_range": {
+    "start": "2021-08-01",
+    "end": "2026-09-16"
+  },
+  "beit_simcha_records_by_year": {
+    "2021": 27,
+    "2022": 51,
+    "2023": 49,
+    "2024": 62,
+    "2025": 50,
+    "2026": 26
+  },
+  "confirmed_redundant_source_records_minimum": 5,
+  "conservative_distinct_work_upper_bound": 307,
+  "caveat": "Distinct-work count is not final. Only confirmed near-identical republications from the first comparison pass are subtracted; strong-overlap and unreviewed records remain separate."
+}
