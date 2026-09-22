@@ -29,7 +29,9 @@ The main catalogued corpus now contains **1,599 source records** (1,261 radio + 
 - 265/265 Beit Simcha titles verified from archive cards; 164 slug-derived titles corrected
 - Cross-source deduplication in candidate-review stage
 - Individual date/source-text enrichment ongoing
-- Dedupe candidate ledger created; source-text comparison still required before collapsing records
+- First source-text dedupe pass complete on the seven strongest candidate groups
+- At least 5 source records confirmed as near-identical republications; conservative current upper bound is 307 distinct works from 312 source records
+- Strong-overlap candidates remain separate pending manual/source-boundary review
 - Public Facebook records are kept as discovery-only when direct content is login-gated
 
 ### Teaching & Services
@@ -49,7 +51,8 @@ Metadata discovery, source-text review, transcription, thematic synthesis, and e
 - `data/writings/rabbisamcohon-blog.json` — 47 first-party standalone-blog records
 - `data/writings/beit-simcha-blog.json` — 265 first-party Beit Simcha blog records
 - `data/writings/sources.json` — source registry and research-state ledger
-- `data/writings/dedupe-candidates.json` — cross-source title-match candidates awaiting source-text comparison
+- `data/writings/dedupe-candidates.json` — cross-source title candidates plus first-pass text-comparison findings
+- `data/writings/stats.json` — authored-work chronology and dedupe metrics
 - `data/teaching/beit-simcha-audiocasts.json` — 26 normalized first-party teaching recording listings
 - `data/teaching/current-programs.json` — current teaching-program context from Beit Simcha
 - `data/social/facebook-discovery.json` — first-party Facebook URLs discovered through public indexing, not treated as source-reviewed content
