@@ -29,10 +29,17 @@
       "name": "Congregation Beit Simcha Rabbi's Blog",
       "url": "https://beitsimchatucson.org/blog",
       "type": "first_party_authored_writing",
-      "status": "complete_discovery_traversal",
+      "status": "complete_discovery_and_archive_metadata_enrichment",
       "records": 265,
       "archive_pages_harvested": 14,
-      "next_archive_page": null
+      "next_archive_page": null,
+      "records_with_dates": 265,
+      "titles_verified_from_archive_cards": 265,
+      "date_range": {
+        "start": "2021-08-01",
+        "end": "2026-09-16"
+      },
+      "metadata_enrichment_generated_at": "2026-09-22"
     },
     {
       "name": "Beit Simcha Audiocasts",
