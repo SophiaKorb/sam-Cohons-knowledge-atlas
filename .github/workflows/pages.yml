@@ -26,14 +26,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Initialize GitHub Pages if needed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/pages" >/dev/null 2>&1 ||           gh api --method POST "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
