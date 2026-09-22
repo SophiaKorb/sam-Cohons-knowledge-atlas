@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-09-22",
   "scope": "Cross-source authored-work deduplication candidates",
-  "status": "candidate_only_requires_source_text_comparison",
+  "status": "first_text_comparison_pass_complete",
   "method_note": "Title similarity can identify likely republications but is not sufficient to collapse records. No source records are deleted by this ledger.",
   "groups": [
     {
@@ -16,7 +16,18 @@
           "source": "beitsimchatucson.org",
           "url": "https://beitsimchatucson.org/blog/these-dreams"
         }
-      ]
+      ],
+      "status": "not_confirmed_by_first_text_pass",
+      "comparisons": [
+        {
+          "target": "https://beitsimchatucson.org/blog/these-dreams",
+          "jaccard_5gram": 0.29,
+          "containment_5gram": 0.458,
+          "note": "Same title but only partial overlap in fetched first-party text; do not merge."
+        }
+      ],
+      "text_comparison_date": "2026-09-22",
+      "text_comparison_method": "normalized 5-word-shingle Jaccard plus directional containment over first-party page text"
     },
     {
       "canonical_candidate": "Making the Ideal Real",
@@ -30,7 +41,18 @@
           "source": "beitsimchatucson.org",
           "url": "https://beitsimchatucson.org/blog/making-the-ideal-real"
         }
-      ]
+      ],
+      "status": "not_duplicate_by_first_text_pass",
+      "comparisons": [
+        {
+          "target": "https://beitsimchatucson.org/blog/making-the-ideal-real",
+          "jaccard_5gram": 0,
+          "containment_5gram": 0,
+          "note": "Same title but fetched texts do not substantively overlap; keep separate."
+        }
+      ],
+      "text_comparison_date": "2026-09-22",
+      "text_comparison_method": "normalized 5-word-shingle Jaccard plus directional containment over first-party page text"
     },
     {
       "canonical_candidate": "Jewish Accounting for God",
@@ -44,7 +66,18 @@
           "source": "beitsimchatucson.org",
           "url": "https://beitsimchatucson.org/blog/jewish-accounting-for-god"
         }
-      ]
+      ],
+      "status": "strong_overlap_requires_manual_boundary_review",
+      "comparisons": [
+        {
+          "target": "https://beitsimchatucson.org/blog/jewish-accounting-for-god",
+          "jaccard_5gram": 0.593,
+          "containment_5gram": 0.891,
+          "note": "Strong content overlap, but one version is shorter; likely republication/edit, manual review before collapse."
+        }
+      ],
+      "text_comparison_date": "2026-09-22",
+      "text_comparison_method": "normalized 5-word-shingle Jaccard plus directional containment over first-party page text"
     },
     {
       "canonical_candidate": "Silence and Action",
@@ -66,7 +99,30 @@
           "source": "beitsimchatucson.org",
           "url": "https://beitsimchatucson.org/blog/silence-and-action-2"
         }
-      ]
+      ],
+      "status": "mixed_group_two_confirmed_republications_one_revision_candidate",
+      "comparisons": [
+        {
+          "target": "https://beitsimchatucson.org/blog/silence-and-action",
+          "jaccard_5gram": 0.682,
+          "containment_5gram": 0.828,
+          "finding": "strong_overlap_requires_manual_review"
+        },
+        {
+          "target": "https://beitsimchatucson.org/blog/silence-and-action-1",
+          "jaccard_5gram": 0.879,
+          "containment_5gram": 0.936,
+          "finding": "confirmed_near_identical_republication"
+        },
+        {
+          "target": "https://beitsimchatucson.org/blog/silence-and-action-2",
+          "jaccard_5gram": 0.899,
+          "containment_5gram": 0.958,
+          "finding": "confirmed_near_identical_republication"
+        }
+      ],
+      "text_comparison_date": "2026-09-22",
+      "text_comparison_method": "normalized 5-word-shingle Jaccard plus directional containment over first-party page text"
     },
     {
       "canonical_candidate": "Justice & Making the Ideal Real",
@@ -84,7 +140,24 @@
           "source": "beitsimchatucson.org",
           "url": "https://beitsimchatucson.org/blog/justice-amp-making-the-ideal-real-1"
         }
-      ]
+      ],
+      "status": "confirmed_republication_group",
+      "comparisons": [
+        {
+          "target": "https://beitsimchatucson.org/blog/justice-amp-making-the-ideal-real",
+          "jaccard_5gram": 0.983,
+          "containment_5gram": 0.994,
+          "finding": "confirmed_near_identical_republication"
+        },
+        {
+          "target": "https://beitsimchatucson.org/blog/justice-amp-making-the-ideal-real-1",
+          "jaccard_5gram": 0.935,
+          "containment_5gram": 0.97,
+          "finding": "confirmed_near_identical_republication"
+        }
+      ],
+      "text_comparison_date": "2026-09-22",
+      "text_comparison_method": "normalized 5-word-shingle Jaccard plus directional containment over first-party page text"
     },
     {
       "canonical_candidate": "Covenant, Commandment and You",
@@ -98,7 +171,18 @@
           "source": "beitsimchatucson.org",
           "url": "https://beitsimchatucson.org/blog/covenant-commandment-amp-you"
         }
-      ]
+      ],
+      "status": "confirmed_republication_group",
+      "comparisons": [
+        {
+          "target": "https://beitsimchatucson.org/blog/covenant-commandment-amp-you",
+          "jaccard_5gram": 0.868,
+          "containment_5gram": 0.955,
+          "finding": "confirmed_near_identical_republication"
+        }
+      ],
+      "text_comparison_date": "2026-09-22",
+      "text_comparison_method": "normalized 5-word-shingle Jaccard plus directional containment over first-party page text"
     },
     {
       "canonical_candidate": "What the Heck Can Ritual Sacrifice Teach Today?",
@@ -112,7 +196,21 @@
           "source": "beitsimchatucson.org",
           "url": "https://beitsimchatucson.org/blog/how-to-truly-live-or-what-the-heck-can-ritual-sacrifice-teach-us-today"
         }
-      ]
+      ],
+      "status": "strong_overlap_possible_retitle_or_expansion",
+      "comparisons": [
+        {
+          "target": "https://beitsimchatucson.org/blog/how-to-truly-live-or-what-the-heck-can-ritual-sacrifice-teach-us-today",
+          "jaccard_5gram": 0.624,
+          "containment_5gram": 0.839,
+          "finding": "strong_overlap_requires_manual_review"
+        }
+      ],
+      "text_comparison_date": "2026-09-22",
+      "text_comparison_method": "normalized 5-word-shingle Jaccard plus directional containment over first-party page text"
     }
-  ]
+  ],
+  "confirmed_redundant_source_records_minimum": 5,
+  "conservative_distinct_work_upper_bound_from_312": 307,
+  "note": "The upper bound only subtracts confirmed near-identical republications. Strong-overlap and unreviewed candidates remain separate until manual/source-boundary review."
 }
