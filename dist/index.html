@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A searchable research index of Too Jewish with Rabbi Sam Cohon and Friends, covering 1,261 broadcasts from 2002 through 2026.">
+  <meta name="theme-color" content="#11131a">
+  <title>Samuel M. Cohon Knowledge Atlas | Too Jewish Radio Archive</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2311131a'/%3E%3Ccircle cx='32' cy='32' r='21' fill='none' stroke='%23f5c451' stroke-width='3'/%3E%3Cpath d='M21 37V27l15-7v24l-15-7zm15-10h7v10h-7' fill='none' stroke='%23f7f3e8' stroke-width='3' stroke-linejoin='round'/%3E%3Ccircle cx='47' cy='22' r='4' fill='%23e85a45'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#archive">Skip to archive</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Samuel M. Cohon Knowledge Atlas home">
+      <span class="brand-mark" aria-hidden="true"><span></span></span>
+      <span><strong>Samuel M. Cohon</strong><small>Knowledge Atlas</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#archive">Archive</a>
+      <a href="#signal-map">Signal map</a>
+      <a href="#method">Method</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="masthead" aria-labelledby="page-title">
+      <div class="masthead-copy">
+        <p class="collection-label"><span>Collection 01</span> Too Jewish Radio</p>
+        <h1 id="page-title">Twenty-four years on the Jewish airwaves.</h1>
+        <p class="dek">A source-tracked index of <cite>Too Jewish with Rabbi Sam Cohon and Friends</cite>, reconstructed from the show’s first-party archive and podcast catalogue.</p>
+        <div class="broadcast-line">
+          <span class="on-air-dot" aria-hidden="true"></span>
+          <span>On air since August 4, 2002</span>
+          <span class="frequency">Sundays · Tucson</span>
+        </div>
+      </div>
+      <div class="dial" aria-hidden="true">
+        <div class="dial-label">ARCHIVE SIGNAL</div>
+        <div class="dial-number">1261</div>
+        <div class="dial-sub">broadcasts located</div>
+        <div class="dial-scale"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+    </section>
+
+    <section class="metric-strip" aria-label="Archive summary">
+      <div><strong id="metric-total">1,261</strong><span>broadcasts indexed</span></div>
+      <div><strong id="metric-live">889</strong><span>live audio links</span></div>
+      <div><strong id="metric-crosschecked">736</strong><span>two-source records</span></div>
+      <div><strong id="metric-gaps">372</strong><span>access gaps</span></div>
+      <div><strong id="metric-years">25</strong><span>calendar years</span></div>
+    </section>
+
+    <section class="archive-shell" id="archive" aria-labelledby="archive-title">
+      <div class="section-heading archive-heading">
+        <div>
+          <p class="eyebrow">Full broadcast catalogue</p>
+          <h2 id="archive-title">Find an episode</h2>
+        </div>
+        <p>Search guests, books, organizations, subjects, and episode descriptions.</p>
+      </div>
+
+      <div class="search-panel" role="search">
+        <label class="search-box" for="search-input">
+          <span aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" autocomplete="off" placeholder="Try Elie Wiesel, antisemitism, Broadway, or Jewish education">
+        </label>
+        <button class="clear-button" id="clear-filters" type="button">Reset all</button>
+      </div>
+
+      <div class="archive-layout">
+        <aside class="filters" aria-label="Archive filters">
+          <div class="filter-group">
+            <label for="year-filter">Year</label>
+            <select id="year-filter"><option value="">All years</option></select>
+          </div>
+          <div class="filter-group">
+            <label for="topic-filter">Topic</label>
+            <select id="topic-filter"><option value="">All topics</option></select>
+          </div>
+          <div class="filter-group">
+            <label for="role-filter">Guest type</label>
+            <select id="role-filter"><option value="">All guest types</option></select>
+          </div>
+          <div class="filter-group">
+            <label for="status-filter">Audio access</label>
+            <select id="status-filter">
+              <option value="">All access states</option>
+              <option value="live">Listen now</option>
+              <option value="dead">Listed link unavailable</option>
+              <option value="not_listed">No link listed</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="sort-filter">Order</label>
+            <select id="sort-filter">
+              <option value="newest">Newest first</option>
+              <option value="oldest">Oldest first</option>
+              <option value="guest">Guest A–Z</option>
+            </select>
+          </div>
+          <div class="filter-note">
+            <strong>Reading the labels</strong>
+            <p>Topic tags are discovery aids inferred from the show’s published descriptions. They are not transcript findings.</p>
+          </div>
+        </aside>
+
+        <div class="results-column">
+          <div class="results-toolbar">
+            <p id="results-count" aria-live="polite">Loading archive…</p>
+            <div class="active-filters" id="active-filters" aria-label="Active filters"></div>
+          </div>
+          <div class="episode-list" id="episode-list"></div>
+          <nav class="pagination" id="pagination" aria-label="Archive pages"></nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-section" id="signal-map" aria-labelledby="signal-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Archive signal map</p>
+          <h2 id="signal-title">What survives, and where</h2>
+        </div>
+        <p>The catalogue is complete as a list. Audio access is not.</p>
+      </div>
+
+      <div class="signal-grid">
+        <article class="panel timeline-panel">
+          <div class="panel-head">
+            <h3>Broadcasts by year</h3>
+            <span>Click a bar to filter</span>
+          </div>
+          <div class="timeline" id="timeline" role="list" aria-label="Broadcast count by year"></div>
+        </article>
+
+        <article class="panel topic-panel">
+          <div class="panel-head">
+            <h3>Most common catalogue topics</h3>
+            <span>Multi-tag counts</span>
+          </div>
+          <div class="topic-bars" id="topic-bars"></div>
+        </article>
+
+        <article class="panel coverage-panel">
+          <div class="panel-head">
+            <h3>Research coverage</h3>
+            <span>Batch 01</span>
+          </div>
+          <div class="coverage-list">
+            <div><span>Catalogue metadata normalized</span><strong>1,261</strong><i style="--w:100%"></i></div>
+            <div><span>Audio links tested</span><strong>1,219</strong><i style="--w:96.7%"></i></div>
+            <div><span>Two-source records</span><strong>736</strong><i style="--w:58.4%"></i></div>
+            <div><span>Source-text reviews</span><strong>0</strong><i style="--w:0%"></i></div>
+          </div>
+          <p class="boundary-note">No episode has been promoted to transcript-level review. Metadata, source text, and interpretation remain separate layers.</p>
+        </article>
+
+        <article class="panel gaps-panel">
+          <div class="panel-head">
+            <h3>Audio access ledger</h3>
+            <span>Checked September 22, 2026</span>
+          </div>
+          <div class="access-donut" aria-label="889 live, 330 dead, and 42 unlisted audio links">
+            <div class="donut" aria-hidden="true"><span>70.5%<small>live</small></span></div>
+            <ul>
+              <li><i class="live"></i><span>Live first-party audio</span><strong>889</strong></li>
+              <li><i class="dead"></i><span>Listed but unavailable</span><strong>330</strong></li>
+              <li><i class="missing"></i><span>No audio link listed</span><strong>42</strong></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="method-section" id="method" aria-labelledby="method-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Provenance and boundaries</p>
+          <h2 id="method-title">How this index was built</h2>
+        </div>
+        <p>Every number on this page is generated from the catalogue, not typed into existence and hoped at.</p>
+      </div>
+      <div class="method-grid">
+        <article>
+          <span class="method-number">01</span>
+          <h3>First-party catalogue</h3>
+          <p>The official <cite>Too Jewish</cite> archive supplied broadcast dates, named guests, descriptions, and listed MP3 links from August 2002 onward.</p>
+          <a href="https://toojewishradio.com/too_jewish_shows.htm" target="_blank" rel="noopener">Open official archive ↗</a>
+        </article>
+        <article>
+          <span class="method-number">02</span>
+          <h3>Podcast cross-check</h3>
+          <p>Podbean episode pages supplied an independent first-party match for 736 broadcasts, including durable episode pages and published runtimes.</p>
+          <a href="https://toojewishradio.podbean.com/" target="_blank" rel="noopener">Open podcast archive ↗</a>
+        </article>
+        <article>
+          <span class="method-number">03</span>
+          <h3>Link verification</h3>
+          <p>All 1,219 listed MP3 URLs were tested. A network error is never silently labelled dead; only a confirmed missing response enters the gap count.</p>
+        </article>
+        <article>
+          <span class="method-number">04</span>
+          <h3>Evidence boundary</h3>
+          <p>Published descriptions support discovery, not quotation or claim analysis. Transcript reviews, thematic synthesis, and evidence maps will be added only after source-level work.</p>
+        </article>
+      </div>
+      <div class="schema-line">
+        <strong>Current record schema</strong>
+        <span>ID</span><span>broadcast date</span><span>guest</span><span>description</span><span>role</span><span>topics</span><span>source URLs</span><span>link state</span><span>review state</span><span>evidence boundary</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>Samuel M. Cohon Knowledge Atlas</strong><span>Collection 01 · Too Jewish Radio</span></div>
+    <p>Independent archival index. Episode audio and descriptions remain with their original publishers.</p>
+  </footer>
+
+  <template id="episode-template">
+    <article class="episode-card">
+      <div class="episode-date"></div>
+      <div class="episode-main">
+        <div class="episode-kicker"><span class="role-pill"></span><span class="status-pill"></span></div>
+        <h3></h3>
+        <p class="episode-description"></p>
+        <div class="episode-tags"></div>
+        <details>
+          <summary>Record details</summary>
+          <dl class="record-grid"></dl>
+        </details>
+      </div>
+      <div class="episode-actions"></div>
+    </article>
+  </template>
+
+  <script src="data-meta.js"></script>
+  <script src="data-2002-2006.js"></script>
+  <script src="data-2007-2011.js"></script>
+  <script src="data-2012-2016.js"></script>
+  <script src="data-2017-2021.js"></script>
+  <script src="data-2022-2026.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

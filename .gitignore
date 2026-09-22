@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.sites-runtime/
+data/episodes.json
+data/episodes.csv
+data/link_checks.json
