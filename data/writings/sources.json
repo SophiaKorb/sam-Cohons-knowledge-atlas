@@ -21,7 +21,7 @@
       "name": "Rabbi Sam Cohon blog",
       "url": "https://www.rabbisamcohon.com/",
       "type": "first_party_authored_writing",
-      "status": "ingested_discovery_index",
+      "status": "complete_discovery_traversal",
       "records": 47,
       "archive_pages": 23
     },
@@ -29,22 +29,29 @@
       "name": "Congregation Beit Simcha Rabbi's Blog",
       "url": "https://beitsimchatucson.org/blog",
       "type": "first_party_authored_writing",
-      "status": "partial_ingest_discovery_index",
-      "records": 140,
-      "archive_pages_harvested": 7,
-      "next_archive_page": "https://beitsimchatucson.org/blog?offset=1701584740469"
+      "status": "complete_discovery_traversal",
+      "records": 265,
+      "archive_pages_harvested": 14,
+      "next_archive_page": null
+    },
+    {
+      "name": "Beit Simcha Audiocasts",
+      "url": "https://beitsimchatucson.org/videocasts-from-beit-simcha",
+      "type": "first_party_teaching_audio_video",
+      "status": "discovered_not_yet_ingested",
+      "notes": "Public indexing identifies Rabbi Sam Cohon teaching including History of Zionism, Class One."
     },
     {
       "name": "Congregation Beit Simcha Facebook",
       "url": "https://www.facebook.com/BeitSimchaTucson",
       "type": "first_party_social_video_posts",
-      "status": "queued_for_targeted_harvest"
+      "status": "public_index_discovery_only_login_gate"
     },
     {
       "name": "Samuel Cohon Facebook",
       "url": "http://facebook.com/samuel.cohon.9",
       "type": "first_party_social_posts",
-      "status": "queued_for_targeted_harvest"
+      "status": "public_index_discovery_only_login_gate"
     },
     {
       "name": "JCC Tucson",
