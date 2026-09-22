@@ -1,8 +1,8 @@
 {
   "collection": "Authored Works",
   "source": "https://beitsimchatucson.org/blog",
-  "record_count": 140,
-  "archive_pages_harvested": 7,
+  "record_count": 265,
+  "archive_pages_harvested": 14,
   "scope_note": "First-party Rabbi's Blog discovery ledger. Titles normalized from canonical slugs; publication dates and source-text review are pending enrichment.",
   "records": [
     {
@@ -1404,6 +1404,1257 @@
       "published_date": null,
       "author": "Samuel M. Cohon",
       "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/prayer-for-democracy",
+      "title": "Prayer for Democracy",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/thanksgiving-and-the-jews",
+      "title": "Thanksgiving and the Jews",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/responsible-now-for-the-jewish-future",
+      "title": "Responsible Now for the Jewish Future",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/you-shall-be-a-blessing",
+      "title": "You Shall Be a Blessing",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-jewish-indigenous-homeland",
+      "title": "the Jewish Indigenous Homeland",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/basic-decency-the-first-covenant",
+      "title": "Basic Decency the First Covenant",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/justice-then-peace-in-israel",
+      "title": "Justice Then Peace in Israel",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/a-multi-faith-prayer-for-israel-under-attack",
+      "title": "a Multi Faith Prayer for Israel Under Attack",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/flying-cars-and-neilah",
+      "title": "Flying Cars and Neilah",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/king-david-and-a-good-death",
+      "title": "King David and a Good Death",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/finding-god-today",
+      "title": "Finding God Today",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/which-way-are-you-going",
+      "title": "Which Way Are You Going",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/statistics-amp-repentance",
+      "title": "Statistics Amp Repentance",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/kafka-and-kindness",
+      "title": "Kafka and Kindness",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/parrots-and-chatgpt-on-rosh-hashanah",
+      "title": "Parrots and Chatgpt on Rosh Hashanah",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/imperfect-and-eternal",
+      "title": "Imperfect and Eternal",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/hard-work-serves-god",
+      "title": "Hard Work Serves God",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/chase-justice",
+      "title": "Chase Justice",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/covenant-commandment-amp-you",
+      "title": "Covenant Commandment Amp You",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/israel-constitutions-and-listening",
+      "title": "Israel Constitutions and Listening",
+      "source": "beitsimchatucson.org",
+      "archive_page": 8,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/soup-and-the-promised-land",
+      "title": "Soup and the Promised Land",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/is-life-a-highway-really",
+      "title": "is Life a Highway Really",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/from-portugal-to-here",
+      "title": "From Portugal to Here",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/bald-truths-how-rebellion-teaches-us-about-leadership",
+      "title": "Bald Truths How Rebellion Teaches Us About Leadership",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-right-kind-of-spy",
+      "title": "the Right Kind of Spy",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/blessings",
+      "title": "Blessings",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/50-words-for-learning",
+      "title": "50 Words for Learning",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/dream-dreams",
+      "title": "Dream Dreams",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/jewish-accounting-for-god",
+      "title": "Jewish Accounting for God",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/mountains-and-congregations",
+      "title": "Mountains and Congregations",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/rabbi-baruch-j-cohons-sermon-parshat-emor-5783-on-the-occasion-of-his-97th-birthday",
+      "title": "Rabbi Baruch J Cohons Sermon Parshat Emor 5783 on the Occasion of His 97th Birthday",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/how-we-create-our-holy-congregation",
+      "title": "How We Create our Holy Congregation",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/a-growing-up-country",
+      "title": "a Growing Up Country",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/silence-and-action-1",
+      "title": "Silence and Action 1",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/across-5-passovers",
+      "title": "Across 5 Passovers",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/getting-rid-of-the-chamets",
+      "title": "Getting Rid of the Chamets",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/what-we-live-for",
+      "title": "What We Live for",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/why-do-we-need-a-sanctuary",
+      "title": "Why Do We Need a Sanctuary",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/swords-into-plowshares",
+      "title": "Swords Into Plowshares",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/rebellion-the-primary-jewish-act",
+      "title": "Rebellion the Primary Jewish Act",
+      "source": "beitsimchatucson.org",
+      "archive_page": 9,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/forgetting-in-order-to-remember",
+      "title": "Forgetting in Order to Remember",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/hope",
+      "title": "Hope",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/mishpatim-and-freedom",
+      "title": "Mishpatim and Freedom",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/commanded",
+      "title": "Commanded",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/challah-and-pharaoh",
+      "title": "Challah and Pharaoh",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/to-see",
+      "title": "to See",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/in-praise-of-chutzpah-1",
+      "title": "in Praise of Chutzpah 1",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/do-you-believe-in-miracles",
+      "title": "Do You Believe in Miracles",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/identity-and-you",
+      "title": "Identity and You",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/beating-the-oldest-conspiracy-theory-of-all",
+      "title": "Beating the Oldest Conspiracy Theory of All",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/tzoris-and-thanksgiving",
+      "title": "Tzoris and Thanksgiving",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/8-billion-and-one",
+      "title": "8 Billion and One",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/revolutions",
+      "title": "Revolutions",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/campaigning-on-the-positive",
+      "title": "Campaigning on the Positive",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/beginning-again",
+      "title": "Beginning Again",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/we-are-the-torahs-voice",
+      "title": "We Are the Torahs Voice",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/how-you-live-your-days",
+      "title": "How You Live Your Days",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/jonah-and-the-koufax-curse",
+      "title": "Jonah and the Koufax Curse",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/standing-with-attention",
+      "title": "Standing with Attention",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/celestial-wonders-and-gods-dirt",
+      "title": "Celestial Wonders and Gods Dirt",
+      "source": "beitsimchatucson.org",
+      "archive_page": 10,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-real-you",
+      "title": "the Real You",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/courageous-repentance",
+      "title": "Courageous Repentance",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-best-you-can-be-vin-scully",
+      "title": "the Best You Can Be Vin Scully",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-last-shofar-maker-of-morocco",
+      "title": "the Last Shofar Maker of Morocco",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/rosh-hashanah-dreams",
+      "title": "Rosh Hashanah Dreams",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/imperfect-choice",
+      "title": "Imperfect Choice",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/war-and-peace-in-judaism",
+      "title": "War and Peace in Judaism",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-22nd-anniversary-of-911",
+      "title": "the 22nd Anniversary of 911",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/labor-and-judaism",
+      "title": "Labor and Judaism",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/choosing-blessing",
+      "title": "Choosing Blessing",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/reward-and-punishment",
+      "title": "Reward and Punishment",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/compassion-in-a-field-of-dreams",
+      "title": "Compassion in a Field of Dreams",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/jewish-love-of-learning",
+      "title": "Jewish Love of Learning",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/life-is-a-highway",
+      "title": "Life is a Highway",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/passionate-judaism",
+      "title": "Passionate Judaism",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/a-disney-movie-in-the-book-of-numbers",
+      "title": "a Disney Movie in the Book of Numbers",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/tanning-and-faith",
+      "title": "Tanning and Faith",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/flags-and-rebellion",
+      "title": "Flags and Rebellion",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/israel-presidents-amp-spies",
+      "title": "Israel Presidents Amp Spies",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/bring-the-light",
+      "title": "Bring the Light",
+      "source": "beitsimchatucson.org",
+      "archive_page": 11,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/a-great-blessing-indeed",
+      "title": "a Great Blessing Indeed",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/everyone-counts",
+      "title": "Everyone Counts",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/true-jewish-heritage",
+      "title": "True Jewish Heritage",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/scapegoats",
+      "title": "Scapegoats",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/got-to-get-ourselves-back-to-the-garden",
+      "title": "Got to Get Ourselves Back to the Garden",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-first-month",
+      "title": "the First Month",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/created-in-the-image",
+      "title": "Created in the Image",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/silence-and-action",
+      "title": "Silence and Action",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-happiness-quotient",
+      "title": "the Happiness Quotient",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/arguing-for-god-and-unity",
+      "title": "Arguing for God and Unity",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/wild-west-and-ukraine",
+      "title": "Wild West and Ukraine",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/spectacle-and-human-needs",
+      "title": "Spectacle and Human Needs",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-true-sanctuary-of-the-jewish-people-then-and-now",
+      "title": "the True Sanctuary of the Jewish People Then and Now",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/how-to-truly-live-or-what-the-heck-can-ritual-sacrifice-teach-us-today",
+      "title": "How to Truly Live or What the Heck Can Ritual Sacrifice Teach Us Today",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/jews-and-money",
+      "title": "Jews and Money",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/once-on-a-mountain-and-now-here",
+      "title": "Once on a Mountain and Now Here",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/freedom-and-commitment",
+      "title": "Freedom and Commitment",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/artificial-and-realnew-years-eve-shabbat-2022",
+      "title": "Artificial and Realnew Years Eve Shabbat 2022",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/what-god-is-and-what-can-be",
+      "title": "What God is and What Can Be",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-trouble-with-tribes",
+      "title": "the Trouble with Tribes",
+      "source": "beitsimchatucson.org",
+      "archive_page": 12,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/in-praise-of-chutzpah",
+      "title": "in Praise of Chutzpah",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/how-to-be-the-light",
+      "title": "How to Be the Light",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/family-fate-fortune-amp-you",
+      "title": "Family Fate Fortune Amp You",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/becoming-ourselves-becoming-israel",
+      "title": "Becoming Ourselves Becoming Israel",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/dreyfus-then-amp-now-there-amp-here",
+      "title": "Dreyfus Then Amp Now There Amp Here",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/mom-liked-you-best-family-trauma-tricksters-amp-destiny",
+      "title": "Mom Liked You Best Family Trauma Tricksters Amp Destiny",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/arguing-for-justice",
+      "title": "Arguing for Justice",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/to-build-like-abraham",
+      "title": "to Build Like Abraham",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-ark-we-need",
+      "title": "the Ark We Need",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/creation-amp-creativity",
+      "title": "Creation Amp Creativity",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/whats-your-favorite-holiday",
+      "title": "Whats Your Favorite Holiday",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/not-doing-what-comes-naturally",
+      "title": "Not Doing What Comes Naturally",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/love-and-fear",
+      "title": "Love and Fear",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/lost-and-found-on-yom-kippur",
+      "title": "Lost and Found on Yom Kippur",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/youre-too-sensitive",
+      "title": "Youre Too Sensitive",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/what-we-owe-9-11-after-twenty-years",
+      "title": "What We Owe 9 11 After Twenty Years",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/memory",
+      "title": "Memory",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/experts-all",
+      "title": "Experts All",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/being-there",
+      "title": "Being There",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/the-missing-center",
+      "title": "the Missing Center",
+      "source": "beitsimchatucson.org",
+      "archive_page": 13,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/war-amp-peace",
+      "title": "War Amp Peace",
+      "source": "beitsimchatucson.org",
+      "archive_page": 14,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/justice-amp-making-the-ideal-real",
+      "title": "Justice Amp Making the Ideal Real",
+      "source": "beitsimchatucson.org",
+      "archive_page": 14,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/choices-choices-choices",
+      "title": "Choices Choices Choices",
+      "source": "beitsimchatucson.org",
+      "archive_page": 14,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/jews-in-italy-amp-greece-amp-right-here",
+      "title": "Jews in Italy Amp Greece Amp Right Here",
+      "source": "beitsimchatucson.org",
+      "archive_page": 14,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/high-holy-days-5782",
+      "title": "High Holy Days 5782",
+      "source": "beitsimchatucson.org",
+      "archive_page": 14,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": null,
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false
     }
-  ]
+  ],
+  "next_archive_page": null
 }
