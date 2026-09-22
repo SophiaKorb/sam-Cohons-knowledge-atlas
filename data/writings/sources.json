@@ -38,8 +38,10 @@
       "name": "Beit Simcha Audiocasts",
       "url": "https://beitsimchatucson.org/videocasts-from-beit-simcha",
       "type": "first_party_teaching_audio_video",
-      "status": "discovered_not_yet_ingested",
-      "notes": "Public indexing identifies Rabbi Sam Cohon teaching including History of Zionism, Class One."
+      "status": "ingested_recording_index",
+      "notes": "26 unique first-party recording listings normalized; History of Zionism Class One appears twice on the source page. Direct stable media URLs remain to be extracted where possible.",
+      "records": 26,
+      "displayed_entries": 27
     },
     {
       "name": "Congregation Beit Simcha Facebook",
@@ -64,6 +66,14 @@
       "url": "https://azjewishpost.com/",
       "type": "community_publication",
       "status": "discovered_for_authored_or_quoted_material_only"
+    },
+    {
+      "name": "Beit Simcha Adult Education Academy",
+      "url": "https://beitsimchatucson.org/adultedacademy",
+      "type": "first_party_teaching_program_context",
+      "status": "program_index_ingested",
+      "records": 7,
+      "headline_count_included": false
     }
   ]
 }
