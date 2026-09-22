@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-09-22",
+  "scope": "Cross-source authored-work deduplication candidates",
+  "status": "candidate_only_requires_source_text_comparison",
+  "method_note": "Title similarity can identify likely republications but is not sufficient to collapse records. No source records are deleted by this ledger.",
+  "groups": [
+    {
+      "canonical_candidate": "These Dreams",
+      "confidence": "high_title_match",
+      "records": [
+        {
+          "source": "rabbisamcohon.com",
+          "url": "https://www.rabbisamcohon.com/single-post/2018/12/10/these-dreams"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/these-dreams"
+        }
+      ]
+    },
+    {
+      "canonical_candidate": "Making the Ideal Real",
+      "confidence": "high_title_match",
+      "records": [
+        {
+          "source": "rabbisamcohon.com",
+          "url": "https://www.rabbisamcohon.com/single-post/2019/05/08/making-the-ideal-real"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/making-the-ideal-real"
+        }
+      ]
+    },
+    {
+      "canonical_candidate": "Jewish Accounting for God",
+      "confidence": "high_title_match",
+      "records": [
+        {
+          "source": "rabbisamcohon.com",
+          "url": "https://www.rabbisamcohon.com/single-post/2020/05/25/jewish-accounting-for-god"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/jewish-accounting-for-god"
+        }
+      ]
+    },
+    {
+      "canonical_candidate": "Silence and Action",
+      "confidence": "high_title_match_multi_url",
+      "records": [
+        {
+          "source": "rabbisamcohon.com",
+          "url": "https://www.rabbisamcohon.com/single-post/2020/04/19/silence-and-action"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/silence-and-action"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/silence-and-action-1"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/silence-and-action-2"
+        }
+      ]
+    },
+    {
+      "canonical_candidate": "Justice & Making the Ideal Real",
+      "confidence": "strong_title_similarity",
+      "records": [
+        {
+          "source": "rabbisamcohon.com",
+          "url": "https://www.rabbisamcohon.com/single-post/justice-making-the-ideal-real"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/justice-amp-making-the-ideal-real"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/justice-amp-making-the-ideal-real-1"
+        }
+      ]
+    },
+    {
+      "canonical_candidate": "Covenant, Commandment and You",
+      "confidence": "strong_title_similarity",
+      "records": [
+        {
+          "source": "rabbisamcohon.com",
+          "url": "https://www.rabbisamcohon.com/single-post/2020/08/12/covenant-commandment-and-you"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/covenant-commandment-amp-you"
+        }
+      ]
+    },
+    {
+      "canonical_candidate": "What the Heck Can Ritual Sacrifice Teach Today?",
+      "confidence": "possible_retitle_or_expansion",
+      "records": [
+        {
+          "source": "rabbisamcohon.com",
+          "url": "https://www.rabbisamcohon.com/single-post/2020/02/26/what-the-heck-can-ritual-sacrifice-teach-today"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/how-to-truly-live-or-what-the-heck-can-ritual-sacrifice-teach-us-today"
+        }
+      ]
+    }
+  ]
+}
