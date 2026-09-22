@@ -2,46 +2,50 @@
 
 An independent, source-tracked archive of Rabbi Samuel M. Cohon’s public work.
 
-The first collection is **Too Jewish Radio**, with 1,261 broadcasts catalogued from August 4, 2002 through September 20, 2026.
+The project currently contains two substantial collections:
 
-**Collection 02: Authored Works** is now underway. The first writing harvest contains 47 first-party posts from Sam's standalone blog and 140 first-party Beit Simcha Rabbi's Blog records, for 187 writing records discovered so far.
+- **Collection 01: Too Jewish Radio** — 1,261 broadcasts catalogued from August 4, 2002 through September 20, 2026.
+- **Collection 02: Authored Works** — 312 first-party writing source records located: 47 from Sam's standalone blog and 265 from the Congregation Beit Simcha Rabbi's Blog.
+
+The 312 writing records are **source records, not yet a claim of 312 unique intellectual works**. Cross-source deduplication, date enrichment, and source-text review are active research stages.
 
 ## Current research status
 
+### Too Jewish Radio
 - 1,261 broadcast records normalized
 - 1,219 first-party MP3 links checked
 - 889 live audio links
 - 736 records cross-checked against the Podbean catalogue
 - 330 listed links unavailable
 - 42 broadcasts with no audio link listed
-- 0 transcript-level reviews claimed in this first batch
+- 0 transcript-level reviews claimed in the first radio batch
 
-Metadata, transcript review, thematic synthesis, and evidence mapping are maintained as separate layers. Topic tags in the current release are deterministic discovery aids derived from published episode descriptions.
+### Authored Works
+- 47 first-party records from the complete 23-page Rabbi Sam Cohon blog archive
+- 265 first-party records from the complete 14-page Beit Simcha Rabbi's Blog archive
+- Cross-source deduplication pending
+- Individual date/source-text enrichment ongoing
+- Public Facebook records are kept as discovery-only when direct content is login-gated
+
+Metadata discovery, source-text review, transcription, thematic synthesis, and evidence mapping are maintained as separate layers.
 
 ## Repository structure
 
-- `data/episodes-by-year/` — normalized research dataset, split into reviewable yearly files
-- `data/link-checks-by-year/` — URL verification ledger, split by year
+- `data/episodes-by-year/` — normalized Too Jewish research dataset
+- `data/link-checks-by-year/` — audio-link verification ledger
 - `data/stats.json` — generated radio archive metrics and methods
-- `data/writings/rabbisamcohon-blog.json` — 47 first-party posts discovered across all 23 pages of Sam's standalone blog archive
-- `data/writings/beit-simcha-blog.json` — 140 first-party Beit Simcha Rabbi's Blog records from the first 7 archive pages
-- `data/writings/sources.json` — source registry, harvest state, Facebook queue, and scope/exclusion policy
-- `scripts/build_data.py` — first-party archive ingestion and normalization
-- `scripts/verify_links.py` — non-destructive audio-link verification
-- `scripts/build_site_data.py` — compact browser bundle generator
-- `dist/` — deployable static site
+- `data/writings/rabbisamcohon-blog.json` — 47 first-party standalone-blog records
+- `data/writings/beit-simcha-blog.json` — 265 first-party Beit Simcha blog records
+- `data/writings/sources.json` — source registry and research-state ledger
+- `data/social/facebook-discovery.json` — first-party Facebook URLs discovered through public indexing, not treated as source-reviewed content
+- `scripts/` — ingestion, verification, and site-data tooling
+- `dist/` — deployable static presentation site
+- `.github/workflows/pages.yml` — GitHub Pages deployment workflow
 
-## Rebuild
+## Research boundaries
 
-```bash
-python3 scripts/build_data.py
-python3 scripts/verify_links.py
-python3 scripts/build_site_data.py
-```
+The atlas is centered on Sam Cohon's own public work, first-party congregational materials, radio, teaching, interviews, and neutral biographical/professional context.
 
-## Sources
+The project does **not** ingest unrelated scandal coverage.
 
-- [Official Too Jewish show archive](https://toojewishradio.com/too_jewish_shows.htm)
-- [Too Jewish on Podbean](https://toojewishradio.podbean.com/)
-
-Episode audio, sermon text, article text, and descriptions remain with their original publishers. The atlas stores source-tracked metadata and research-navigation records rather than republishing full texts.
+Episode audio, sermon text, article text, and descriptions remain with their original publishers. The atlas stores source-tracked metadata and research-navigation records rather than republishing full copyrighted texts.
