@@ -25,7 +25,9 @@ The main catalogued corpus now contains **1,599 source records** (1,261 radio + 
 ### Authored Works
 - 47 first-party records from the complete 23-page Rabbi Sam Cohon blog archive
 - 265 first-party records from the complete 14-page Beit Simcha Rabbi's Blog archive
-- Cross-source deduplication pending
+- 265/265 Beit Simcha records now have first-party archive publication dates
+- 265/265 Beit Simcha titles verified from archive cards; 164 slug-derived titles corrected
+- Cross-source deduplication in candidate-review stage
 - Individual date/source-text enrichment ongoing
 - Dedupe candidate ledger created; source-text comparison still required before collapsing records
 - Public Facebook records are kept as discovery-only when direct content is login-gated
