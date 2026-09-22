@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-09-22",
+  "scope": "Samuel M. Cohon public work",
+  "exclusion_policy": "Do not ingest scandal-related news coverage. Prioritize Sam Cohon's own public work, first-party congregational materials, radio, teaching, interviews, and neutral biographical/professional context.",
+  "sources": [
+    {
+      "name": "Too Jewish Radio official archive",
+      "url": "https://toojewishradio.com/too_jewish_shows.htm",
+      "type": "first_party_radio",
+      "status": "ingested",
+      "records": 1261
+    },
+    {
+      "name": "Too Jewish Podbean",
+      "url": "https://toojewishradio.podbean.com/",
+      "type": "first_party_podcast",
+      "status": "crosscheck_ingested",
+      "records_crosschecked": 736
+    },
+    {
+      "name": "Rabbi Sam Cohon blog",
+      "url": "https://www.rabbisamcohon.com/",
+      "type": "first_party_authored_writing",
+      "status": "ingested_discovery_index",
+      "records": 47,
+      "archive_pages": 23
+    },
+    {
+      "name": "Congregation Beit Simcha Rabbi's Blog",
+      "url": "https://beitsimchatucson.org/blog",
+      "type": "first_party_authored_writing",
+      "status": "partial_ingest_discovery_index",
+      "records": 140,
+      "archive_pages_harvested": 7,
+      "next_archive_page": "https://beitsimchatucson.org/blog?offset=1701584740469"
+    },
+    {
+      "name": "Congregation Beit Simcha Facebook",
+      "url": "https://www.facebook.com/BeitSimchaTucson",
+      "type": "first_party_social_video_posts",
+      "status": "queued_for_targeted_harvest"
+    },
+    {
+      "name": "Samuel Cohon Facebook",
+      "url": "http://facebook.com/samuel.cohon.9",
+      "type": "first_party_social_posts",
+      "status": "queued_for_targeted_harvest"
+    },
+    {
+      "name": "JCC Tucson",
+      "url": "https://tucsonjcc.org/",
+      "type": "community_republication",
+      "status": "discovered_not_yet_ingested"
+    },
+    {
+      "name": "AZ Jewish Post",
+      "url": "https://azjewishpost.com/",
+      "type": "community_publication",
+      "status": "discovered_for_authored_or_quoted_material_only"
+    }
+  ]
+}
