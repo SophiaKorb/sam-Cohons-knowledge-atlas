@@ -1,0 +1,95 @@
+{
+  "collection": "Teaching Programs",
+  "source": "https://beitsimchatucson.org/adultedacademy",
+  "generated_at": "2026-09-22",
+  "evidence_status": "first_party_program_page_verified",
+  "count": 7,
+  "count_note": "Program context records are not included in the atlas headline source-record total because they describe ongoing curricula rather than discrete works.",
+  "records": [
+    {
+      "title": "Zohar, the Crown of Kabbalah",
+      "instructor": "Rabbi Sam Cohon",
+      "format": "In person + Zoom",
+      "schedule": "Tuesdays, 11:45am-1pm",
+      "themes": [
+        "Zohar",
+        "Kabbalah",
+        "Jewish mysticism"
+      ]
+    },
+    {
+      "title": "The Book of Samuel Project",
+      "instructor": "Rabbi Sam Cohon",
+      "format": "In person + Zoom",
+      "schedule": "Thursdays, 11:45am-1pm",
+      "themes": [
+        "Nevi'im",
+        "Book of Samuel",
+        "Saul",
+        "David",
+        "monarchy"
+      ]
+    },
+    {
+      "title": "Torah Study",
+      "instructor": "Rabbi Sam Cohon, Rabbi Baruch Cohon & Dr. Sophia Cohon",
+      "format": "In person + Zoom",
+      "schedule": "Saturdays, 9am",
+      "themes": [
+        "weekly Torah portion",
+        "Jewish text study"
+      ]
+    },
+    {
+      "title": "Adult B'nai Mitzvah Class",
+      "instructor": "Rabbi Sam Cohon",
+      "format": "Group course",
+      "schedule": null,
+      "themes": [
+        "liturgy",
+        "Torah chanting",
+        "Haftarah",
+        "adult Jewish learning"
+      ]
+    },
+    {
+      "title": "Introductory Judaism",
+      "instructor": "Rabbi Sam Cohon",
+      "format": "In person + Zoom",
+      "schedule": "Sundays, 2-3:30pm, October-May",
+      "themes": [
+        "Jewish beliefs",
+        "history",
+        "holidays",
+        "life cycle",
+        "Israel",
+        "texts"
+      ]
+    },
+    {
+      "title": "The Beginning of Zohar",
+      "instructor": "Rabbi Sam Cohon",
+      "format": "In person + Zoom",
+      "schedule": "Tuesday nights, 7-8:30pm",
+      "themes": [
+        "Zohar",
+        "creation",
+        "Kabbalah",
+        "Daniel Matt / Pritzker Edition"
+      ]
+    },
+    {
+      "title": "This Is Judaism",
+      "instructor": "Rabbi Sam Cohon",
+      "format": "Three-session introductory course",
+      "schedule": null,
+      "themes": [
+        "Jewish spirituality",
+        "values",
+        "community",
+        "history",
+        "practice"
+      ]
+    }
+  ]
+}
