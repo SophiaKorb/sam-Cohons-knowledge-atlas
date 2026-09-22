@@ -1,245 +1,113 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A searchable research index of Too Jewish with Rabbi Sam Cohon and Friends, covering 1,261 broadcasts from 2002 through 2026.">
-  <meta name="theme-color" content="#11131a">
-  <title>Samuel M. Cohon Knowledge Atlas | Too Jewish Radio Archive</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2311131a'/%3E%3Ccircle cx='32' cy='32' r='21' fill='none' stroke='%23f5c451' stroke-width='3'/%3E%3Cpath d='M21 37V27l15-7v24l-15-7zm15-10h7v10h-7' fill='none' stroke='%23f7f3e8' stroke-width='3' stroke-linejoin='round'/%3E%3Ccircle cx='47' cy='22' r='4' fill='%23e85a45'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10131a">
+<meta name="description" content="Working archive of Rabbi Samuel M. Cohon's radio, writing, teaching, and public Jewish work.">
+<title>Samuel M. Cohon Knowledge Atlas</title>
+<style>
+:root{--ink:#10131a;--ink2:#181d27;--paper:#f4f0e6;--paper2:#e9e2d3;--white:#fffdf7;--line:#cbc1ae;--muted:#69635b;--red:#b84c3c;--gold:#e8b84d;--green:#4d8168;--max:1180px;--shadow:0 18px 46px rgba(16,19,26,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--paper);color:var(--ink)}body{margin:0;font:16px/1.58 Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:50;background:rgba(16,19,26,.96);backdrop-filter:blur(14px);border-bottom:1px solid #303643;color:#f5f0e6}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;gap:12px;align-items:center;text-decoration:none}.seal{width:41px;height:41px;border:1.5px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font:700 16px Georgia}.brand strong,.brand span{display:block}.brand strong{font:700 .96rem Georgia}.brand span{margin-top:3px;color:#aeb3bd;font:700 .62rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.13em}nav{display:flex;gap:20px}nav a{text-decoration:none;color:#d9dbe0;font-size:.8rem;font-weight:750}nav a:hover{color:var(--gold)}.chip{border:1px solid #4b5260;border-radius:99px;padding:7px 10px;color:#f3d58f;font:800 .61rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.1em}
+.hero{background:var(--ink);color:#f5f0e6;overflow:hidden}.hero .wrap{padding:78px 0 68px;display:grid;grid-template-columns:minmax(0,1.55fr) minmax(290px,.45fr);gap:56px;align-items:center}.kicker,.eyebrow{font:850 .67rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.16em}.kicker{color:var(--gold);margin:0 0 18px}.kicker b{color:#e47762}h1,h2,h3{font-family:Georgia,"Times New Roman",serif}h1{font-size:clamp(3.5rem,7.3vw,7rem);line-height:.92;letter-spacing:-.055em;font-weight:500;margin:0}.dek{max-width:740px;color:#c9cbd0;font-size:clamp(1.05rem,1.7vw,1.27rem);margin:28px 0 0}.totem{border-left:1px solid #373d49;padding:18px 0 18px 42px}.totem span,.totem small{display:block;font:800 .63rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.12em}.totem span{color:var(--gold)}.totem small{color:#a1a7b1;line-height:1.55}.totem strong{display:block;font:500 clamp(4.6rem,8vw,7rem)/.95 Georgia;margin:12px 0 6px;letter-spacing:-.05em}
+.metrics{background:var(--gold)}.metrics .wrap{display:grid;grid-template-columns:repeat(5,1fr)}.metric{padding:22px 18px;border-right:1px solid rgba(16,19,26,.18)}.metric:first-child{padding-left:0}.metric:last-child{border-right:0}.metric strong,.metric span{display:block}.metric strong{font:600 clamp(1.8rem,3vw,2.6rem) Georgia}.metric span{margin-top:5px;font:850 .61rem/1.35 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em}
+section{padding:78px 0}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:34px;margin-bottom:32px}.eyebrow{color:var(--red);margin:0 0 10px}.sectionhead h2{margin:0;font-size:clamp(2.5rem,5vw,4.8rem);line-height:.96;font-weight:500;letter-spacing:-.045em}.sectionhead>p{max-width:470px;color:var(--muted);margin:0}.note{border:1px solid var(--line);background:#fffaf0;padding:18px 20px;margin-bottom:30px}.note strong{font-family:Georgia,serif}.note p{margin:4px 0 0;color:var(--muted);font-size:.91rem}
+.collections{background:var(--white)}.collectiongrid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);box-shadow:var(--shadow)}.collection{padding:25px;border-right:1px solid var(--line);min-height:245px;display:flex;flex-direction:column}.collection:last-child{border-right:0}.num{color:var(--red);font:850 .61rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.13em}.collection h3{font-size:1.48rem;margin:24px 0 8px}.collection p{font-size:.91rem;color:var(--muted);margin:0}.count{margin-top:auto;padding-top:24px;font:500 2.5rem Georgia}.count small{font:800 .58rem ui-monospace,monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.09em}.state{margin-top:9px;color:var(--green);font:800 .58rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em}.building{color:#9b7136}.queued{color:#737985}
+.radio{background:var(--paper)}.twocol{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}.panel{background:var(--white);border:1px solid var(--line);padding:24px;box-shadow:0 5px 22px rgba(16,19,26,.05)}.panel h3{font-size:1.35rem;margin:0 0 20px}.timeline{height:190px;display:flex;align-items:end;gap:5px;border-bottom:1px solid #aaa191}.bar{flex:1;background:#222731;opacity:.85}.bar:nth-child(5n){background:var(--gold)}.years{display:flex;justify-content:space-between;color:#746d63;font:750 .58rem ui-monospace,monospace;margin-top:8px}.access{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}.access div{background:var(--paper2);padding:16px}.access strong{display:block;font:600 1.7rem Georgia}.access span{font:700 .64rem ui-monospace,monospace;text-transform:uppercase;color:var(--muted)}.topic{display:grid;grid-template-columns:1fr auto;gap:8px 12px;margin:15px 0}.topic i{grid-column:1/-1;height:7px;background:#ded6c8;position:relative}.topic i:after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);background:var(--ink)}.topic:nth-child(2n) i:after{background:var(--red)}.topic strong{font:750 .73rem ui-monospace,monospace}
+.writings{background:var(--ink);color:#f4f0e6}.writings .eyebrow{color:var(--gold)}.writings .sectionhead>p{color:#b6bac3}.wstats{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:28px}.wstat{border:1px solid #3b424f;background:var(--ink2);padding:26px}.wstat strong{display:block;font:500 4.1rem/.95 Georgia}.wstat span{display:block;color:#adb2bc;font:800 .61rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.09em;margin-top:9px}.works{border-top:1px solid #39404c}.work{display:grid;grid-template-columns:1fr auto;gap:18px;padding:18px 0;border-bottom:1px solid #303744}.work a{text-decoration:none}.work h3{margin:0 0 4px;font-size:1.22rem;font-weight:500}.work a:hover h3{color:var(--gold)}.work p{margin:0;color:#949ba6;font-size:.84rem}.source{text-align:right;color:#8d949f;font:750 .59rem/1.45 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.07em}
+.landscape{background:var(--paper2)}.themegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.theme{background:var(--white);border:1px solid var(--line);padding:21px}.theme h3{margin:0 0 8px;font-size:1.25rem}.theme p{margin:0;color:var(--muted);font-size:.9rem}.theme span{display:inline-block;margin-top:17px;padding-top:6px;border-top:2px solid var(--red);font:800 .59rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em}
+.method{background:var(--white)}.process{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid var(--line)}.step{padding:25px;border-right:1px solid var(--line)}.step:last-child{border-right:0}.step b{color:var(--red);font:850 .6rem ui-monospace,monospace;letter-spacing:.1em}.step h3{font-size:1.25rem;margin:14px 0 8px}.step p{margin:0;color:var(--muted);font-size:.89rem}
+footer{background:#090b10;color:#9499a3}.foot{padding:32px 0;display:flex;justify-content:space-between;gap:24px}.foot strong{display:block;color:#f4f0e6;font:600 1rem Georgia}.foot p{margin:4px 0 0;font-size:.78rem}.right{text-align:right;font:700 .59rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.totem{border-left:0;border-top:1px solid #373d49;padding:28px 0 0}.metrics .wrap{grid-template-columns:1fr 1fr}.collectiongrid{grid-template-columns:1fr 1fr}.collection:nth-child(2){border-right:0}.twocol,.themegrid{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.step:nth-child(2){border-right:0}}
+@media(max-width:650px){.wrap{width:min(var(--max),calc(100% - 28px))}nav{display:none}.chip{display:none}.sectionhead{display:block}.sectionhead>p{margin-top:13px}.metrics .wrap,.collectiongrid,.wstats,.process{grid-template-columns:1fr}.metric,.collection,.step{border-right:0;border-bottom:1px solid rgba(16,19,26,.16)}.metric:first-child{padding-left:18px}.work{grid-template-columns:1fr}.source{text-align:left}.foot{display:block}.right{text-align:left;margin-top:16px}}
+</style>
 </head>
 <body>
-  <a class="skip-link" href="#archive">Skip to archive</a>
-  <header class="topbar">
-    <a class="brand" href="#top" aria-label="Samuel M. Cohon Knowledge Atlas home">
-      <span class="brand-mark" aria-hidden="true"><span></span></span>
-      <span><strong>Samuel M. Cohon</strong><small>Knowledge Atlas</small></span>
-    </a>
-    <nav aria-label="Primary navigation">
-      <a href="#archive">Archive</a>
-      <a href="#signal-map">Signal map</a>
-      <a href="#method">Method</a>
-    </nav>
-  </header>
+<header><div class="wrap nav">
+<a class="brand" href="#top"><span class="seal">SC</span><span><strong>Samuel M. Cohon</strong><span>Knowledge Atlas</span></span></a>
+<div style="display:flex;align-items:center;gap:20px"><nav><a href="#collections">Collections</a><a href="#radio">Radio</a><a href="#writings">Writings</a><a href="#method">Method</a></nav><span class="chip">Working archive</span></div>
+</div></header>
 
-  <main id="top">
-    <section class="masthead" aria-labelledby="page-title">
-      <div class="masthead-copy">
-        <p class="collection-label"><span>Collection 01</span> Too Jewish Radio</p>
-        <h1 id="page-title">Twenty-four years on the Jewish airwaves.</h1>
-        <p class="dek">A source-tracked index of <cite>Too Jewish with Rabbi Sam Cohon and Friends</cite>, reconstructed from the show’s first-party archive and podcast catalogue.</p>
-        <div class="broadcast-line">
-          <span class="on-air-dot" aria-hidden="true"></span>
-          <span>On air since August 4, 2002</span>
-          <span class="frequency">Sundays · Tucson</span>
-        </div>
-      </div>
-      <div class="dial" aria-hidden="true">
-        <div class="dial-label">ARCHIVE SIGNAL</div>
-        <div class="dial-number">1261</div>
-        <div class="dial-sub">broadcasts located</div>
-        <div class="dial-scale"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-      </div>
-    </section>
+<main id="top">
+<section class="hero"><div class="wrap">
+<div><p class="kicker"><b>Working draft</b> · Source-tracked public-work archive</p><h1>A life of Jewish ideas, made browseable.</h1><p class="dek">The Samuel M. Cohon Knowledge Atlas brings together decades of radio, sermons, Torah teaching, essays, interviews, and communal work as one researchable body of ideas.</p></div>
+<aside class="totem"><span>Source records located so far</span><strong>1,573</strong><small>1,261 radio records<br>312 first-party writing records</small></aside>
+</div></section>
 
-    <section class="metric-strip" aria-label="Archive summary">
-      <div><strong id="metric-total">1,261</strong><span>broadcasts indexed</span></div>
-      <div><strong id="metric-live">889</strong><span>live audio links</span></div>
-      <div><strong id="metric-crosschecked">736</strong><span>two-source records</span></div>
-      <div><strong id="metric-gaps">372</strong><span>access gaps</span></div>
-      <div><strong id="metric-years">25</strong><span>calendar years</span></div>
-    </section>
+<div class="metrics"><div class="wrap">
+<div class="metric"><strong>1,261</strong><span>Too Jewish broadcasts</span></div>
+<div class="metric"><strong>312</strong><span>Writing source records</span></div>
+<div class="metric"><strong>889</strong><span>Live audio links</span></div>
+<div class="metric"><strong>736</strong><span>Cross-checked radio records</span></div>
+<div class="metric"><strong>25</strong><span>Calendar years on air</span></div>
+</div></div>
 
-    <section class="archive-shell" id="archive" aria-labelledby="archive-title">
-      <div class="section-heading archive-heading">
-        <div>
-          <p class="eyebrow">Full broadcast catalogue</p>
-          <h2 id="archive-title">Find an episode</h2>
-        </div>
-        <p>Search guests, books, organizations, subjects, and episode descriptions.</p>
-      </div>
+<section class="collections" id="collections"><div class="wrap">
+<div class="sectionhead"><div><p class="eyebrow">The atlas</p><h2>One body of work, several collections.</h2></div><p>The project is being built in layers so the interface never gets ahead of the evidence underneath it.</p></div>
+<div class="note"><strong>This is a working research build, not a finished retrospective.</strong><p>The radio catalogue is mature. Authored-work discovery is now substantial. Teaching, video, social, transcription, deduplication, and thematic synthesis are still growing.</p></div>
+<div class="collectiongrid">
+<article class="collection"><span class="num">Collection 01</span><h3>Too Jewish Radio</h3><p>Broadcast dates, guests, descriptions, topics, source URLs, audio state, and cross-checking.</p><div class="count">1,261 <small>records</small></div><div class="state">● Catalogue mature</div></article>
+<article class="collection"><span class="num">Collection 02</span><h3>Authored Works</h3><p>Sermons, Torah talks, essays, reflections, Israel reports, holiday writing, and public theology.</p><div class="count">312 <small>records</small></div><div class="state building">● Deduping & enriching</div></article>
+<article class="collection"><span class="num">Collection 03</span><h3>Teaching & Services</h3><p>Classes, congregational audio, High Holy Day services, and other recorded teaching.</p><div class="count">↗ <small>sources identified</small></div><div class="state building">● Discovery underway</div></article>
+<article class="collection"><span class="num">Collection 04</span><h3>Public Media</h3><p>First-party social video and posts, interviews, appearances, and durable republications.</p><div class="count">↗ <small>next layer</small></div><div class="state queued">● Partial discovery</div></article>
+</div></div></section>
 
-      <div class="search-panel" role="search">
-        <label class="search-box" for="search-input">
-          <span aria-hidden="true">⌕</span>
-          <input id="search-input" type="search" autocomplete="off" placeholder="Try Elie Wiesel, antisemitism, Broadway, or Jewish education">
-        </label>
-        <button class="clear-button" id="clear-filters" type="button">Reset all</button>
-      </div>
+<section class="radio" id="radio"><div class="wrap">
+<div class="sectionhead"><div><p class="eyebrow">Collection 01 · Too Jewish Radio</p><h2>Twenty-four years on the Jewish airwaves.</h2></div><p>The underlying dataset contains 1,261 located broadcasts from August 4, 2002 through September 20, 2026.</p></div>
+<div class="twocol">
+<article class="panel"><h3>Broadcast continuity</h3><div class="timeline">
+<i class="bar" style="height:42%"></i><i class="bar" style="height:93%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:96%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:96%"></i><i class="bar" style="height:96%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:96%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:96%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:94%"></i><i class="bar" style="height:69%"></i>
+</div><div class="years"><span>2002</span><span>2006</span><span>2010</span><span>2014</span><span>2018</span><span>2022</span><span>2026</span></div>
+<div class="access"><div><strong>889</strong><span>Live first-party audio</span></div><div><strong>372</strong><span>Current access gaps</span></div></div></article>
+<article class="panel"><h3>Largest catalogue themes</h3>
+<div class="topic"><span>Books & literature</span><strong>574</strong><i style="--w:100%"></i></div>
+<div class="topic"><span>Religion, Torah & Jewish thought</span><strong>262</strong><i style="--w:46%"></i></div>
+<div class="topic"><span>Israel & the Middle East</span><strong>184</strong><i style="--w:32%"></i></div>
+<div class="topic"><span>Film, television & theater</span><strong>164</strong><i style="--w:29%"></i></div>
+<div class="topic"><span>Science, health & psychology</span><strong>164</strong><i style="--w:29%"></i></div>
+<div class="topic"><span>Politics, law & public affairs</span><strong>127</strong><i style="--w:22%"></i></div>
+<div class="topic"><span>Music</span><strong>108</strong><i style="--w:19%"></i></div>
+<div class="topic"><span>Education & youth</span><strong>106</strong><i style="--w:18%"></i></div>
+</article></div></div></section>
 
-      <div class="archive-layout">
-        <aside class="filters" aria-label="Archive filters">
-          <div class="filter-group">
-            <label for="year-filter">Year</label>
-            <select id="year-filter"><option value="">All years</option></select>
-          </div>
-          <div class="filter-group">
-            <label for="topic-filter">Topic</label>
-            <select id="topic-filter"><option value="">All topics</option></select>
-          </div>
-          <div class="filter-group">
-            <label for="role-filter">Guest type</label>
-            <select id="role-filter"><option value="">All guest types</option></select>
-          </div>
-          <div class="filter-group">
-            <label for="status-filter">Audio access</label>
-            <select id="status-filter">
-              <option value="">All access states</option>
-              <option value="live">Listen now</option>
-              <option value="dead">Listed link unavailable</option>
-              <option value="not_listed">No link listed</option>
-            </select>
-          </div>
-          <div class="filter-group">
-            <label for="sort-filter">Order</label>
-            <select id="sort-filter">
-              <option value="newest">Newest first</option>
-              <option value="oldest">Oldest first</option>
-              <option value="guest">Guest A–Z</option>
-            </select>
-          </div>
-          <div class="filter-note">
-            <strong>Reading the labels</strong>
-            <p>Topic tags are discovery aids inferred from the show’s published descriptions. They are not transcript findings.</p>
-          </div>
-        </aside>
+<section class="writings" id="writings"><div class="wrap">
+<div class="sectionhead"><div><p class="eyebrow">Collection 02 · Authored Works</p><h2>The voice behind the microphone, on the page.</h2></div><p>Two first-party writing archives have been traversed end to end. The next pass is deduplication, dating, source-text review, and thematic linking.</p></div>
+<div class="wstats"><div class="wstat"><strong>47</strong><span>Standalone Rabbi Sam Cohon blog records</span></div><div class="wstat"><strong>265</strong><span>Beit Simcha Rabbi’s Blog records</span></div></div>
+<div class="works">
+<article class="work"><a href="https://www.rabbisamcohon.com/single-post/justice-making-the-ideal-real" target="_blank" rel="noopener"><h3>Justice & Making the Ideal Real</h3><p>Justice, Abraham, moral responsibility, and the gap between ideals and human practice.</p></a><div class="source">Standalone blog<br>2021</div></article>
+<article class="work"><a href="https://www.rabbisamcohon.com/single-post/how-to-be-holy-and-why" target="_blank" rel="noopener"><h3>How to Be Holy and Why</h3><p>A contemporary exploration of holiness, obligation, and Jewish ethical life.</p></a><div class="source">Standalone blog<br>2021</div></article>
+<article class="work"><a href="https://www.rabbisamcohon.com/single-post/2019/10/07/truth-in-the-age-of-falsehood" target="_blank" rel="noopener"><h3>Truth in the Age of Falsehood</h3><p>Truth, judgment, and the moral consequences of public language.</p></a><div class="source">Standalone blog<br>2019</div></article>
+<article class="work"><a href="https://beitsimchatucson.org/blog/our-own-odyssey" target="_blank" rel="noopener"><h3>Our Own Odyssey</h3><p>Ancient journeys, Jewish moral storytelling, change, and the meaning of finding a home.</p></a><div class="source">Beit Simcha<br>2026</div></article>
+<article class="work"><a href="https://beitsimchatucson.org/blog/ai-and-human-beings" target="_blank" rel="noopener"><h3>AI and Human Beings</h3><p>A Jewish reflection on technology, human distinctiveness, responsibility, and meaning.</p></a><div class="source">Beit Simcha<br>First-party</div></article>
+<article class="work"><a href="https://beitsimchatucson.org/blog/yom-hashoah-a-reflection-on-resilience" target="_blank" rel="noopener"><h3>Yom HaShoah: A Reflection on Resilience</h3><p>Memory, survival, continuity, and what resilience asks of Jewish life now.</p></a><div class="source">Beit Simcha<br>First-party</div></article>
+</div>
+<div class="note" style="margin-top:28px;background:#1d232d;border-color:#3b424f"><strong style="color:#f4f0e6">What is intentionally unfinished</strong><p style="color:#adb2bc">Some titles appear in more than one first-party source and still need cross-source deduplication. Many Beit Simcha records are located but not yet individually date-enriched or source-text reviewed. Facebook results remain discovery-only when direct content is login-gated.</p></div>
+</div></section>
 
-        <div class="results-column">
-          <div class="results-toolbar">
-            <p id="results-count" aria-live="polite">Loading archive…</p>
-            <div class="active-filters" id="active-filters" aria-label="Active filters"></div>
-          </div>
-          <div class="episode-list" id="episode-list"></div>
-          <nav class="pagination" id="pagination" aria-label="Archive pages"></nav>
-        </div>
-      </div>
-    </section>
+<section class="landscape"><div class="wrap">
+<div class="sectionhead"><div><p class="eyebrow">Emerging intellectual landscape</p><h2>The atlas will connect recurring ideas, not just files.</h2></div><p>These are research directions suggested by the corpus already located, not final thematic findings.</p></div>
+<div class="themegrid">
+<article class="theme"><h3>Torah in contemporary life</h3><p>Classical text used as a live lens on ordinary choices, public questions, character, and community.</p><span>Research strand</span></article>
+<article class="theme"><h3>Justice & moral agency</h3><p>What Jewish ethics require when ideals meet imperfect human institutions.</p><span>Research strand</span></article>
+<article class="theme"><h3>Israel, Zionism & peoplehood</h3><p>Radio, sermons, travel reports, identity, security, continuity, war, and peace.</p><span>Research strand</span></article>
+<article class="theme"><h3>Freedom, responsibility & choice</h3><p>Exodus, covenant, obligation, personal enslavement, and spiritual freedom.</p><span>Research strand</span></article>
+<article class="theme"><h3>Resilience, memory & loss</h3><p>Jewish memory lived forward through grief, communal trauma, survival, and recovery.</p><span>Research strand</span></article>
+<article class="theme"><h3>Pluralism & Jewish community</h3><p>Conversation across movements, identities, institutions, and generations.</p><span>Research strand</span></article>
+</div></div></section>
 
-    <section class="signal-section" id="signal-map" aria-labelledby="signal-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Archive signal map</p>
-          <h2 id="signal-title">What survives, and where</h2>
-        </div>
-        <p>The catalogue is complete as a list. Audio access is not.</p>
-      </div>
+<section class="method" id="method"><div class="wrap">
+<div class="sectionhead"><div><p class="eyebrow">Research method</p><h2>Source first. Interpretation later.</h2></div><p>The atlas is designed so later synthesis can always be traced back to the evidence supporting it.</p></div>
+<div class="process">
+<article class="step"><b>01 · LOCATE</b><h3>Find the public record</h3><p>Identify first-party archives, durable source URLs, recordings, posts, and republications.</p></article>
+<article class="step"><b>02 · NORMALIZE</b><h3>Make it searchable</h3><p>Standardize dates, titles, people, source type, link state, and provenance.</p></article>
+<article class="step"><b>03 · REVIEW</b><h3>Read or listen at source</h3><p>Promote a record only when its actual text, transcript, or audio has been reviewed.</p></article>
+<article class="step"><b>04 · CONNECT</b><h3>Map ideas across decades</h3><p>Build thematic links, recurring arguments, teaching patterns, and evidence-backed synthesis.</p></article>
+</div>
+<div class="note" style="margin-top:28px"><strong>Project scope</strong><p>The archive centers Samuel M. Cohon’s public work, teaching, broadcasting, congregational writing, scholarship, and Jewish communal life. It is an intellectual and archival portrait, not a general clipping file.</p></div>
+</div></section>
+</main>
 
-      <div class="signal-grid">
-        <article class="panel timeline-panel">
-          <div class="panel-head">
-            <h3>Broadcasts by year</h3>
-            <span>Click a bar to filter</span>
-          </div>
-          <div class="timeline" id="timeline" role="list" aria-label="Broadcast count by year"></div>
-        </article>
-
-        <article class="panel topic-panel">
-          <div class="panel-head">
-            <h3>Most common catalogue topics</h3>
-            <span>Multi-tag counts</span>
-          </div>
-          <div class="topic-bars" id="topic-bars"></div>
-        </article>
-
-        <article class="panel coverage-panel">
-          <div class="panel-head">
-            <h3>Research coverage</h3>
-            <span>Batch 01</span>
-          </div>
-          <div class="coverage-list">
-            <div><span>Catalogue metadata normalized</span><strong>1,261</strong><i style="--w:100%"></i></div>
-            <div><span>Audio links tested</span><strong>1,219</strong><i style="--w:96.7%"></i></div>
-            <div><span>Two-source records</span><strong>736</strong><i style="--w:58.4%"></i></div>
-            <div><span>Source-text reviews</span><strong>0</strong><i style="--w:0%"></i></div>
-          </div>
-          <p class="boundary-note">No episode has been promoted to transcript-level review. Metadata, source text, and interpretation remain separate layers.</p>
-        </article>
-
-        <article class="panel gaps-panel">
-          <div class="panel-head">
-            <h3>Audio access ledger</h3>
-            <span>Checked September 22, 2026</span>
-          </div>
-          <div class="access-donut" aria-label="889 live, 330 dead, and 42 unlisted audio links">
-            <div class="donut" aria-hidden="true"><span>70.5%<small>live</small></span></div>
-            <ul>
-              <li><i class="live"></i><span>Live first-party audio</span><strong>889</strong></li>
-              <li><i class="dead"></i><span>Listed but unavailable</span><strong>330</strong></li>
-              <li><i class="missing"></i><span>No audio link listed</span><strong>42</strong></li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="method-section" id="method" aria-labelledby="method-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Provenance and boundaries</p>
-          <h2 id="method-title">How this index was built</h2>
-        </div>
-        <p>Every number on this page is generated from the catalogue, not typed into existence and hoped at.</p>
-      </div>
-      <div class="method-grid">
-        <article>
-          <span class="method-number">01</span>
-          <h3>First-party catalogue</h3>
-          <p>The official <cite>Too Jewish</cite> archive supplied broadcast dates, named guests, descriptions, and listed MP3 links from August 2002 onward.</p>
-          <a href="https://toojewishradio.com/too_jewish_shows.htm" target="_blank" rel="noopener">Open official archive ↗</a>
-        </article>
-        <article>
-          <span class="method-number">02</span>
-          <h3>Podcast cross-check</h3>
-          <p>Podbean episode pages supplied an independent first-party match for 736 broadcasts, including durable episode pages and published runtimes.</p>
-          <a href="https://toojewishradio.podbean.com/" target="_blank" rel="noopener">Open podcast archive ↗</a>
-        </article>
-        <article>
-          <span class="method-number">03</span>
-          <h3>Link verification</h3>
-          <p>All 1,219 listed MP3 URLs were tested. A network error is never silently labelled dead; only a confirmed missing response enters the gap count.</p>
-        </article>
-        <article>
-          <span class="method-number">04</span>
-          <h3>Evidence boundary</h3>
-          <p>Published descriptions support discovery, not quotation or claim analysis. Transcript reviews, thematic synthesis, and evidence maps will be added only after source-level work.</p>
-        </article>
-      </div>
-      <div class="schema-line">
-        <strong>Current record schema</strong>
-        <span>ID</span><span>broadcast date</span><span>guest</span><span>description</span><span>role</span><span>topics</span><span>source URLs</span><span>link state</span><span>review state</span><span>evidence boundary</span>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div><strong>Samuel M. Cohon Knowledge Atlas</strong><span>Collection 01 · Too Jewish Radio</span></div>
-    <p>Independent archival index. Episode audio and descriptions remain with their original publishers.</p>
-  </footer>
-
-  <template id="episode-template">
-    <article class="episode-card">
-      <div class="episode-date"></div>
-      <div class="episode-main">
-        <div class="episode-kicker"><span class="role-pill"></span><span class="status-pill"></span></div>
-        <h3></h3>
-        <p class="episode-description"></p>
-        <div class="episode-tags"></div>
-        <details>
-          <summary>Record details</summary>
-          <dl class="record-grid"></dl>
-        </details>
-      </div>
-      <div class="episode-actions"></div>
-    </article>
-  </template>
-
-  <script src="data-meta.js"></script>
-  <script src="data-2002-2006.js"></script>
-  <script src="data-2007-2011.js"></script>
-  <script src="data-2012-2016.js"></script>
-  <script src="data-2017-2021.js"></script>
-  <script src="data-2022-2026.js"></script>
-  <script src="app.js"></script>
+<footer><div class="wrap foot"><div><strong>Samuel M. Cohon Knowledge Atlas</strong><p>Working archive · September 2026</p></div><div class="right">Source-tracked archival research<br>Interface and corpus still growing</div></div></footer>
 </body>
 </html>
