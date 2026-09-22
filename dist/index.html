@@ -16,6 +16,24 @@ section{padding:78px 0}.sectionhead{display:flex;justify-content:space-between;a
 .collections{background:var(--white)}.collectiongrid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);box-shadow:var(--shadow)}.collection{padding:25px;border-right:1px solid var(--line);min-height:245px;display:flex;flex-direction:column}.collection:last-child{border-right:0}.num{color:var(--red);font:850 .61rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.13em}.collection h3{font-size:1.48rem;margin:24px 0 8px}.collection p{font-size:.91rem;color:var(--muted);margin:0}.count{margin-top:auto;padding-top:24px;font:500 2.5rem Georgia}.count small{font:800 .58rem ui-monospace,monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.09em}.state{margin-top:9px;color:var(--green);font:800 .58rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em}.building{color:#9b7136}.queued{color:#737985}
 .radio{background:var(--paper)}.twocol{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}.panel{background:var(--white);border:1px solid var(--line);padding:24px;box-shadow:0 5px 22px rgba(16,19,26,.05)}.panel h3{font-size:1.35rem;margin:0 0 20px}.timeline{height:190px;display:flex;align-items:end;gap:5px;border-bottom:1px solid #aaa191}.bar{flex:1;background:#222731;opacity:.85}.bar:nth-child(5n){background:var(--gold)}.years{display:flex;justify-content:space-between;color:#746d63;font:750 .58rem ui-monospace,monospace;margin-top:8px}.access{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}.access div{background:var(--paper2);padding:16px}.access strong{display:block;font:600 1.7rem Georgia}.access span{font:700 .64rem ui-monospace,monospace;text-transform:uppercase;color:var(--muted)}.topic{display:grid;grid-template-columns:1fr auto;gap:8px 12px;margin:15px 0}.topic i{grid-column:1/-1;height:7px;background:#ded6c8;position:relative}.topic i:after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);background:var(--ink)}.topic:nth-child(2n) i:after{background:var(--red)}.topic strong{font:750 .73rem ui-monospace,monospace}
 .writings{background:var(--ink);color:#f4f0e6}.writings .eyebrow{color:var(--gold)}.writings .sectionhead>p{color:#b6bac3}.wstats{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:28px}.wstat{border:1px solid #3b424f;background:var(--ink2);padding:26px}.wstat strong{display:block;font:500 4.1rem/.95 Georgia}.wstat span{display:block;color:#adb2bc;font:800 .61rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.09em;margin-top:9px}.works{border-top:1px solid #39404c}.work{display:grid;grid-template-columns:1fr auto;gap:18px;padding:18px 0;border-bottom:1px solid #303744}.work a{text-decoration:none}.work h3{margin:0 0 4px;font-size:1.22rem;font-weight:500}.work a:hover h3{color:var(--gold)}.work p{margin:0;color:#949ba6;font-size:.84rem}.source{text-align:right;color:#8d949f;font:750 .59rem/1.45 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.07em}
+
+.archive-browser{margin:28px 0 34px;border:1px solid #3b424f;background:#141923}
+.archive-tools{padding:16px;display:grid;grid-template-columns:minmax(220px,1fr) 180px 190px;gap:10px;border-bottom:1px solid #343b48}
+.archive-tools input,.archive-tools select{width:100%;border:1px solid #424957;background:#202631;color:#f5f0e6;padding:12px 13px;border-radius:0;outline:none}
+.archive-tools input:focus,.archive-tools select:focus{border-color:var(--gold)}
+.archive-summary{padding:12px 16px;color:#9ca3ae;font:750 .62rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em;border-bottom:1px solid #343b48}
+.archive-results{padding:0 16px}
+.archive-item{display:grid;grid-template-columns:115px 1fr auto;gap:16px;padding:16px 0;border-bottom:1px solid #2e3541}
+.archive-item:last-child{border-bottom:0}.archive-date{color:#8f96a1;font:750 .61rem ui-monospace,monospace;text-transform:uppercase}
+.archive-item h3{font-size:1.08rem;margin:0 0 4px;font-weight:500}.archive-item a{text-decoration:none}.archive-item a:hover h3{color:var(--gold)}
+.archive-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}.archive-tag{border:1px solid #414957;color:#aeb4be;padding:3px 6px;font:750 .55rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.06em}
+.archive-tag.confirmed{border-color:#6a8f7b;color:#9ac5ae}.archive-tag.overlap{border-color:#8e7446;color:#d3b77d}.archive-tag.separate{border-color:#665d7d;color:#bdb2d5}
+.archive-link{align-self:start;color:#e8c66f;font-size:.76rem;font-weight:800;text-decoration:none;border-bottom:1px solid #8e7539}
+.archive-more{display:block;width:100%;border:0;border-top:1px solid #343b48;background:#1c222c;color:#f0d58f;padding:13px;font-weight:850;cursor:pointer}.archive-more:hover{background:#252c38}
+.light-browser{background:var(--paper);border-color:var(--line)}.light-browser .archive-tools{border-color:var(--line)}.light-browser .archive-tools input,.light-browser .archive-tools select{background:var(--white);color:var(--ink);border-color:var(--line)}
+.light-browser .archive-summary,.light-browser .archive-item{border-color:var(--line);color:var(--muted)}.light-browser .archive-date{color:var(--muted)}.light-browser .archive-tag{border-color:#b8ae9d;color:#665f56}.light-browser .archive-more{background:var(--paper2);color:var(--ink);border-color:var(--line)}
+@media(max-width:720px){.archive-tools{grid-template-columns:1fr}.archive-item{grid-template-columns:1fr}.archive-link{justify-self:start}}
+
 .teaching{background:var(--white)}
 .teachgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px}
 .teachcard{border:1px solid var(--line);background:var(--paper);padding:22px;min-height:210px;display:flex;flex-direction:column}
@@ -102,7 +120,26 @@ footer{background:#090b10;color:#9499a3}.foot{padding:32px 0;display:flex;justif
     <span>2021<br>27</span><span>2022<br>51</span><span>2023<br>49</span><span>2024<br>62</span><span>2025<br>50</span><span>2026<br>26</span>
   </div>
 </div>
-<div class="works">
+
+<div class="archive-browser" id="writing-browser">
+  <div class="archive-tools">
+    <input id="writing-q" type="search" placeholder="Search all 312 writings…" aria-label="Search authored works">
+    <select id="writing-year" aria-label="Filter writings by year">
+      <option value="">All years</option>
+      <option>2026</option><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020</option><option>2019</option><option>2018</option><option>2016</option>
+    </select>
+    <select id="writing-source" aria-label="Filter writings by source">
+      <option value="">Both first-party sources</option>
+      <option value="standalone">Rabbi Sam Cohon blog</option>
+      <option value="beit_simcha">Beit Simcha Rabbi's Blog</option>
+    </select>
+  </div>
+  <div class="archive-summary" id="writing-summary">Loading writing archive…</div>
+  <div class="archive-results" id="writing-results"></div>
+  <button class="archive-more" id="writing-more" type="button">Show more</button>
+</div>
+
+<h3 style="margin:28px 0 4px;font-size:1.15rem">Featured starting points</h3><div class="works">
 <article class="work"><a href="https://www.rabbisamcohon.com/single-post/justice-making-the-ideal-real" target="_blank" rel="noopener"><h3>Justice & Making the Ideal Real</h3><p>Justice, Abraham, moral responsibility, and the gap between ideals and human practice.</p></a><div class="source">Standalone blog<br>2021</div></article>
 <article class="work"><a href="https://www.rabbisamcohon.com/single-post/how-to-be-holy-and-why" target="_blank" rel="noopener"><h3>How to Be Holy and Why</h3><p>A contemporary exploration of holiness, obligation, and Jewish ethical life.</p></a><div class="source">Standalone blog<br>2021</div></article>
 <article class="work"><a href="https://www.rabbisamcohon.com/single-post/2019/10/07/truth-in-the-age-of-falsehood" target="_blank" rel="noopener"><h3>Truth in the Age of Falsehood</h3><p>Truth, judgment, and the moral consequences of public language.</p></a><div class="source">Standalone blog<br>2019</div></article>
@@ -122,7 +159,27 @@ footer{background:#090b10;color:#9499a3}.foot{padding:32px 0;display:flex;justif
 <article class="teachcard"><b>Series 03</b><h3>Adult B’nai Mitzvah</h3><p>Prayer, service structure, Torah and Haftarah skills, and adult Jewish learning.</p><strong>6</strong></article>
 <article class="teachcard"><b>Series 04</b><h3>Zohar / Kabbalah</h3><p>A recorded class from the congregation’s long-running engagement with Zohar and Jewish mysticism.</p><strong>1</strong></article>
 </div>
-<div class="teachlist">
+
+<div class="archive-browser light-browser" id="teaching-browser">
+  <div class="archive-tools">
+    <input id="teaching-q" type="search" placeholder="Search all 26 teaching recordings…" aria-label="Search teaching recordings">
+    <select id="teaching-series" aria-label="Filter teaching by series">
+      <option value="">All series</option>
+      <option>History of Zionism</option>
+      <option>Introductory Judaism</option>
+      <option>Adult B'nai Mitzvah</option>
+      <option>Zohar / Kabbalah</option>
+    </select>
+    <select id="teaching-year" aria-label="Filter teaching by year">
+      <option value="">All dates</option><option>2025</option><option>2024</option><option value="undated">Undated</option>
+    </select>
+  </div>
+  <div class="archive-summary" id="teaching-summary">Loading teaching archive…</div>
+  <div class="archive-results" id="teaching-results"></div>
+  <button class="archive-more" id="teaching-more" type="button">Show more</button>
+</div>
+
+<h3 style="margin:28px 0 8px;font-size:1.15rem">Selected dated recordings</h3><div class="teachlist">
 <div class="teachrow"><div class="teachdate">Aug 14, 2024</div><div><h3>History of Zionism, Class One</h3><p>Class 1 of a three-part first-party teaching sequence.</p></div><a href="https://beitsimchatucson.org/videocasts-from-beit-simcha" target="_blank" rel="noopener">Source ↗</a></div>
 <div class="teachrow"><div class="teachdate">Aug 27, 2024</div><div><h3>Zohar: Crown of Kabbalah</h3><p>Recorded adult education class.</p></div><a href="https://beitsimchatucson.org/videocasts-from-beit-simcha" target="_blank" rel="noopener">Source ↗</a></div>
 <div class="teachrow"><div class="teachdate">Oct 27, 2024</div><div><h3>Introductory Judaism Class 1</h3><p>Syllabus review and overview, beginning a 16-record sequence now indexed in the atlas.</p></div><a href="https://beitsimchatucson.org/videocasts-from-beit-simcha" target="_blank" rel="noopener">Source ↗</a></div>
@@ -156,5 +213,52 @@ footer{background:#090b10;color:#9499a3}.foot{padding:32px 0;display:flex;justif
 </main>
 
 <footer><div class="wrap foot"><div><strong>Samuel M. Cohon Knowledge Atlas</strong><p>Working archive · September 2026</p></div><div class="right">Source-tracked archival research<br>Interface and corpus still growing</div></div></footer>
+
+<script src="writings-data.js"></script>
+<script src="teaching-data.js"></script>
+<script>
+(function(){
+  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+  const niceDate=d=>{if(!d)return "Undated"; const [y,m,day]=d.split("-").map(Number); return new Date(y,m-1,day).toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"});}
+  const relationTag=r=>{
+    const x=r.relation_status||"";
+    if(x==="confirmed_near_identical_republication") return '<span class="archive-tag confirmed">confirmed republication</span>';
+    if(x.includes("strong_overlap")) return '<span class="archive-tag overlap">strong overlap</span>';
+    if(x.includes("not_duplicate")||x.includes("not_confirmed")) return '<span class="archive-tag separate">kept separate</span>';
+    if(r.relation_role==="comparison_base") return '<span class="archive-tag">dedupe comparison base</span>';
+    return "";
+  };
+  function makeWritingBrowser(){
+    const all=window.SAM_WRITINGS||[], q=document.getElementById("writing-q"), year=document.getElementById("writing-year"), src=document.getElementById("writing-source"),
+      box=document.getElementById("writing-results"), sum=document.getElementById("writing-summary"), more=document.getElementById("writing-more");
+    if(!q||!box)return; let limit=20, filtered=[];
+    function render(reset=true){
+      if(reset)limit=20; const term=q.value.trim().toLowerCase();
+      filtered=all.filter(r=>(!term||(r.title+" "+r.source+" "+(r.group||"")).toLowerCase().includes(term))&&(!year.value||(r.date||"").startsWith(year.value))&&(!src.value||r.source_key===src.value));
+      box.innerHTML=filtered.slice(0,limit).map(r=>'<article class="archive-item"><div class="archive-date">'+esc(niceDate(r.date))+'</div><div><a href="'+esc(r.url)+'" target="_blank" rel="noopener"><h3>'+esc(r.title)+'</h3></a><div class="archive-meta"><span class="archive-tag">'+esc(r.source)+'</span><span class="archive-tag">'+esc(r.review_status==="metadata_only"?"metadata record":r.review_status)+'</span>'+relationTag(r)+'</div></div><a class="archive-link" href="'+esc(r.url)+'" target="_blank" rel="noopener">Open source ↗</a></article>').join("") || '<div style="padding:22px 0;color:#9ca3ae">No matching writing records.</div>';
+      sum.textContent=filtered.length+" matching source record"+(filtered.length===1?"":"s")+" · showing "+Math.min(limit,filtered.length);
+      more.hidden=limit>=filtered.length;
+    }
+    [q,year,src].forEach(el=>el.addEventListener(el===q?"input":"change",()=>render(true)));
+    more.addEventListener("click",()=>{limit+=20;render(false)}); render(true);
+  }
+  function makeTeachingBrowser(){
+    const all=window.SAM_TEACHING||[], q=document.getElementById("teaching-q"), series=document.getElementById("teaching-series"), year=document.getElementById("teaching-year"),
+      box=document.getElementById("teaching-results"), sum=document.getElementById("teaching-summary"), more=document.getElementById("teaching-more");
+    if(!q||!box)return; let limit=15, filtered=[];
+    function render(reset=true){
+      if(reset)limit=15; const term=q.value.trim().toLowerCase();
+      filtered=all.filter(r=>(!term||(r.title+" "+r.series).toLowerCase().includes(term))&&(!series.value||r.series===series.value)&&(!year.value||(year.value==="undated"?!r.date:(r.date||"").startsWith(year.value))));
+      box.innerHTML=filtered.slice(0,limit).map(r=>'<article class="archive-item"><div class="archive-date">'+esc(niceDate(r.date))+'</div><div><h3>'+esc(r.title)+'</h3><div class="archive-meta"><span class="archive-tag">'+esc(r.series)+'</span><span class="archive-tag">'+esc(r.review_status==="not_reviewed"?"listing verified · content not reviewed":r.review_status)+'</span></div></div><a class="archive-link" href="'+esc(r.source_page)+'" target="_blank" rel="noopener">Source page ↗</a></article>').join("") || '<div style="padding:22px 0;color:#6d665d">No matching teaching records.</div>';
+      sum.textContent=filtered.length+" matching recording record"+(filtered.length===1?"":"s")+" · showing "+Math.min(limit,filtered.length);
+      more.hidden=limit>=filtered.length;
+    }
+    [q,series,year].forEach(el=>el.addEventListener(el===q?"input":"change",()=>render(true)));
+    more.addEventListener("click",()=>{limit+=15;render(false)}); render(true);
+  }
+  makeWritingBrowser(); makeTeachingBrowser();
+})();
+</script>
+
 </body>
 </html>
