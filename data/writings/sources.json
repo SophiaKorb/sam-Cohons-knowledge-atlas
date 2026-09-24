@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22",
+  "generated_at": "2026-09-23",
   "scope": "Samuel M. Cohon public work",
   "exclusion_policy": "Do not ingest scandal-related news coverage. Prioritize Sam Cohon's own public work, first-party congregational materials, radio, teaching, interviews, and neutral biographical/professional context.",
   "sources": [
@@ -66,13 +66,15 @@
       "name": "JCC Tucson",
       "url": "https://tucsonjcc.org/",
       "type": "community_republication",
-      "status": "discovered_not_yet_ingested"
+      "status": "initial_authored_material_batch_ingested",
+      "records": 2
     },
     {
       "name": "AZ Jewish Post",
       "url": "https://azjewishpost.com/",
       "type": "community_publication",
-      "status": "discovered_for_authored_or_quoted_material_only"
+      "status": "initial_authored_and_coauthored_material_batch_ingested",
+      "records": 5
     },
     {
       "name": "Beit Simcha Adult Education Academy",
@@ -82,5 +84,8 @@
       "records": 7,
       "headline_count_included": false
     }
+  ],
+  "notes": [
+    "Community publication batch added 2026-09-23. Seven records are supplemental source records and are not yet added to the distinct authored-work count pending cross-source deduplication."
   ]
 }
