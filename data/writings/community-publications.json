@@ -105,6 +105,82 @@
         "Jewish education"
       ],
       "review_state": "source_text_verified"
+    },
+    {
+      "title": "The synagogue remains at the heart of Jewish life",
+      "date": "2016-09-22",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2016/the-synagogue-remains-at-the-heart-of-jewish-life/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "type": "community_authored_publication",
+      "topic": [
+        "synagogue",
+        "Jewish communal life",
+        "Jewish identity",
+        "High Holidays"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "At new year, have gratitude for God’s latitude",
+      "date": "2015-08-27",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "type": "community_authored_publication",
+      "topic": [
+        "High Holidays",
+        "Elul",
+        "gratitude",
+        "Deuteronomy"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Letting the land and people rest and grow",
+      "date": "2014-10-10",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2014/letting-the-land-and-people-rest-and-grow/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "type": "community_authored_publication",
+      "topic": [
+        "shmittah",
+        "Sukkot",
+        "environment",
+        "gratitude"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Rabbi’s corner: Judaism is not just for special occasions",
+      "date": "2013-09-27",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2013/rabbis-corner-judaism-is-not-just-for-special-occasions/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "type": "community_authored_publication",
+      "topic": [
+        "Jewish practice",
+        "Torah study",
+        "Jewish identity",
+        "community"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Rabbi’s Corner: Giving thanks for hard-won lessons",
+      "date": "2011-11-10",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2011/rabbis-corner-giving-thanks-for-hard-won-lessons/",
+      "byline": "Rabbi Samuel M. Cohon",
+      "type": "community_authored_publication",
+      "topic": [
+        "gratitude",
+        "Thanksgiving",
+        "pastoral life",
+        "Jewish values"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
     }
-  ]
+  ],
+  "batch_note": "Second community-publication batch added: five older Arizona Jewish Post authored columns, source-text verified and held for cross-source deduplication."
 }
