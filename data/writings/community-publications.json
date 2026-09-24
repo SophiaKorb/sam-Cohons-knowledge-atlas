@@ -180,7 +180,52 @@
         "Jewish values"
       ],
       "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Rabbi Samuel M. Cohon",
+      "date": "2015-09-10",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2015/rabbi-samuel-m-cohon/",
+      "byline": "Rabbi Samuel M. Cohon",
+      "type": "first_person_profile_essay",
+      "topic": [
+        "rabbinate",
+        "Jewish professional life",
+        "interfaith",
+        "synagogue",
+        "Jewish education"
+      ],
+      "review_state": "source_text_verified"
+    },
+    {
+      "title": "CCAR reverses suspension, reinstates local rabbi",
+      "date": "2018-03-08",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2018/ccar-reverses-suspension-reinstates-local-rabbi/",
+      "byline": "Rabbi Samuel M. Cohon",
+      "type": "first_person_public_statement",
+      "topic": [
+        "rabbinic career",
+        "community statement",
+        "Too Jewish Radio"
+      ],
+      "review_state": "source_text_verified_contextual_not_authored_work_count"
+    },
+    {
+      "title": "Tucson rabbis propose great books for the New Year",
+      "date": "2014",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2014/tucson-rabbis-propose-great-books-for-the-new-year/",
+      "byline": "Rabbi Samuel M. Cohon (contributor)",
+      "type": "contributed_recommendation",
+      "topic": [
+        "books",
+        "Israel",
+        "Ari Shavit",
+        "Jewish thought"
+      ],
+      "review_state": "source_text_verified_contextual"
     }
   ],
-  "batch_note": "Second community-publication batch added: five older Arizona Jewish Post authored columns, source-text verified and held for cross-source deduplication."
+  "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts."
 }
