@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-23",
+  "scope": "Authored and co-authored community publications by Rabbi Samuel M. Cohon outside the two primary blog archives",
+  "evidence_policy": "Keep publication records separate from canonical authored-work counts until cross-source text comparison establishes whether each is a distinct work, republication, excerpt, or adaptation.",
+  "records": [
+    {
+      "title": "From the Desk of Rabbi Samuel M. Cohon",
+      "date": "2026-01-30",
+      "publisher": "Tucson Jewish Community Center",
+      "url": "https://tucsonjcc.org/from-the-desk-of-rabbi-samuel-m-cohon-rabbi-of-congregation-beit-simcha-and-host-of-the-too-jewish-radio-show-podcast/",
+      "byline": "Rabbi Samuel M. Cohon",
+      "type": "community_republication_or_original",
+      "topic": [
+        "Torah",
+        "B’Shalach",
+        "Exodus"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "From the Desk of Rabbi Samuel M. Cohon",
+      "date": "2025-05-23",
+      "publisher": "Tucson Jewish Community Center",
+      "url": "https://tucsonjcc.org/from-the-desk-of-rabbi-samuel-m-cohon-congregation-beit-simcha-host-of-the-too-jewish-radio-show-podcast/",
+      "byline": "Rabbi Samuel M. Cohon",
+      "type": "community_republication_or_original",
+      "topic": [
+        "Torah",
+        "Behar-Bechukotai",
+        "holiness",
+        "Sinai"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Rabbi’s Corner: Let the New Year and Its Blessings Begin!",
+      "date": "2024-10-21",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2024/rabbis-corner-let-the-new-year-and-its-blessings-begin/",
+      "byline": "Rabbi Sam Cohon",
+      "type": "community_authored_publication",
+      "topic": [
+        "High Holidays",
+        "Jewish community",
+        "Israel",
+        "antisemitism"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Community to Celebrate Day of Chesed January 16",
+      "date": "2023-01-03",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2023/community-to-celebrate-day-of-chesed-january-16/",
+      "byline": "Rabbi Sam Cohon and Abbii Cook",
+      "type": "community_coauthored_publication",
+      "topic": [
+        "chesed",
+        "community",
+        "social action"
+      ],
+      "review_state": "source_text_verified"
+    },
+    {
+      "title": "To truly see",
+      "date": "2021-01-08",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2021/to-truly-see/",
+      "byline": "Rabbi Sam Cohon",
+      "type": "community_authored_publication",
+      "topic": [
+        "Genesis",
+        "Joseph",
+        "perspective",
+        "healing",
+        "civility"
+      ],
+      "review_state": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Tucson trauma and civility",
+      "date": "2011-02-11",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2011/tucson-trauma-and-civility/",
+      "byline": "Rabbi Samuel M. Cohon",
+      "type": "community_authored_publication",
+      "topic": [
+        "Tucson",
+        "civility",
+        "public discourse",
+        "community healing"
+      ],
+      "review_state": "source_text_verified"
+    },
+    {
+      "title": "Matthew Lazar and Joshua M. Greene to receive Cohon Memorial Foundation Awards at Beit Simcha March 4",
+      "date": "2022-02-25",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2022/matthew-lazar-and-joshua-m-greene-to-receive-cohon-memorial-foundation-awards-at-beit-simcha-march-4/",
+      "byline": "Rabbi Sam Cohon",
+      "type": "community_authored_news_notice",
+      "topic": [
+        "Cohon Memorial Foundation",
+        "awards",
+        "Jewish education"
+      ],
+      "review_state": "source_text_verified"
+    }
+  ]
+}
