@@ -1,23 +1,23 @@
 {
   "generated_at": "2026-09-22T04:38:08+00:00",
   "source_checked_at": "2026-09-22",
-  "total_records": 1261,
+  "total_records": 1263,
   "date_range": {
     "start": "2002-08-04",
-    "end": "2026-09-20"
+    "end": "2026-10-04"
   },
   "years": 25,
-  "direct_audio_listed": 1219,
-  "without_audio_link": 42,
+  "direct_audio_listed": 1220,
+  "without_audio_link": 43,
   "rss_items": 20,
   "rss_matches": 20,
-  "podbean_items": 743,
-  "podbean_matches": 736,
-  "two_source_records": 736,
+  "podbean_items": 746,
+  "podbean_matches": 738,
+  "two_source_records": 737,
   "transcript_reviewed": 0,
   "topic_counts": {
-    "Books & literature": 574,
-    "Religion, Torah & Jewish thought": 262,
+    "Books & literature": 575,
+    "Religion, Torah & Jewish thought": 263,
     "Israel & the Middle East": 184,
     "Film, television & theater": 164,
     "Science, health & psychology": 164,
@@ -59,12 +59,12 @@
     "2023": 53,
     "2024": 52,
     "2025": 52,
-    "2026": 38
+    "2026": 40
   },
   "role_counts": {
-    "Author / writer": 550,
+    "Author / writer": 551,
     "Guest / community voice": 222,
-    "Rabbi / clergy": 169,
+    "Rabbi / clergy": 170,
     "Artist / performer": 130,
     "Organization leader": 72,
     "Scholar / educator": 65,
@@ -81,7 +81,18 @@
   "link_status_counts": {
     "live": 889,
     "dead": 330,
-    "not_listed": 42
+    "not_listed": 43,
+    "not_checked": 1
   },
-  "link_verification_method": "HTTP HEAD against each first-party MP3 URL; network errors remain errors and are not counted as dead links."
+  "link_verification_method": "HTTP HEAD against each first-party MP3 URL; network errors remain errors and are not counted as dead links.",
+  "incremental_intake": {
+    "date": "2026-10-12",
+    "added": [
+      "tj-2026-09-27",
+      "tj-2026-10-04"
+    ],
+    "evidence": "Official radio listing and Podbean (9/27); Podbean only pending official listing (10/4).",
+    "scope": "Only two new entries were examined. Legacy direct-audio link statuses and full-archive verification timestamps remain September 22 snapshots. Newly listed 9/27 MP3 URL not HEAD-checked; 10/4 official MP3 not listed.",
+    "generated_site": "dist still reflects prior build until build_site_data regeneration on this research branch."
+  }
 }
