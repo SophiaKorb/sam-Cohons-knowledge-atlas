@@ -8,7 +8,7 @@
       "url": "https://toojewishradio.com/too_jewish_shows.htm",
       "type": "first_party_radio",
       "status": "ingested",
-      "records": 1261
+      "records": 1262
     },
     {
       "name": "Too Jewish Podbean",
@@ -30,7 +30,7 @@
       "url": "https://beitsimchatucson.org/blog",
       "type": "first_party_authored_writing",
       "status": "complete_discovery_and_archive_metadata_enrichment",
-      "records": 265,
+      "records": 266,
       "archive_pages_harvested": 14,
       "next_archive_page": null,
       "records_with_dates": 265,
@@ -87,6 +87,7 @@
   ],
   "notes": [
     "Community publication batch added 2026-09-23. Seven records are supplemental source records and are not yet added to the distinct authored-work count pending cross-source deduplication.",
-    "Second AZ Jewish Post authored-work batch added: 5 older columns (2011–2016). Supplemental community-publication ledger now contains 12 records total; distinct-work count remains unchanged pending dedupe."
+    "Second AZ Jewish Post authored-work batch added: 5 older columns (2011–2016). Supplemental community-publication ledger now contains 12 records total; distinct-work count remains unchanged pending dedupe.",
+    "2026-10-12 incremental intake: broadcast ledger has 1,263 items, but official radio list has 1,262 (10/4 Podbean-only until listed by official website). New first-party Beit Simcha blog card is 10/9, bringing that source to 266. The apparent 2026 re-use of Finding Gratitude's older URL requires version comparison; do not double-count it."
   ]
 }
