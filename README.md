@@ -4,33 +4,33 @@ An independent, source-tracked archive of Rabbi Samuel M. Cohon’s public work.
 
 The project currently contains three substantial catalogued collections plus a discovery-only social layer:
 
-- **Collection 01: Too Jewish Radio** — 1,261 broadcasts catalogued from August 4, 2002 through September 20, 2026.
-- **Collection 02: Authored Works** — 312 first-party writing source records located: 47 from Sam's standalone blog and 265 from the Congregation Beit Simcha Rabbi's Blog.
+- **Collection 01: Too Jewish Radio** — 1,263 broadcasts catalogued from August 4, 2002 through October 4, 2026 (latest two entries staged for source/link QA).
+- **Collection 02: Authored Works** — 313 first-party writing source records located: 47 from Sam's standalone blog and 266 from the Congregation Beit Simcha Rabbi's Blog.
 - **Collection 03: Teaching & Services** — 26 unique first-party teaching-recording listings normalized from Beit Simcha's audio archive.
 - **Collection 04: Public Media discovery** — 12 first-party Facebook URLs retained as discovery-only because direct source access is login-gated.
 
-The main catalogued corpus now contains **1,599 source records** (1,261 radio + 312 writing + 26 teaching recordings). The 312 writing records are **source records, not yet a claim of 312 unique intellectual works**. Cross-source deduplication, date enrichment, and source-text review are active research stages.
+The main catalogued corpus now contains **1,602 source records** (1,263 radio + 313 writing + 26 teaching recordings). The 313 writing records are **source records, not yet a claim of 312 unique intellectual works**. Cross-source deduplication, date enrichment, and source-text review are active research stages.
 
 ## Current research status
 
 ### Too Jewish Radio
-- 1,261 broadcast records normalized
-- 1,219 first-party MP3 links checked
-- 889 live audio links
-- 736 records cross-checked against the Podbean catalogue
+- 1,263 broadcast records normalized (2 incremental source records require final audio verification)
+- 1,219 first-party MP3 links checked as of September 22; one newly listed audio URL remains unchecked
+- 889 live audio links confirmed in the September 22 verification batch
+- 737 records cross-checked against the official listing and Podbean catalogue; one new item is Podbean-only
 - 330 listed links unavailable
-- 42 broadcasts with no audio link listed
+- 43 broadcasts with no official audio link listed
 - 0 transcript-level reviews claimed in the first radio batch
 
 ### Authored Works
 - 47 first-party records from the complete 23-page Rabbi Sam Cohon blog archive
-- 265 first-party records from the complete 14-page Beit Simcha Rabbi's Blog archive
-- 265/265 Beit Simcha records now have first-party archive publication dates
-- 265/265 Beit Simcha titles verified from archive cards; 164 slug-derived titles corrected
+- 266 first-party records from the Beit Simcha Rabbi's Blog archive (1 October 2026 first-party item added)
+- 266/266 Beit Simcha records now have first-party archive publication dates
+- 266/266 Beit Simcha titles verified from archive cards; 164 slug-derived titles corrected
 - Cross-source deduplication in candidate-review stage
 - Individual date/source-text enrichment ongoing
 - First source-text dedupe pass complete on the seven strongest candidate groups
-- At least 5 source records confirmed as near-identical republications; conservative current upper bound is 307 distinct works from 312 source records
+- At least 5 source records confirmed as near-identical republications; conservative current upper bound is 308 distinct works from 313 source records
 - Strong-overlap candidates remain separate pending manual/source-boundary review
 - Public Facebook records are kept as discovery-only when direct content is login-gated
 
@@ -42,6 +42,11 @@ The main catalogued corpus now contains **1,599 source records** (1,261 radio + 
 - 7 current first-party teaching-program context records indexed separately; these are not counted as discrete works
 
 Metadata discovery, source-text review, transcription, thematic synthesis, and evidence mapping are maintained as separate layers.
+
+
+### October 12, 2026 incremental research branch
+
+Two radio broadcasts (September 27 and October 4) and one first-party blog entry (October 9) were added to the source datasets. The October 4 show is Podbean-only in the checked official show list, and the September 27 official MP3 was not HTTP-tested. The apparent September 30 reposting of **Finding Gratitude** references an already-indexed 2024 URL; treat it as a publication-version/deduplication question, not a new work. **The generated `dist/` site and older full-corpus link checks have not been regenerated or reverified on this branch**; rebuild them and run validation before merging or publishing.
 
 ## Repository structure
 
