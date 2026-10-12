@@ -1,10 +1,21 @@
 {
   "collection": "Authored Works",
   "source": "https://beitsimchatucson.org/blog",
-  "record_count": 265,
+  "record_count": 266,
   "archive_pages_harvested": 14,
-  "scope_note": "First-party Rabbi's Blog discovery ledger. Archive-card titles and publication dates have been enriched from the complete first-party archive traversal; source-text review remains a separate stage.",
+  "scope_note": "First-party Rabbi's Blog discovery ledger. Archive-card titles and publication dates have been enriched from the complete first-party archive traversal; source-text review remains a separate stage. One October 9, 2026 first-party blog source added from current archive-card metadata; an apparent newer reuse of the older Finding Gratitude URL is held for publication-version review, not double-counted.",
   "records": [
+    {
+      "url": "https://beitsimchatucson.org/blog/rabbi-cohns-thoughts-on-the-3rd-anniversary-of-october-7",
+      "title": "Rabbi Cohn’s Thoughts on the 3rd Anniversary of October 7",
+      "source": "beitsimchatucson.org",
+      "archive_page": 1,
+      "discovery_status": "first_party_archive_index_verified",
+      "published_date": "2026-10-09",
+      "author": "Samuel M. Cohon",
+      "full_text_ingested": false,
+      "metadata_enrichment_status": "first_party_archive_card_verified"
+    },
     {
       "url": "https://beitsimchatucson.org/blog/our-own-odyssey",
       "title": "Our Own Odyssey",
@@ -2923,7 +2934,7 @@
   ],
   "next_archive_page": null,
   "archive_pages_date_enriched": 14,
-  "date_enrichment_generated_at": "2026-09-22",
-  "metadata_enriched_records": 265,
+  "date_enrichment_generated_at": "2026-10-12",
+  "metadata_enriched_records": 266,
   "metadata_unmatched_records": 0
 }
