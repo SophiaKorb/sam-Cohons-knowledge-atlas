@@ -6,7 +6,9 @@ with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page(viewport={"width": 390, "height": 844})
     page.goto(path)
-    assert "1,263 matching radio records" in page.locator("#radio-summary").inner_text()
+    summary = page.locator("#radio-summary").inner_text()
+    print("Radio summary on mobile:", repr(summary), flush=True)
+    assert "1263 matching radio records" in summary.replace(",", ""), summary
     page.locator("#radio-q").fill("Noa Kushner")
     assert "1 matching radio record" in page.locator("#radio-summary").inner_text()
     page.locator("#writing-q").fill("Finding Gratitude")
