@@ -26,11 +26,11 @@
       "author": "Samuel M. Cohon",
       "full_text_ingested": false,
       "metadata_enrichment_status": "first_party_archive_card_verified",
-      "relation_status": "possible_republication_or_revision_requires_text_comparison",
+      "relation_status": "verified_shared_opening_excerpts_full_text_comparison_pending",
       "relation_role": "later_version_candidate",
       "relation_group": "Finding Gratitude",
       "related_source_url": "https://beitsimchatucson.org/blog/finding-gratitude",
-      "evidence_boundary": "Distinct publisher URL, same title as 2024 source; intellectual-work uniqueness unverified."
+      "evidence_boundary": "The publisher's publicly visible 2024 article and 2026 archive listing contain matching opening passages (including a grandmother/seashore anecdote and Sukkot gratitude discussion); 5785 vs 5787 framing differs. Full article-by-article comparison and unique-work assessment remain pending."
     },
     {
       "url": "https://beitsimchatucson.org/blog/a-donation-saving-and-treasuring-life",
@@ -955,11 +955,11 @@
       "author": "Samuel M. Cohon",
       "full_text_ingested": false,
       "metadata_enrichment_status": "first_party_archive_card_verified",
-      "relation_status": "possible_republication_or_revision_requires_text_comparison",
+      "relation_status": "verified_shared_opening_excerpts_full_text_comparison_pending",
       "relation_role": "earlier_version_candidate",
       "relation_group": "Finding Gratitude",
       "related_source_url": "https://beitsimchatucson.org/blog/finding-gratitude-1",
-      "evidence_boundary": "Earlier publisher URL and 2024 archive date; newer 2026 version differs in stated holiday year. Distinct publication URLs, textual overlap not fully compared."
+      "evidence_boundary": "The publisher's publicly visible 2024 article and 2026 archive listing contain matching opening passages (including a grandmother/seashore anecdote and Sukkot gratitude discussion); 5785 vs 5787 framing differs. Full article-by-article comparison and unique-work assessment remain pending."
     },
     {
       "url": "https://beitsimchatucson.org/blog/the-shadow-of-a-flying-bird",
