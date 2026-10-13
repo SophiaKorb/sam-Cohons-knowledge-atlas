@@ -1,0 +1,24 @@
+name: Verify archive source and site consistency
+on:
+  pull_request:
+    paths: ['data/**', 'dist/**', 'scripts/**', '.github/workflows/verify-archive.yml']
+  push:
+    branches: ['research/**']
+    paths: ['data/**', 'dist/**', 'scripts/**', '.github/workflows/verify-archive.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check source ledger and browser bundle counts
+        run: python scripts/verify_catalog_snapshot.py
+      - name: Parse all scripts and load browser bundles
+        run: node scripts/verify_site_js.mjs
