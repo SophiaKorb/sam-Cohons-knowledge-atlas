@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-10-12",
-  "source_records_total": 313,
+  "source_records_total": 316,
   "standalone_blog_records": 47,
-  "beit_simcha_blog_records": 266,
-  "beit_simcha_records_with_dates": 266,
+  "beit_simcha_blog_records": 269,
+  "beit_simcha_records_with_dates": 269,
   "beit_simcha_date_range": {
     "start": "2021-08-01",
     "end": "2026-10-09"
@@ -14,17 +14,20 @@
     "2023": 49,
     "2024": 62,
     "2025": 50,
-    "2026": 27
+    "2026": 30
   },
   "confirmed_redundant_source_records_minimum": 5,
-  "conservative_distinct_work_upper_bound": 308,
-  "caveat": "Distinct-work count is not final. Only confirmed near-identical republications from the first comparison pass are subtracted; strong-overlap and unreviewed records remain separate.",
+  "conservative_distinct_work_upper_bound": 311,
+  "caveat": "Source records are not unique intellectual works. Five near-identical cross-source republications are already confirmed; 2024 and 2026 Finding Gratitude are separate first-party URLs with potential substantial text reuse, requiring version/relationship review before any unique-work count.",
   "incremental_intake": {
     "date": "2026-10-12",
-    "new_sources": 1,
+    "new_sources": 4,
     "new_first_party_blog_urls": [
-      "https://beitsimchatucson.org/blog/rabbi-cohns-thoughts-on-the-3rd-anniversary-of-october-7"
+      "https://beitsimchatucson.org/blog/rabbi-cohns-thoughts-on-the-3rd-anniversary-of-october-7",
+      "https://beitsimchatucson.org/blog/finding-gratitude-1",
+      "https://beitsimchatucson.org/blog/a-donation-saving-and-treasuring-life",
+      "https://beitsimchatucson.org/blog/redemption-the-connections-between-us"
     ],
-    "possible_republication": "Finding Gratitude appears as a newer archive card but its URL already belongs to a 2024 entry. Hold for source-text and publication-version comparison; do not create a duplicate work."
+    "possible_republication": "Finding Gratitude 2026-09-30 is a distinct publication at /finding-gratitude-1; older Finding Gratitude 2024-10-29 remains at /finding-gratitude. Content relationship requires comparison; no unique-work assertion."
   }
 }
