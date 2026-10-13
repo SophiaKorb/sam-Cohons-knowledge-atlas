@@ -242,6 +242,7 @@ footer{background:#090b10;color:#9499a3}.foot{padding:32px 0;display:flex;justif
   const relationTag=r=>{
     const x=r.relation_status||"";
     if(x==="confirmed_near_identical_republication") return '<span class="archive-tag confirmed">confirmed republication</span>';
+    if(x==="verified_shared_opening_excerpts_full_text_comparison_pending") return '<span class="archive-tag overlap">shared opening text · edition review pending</span>';
     if(x.includes("strong_overlap")) return '<span class="archive-tag overlap">strong overlap</span>';
     if(x.includes("not_duplicate")||x.includes("not_confirmed")) return '<span class="archive-tag separate">kept separate</span>';
     if(r.relation_role==="comparison_base") return '<span class="archive-tag">dedupe comparison base</span>';
@@ -285,7 +286,7 @@ footer{background:#090b10;color:#9499a3}.foot{padding:32px 0;display:flex;justif
     function render(reset=true){
       if(reset)limit=20; const term=q.value.trim().toLowerCase();
       filtered=all.filter(r=>(!term||(r.title+" "+r.source+" "+(r.group||"")).toLowerCase().includes(term))&&(!year.value||(r.date||"").startsWith(year.value))&&(!src.value||r.source_key===src.value));
-      box.innerHTML=filtered.slice(0,limit).map(r=>'<article class="archive-item"><div class="archive-date">'+esc(niceDate(r.date))+'</div><div><a href="'+esc(r.url)+'" target="_blank" rel="noopener"><h3>'+esc(r.title)+'</h3></a><div class="archive-meta"><span class="archive-tag">'+esc(r.source)+'</span><span class="archive-tag">'+esc(r.review_status==="metadata_only"?"metadata record":r.review_status)+'</span>'+relationTag(r)+'</div></div><a class="archive-link" href="'+esc(r.url)+'" target="_blank" rel="noopener">Open source ↗</a></article>').join("") || '<div style="padding:22px 0;color:#9ca3ae">No matching writing records.</div>';
+      box.innerHTML=filtered.slice(0,limit).map(r=>'<article class="archive-item"><div class="archive-date">'+esc(niceDate(r.date))+'</div><div><a href="'+esc(r.url)+'" target="_blank" rel="noopener"><h3>'+esc(r.title)+'</h3></a><div class="archive-meta"><span class="archive-tag">'+esc(r.source)+'</span><span class="archive-tag">'+esc(r.review_status==="metadata_only"?"metadata record":r.review_status)+'</span>'+relationTag(r)+'</div>'+(r.related_source_url?'<div class="archive-meta"><a class="archive-link" href="'+esc(r.related_source_url)+'" target="_blank" rel="noopener noreferrer">Other publication ↗</a></div>':'')+'</div><a class="archive-link" href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">Open source ↗</a></article>').join("") || '<div style="padding:22px 0;color:#9ca3ae">No matching writing records.</div>';
       sum.textContent=filtered.length+" matching source record"+(filtered.length===1?"":"s")+" · showing "+Math.min(limit,filtered.length);
       more.hidden=limit>=filtered.length;
     }
