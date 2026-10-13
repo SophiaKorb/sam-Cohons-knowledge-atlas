@@ -26,3 +26,15 @@ jobs:
         run: python scripts/verify_catalog_snapshot.py
       - name: Parse all scripts and load browser bundles
         run: node scripts/verify_site_js.mjs
+
+      - name: Install Chromium test runner
+        run: |
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Verify the searchable site in Chromium
+        run: python scripts/verify_browser.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sam-cohon-browser-review
+          path: artifacts/browser-review/*.png
