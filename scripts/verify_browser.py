@@ -11,4 +11,8 @@ with sync_playwright() as p:
     assert "1 matching radio record" in page.locator("#radio-summary").inner_text()
     page.locator("#writing-q").fill("Finding Gratitude")
     assert "2 matching source records" in page.locator("#writing-summary").inner_text()
+    outputs = Path(__file__).resolve().parents[1] / "artifacts" / "browser-review"
+    outputs.mkdir(parents=True, exist_ok=True)
+    page.locator("#radio-browser").screenshot(path=str(outputs / "mobile-radio.png"))
+    page.locator("#writing-browser").screenshot(path=str(outputs / "mobile-writing.png"))
     browser.close()
