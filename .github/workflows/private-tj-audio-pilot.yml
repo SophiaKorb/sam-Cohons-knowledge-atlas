@@ -11,9 +11,12 @@ jobs:
     timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
-      - name: Install private sample speech recognizer
+      - name: Install audio codec utilities and private speech recognizer
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg >/dev/null
           python -m pip install --quiet --disable-pip-version-check 'faster-whisper==1.2.1'
+          ffprobe -version | head -n 1
       - name: Download official episode to ephemeral worker and convert sample
         shell: bash
         run: |
