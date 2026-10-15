@@ -168,7 +168,7 @@ footer{background:#090b10;color:#9499a3}.foot{padding:32px 0;display:flex;justif
 <article class="work"><a href="https://beitsimchatucson.org/blog/ai-and-human-beings" target="_blank" rel="noopener"><h3>AI and Human Beings</h3><p>A Jewish reflection on technology, human distinctiveness, responsibility, and meaning.</p></a><div class="source">Beit Simcha<br>First-party</div></article>
 <article class="work"><a href="https://beitsimchatucson.org/blog/yom-hashoah-a-reflection-on-resilience" target="_blank" rel="noopener"><h3>Yom HaShoah: A Reflection on Resilience</h3><p>Memory, survival, continuity, and what resilience asks of Jewish life now.</p></a><div class="source">Beit Simcha<br>First-party</div></article>
 </div>
-<div class="note" style="margin-top:28px;background:#1d232d;border-color:#3b424f"><strong style="color:#f4f0e6">What is intentionally unfinished</strong><p style="color:#adb2bc">The first text-comparison pass has confirmed at least 5 redundant source records across near-identical republication groups, so 316 writing source records currently imply no more than 311 distinct works. That is still an upper bound, not a final count: strong-overlap candidates remain separate until manual review. Beit Simcha dates and displayed titles are fully enriched. Facebook results remain discovery-only when direct content is login-gated.</p></div>
+<div class="note" style="margin-top:28px;background:#1d232d;border-color:#3b424f"><strong style="color:#f4f0e6">What is intentionally unfinished</strong><p style="color:#adb2bc">The first comparison plus the full-body 2024/2026 Finding Gratitude review confirm at least 6 redundant source records, so 316 writing source records currently imply no more than 310 distinct works. That is still an upper bound, not a final count: strong-overlap candidates remain separate until manual review. Beit Simcha dates and displayed titles are fully enriched. Facebook results remain discovery-only when direct content is login-gated.</p></div>
 </div></section>
 
 
@@ -249,6 +249,7 @@ footer{background:#090b10;color:#9499a3}.foot{padding:32px 0;display:flex;justif
   const niceDate=d=>{if(!d)return "Undated"; const [y,m,day]=d.split("-").map(Number); return new Date(y,m-1,day).toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"});}
   const relationTag=r=>{
     const x=r.relation_status||"";
+    if(x==="near_verbatim_republication_calendar_updated_full_body_verified_2026-10-13") return '<span class="archive-tag confirmed">calendar-updated republication</span>';
     if(x==="confirmed_near_identical_republication") return '<span class="archive-tag confirmed">confirmed republication</span>';
     if(x==="verified_shared_opening_excerpts_full_text_comparison_pending") return '<span class="archive-tag overlap">shared opening text · edition review pending</span>';
     if(x.includes("strong_overlap")) return '<span class="archive-tag overlap">strong overlap</span>';

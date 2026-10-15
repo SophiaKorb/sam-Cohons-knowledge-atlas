@@ -65,6 +65,17 @@ def main():
     require(lookup[newer]["published_date"] == "2026-09-30", "New edition date missing")
     require(lookup[older]["related_source_url"] == newer, "Old edition relation missing")
     require(lookup[newer]["related_source_url"] == older, "New edition relation missing")
+    edition_status = "near_verbatim_republication_calendar_updated_full_body_verified_2026-10-13"
+    require(all(lookup[u].get("relation_status") == edition_status for u in (older, newer)),
+            "Finding Gratitude edition evidence missing in source records")
+    dedupe = load(DATA / "writings" / "dedupe-candidates.json")
+    require(dedupe["confirmed_redundant_source_records_minimum"] ==
+            wstats["confirmed_redundant_source_records_minimum"], "Dedupe count mismatch")
+    require(wstats["conservative_distinct_work_upper_bound"] ==
+            wstats["source_records_total"] - wstats["confirmed_redundant_source_records_minimum"],
+            "Dedupe arithmetic mismatch")
+    require(dedupe["conservative_distinct_work_upper_bound_from_316"] ==
+            wstats["conservative_distinct_work_upper_bound"], "Dedupe ledger upper bound mismatch")
 
     registry = {entry["name"]: entry for entry in sources}
     require(registry["Congregation Beit Simcha Rabbi's Blog"]["records"] == len(writing), "Source registry mismatch")
@@ -90,10 +101,13 @@ def main():
     require({r["url"] for r in site_writing} ==
             {r["url"] for r in writing} | {r["url"] for r in standalone},
             "Website source URLs do not match canonical writing ledgers")
+    site_editions = {r["url"]: r for r in site_writing}
+    require(all(site_editions[u].get("relation_status") == edition_status for u in (older, newer)),
+            "Generated writing browser uses old Gratitude edition status")
     html = (DIST / "index.html").read_text(encoding="utf-8")
     require("1,605" in html and "1,599" not in html, "Stale site aggregate")
     require("makeRadioBrowser()" in html and "data-2022-2026.js" in html, "Radio browser missing")
-    require("311 distinct works" in html, "Distinct-work upper-bound notice missing")
+    require("310 distinct works" in html, "Distinct-work upper-bound notice missing")
 
     print(f"PASS: {len(radio)} radio + {len(writing) + len(standalone)} writing + "
           f"{len(teaching)} teaching = 1,605 indexed records; editions and site bundles agree.")

@@ -3,7 +3,7 @@
   "source": "https://beitsimchatucson.org/blog",
   "record_count": 269,
   "archive_pages_harvested": 14,
-  "scope_note": "First-party Rabbi's Blog discovery ledger. Archive-card titles and publication dates have been enriched from the complete first-party archive traversal; source-text review remains a separate stage. One October 9, 2026 first-party blog source added from current archive-card metadata; the September 2026 Finding Gratitude entry has its own -1 URL and is indexed separately from the 2024 URL, with possible text reuse flagged for review.",
+  "scope_note": "First-party Rabbi's Blog discovery ledger. Archive-card titles and publication dates have been enriched from the complete first-party archive traversal; source-text review remains a separate stage. One October 9, 2026 first-party blog source added from current archive-card metadata; the September 2026 Finding Gratitude entry has its own -1 URL and is indexed separately from the 2024 URL, with full-body-verified calendar-edition relationship.",
   "records": [
     {
       "url": "https://beitsimchatucson.org/blog/rabbi-cohns-thoughts-on-the-3rd-anniversary-of-october-7",
@@ -26,11 +26,11 @@
       "author": "Samuel M. Cohon",
       "full_text_ingested": false,
       "metadata_enrichment_status": "first_party_archive_card_verified",
-      "relation_status": "verified_shared_opening_excerpts_full_text_comparison_pending",
-      "relation_role": "later_version_candidate",
+      "relation_status": "near_verbatim_republication_calendar_updated_full_body_verified_2026-10-13",
+      "relation_role": "later_calendar_edition",
       "relation_group": "Finding Gratitude",
       "related_source_url": "https://beitsimchatucson.org/blog/finding-gratitude",
-      "evidence_boundary": "The publisher's publicly visible 2024 article and 2026 archive listing contain matching opening passages (including a grandmother/seashore anecdote and Sukkot gratitude discussion); 5785 vs 5787 framing differs. Full article-by-article comparison and unique-work assessment remain pending."
+      "evidence_boundary": "Full first-party sermon body review 2026-10-13: 20/21 nonempty paragraphs identical; one Simchat Torah/Shemini Atzeret calendar-wording update. Separate publication URLs and dates, one substantively identical sermon. Manuscripts/delivery/rights unassessed. See data/writings/edition-evidence-finding-gratitude-2024-2026.md."
     },
     {
       "url": "https://beitsimchatucson.org/blog/a-donation-saving-and-treasuring-life",
@@ -955,11 +955,11 @@
       "author": "Samuel M. Cohon",
       "full_text_ingested": false,
       "metadata_enrichment_status": "first_party_archive_card_verified",
-      "relation_status": "verified_shared_opening_excerpts_full_text_comparison_pending",
-      "relation_role": "earlier_version_candidate",
+      "relation_status": "near_verbatim_republication_calendar_updated_full_body_verified_2026-10-13",
+      "relation_role": "earlier_calendar_edition",
       "relation_group": "Finding Gratitude",
       "related_source_url": "https://beitsimchatucson.org/blog/finding-gratitude-1",
-      "evidence_boundary": "The publisher's publicly visible 2024 article and 2026 archive listing contain matching opening passages (including a grandmother/seashore anecdote and Sukkot gratitude discussion); 5785 vs 5787 framing differs. Full article-by-article comparison and unique-work assessment remain pending."
+      "evidence_boundary": "Full first-party sermon body review 2026-10-13: 20/21 nonempty paragraphs identical; one Simchat Torah/Shemini Atzeret calendar-wording update. Separate publication URLs and dates, one substantively identical sermon. Manuscripts/delivery/rights unassessed. See data/writings/edition-evidence-finding-gratitude-2024-2026.md."
     },
     {
       "url": "https://beitsimchatucson.org/blog/the-shadow-of-a-flying-bird",

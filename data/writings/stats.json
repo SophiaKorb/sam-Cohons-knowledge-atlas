@@ -16,9 +16,9 @@
     "2025": 50,
     "2026": 30
   },
-  "confirmed_redundant_source_records_minimum": 5,
-  "conservative_distinct_work_upper_bound": 311,
-  "caveat": "Source records are not unique intellectual works. Five near-identical cross-source republications are already confirmed; 2024 and 2026 Finding Gratitude are separate first-party URLs with potential substantial text reuse, requiring version/relationship review before any unique-work count.",
+  "confirmed_redundant_source_records_minimum": 6,
+  "conservative_distinct_work_upper_bound": 310,
+  "caveat": "316 publication records, not 316 unique works. Five earlier confirmed cross-source redundancies plus the fully compared 2024/2026 Finding Gratitude calendar-edition pair imply at least six redundant source records; 310 distinct works is a conservative upper bound, not a final count.",
   "incremental_intake": {
     "date": "2026-10-12",
     "new_sources": 4,
@@ -28,6 +28,7 @@
       "https://beitsimchatucson.org/blog/a-donation-saving-and-treasuring-life",
       "https://beitsimchatucson.org/blog/redemption-the-connections-between-us"
     ],
-    "possible_republication": "Finding Gratitude 2026-09-30 is a distinct publication at /finding-gratitude-1; older Finding Gratitude 2024-10-29 remains at /finding-gratitude. Content relationship requires comparison; no unique-work assertion."
-  }
+    "possible_republication": "Finding Gratitude 2024/2026 are two dated first-party URLs, but the full 2026-10-13 body comparison established 20/21 identical paragraphs and one holiday-calendar wording change; one substantive sermon work."
+  },
+  "edition_comparison_completed_at": "2026-10-13"
 }
