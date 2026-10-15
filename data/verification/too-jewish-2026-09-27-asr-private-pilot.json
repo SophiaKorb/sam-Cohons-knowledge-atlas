@@ -29,5 +29,32 @@
   "permission_to_publish_reviewed": false,
   "full_episode_transcribed": false,
   "public_catalogue_episode_transcript_status": "not_ingested",
-  "next_action": "Independent TurboScribe second pass when authorized and then human audio review with transcript timestamp/proper-name checks"
+  "next_action": "Review the private listening clip against both ASR outputs, resolve uncertain passages and music; preserve all raw files. Consider TurboScribe only with authorization. No publication.",
+  "second_pass": {
+    "source_checksum_match": true,
+    "window_seconds": [
+      30,
+      330
+    ],
+    "engine": "faster-whisper small.en",
+    "segments": 74,
+    "recognized_words": 564,
+    "artifact_run": 38686327769,
+    "private_library_saved": true,
+    "private_listening_sample_seconds": [
+      30,
+      180
+    ],
+    "private_clip_bytes": 1800991,
+    "comparison_ratio": 0.9441,
+    "review_windows": 11,
+    "music_interval_seconds": [
+      214.5,
+      303.2
+    ],
+    "human_audio_review": false,
+    "episode_complete": false,
+    "turboscribe_used": false,
+    "raw_audio_or_transcript_committed": false
+  }
 }
