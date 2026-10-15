@@ -74,8 +74,23 @@ def main():
                 f"Missing first-party download href for {date}")
         require("not checked" in episode.get("podbean_download_evidence", ""),
                 f"Do not mark unverified Podbean MP3 as downloaded: {date}")
-    require(latest_episodes["2026-09-27"]["official_link_status"] == "not_checked",
-            "September 27 direct MP3 not HTTP verified")
+    require(latest_episodes["2026-09-27"]["official_link_status"] == "live" and
+            latest_episodes["2026-09-27"]["official_http_status"] == 200 and
+            latest_episodes["2026-09-27"]["official_link_checked_at"] == "2026-10-15T04:41:40+00:00",
+            "September 27 verified official HEAD status missing")
+    proof = load(DATA / "verification" / "too-jewish-2026-09-27-head-2026-10-15.json")
+    require(proof["episode_id"] == "tj-2026-09-27" and
+            proof["observations"][-1]["content_type"] == "audio/mpeg" and
+            proof["observations"][-1]["redirect_count"] == 0 and
+            proof["observations"][-1]["http_status"] == 200,
+            "Targeted publisher HEAD evidence missing or inconsistent")
+    require(proof["audio_bytes_downloaded"] is False and proof["transcribed"] is False,
+            "HTTP link validation misrepresented as speech-to-text completion")
+    require(stats["link_checked_at"] == "2026-09-22T04:38:34+00:00",
+            "Full corpus HEAD timestamp must remain historical")
+    require(stats["link_status_counts"].get("not_checked", 0) == 0 and
+            stats["link_status_counts"]["live"] == 890,
+            "Targeted HEAD count reconciliation mismatch")
     require(latest_episodes["2026-10-04"]["official_link_status"] == "not_listed",
             "October 4 official audio listing remains unverified")
     require(sum([len(radio), len(writing), len(standalone), len(teaching)]) == 1605, "Corpus total mismatch")
@@ -116,7 +131,7 @@ def main():
     require(all(0 <= r["r"] < len(meta["roles"]) for r in compact), "Guest-role index outside dictionary")
     require(all(all(0 <= t < len(meta["topics"]) for t in r["t"]) for r in compact), "Topic index outside dictionary")
     latest = {r["d"]: r for r in compact}
-    require(latest["2026-09-27"]["s"] == "u" and latest["2026-09-27"].get("k") is None, "Recent MP3 should remain unchecked")
+        require(latest["2026-09-27"]["s"] == "l" and "k" not in latest["2026-09-27"], "Verified recent MP3 must appear checked in browser")
     require(latest["2026-10-04"]["s"] == "m", "Podbean-only episode must not claim listed official audio")
 
     site_writing = read_js_array(DIST / "writings-data.js", "window.SAM_WRITINGS=", ";")

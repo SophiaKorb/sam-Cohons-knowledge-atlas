@@ -66,7 +66,7 @@ def main() -> None:
                 "p": podbean_url.removeprefix(PODBEAN_PREFIX) if podbean_url else "",
                 "u": episode.get("duration") or "",
                 "c": 1 if episode["review_status"].endswith("two_first_party_sources") else 0,
-                **({"k": None} if episode["broadcast_date"] > stats["link_checked_at"][:10] else {}),
+                **({"k": None} if episode["broadcast_date"] > stats["link_checked_at"][:10] and not episode.get("official_link_checked_at") else {}),
             }
         )
 

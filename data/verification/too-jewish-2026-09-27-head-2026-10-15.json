@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-15T04:41:40+00:00",
+  "episode_id": "tj-2026-09-27",
+  "method": "GitHub-hosted Linux curl HTTP HEAD with redirects inspected; no audio payload downloaded",
+  "official_audio_url": "https://www.toojewishradio.com/Too%20Jewish%20MP3%27s/Too_Jewish_2026-09-27.mp3",
+  "observations": [
+    {
+      "run_id": 38682655170,
+      "head_sha": "f0e0aa165598db4c5717f3374677f8289a4be1f4",
+      "observed_state": "responded_successfully_to_HEAD",
+      "http_status": 200,
+      "observation_url": "https://github.com/SophiaKorb/sam-Cohons-knowledge-atlas/actions/runs/38682655170"
+    },
+    {
+      "run_id": 38682791584,
+      "head_sha": "73bfdef551c2e5f204d6d874993eb4d4d83a3756",
+      "observed_state": "responded_successfully_to_HEAD",
+      "http_status": 200,
+      "content_type": "audio/mpeg",
+      "final_url": "https://www.toojewishradio.com/Too%20Jewish%20MP3%27s/Too_Jewish_2026-09-27.mp3",
+      "redirect_count": 0,
+      "observation_url": "https://github.com/SophiaKorb/sam-Cohons-knowledge-atlas/actions/runs/38682791584"
+    }
+  ],
+  "verification_scope": "HTTP link and media-type response verified only; original MP3 bytes, audio integrity, playback, speakers, rights and transcript NOT examined",
+  "audio_bytes_downloaded": false,
+  "playback_verified": false,
+  "transcribed": false,
+  "rights_verified": false,
+  "previous_status": "not_checked",
+  "new_status": "live",
+  "historical_full_batch_timestamp_preserved": "2026-09-22T04:38:34+00:00"
+}

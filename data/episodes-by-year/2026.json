@@ -56,10 +56,13 @@
     "transcript_status": "not_ingested",
     "rights_status": "public_first_party_source; reuse_not_assessed",
     "evidence_boundary": "Catalogue metadata only; no claims attributed without source-text review.",
-    "official_link_status": "not_checked",
-    "official_http_status": null,
-    "official_link_checked_at": null,
-    "podbean_download_evidence": "publisher homepage displayed a Download link on 2026-10-14; href extracted; target HTTP response and MP3 bytes not checked"
+    "official_link_status": "live",
+    "official_http_status": 200,
+    "official_link_checked_at": "2026-10-15T04:41:40+00:00",
+    "podbean_download_evidence": "publisher homepage displayed a Download link on 2026-10-14; href extracted; target HTTP response and MP3 bytes not checked",
+    "official_link_check_method": "targeted HEAD from GitHub-hosted runner; media MIME audio/mpeg, HTTP 200, no redirects; audio payload not downloaded",
+    "official_link_check_evidence_path": "data/verification/too-jewish-2026-09-27-head-2026-10-15.json",
+    "audio_content_review_status": "not_played_or_transcribed"
   },
   {
     "id": "tj-2026-09-20",

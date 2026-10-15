@@ -14,9 +14,9 @@ The main catalogued corpus now contains **1,605 source records** (1,263 radio + 
 ## Current research status
 
 ### Too Jewish Radio
-- 1,263 broadcast records normalized (2 incremental source records require final audio verification)
-- 1,219 first-party MP3 links checked as of September 22; one newly listed audio URL remains unchecked
-- 889 live audio links confirmed in the September 22 verification batch
+- 1,263 broadcast records normalized (September 27 direct official MP3 now link-verified via targeted HEAD; October 4 remains Podbean-only)
+- 1,219 first-party MP3 links checked in the September 22 batch, plus a targeted first-party September 27 HEAD 200 audio/mpeg check on October 15 (without audio download)
+- 889 official links responded successfully to HEAD in the September 22 batch; 1 additional verified October 15 (890 link-live records total; no playback claims)
 - 737 records cross-checked against the official listing and Podbean catalogue; one new item is Podbean-only
 - 330 listed links unavailable
 - 43 broadcasts with no official audio link listed
@@ -46,7 +46,7 @@ Metadata discovery, source-text review, transcription, thematic synthesis, and e
 
 ### October 12, 2026 incremental research branch
 
-Two radio broadcasts (September 27 and October 4) and one first-party blog entry (October 9) were added to the source datasets. The October 4 show is Podbean-only in the checked official show list, and the September 27 official MP3 was not HTTP-tested. The September 30 **Finding Gratitude** has its own `finding-gratitude-1` URL; the earlier 2024 version remains at `finding-gratitude`. Full first-party body comparison completed October 13: 20/21 paragraphs identical, one holiday-calendar update. Preserve two publication entries but count one substantive sermon. Also indexed September 22 *Redemption* and September 28 *A Donation*. **The generated `dist/` site and older full-corpus link checks have not been regenerated or reverified on this branch**; rebuild them and run validation before merging or publishing.
+Two radio broadcasts (September 27 and October 4) and one first-party blog entry (October 9) were added to the source datasets. The October 4 show is Podbean-only in the checked official show list, and the September 27 official MP3 was later HTTP-tested on October 15 (HEAD 200, audio/mpeg, zero redirects; audio not downloaded). The September 30 **Finding Gratitude** has its own `finding-gratitude-1` URL; the earlier 2024 version remains at `finding-gratitude`. Full first-party body comparison completed October 13: 20/21 paragraphs identical, one holiday-calendar update. Preserve two publication entries but count one substantive sermon. Also indexed September 22 *Redemption* and September 28 *A Donation*. **The generated `dist/` site is current and CI-validated; older full-corpus links have not been rechecked since September 22.**
 
 ## Repository structure
 
@@ -71,6 +71,9 @@ Two radio broadcasts (September 27 and October 4) and one first-party blog entry
 - Two attributed **excerpt-only** Temple Emanu-El-era writing leads were preserved in `data/writings/community-publications.json`: *Baking Holiness* (first-party newsletter dated April 30, 2013) and *The Necessary Chutzpah of Saving Refugees* (2015 Union for Reform Judaism roundup). Neither complete original manuscript is ingested, and neither is added to the 316 core blog-source total.
 - The same 2013 newsletter advertises a Temple Emanu-El podcast account for adult classes, with Sam teaching Basic/Intermediate Judaism and Zohar. `historical-source-leads.json` preserves the historical channel URL, **not** a claim that a particular MP3 was recovered or remains playable.
 - Publisher Podbean pages exposed Download hrefs for the September 27 and October 4, 2026 *Too Jewish* episodes. Their direct audio response, bytes and rights remain **unverified**; the source episode rows retain their original official-link statuses, and the core counts do not change.
+
+### October 15 single-link publisher response evidence
+The verified publisher September 27 MP3 URL returned **HTTP 200**, `audio/mpeg`, **zero redirects** on a GitHub-hosted runner. Evidence is retained at `data/verification/too-jewish-2026-09-27-head-2026-10-15.json`, linked to two read-only workflow runs. The status is **official URL HTTP-live only**; binary integrity, playback, transcription, speaker attribution and reuse rights remain unreviewed. Keep the September 22 full-corpus verification timestamp unchanged.
 
 ### Read-only audio link diagnostics
 The historic `scripts/verify_links.py` originally assumed the deleted combined `data/episodes.json` and would write statuses across the entire catalogue. It has been replaced with a **targeted, non-mutating** official-MP3 HEAD probe. It reads the canonical `data/episodes-by-year/*.json` files and prints JSON evidence only:
