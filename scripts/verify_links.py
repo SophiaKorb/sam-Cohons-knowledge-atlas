@@ -101,7 +101,7 @@ def main(argv: list[str] | None = None) -> int:
                         help="Exact episode ID, repeat up to 20 times. No bulk/overwrite mode.")
     args = parser.parse_args(argv)
     try:
-        result = run_checks(load_records(), args.ids)
+        result = run_checks(load_records(EPISODE_DIR), args.ids, probe=probe_url)
     except ValueError as exc:
         parser.error(str(exc))
     print(json.dumps(result, ensure_ascii=False, indent=2))
