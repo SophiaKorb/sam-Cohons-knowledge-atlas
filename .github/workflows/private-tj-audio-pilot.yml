@@ -62,7 +62,7 @@ jobs:
           XH0rS5SLUQrA4l5VzGh4iV/ZjOa72QmKnlSJtUe30i/0JRHddy7q/le3TCg1im7Y
           uNE5Q2LUrrHUXHWFpwab
           -----END CERTIFICATE-----
-CERT
+          CERT
           cat > /tmp/private-tj/asr.py <<'PY'
           import json, hashlib, pathlib
           from faster_whisper import WhisperModel
