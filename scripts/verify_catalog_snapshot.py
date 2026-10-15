@@ -55,6 +55,29 @@ def main():
     require(len(writing) + len(standalone) == wstats["source_records_total"], "Writing totals mismatch")
     require(len({r["url"] for r in writing}) == len(writing), "Blog canonical URLs not unique")
     require(len(teaching) == 26, "Unexpected teaching listing count")
+    community = load(DATA / "writings" / "community-publications.json")["records"]
+    historical = load(DATA / "teaching" / "historical-source-leads.json")["records"]
+    require(len({r["url"] for r in community}) == len(community), "Community source URLs not unique")
+    require(len(community) >= 17, "Historical community excerpt records missing")
+    require(len({r["id"] for r in historical}) == len(historical), "Historical audio-lead IDs not unique")
+    require(any(r["id"] == "TE-2013-PODCAST-LEAD" and
+                r["media_recovery_status"] == "no_audio_binary_or_specific_class_episode_recovered"
+                for r in historical), "Unverified historical podcast lead misrepresented")
+    for excerpt_title in ("Baking Holiness", "The Necessary Chutzpah of Saving Refugees"):
+        relevant = [r for r in community if excerpt_title in r["title"]]
+        require(len(relevant) == 1 and relevant[0]["full_text_ingested"] is False,
+                f"Historical excerpt must not be treated as full manuscript: {excerpt_title}")
+    latest_episodes = {r["broadcast_date"]: r for r in radio}
+    for date in ("2026-09-27", "2026-10-04"):
+        episode = latest_episodes[date]
+        require(episode.get("podbean_download_url", "").startswith("https://www.podbean.com/media/share/"),
+                f"Missing first-party download href for {date}")
+        require("not checked" in episode.get("podbean_download_evidence", ""),
+                f"Do not mark unverified Podbean MP3 as downloaded: {date}")
+    require(latest_episodes["2026-09-27"]["official_link_status"] == "not_checked",
+            "September 27 direct MP3 not HTTP verified")
+    require(latest_episodes["2026-10-04"]["official_link_status"] == "not_listed",
+            "October 4 official audio listing remains unverified")
     require(sum([len(radio), len(writing), len(standalone), len(teaching)]) == 1605, "Corpus total mismatch")
 
     lookup = {r["url"]: r for r in writing}

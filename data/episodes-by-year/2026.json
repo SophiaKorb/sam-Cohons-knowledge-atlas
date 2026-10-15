@@ -17,7 +17,7 @@
     "official_link_state": "not_listed_in_official_archive_at_check",
     "podbean_url": "https://toojewishradio.podbean.com/e/too-jewish-10426-rabbi-noa-kushner/",
     "podbean_audio_url": null,
-    "podbean_download_url": null,
+    "podbean_download_url": "https://www.podbean.com/media/share/pb-8uqkt-1b7a0ca?download=1",
     "podbean_guid": null,
     "published_at": null,
     "duration": "54 min",
@@ -27,7 +27,8 @@
     "evidence_boundary": "Catalogue metadata only; no claims attributed without source-text review.",
     "official_link_status": "not_listed",
     "official_http_status": null,
-    "official_link_checked_at": null
+    "official_link_checked_at": null,
+    "podbean_download_evidence": "publisher homepage displayed a Download link on 2026-10-14; href extracted; target HTTP response and MP3 bytes not checked"
   },
   {
     "id": "tj-2026-09-27",
@@ -47,7 +48,7 @@
     "official_link_state": "listed_direct_audio",
     "podbean_url": "https://toojewishradio.podbean.com/e/too-jewish-92726-lynn-golodner/",
     "podbean_audio_url": null,
-    "podbean_download_url": null,
+    "podbean_download_url": "https://www.podbean.com/media/share/pb-phcz9-1b6fcb9?download=1",
     "podbean_guid": null,
     "published_at": "2026-09-28",
     "duration": "54 min",
@@ -57,7 +58,8 @@
     "evidence_boundary": "Catalogue metadata only; no claims attributed without source-text review.",
     "official_link_status": "not_checked",
     "official_http_status": null,
-    "official_link_checked_at": null
+    "official_link_checked_at": null,
+    "podbean_download_evidence": "publisher homepage displayed a Download link on 2026-10-14; href extracted; target HTTP response and MP3 bytes not checked"
   },
   {
     "id": "tj-2026-09-20",

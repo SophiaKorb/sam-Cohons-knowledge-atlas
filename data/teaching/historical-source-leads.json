@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-14",
+  "scope": "First-party historical teaching-channel leads; neither a new teaching-recording count nor evidence of surviving audio",
+  "records": [
+    {
+      "id": "TE-2013-PODCAST-LEAD",
+      "title": "Temple Emanu-El Tucson adult class podcast account",
+      "publisher": "Temple Emanu-El Tucson",
+      "evidence_url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "evidence_date": "2013-04-30",
+      "historical_channel_url": "https://tucsontempleemanuel.podbean.com/",
+      "teaching_context": [
+        "Basic and Intermediate Judaism combined session on Jewish Music with Rabbi Samuel M. Cohon (May 1, 2013)",
+        "Zohar, Soul-Text of Kabbalah with Rabbi Samuel M. Cohon (scheduled through May 16, 2013)"
+      ],
+      "source_statement": "The newsletter says podcasts of classes are available and points to this historical Podbean account.",
+      "evidence_status": "first_party_historical_channel_advertisement_verified",
+      "media_recovery_status": "no_audio_binary_or_specific_class_episode_recovered",
+      "rights_status": "not_assessed",
+      "evidence_boundary": "The newsletter does not establish that every named class was individually recorded or that any episode remains playable. This is a recovery lead, not a new verified recording."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23",
+  "generated_at": "2026-10-14",
   "scope": "Authored and co-authored community publications by Rabbi Samuel M. Cohon outside the two primary blog archives",
   "evidence_policy": "Keep publication records separate from canonical authored-work counts until cross-source text comparison establishes whether each is a distinct work, republication, excerpt, or adaptation.",
   "records": [
@@ -225,7 +225,45 @@
         "Jewish thought"
       ],
       "review_state": "source_text_verified_contextual"
+    },
+    {
+      "title": "Baking Holiness — Rabbi Cohon's Weekly Torah Talk, Parashat Emor",
+      "date": "2013-04-30",
+      "date_basis": "Temple Emanu-El newsletter issue date, not independently verified sermon delivery date",
+      "publisher": "Temple Emanu-El Tucson (archived congregational newsletter)",
+      "url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "byline": "Rabbi Samuel M. Cohon (newsletter identifies Rabbi Cohon's Weekly Torah Talk and includes first-person excerpt)",
+      "type": "historical_torah_talk_excerpt_only",
+      "topic": [
+        "challah",
+        "holiness",
+        "Shabbat",
+        "Jewish food",
+        "Temple Emanu-El"
+      ],
+      "review_state": "first_party_newsletter_excerpt_verified_full_sermon_missing",
+      "full_text_ingested": false,
+      "evidence_boundary": "A short passage is printed in the 2013-04-30 first-party Temple Emanu-El newsletter; the Read More link points to a legacy site and is not recovered here. Preserve the publication as an excerpt, not a complete manuscript or recorded sermon; not part of core 316 writing source count."
+    },
+    {
+      "title": "The Necessary Chutzpah of Saving Refugees — Rosh Hashanah sermon excerpt",
+      "date": "2015",
+      "date_basis": "Reform movement High Holy Day sermon roundup context; exact sermon delivery day not verified",
+      "publisher": "Union for Reform Judaism (contemporaneous sermon roundup)",
+      "url": "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round",
+      "byline": "Rabbi Samuel M. Cohon (explicitly attributed to Temple Emanu-El, Tucson)",
+      "type": "historical_sermon_excerpt_only",
+      "topic": [
+        "Rosh Hashanah",
+        "refugees",
+        "moral responsibility",
+        "social justice",
+        "Temple Emanu-El"
+      ],
+      "review_state": "reform_movement_attributed_excerpt_verified_full_manuscript_not_recovered",
+      "full_text_ingested": false,
+      "evidence_boundary": "URJ publisher quotes excerpts of Sam's sermon and links to a legacy Temple Emanu-El manuscript; only the attributed URJ excerpt was inspected. Full legacy sermon file not retrieved. Do not count as full manuscript or as a proven unique work relative to other sources."
     }
   ],
-  "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts."
+  "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. On 2026-10-14 two Temple Emanu-El-era published excerpt records added as external historical leads, excluded from 316 core first-party writing count; no full manuscripts or audio claimed."
 }

@@ -54,16 +54,23 @@ Two radio broadcasts (September 27 and October 4) and one first-party blog entry
 - `data/link-checks-by-year/` — audio-link verification ledger
 - `data/stats.json` — generated radio archive metrics and methods
 - `data/writings/rabbisamcohon-blog.json` — 47 first-party standalone-blog records
-- `data/writings/beit-simcha-blog.json` — 265 first-party Beit Simcha blog records
+- `data/writings/beit-simcha-blog.json` — 269 first-party Beit Simcha blog records
 - `data/writings/sources.json` — source registry and research-state ledger
 - `data/writings/dedupe-candidates.json` — cross-source title candidates plus first-pass text-comparison findings
 - `data/writings/stats.json` — authored-work chronology and dedupe metrics
 - `data/teaching/beit-simcha-audiocasts.json` — 26 normalized first-party teaching recording listings
 - `data/teaching/current-programs.json` — current teaching-program context from Beit Simcha
+- `data/teaching/historical-source-leads.json` — earlier Temple Emanu-El podcast-channel provenance; no claimed surviving audio
 - `data/social/facebook-discovery.json` — first-party Facebook URLs discovered through public indexing, not treated as source-reviewed content
 - `scripts/` — ingestion, verification, and site-data tooling
 - `dist/` — deployable static presentation site
 - `.github/workflows/pages.yml` — GitHub Pages deployment workflow
+
+
+### Historical evidence intake (not included in the 1,605 core catalogue records)
+- Two attributed **excerpt-only** Temple Emanu-El-era writing leads were preserved in `data/writings/community-publications.json`: *Baking Holiness* (first-party newsletter dated April 30, 2013) and *The Necessary Chutzpah of Saving Refugees* (2015 Union for Reform Judaism roundup). Neither complete original manuscript is ingested, and neither is added to the 316 core blog-source total.
+- The same 2013 newsletter advertises a Temple Emanu-El podcast account for adult classes, with Sam teaching Basic/Intermediate Judaism and Zohar. `historical-source-leads.json` preserves the historical channel URL, **not** a claim that a particular MP3 was recovered or remains playable.
+- Publisher Podbean pages exposed Download hrefs for the September 27 and October 4, 2026 *Too Jewish* episodes. Their direct audio response, bytes and rights remain **unverified**; the source episode rows retain their original official-link statuses, and the core counts do not change.
 
 ## Research boundaries
 
