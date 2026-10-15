@@ -67,12 +67,16 @@ jobs:
           -----END CERTIFICATE-----
           CERT
           cat > /tmp/private-tj/asr.py <<'PY'
-          import json, hashlib, pathlib
+          import json, hashlib, pathlib, wave
+          import numpy as np
           from faster_whisper import WhisperModel
           root=pathlib.Path("/tmp/private-tj")
           info=json.loads((root/"ffprobe.json").read_text())
           model=WhisperModel("tiny.en",device="cpu",compute_type="int8",cpu_threads=4,num_workers=1)
-          segments,metadata=model.transcribe(str(root/"sample.wav"),beam_size=3,language="en",vad_filter=True,condition_on_previous_text=False)
+          with wave.open(str(root/"sample.wav"),"rb") as wav:
+              assert wav.getnchannels()==1 and wav.getframerate()==16000 and wav.getsampwidth()==2
+              audio=np.frombuffer(wav.readframes(wav.getnframes()),dtype=np.int16).astype(np.float32)/32768.0
+          segments,metadata=model.transcribe(audio,beam_size=3,language="en",vad_filter=True,condition_on_previous_text=False)
           out=[]
           for seg in segments:
               out.append({"start_s":round(30+seg.start,2),"end_s":round(30+seg.end,2),
