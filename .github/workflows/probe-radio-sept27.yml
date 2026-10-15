@@ -1,0 +1,39 @@
+name: One-time read-only September 27 radio link probe
+on:
+  push:
+    branches: ['research/2026-10-12-radio-writing-refresh']
+    paths: ['.github/workflows/probe-radio-sept27.yml']
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect read-only official September 27 audio HEAD observation
+        run: |
+          python scripts/verify_links.py --id tj-2026-09-27 > sept27-audio-head.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("sept27-audio-head.json").read_text())
+          assert len(d["findings"])==1
+          record=d["findings"][0]
+          assert record["id"]=="tj-2026-09-27"
+          assert record["catalogued_link_status_unchanged"]=="not_checked"
+          assert record["observed_state"] in ("responded_successfully_to_HEAD", "HEAD_reported_missing", "inconclusive")
+          print(json.dumps(d, indent=2))
+          PY
+      - name: Ensure source tree remains unchanged
+        run: git diff --exit-code && test -z "$(git status --porcelain --untracked-files=no)"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: read-only-sept27-head-observation
+          path: sept27-audio-head.json
+          if-no-files-found: warn
+          retention-days: 30
