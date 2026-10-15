@@ -98,6 +98,11 @@ The exact **79,065,806-byte, 54:54** September 27 *Too Jewish* original publishe
 
 **Full audio machine coverage is not human verification**: no speakers or words have been approved by listening. Music/lyrics, Hebrew words, guest attribution and transitions at 09:10, 18:20, 27:30, 36:40 and 45:50 require correction against original sound. Thirteen short original-audio excerpts were extracted into a **private** QA packet; waveform/VAD signal detection did not prove phrase accuracy. The one-shot encrypted workflow has been removed. **0 editorially reviewed full radio transcripts** and public `transcript_status=not_ingested`. No MP3, transcript content or decryption key is in GitHub. TurboScribe was not used and remains optional with suitable user authorization.
 
+### Additional sound-grounded editorial triage (October 15 UTC)
+The original checksum-verified full recording was re-decoded into **five separate 24-second clips**, each covering 12 seconds on either side of the six-part ASR split boundaries (**09:10, 18:20, 27:30, 36:40, 45:50**). The source raw recognition timings show **-1.53, -0.23, +0.46, 0.00 and +0.08 seconds** between adjacent parts (negative = overlapping ASR timestamps, not necessarily repeated source words). Audio clips were decoded and independently SHA-256 checked; **these technical checks do not determine what was spoken**. The original recording and six raw machine outputs remain unchanged.
+
+A new **private annotation-only derivative** retains **all 823 raw text segments without changing words**, with flags for the **11 previously identified disputed passages** and five chunk seams. The five new clips, their manifest and a private quantitative QA memo are stored in the existing `/Writing/` Library folder. The public [pilot evidence](data/verification/too-jewish-2026-09-27-asr-private-pilot.json) contains **metadata and hashes only**. Human listening, speaker identification, music/lyrics verification, editorial signoff and publication rights remain outstanding; reviewed radio transcript count stays **0**. TurboScribe was not used.
+
 ## Research boundaries
 
 The atlas is centered on Sam Cohon's own public work, first-party congregational materials, radio, teaching, interviews, and neutral biographical/professional context.
