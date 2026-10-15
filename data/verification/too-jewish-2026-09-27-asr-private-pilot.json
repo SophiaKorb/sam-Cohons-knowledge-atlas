@@ -29,7 +29,7 @@
   "permission_to_publish_reviewed": false,
   "full_episode_transcribed": false,
   "public_catalogue_episode_transcript_status": "not_ingested",
-  "next_action": "Review 13 private listening excerpts and all five chunk boundaries against original MP3; assign speakers only by listening, redact/mark music uncertainty, produce new human-reviewed derivative. Decide whether permissioned independent TurboScribe is appropriate. Preserve all machine RAW data; full radio episode transcription is PRIVATE ASR ONLY; public transcript count remains zero.",
+  "next_action": "Listen to 11 disputed passages plus 5 seam clips from private original before any verbatim changes; signed reviewer/date correction log required; TurboScribe optional if authorized. Keep all raw copies and public status not_ingested.",
   "second_pass": {
     "source_checksum_match": true,
     "window_seconds": [
@@ -94,5 +94,42 @@
     "public_raw_media_or_transcript_committed": false,
     "ephemeral_runner_removed": true,
     "permanent_review_record": "/Writing/Too_Jewish_2026-09-27_Full_ASR_QA_PRIVATE.md"
+  },
+  "boundary_audio_review": {
+    "status": "original_audio_excerpts_decoded_technical_QA_only_not_word_level_approval",
+    "source_sha256_reconfirmed": true,
+    "boundary_seconds": [
+      550,
+      1100,
+      1650,
+      2200,
+      2750
+    ],
+    "raw_asr_start_minus_previous_end_seconds": [
+      -1.53,
+      -0.23,
+      0.46,
+      0,
+      0.08
+    ],
+    "boundary_clips": 5,
+    "boundary_clip_duration_seconds": 24,
+    "private_zip_sha256": "277a5611281c61e776f0b94b68ce2a32341e66588b72457aa667f58956b1573e",
+    "private_report_sha256": "782281dee9fbe813677dcd400dd139326c7d57fa24058499b8b1dff1dc100b1e",
+    "annotated_derivative_sha256": "75c14072c55c1da9a3916f8f0d85afb011e6b385e5a64220a6c195e97ad95c00",
+    "raw_machine_segments_reproduced_unchanged": 823,
+    "priority_uncertainty_topics": 11,
+    "speech_word_changes_applied": 0,
+    "human_listener_audio_verified": false,
+    "speaker_labels_verified": false,
+    "music_lyrics_verified": false,
+    "rights_reviewer_approved": false,
+    "private_library_paths": [
+      "/Writing/Too_Jewish_2026-09-27_Boundary_Listening_Clips_PRIVATE.zip",
+      "/Writing/Too_Jewish_2026-09-27_Editorial_Annotated_Draft_PRIVATE.md",
+      "/Writing/Too_Jewish_2026-09-27_Seam_Audio_QA_PRIVATE.md"
+    ],
+    "explanation": "Original MP3 re-decoded for 5 independent 24-second seam clips; audio amplitude/decoding validates signal presence only. Negative deltas are ASR timestamp overlaps, not proven duplicated audio. Annotated draft contains all 823 raw segments unchanged with nonverbatim review notes.",
+    "next_action": "Qualified listener compare 11 disputed passages and 5 seam clips; record speaker/music/word corrections in separate explicitly reviewed derivative. Use TurboScribe only via authorized account and rights."
   }
 }
