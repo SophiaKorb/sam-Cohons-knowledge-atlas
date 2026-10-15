@@ -66,6 +66,25 @@ def main():
             followup["review_windows"] == 11 and
             0.94 < followup["comparison_ratio"] < 0.95,
             "Comparative listening QA notes inconsistent")
+    full = pilot["full_private_first_pass"]
+    require(full["status"] == "complete_duration_raw_machine_draft_private_not_human_reviewed"
+            and full["source_original_sha256_verified"] is True
+            and full["original_mp3_bytes"] == 79065806
+            and full["original_mp3_preserved_in_private_library"] is True,
+            "Original recording's private checksum-provenance missing")
+    require(full["raw_shards"] == 6 and full["raw_segments"] == 823
+            and full["raw_words"] == 7765 and full["audio_grounded_review_clips"] == 13
+            and full["internal_chunk_cut_seconds"] == [550, 1100, 1650, 2200, 2750],
+            "Full episode raw ASR source QA totals or boundaries inconsistent")
+    require(full["public_archive_transcript_status"] == "not_ingested"
+            and full["machine_similarity_is_not_accuracy"] is True
+            and full["human_listening_verified"] is False
+            and full["editorial_episode_approved"] is False
+            and full["rights_for_publication_approved"] is False
+            and full["public_raw_media_or_transcript_committed"] is False
+            and full["ephemeral_runner_removed"] is True
+            and full["direct_turboscribe_used"] is False,
+            "Private ASR must never be promoted to reviewed or published transcript")
     require(followup["private_library_saved"] is True and
             followup["human_audio_review"] is False and
             followup["episode_complete"] is False and
