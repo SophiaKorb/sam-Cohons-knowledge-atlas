@@ -90,6 +90,9 @@ A genuine **150-second** September 27, 2026 show segment was decoded and transcr
 
 Use [TurboScribe](https://turboscribe.com/) **when appropriate** for long-form interviews, multi-speaker audio, Hebrew/Yiddish and difficult first-pass results, subject to permissions and user-authorized external processing. Preserve its untouched export separately and compare to original audio; see [audio transcription protocol](docs/audio-transcription-workflow.md). Historical ten raw TurboScribe course transcripts belong to the private **Introductory Judaism** project, not the radio episode count.
 
+### Second private radio transcription pilot (October 15 UTC)
+The original September 27 broadcast MP3 SHA-256 was reconfirmed on a private networked worker. An independent **five-minute** `small.en` pass yielded **74 raw timed segments / 564 recognized words**; a **150-second MP3 listening sample** was separately preserved in private Library `/Writing/` with the raw transcript and a QA comparison. The roughly overlapping first and second passes have **94.4% machine-to-machine word-sequence similarity**, **not accuracy against the recording**. Eleven listening-review questions remain, including an extended **03:34–05:03 music section** for which speech transcription is not reliable. The one-time private runner was deleted after artifact retrieval. Provenance is recorded in `data/verification/too-jewish-2026-09-27-asr-private-pilot.json`; no audio or raw transcript text was added to the repository. **Zero completed/reviewed full radio episode transcripts.** TurboScribe remains an optional authorized separate comparison, not used for this pass.
+
 ## Research boundaries
 
 The atlas is centered on Sam Cohon's own public work, first-party congregational materials, radio, teaching, interviews, and neutral biographical/professional context.
