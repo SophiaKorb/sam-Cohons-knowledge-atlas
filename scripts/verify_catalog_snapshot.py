@@ -66,6 +66,26 @@ def main():
             followup["review_windows"] == 11 and
             0.94 < followup["comparison_ratio"] < 0.95,
             "Comparative listening QA notes inconsistent")
+    boundary = pilot["boundary_audio_review"]
+    require(boundary["source_sha256_reconfirmed"] is True and
+            boundary["boundary_seconds"] == [550, 1100, 1650, 2200, 2750] and
+            boundary["raw_asr_start_minus_previous_end_seconds"] == [-1.53, -0.23, 0.46, 0, 0.08],
+            "Original audio boundary alignment evidence incorrect")
+    require(boundary["boundary_clips"] == 5 and
+            boundary["boundary_clip_duration_seconds"] == 24 and
+            boundary["raw_machine_segments_reproduced_unchanged"] == 823 and
+            boundary["priority_uncertainty_topics"] == 11,
+            "Private boundary review item counts changed")
+    require(boundary["speech_word_changes_applied"] == 0 and
+            boundary["human_listener_audio_verified"] is False and
+            boundary["speaker_labels_verified"] is False and
+            boundary["music_lyrics_verified"] is False and
+            boundary["rights_reviewer_approved"] is False,
+            "Machine sound QA is not a human-reviewed transcription")
+    for key in ("private_zip_sha256", "private_report_sha256",
+                "annotated_derivative_sha256"):
+        require(len(boundary[key]) == 64, "Original-audio boundary review SHA-256 missing")
+
     full = pilot["full_private_first_pass"]
     require(full["status"] == "complete_duration_raw_machine_draft_private_not_human_reviewed"
             and full["source_original_sha256_verified"] is True
