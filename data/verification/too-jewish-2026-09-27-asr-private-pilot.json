@@ -29,7 +29,7 @@
   "permission_to_publish_reviewed": false,
   "full_episode_transcribed": false,
   "public_catalogue_episode_transcript_status": "not_ingested",
-  "next_action": "Review the private listening clip against both ASR outputs, resolve uncertain passages and music; preserve all raw files. Consider TurboScribe only with authorization. No publication.",
+  "next_action": "Review 13 private listening excerpts and all five chunk boundaries against original MP3; assign speakers only by listening, redact/mark music uncertainty, produce new human-reviewed derivative. Decide whether permissioned independent TurboScribe is appropriate. Preserve all machine RAW data; full radio episode transcription is PRIVATE ASR ONLY; public transcript count remains zero.",
   "second_pass": {
     "source_checksum_match": true,
     "window_seconds": [
@@ -56,5 +56,43 @@
     "episode_complete": false,
     "turboscribe_used": false,
     "raw_audio_or_transcript_committed": false
+  },
+  "full_private_first_pass": {
+    "status": "complete_duration_raw_machine_draft_private_not_human_reviewed",
+    "run_id": 38688088219,
+    "source_original_sha256_verified": true,
+    "original_mp3_bytes": 79065806,
+    "original_mp3_duration_seconds": 3294.408583,
+    "original_mp3_preserved_in_private_library": true,
+    "original_mp3_private_library_path": "/Writing/Too_Jewish_2026-09-27_Original_PRIVATE.mp3",
+    "transcription_engine": "faster-whisper small.en int8 CPU, six independently processed 550-second approximately contiguous windows",
+    "audio_covered_seconds": 3294.408583,
+    "raw_segments": 823,
+    "raw_words": 7765,
+    "raw_shards": 6,
+    "raw_parts_zip_sha256": "cdd538dbd771fc6928c170ce961d71cdb6218265d4b2da2cc52e10e372503aac",
+    "assembled_raw_txt_sha256": "0a40ffa6bec7f24644488364e363bb6ca4e2719d23a54c13ae766146c0b30c6b",
+    "assembled_raw_json_sha256": "c20b0f8daf32331bb0b2f68c99527da5fe0dcd687eeefb7e3821495d288568b6",
+    "private_library_path_prefix": "/Writing/Too_Jewish_2026-09-27_",
+    "audio_grounded_review_clips": 13,
+    "private_audio_review_packet_sha256": "4a903eed3815f005118ca14fd9903d6eafac57efbd9ad49cc4e844eba870700a",
+    "internal_chunk_cut_seconds": [
+      550,
+      1100,
+      1650,
+      2200,
+      2750
+    ],
+    "overlap_with_prior_small_en_same_model_similarity": 0.9965,
+    "machine_similarity_is_not_accuracy": true,
+    "lyrics_music_speaker_labels_uncertain": true,
+    "direct_turboscribe_used": false,
+    "human_listening_verified": false,
+    "editorial_episode_approved": false,
+    "rights_for_publication_approved": false,
+    "public_archive_transcript_status": "not_ingested",
+    "public_raw_media_or_transcript_committed": false,
+    "ephemeral_runner_removed": true,
+    "permanent_review_record": "/Writing/Too_Jewish_2026-09-27_Full_ASR_QA_PRIVATE.md"
   }
 }
