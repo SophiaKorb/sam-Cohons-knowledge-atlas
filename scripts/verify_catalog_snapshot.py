@@ -131,7 +131,7 @@ def main():
     require(all(0 <= r["r"] < len(meta["roles"]) for r in compact), "Guest-role index outside dictionary")
     require(all(all(0 <= t < len(meta["topics"]) for t in r["t"]) for r in compact), "Topic index outside dictionary")
     latest = {r["d"]: r for r in compact}
-        require(latest["2026-09-27"]["s"] == "l" and "k" not in latest["2026-09-27"], "Verified recent MP3 must appear checked in browser")
+    require(latest["2026-09-27"]["s"] == "l" and "k" not in latest["2026-09-27"], "Verified recent MP3 must appear checked in browser")
     require(latest["2026-10-04"]["s"] == "m", "Podbean-only episode must not claim listed official audio")
 
     site_writing = read_js_array(DIST / "writings-data.js", "window.SAM_WRITINGS=", ";")
