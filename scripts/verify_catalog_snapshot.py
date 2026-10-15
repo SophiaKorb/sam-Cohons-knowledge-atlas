@@ -57,6 +57,22 @@ def main():
             not pilot["transcript_text_in_public_git"], "Private ASR pilot misrepresented")
     require(pilot["public_catalogue_episode_transcript_status"] == "not_ingested",
             "Raw pilot must not be counted as ingested episode transcript")
+    followup = pilot["second_pass"]
+    require(followup["source_checksum_match"] is True and
+            followup["window_seconds"] == [30, 330] and
+            followup["segments"] == 74 and followup["recognized_words"] == 564,
+            "Independent private machine sample metadata inconsistent")
+    require(followup["music_interval_seconds"] == [214.5, 303.2] and
+            followup["review_windows"] == 11 and
+            0.94 < followup["comparison_ratio"] < 0.95,
+            "Comparative listening QA notes inconsistent")
+    require(followup["private_library_saved"] is True and
+            followup["human_audio_review"] is False and
+            followup["episode_complete"] is False and
+            followup["turboscribe_used"] is False and
+            followup["raw_audio_or_transcript_committed"] is False,
+            "Raw private pilot must not be represented as a finished episode")
+
     require("TurboScribe" in policy and "third-party" in policy and "human_reviewed" in policy,
             "Optional TurboScribe selection, privacy or QA guidance missing")
     require(len({r["id"] for r in radio}) == len(radio), "Radio IDs not unique")
