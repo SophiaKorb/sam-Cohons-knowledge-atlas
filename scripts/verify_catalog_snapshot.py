@@ -45,6 +45,20 @@ def main():
         teaching = teaching["records"]
 
     require(len(radio) == stats["total_records"], "Radio source count mismatch")
+    # Transcript pilot is private metadata only: never conflate 150 seconds of raw
+    # Whisper output with a complete, editorially reviewed radio episode.
+    pilot = load(DATA / "verification" / "too-jewish-2026-09-27-asr-private-pilot.json")
+    policy = (ROOT / "docs" / "audio-transcription-workflow.md").read_text(encoding="utf-8")
+    require(pilot["episode_id"] == "tj-2026-09-27" and pilot["sample_duration_seconds"] == 150,
+            "Raw radio ASR sample provenance missing or inaccurate")
+    require(pilot["raw_timed_segment_count"] == 43 and pilot["raw_approximate_word_count"] == 395,
+            "Private raw ASR sample totals changed unexpectedly")
+    require(not pilot["reviewed_against_audio"] and not pilot["full_episode_transcribed"] and
+            not pilot["transcript_text_in_public_git"], "Private ASR pilot misrepresented")
+    require(pilot["public_catalogue_episode_transcript_status"] == "not_ingested",
+            "Raw pilot must not be counted as ingested episode transcript")
+    require("TurboScribe" in policy and "third-party" in policy and "human_reviewed" in policy,
+            "Optional TurboScribe selection, privacy or QA guidance missing")
     require(len({r["id"] for r in radio}) == len(radio), "Radio IDs not unique")
     require(dict(Counter(str(r["year"]) for r in radio)) == stats["year_counts"], "Year counts mismatch")
     require(dict(Counter(r["official_link_status"] for r in radio)) == stats["link_status_counts"], "Link-status counts mismatch")

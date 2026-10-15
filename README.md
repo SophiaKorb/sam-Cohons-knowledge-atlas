@@ -85,6 +85,11 @@ python scripts/verify_links.py --id tj-2026-09-27 --id tj-2026-10-04
 
 The diagnostic never downloads the audio and **never updates source records, generated site files, historic link-status counts, or verified timestamps**. A 404/410 from a successful HEAD is an observation, not automatic permanent proof of an unavailable recording; network errors, blocks and 403/405/5xx replies remain inconclusive. Only first-party official MP3 hosts are probed, and no bulk mode is offered. Independent review and a separate controlled ingestion step would be needed to promote statuses.
 
+### Private Too Jewish pilot transcription and optional TurboScribe route (October 15 UTC)
+A genuine **150-second** September 27, 2026 show segment was decoded and transcribed in a networked ephemeral runner, creating **43 raw timestamped segments (about 395 words)**. Source SHA-256 and quality limitations are documented in `data/verification/too-jewish-2026-09-27-asr-private-pilot.json`; **raw text lives only in private Library /Writing**, never in this repository. The full 54:54 episode is *not* transcribed or editorially reviewed. Public radio episode `transcript_status` stays `not_ingested`, and completed transcripts still count **zero**.
+
+Use [TurboScribe](https://turboscribe.com/) **when appropriate** for long-form interviews, multi-speaker audio, Hebrew/Yiddish and difficult first-pass results, subject to permissions and user-authorized external processing. Preserve its untouched export separately and compare to original audio; see [audio transcription protocol](docs/audio-transcription-workflow.md). Historical ten raw TurboScribe course transcripts belong to the private **Introductory Judaism** project, not the radio episode count.
+
 ## Research boundaries
 
 The atlas is centered on Sam Cohon's own public work, first-party congregational materials, radio, teaching, interviews, and neutral biographical/professional context.

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "private_unreviewed_radio_asr_sample",
+  "episode_id": "tj-2026-09-27",
+  "guest": "Lynn Golodner",
+  "broadcast_date": "2026-09-27",
+  "source_url": "https://www.toojewishradio.com/Too%20Jewish%20MP3%27s/Too_Jewish_2026-09-27.mp3",
+  "source_sha256": "819f02fa9585df7728cabcffa251c69348f31d90bd28aeb71d42e71581263b0c",
+  "source_codec": "mp3",
+  "source_duration_seconds": 3294.408583,
+  "sample_start_seconds": 30,
+  "sample_end_seconds": 180,
+  "sample_duration_seconds": 150,
+  "decoded_sample": "16 kHz mono WAV via ffmpeg on ephemeral worker",
+  "recognition_engine": "faster-whisper tiny.en int8 CPU",
+  "raw_timed_segment_count": 43,
+  "raw_approximate_word_count": 395,
+  "raw_private_library_paths": [
+    "/Writing/Too_Jewish_2026-09-27_Raw_ASR_30-180s_PRIVATE.json",
+    "/Writing/Too_Jewish_2026-09-27_Raw_ASR_30-180s_PRIVATE.txt",
+    "/Writing/Too_Jewish_2026-09-27_Pilot_QA_PRIVATE.md"
+  ],
+  "workflow_run_id": 38685231892,
+  "workflow_run_url": "https://github.com/SophiaKorb/sam-Cohons-knowledge-atlas/actions/runs/38685231892",
+  "artifact_handling": "Encrypted with a public X.509 certificate on GitHub runner, downloaded, decrypted with separately held private key, raw output placed only in private Library; public GitHub repo contains metadata only",
+  "source_mp3_in_public_git": false,
+  "transcript_text_in_public_git": false,
+  "reviewed_against_audio": false,
+  "permission_to_publish_reviewed": false,
+  "full_episode_transcribed": false,
+  "public_catalogue_episode_transcript_status": "not_ingested",
+  "next_action": "Independent TurboScribe second pass when authorized and then human audio review with transcript timestamp/proper-name checks"
+}
