@@ -72,6 +72,16 @@ Two radio broadcasts (September 27 and October 4) and one first-party blog entry
 - The same 2013 newsletter advertises a Temple Emanu-El podcast account for adult classes, with Sam teaching Basic/Intermediate Judaism and Zohar. `historical-source-leads.json` preserves the historical channel URL, **not** a claim that a particular MP3 was recovered or remains playable.
 - Publisher Podbean pages exposed Download hrefs for the September 27 and October 4, 2026 *Too Jewish* episodes. Their direct audio response, bytes and rights remain **unverified**; the source episode rows retain their original official-link statuses, and the core counts do not change.
 
+### Read-only audio link diagnostics
+The historic `scripts/verify_links.py` originally assumed the deleted combined `data/episodes.json` and would write statuses across the entire catalogue. It has been replaced with a **targeted, non-mutating** official-MP3 HEAD probe. It reads the canonical `data/episodes-by-year/*.json` files and prints JSON evidence only:
+
+```sh
+python scripts/verify_links.py --id tj-2026-09-27
+python scripts/verify_links.py --id tj-2026-09-27 --id tj-2026-10-04
+```
+
+The diagnostic never downloads the audio and **never updates source records, generated site files, historic link-status counts, or verified timestamps**. A 404/410 from a successful HEAD is an observation, not automatic permanent proof of an unavailable recording; network errors, blocks and 403/405/5xx replies remain inconclusive. Only first-party official MP3 hosts are probed, and no bulk mode is offered. Independent review and a separate controlled ingestion step would be needed to promote statuses.
+
 ## Research boundaries
 
 The atlas is centered on Sam Cohon's own public work, first-party congregational materials, radio, teaching, interviews, and neutral biographical/professional context.

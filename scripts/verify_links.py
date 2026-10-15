@@ -1,93 +1,112 @@
 #!/usr/bin/env python3
-"""Verify first-party Too Jewish audio links without downloading audio."""
+"""Targeted, read-only HEAD diagnostics for first-party Too Jewish MP3 URLs.
 
+This tool deliberately does NOT mutate the canonical episode records, source
+link-status counts, historical verification timestamps or generated site.
+It is safe to run even when the network is unavailable.
+"""
 from __future__ import annotations
 
+import argparse
 import datetime as dt
 import json
+import re
 import subprocess
-from collections import Counter
 from pathlib import Path
-
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-EPISODES_PATH = ROOT / "data" / "episodes.json"
-STATS_PATH = ROOT / "data" / "stats.json"
-CHECKS_PATH = ROOT / "data" / "link_checks.json"
-USER_AGENT = "Mozilla/5.0 (compatible; Samuel-Cohon-Archive/1.0; link verification)"
-WORKERS = 12
-TIMEOUT = 25
+EPISODE_DIR = ROOT / "data" / "episodes-by-year"
+ALLOWED_HOSTS = frozenset({"toojewishradio.com", "www.toojewishradio.com"})
+MAX_IDS = 20
 
 
-def verify_all(records: list[dict]) -> list[dict]:
-    args = [
-        "curl", "--parallel", "--parallel-immediate", "--parallel-max", str(WORKERS),
-        "--head", "--location", "--silent", "--show-error",
-        "--connect-timeout", "10", "--max-time", str(TIMEOUT),
-        "--retry", "1", "--retry-delay", "1", "--user-agent", USER_AGENT,
-        "--write-out", "%{urlnum}\\t%{http_code}\\t%{exitcode}\\t%{errormsg}\\n",
+def load_records(directory: Path = EPISODE_DIR) -> list[dict]:
+    paths = sorted(directory.glob("[0-9][0-9][0-9][0-9].json"))
+    if not paths:
+        raise ValueError(f"No year-split canonical episode files found in {directory}")
+    records = [r for path in paths for r in json.loads(path.read_text(encoding="utf-8"))]
+    ids = [r["id"] for r in records]
+    if len(ids) != len(set(ids)):
+        raise ValueError("Duplicate episode IDs in source files; refusing to probe")
+    return records
+
+
+def select_records(records: list[dict], ids: list[str]) -> list[dict]:
+    if not ids or len(ids) > MAX_IDS or len(set(ids)) != len(ids):
+        raise ValueError(f"Supply 1–{MAX_IDS} distinct episode IDs via --id")
+    lookup = {r["id"]: r for r in records}
+    unknown = [item for item in ids if item not in lookup]
+    if unknown:
+        raise ValueError(f"Unknown episode ID(s): {', '.join(unknown)}")
+    return [lookup[item] for item in ids]
+
+
+def probe_url(url: str, runner=subprocess.run) -> dict:
+    parsed = urlsplit(url)
+    if parsed.scheme != "https" or parsed.hostname not in ALLOWED_HOSTS:
+        raise ValueError("Official MP3 HEAD check requires an HTTPS toojewishradio.com URL")
+    if parsed.username or parsed.password:
+        raise ValueError("Userinfo in URL not permitted")
+    cmd = [
+        "curl", "--head", "--location", "--silent", "--show-error",
+        "--output", "/dev/null", "--connect-timeout", "10", "--max-time", "25",
+        "--retry", "0", "--write-out", "%{http_code}", "--", url,
     ]
-    for record in records:
-        args.extend(["--output", "/dev/null", record["official_audio_url"]])
-
-    process = subprocess.run(args, capture_output=True, text=True, check=False)
-    by_index: dict[int, tuple[int | None, int, str | None]] = {}
-    for line in process.stdout.splitlines():
-        parts = line.split("\t", 3)
-        if len(parts) < 3 or not parts[0].isdigit():
-            continue
-        index = int(parts[0])
-        status = int(parts[1]) if parts[1].isdigit() and int(parts[1]) else None
-        exit_code = int(parts[2]) if parts[2].isdigit() else 1
-        error = parts[3].strip() if len(parts) > 3 and parts[3].strip() else None
-        by_index[index] = (status, exit_code, error)
-
-    results: list[dict] = []
-    for index, record in enumerate(records):
-        status, exit_code, error = by_index.get(index, (None, 1, "curl returned no result"))
-        state = "live" if exit_code == 0 and status is not None and 200 <= status < 400 else "dead" if status in {404, 410} else "error"
-        results.append(
-            {
-                "id": record["id"],
-                "url": record["official_audio_url"],
-                "state": state,
-                "http_status": status,
-                "error": error if state == "error" else None,
-            }
-        )
-    return results
+    try:
+        run = runner(cmd, capture_output=True, text=True, check=False, timeout=35)
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        return {"observed_state": "inconclusive", "http_status": None,
+                "error": str(exc)[:400]}
+    raw_code = (run.stdout or "").strip()
+    code = int(raw_code) if re.fullmatch(r"\d{3}", raw_code) else None
+    if run.returncode == 0 and code is not None and 200 <= code < 400:
+        state = "responded_successfully_to_HEAD"
+    elif run.returncode == 0 and code in (404, 410):
+        state = "HEAD_reported_missing"
+    else:
+        state = "inconclusive"
+    return {"observed_state": state, "http_status": code,
+            "error": (run.stderr or "").strip()[:400] if state == "inconclusive" else None}
 
 
-def main() -> None:
-    records = json.loads(EPISODES_PATH.read_text(encoding="utf-8"))
-    linked = [record for record in records if record.get("official_audio_url")]
-    checks = verify_all(linked)
-
-    checks.sort(key=lambda item: item["id"])
-    checked_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
-    check_by_id = {check["id"]: check for check in checks}
-    for record in records:
-        check = check_by_id.get(record["id"])
-        if check:
-            record["official_link_status"] = check["state"]
-            record["official_http_status"] = check["http_status"]
-            record["official_link_checked_at"] = checked_at
+def run_checks(records: list[dict], ids: list[str], probe=probe_url) -> dict:
+    selected = select_records(records, ids)
+    now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+    findings = []
+    for record in selected:
+        url = record.get("official_audio_url")
+        finding = {
+            "id": record["id"],
+            "broadcast_date": record["broadcast_date"],
+            "official_audio_url": url,
+            "catalogued_link_status_unchanged": record["official_link_status"],
+        }
+        if url:
+            finding.update(probe(url))
         else:
-            record["official_link_status"] = "not_listed"
-            record["official_http_status"] = None
-            record["official_link_checked_at"] = checked_at
+            finding.update({"observed_state": "no_official_audio_url",
+                            "http_status": None, "error": None})
+        findings.append(finding)
+    return {
+        "checked_at_utc": now,
+        "scope": "targeted non-mutating HEAD diagnostic only; NOT a persisted verified link status",
+        "findings": findings,
+    }
 
-    states = Counter(record["official_link_status"] for record in records)
-    stats = json.loads(STATS_PATH.read_text(encoding="utf-8"))
-    stats["link_checked_at"] = checked_at
-    stats["link_status_counts"] = dict(states)
-    stats["link_verification_method"] = "HTTP HEAD against each first-party MP3 URL; network errors remain errors and are not counted as dead links."
 
-    EPISODES_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    STATS_PATH.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    CHECKS_PATH.write_text(json.dumps({"checked_at": checked_at, "checks": checks}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"checked": len(checks), "states": dict(states), "checked_at": checked_at}, indent=2))
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--id", action="append", dest="ids", required=True,
+                        help="Exact episode ID, repeat up to 20 times. No bulk/overwrite mode.")
+    args = parser.parse_args(argv)
+    try:
+        result = run_checks(load_records(), args.ids)
+    except ValueError as exc:
+        parser.error(str(exc))
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
