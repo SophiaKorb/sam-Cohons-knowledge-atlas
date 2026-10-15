@@ -1,0 +1,60 @@
+name: One-time read-only September 27 radio link probe
+on:
+  push:
+    branches: ['research/2026-10-12-radio-writing-refresh']
+    paths: ['.github/workflows/probe-radio-sept27.yml']
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect read-only official September 27 audio HEAD observation
+        run: |
+          python scripts/verify_links.py --id tj-2026-09-27 > sept27-audio-head.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("sept27-audio-head.json").read_text())
+          assert len(d["findings"])==1
+          record=d["findings"][0]
+          assert record["id"]=="tj-2026-09-27"
+          assert record["catalogued_link_status_unchanged"]=="not_checked"
+          assert record["observed_state"] in ("responded_successfully_to_HEAD", "HEAD_reported_missing", "inconclusive")
+          print(json.dumps(d, indent=2))
+          PY
+      - name: Inspect final HTTP content type and effective URL without downloading bytes
+        run: |
+          curl --head --location --silent --show-error --max-redirs 5 --connect-timeout 10 --max-time 30 \
+            --output /dev/null --write-out '%{json}' \
+            -- 'https://www.toojewishradio.com/Too%20Jewish%20MP3%27s/Too_Jewish_2026-09-27.mp3' > sept27-curl-metadata.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload=json.loads(Path("sept27-curl-metadata.json").read_text())
+          report={
+              "http_code": payload.get("http_code"),
+              "content_type": payload.get("content_type"),
+              "url_effective": payload.get("url_effective"),
+              "num_redirects": payload.get("num_redirects"),
+              "description": "HEAD-only response metadata; not proof of decoded MP3 bytes"
+          }
+          Path("sept27-response-metadata.json").write_text(json.dumps(report, indent=2))
+          print(json.dumps(report, indent=2))
+          PY
+      - name: Ensure source tree remains unchanged
+        run: git diff --exit-code && test -z "$(git status --porcelain --untracked-files=no)"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: read-only-sept27-head-observation
+          path: |
+            sept27-audio-head.json
+            sept27-response-metadata.json
+          if-no-files-found: warn
+          retention-days: 30

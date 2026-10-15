@@ -1,0 +1,42 @@
+name: Verify archive source and site consistency
+on:
+  pull_request:
+    paths: ['data/**', 'dist/**', 'scripts/**', '.github/workflows/verify-archive.yml']
+  push:
+    branches: ['research/**']
+    paths: ['data/**', 'dist/**', 'scripts/**', '.github/workflows/verify-archive.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild radio site bundles from tracked source files
+        run: python scripts/build_site_data.py
+      - name: Check regenerated radio bundles against committed build
+        run: git diff --exit-code -- dist/data-meta.js dist/data-2002-2006.js dist/data-2007-2011.js dist/data-2012-2016.js dist/data-2017-2021.js dist/data-2022-2026.js
+      - name: Test targeted read-only publisher audio probe
+        run: python -m unittest discover -s scripts -p 'test_verify_links.py' -v
+      - name: Check source ledger and browser bundle counts
+        run: python scripts/verify_catalog_snapshot.py
+      - name: Parse all scripts and load browser bundles
+        run: node scripts/verify_site_js.mjs
+
+      - name: Install Chromium test runner
+        run: |
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Verify the searchable site in Chromium
+        run: python scripts/verify_browser.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sam-cohon-browser-review
+          path: artifacts/browser-review/*.png

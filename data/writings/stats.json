@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22",
-  "source_records_total": 312,
+  "generated_at": "2026-10-12",
+  "source_records_total": 316,
   "standalone_blog_records": 47,
-  "beit_simcha_blog_records": 265,
-  "beit_simcha_records_with_dates": 265,
+  "beit_simcha_blog_records": 269,
+  "beit_simcha_records_with_dates": 269,
   "beit_simcha_date_range": {
     "start": "2021-08-01",
-    "end": "2026-09-16"
+    "end": "2026-10-09"
   },
   "beit_simcha_records_by_year": {
     "2021": 27,
@@ -14,9 +14,21 @@
     "2023": 49,
     "2024": 62,
     "2025": 50,
-    "2026": 26
+    "2026": 30
   },
-  "confirmed_redundant_source_records_minimum": 5,
-  "conservative_distinct_work_upper_bound": 307,
-  "caveat": "Distinct-work count is not final. Only confirmed near-identical republications from the first comparison pass are subtracted; strong-overlap and unreviewed records remain separate."
+  "confirmed_redundant_source_records_minimum": 6,
+  "conservative_distinct_work_upper_bound": 310,
+  "caveat": "316 publication records, not 316 unique works. Five earlier confirmed cross-source redundancies plus the fully compared 2024/2026 Finding Gratitude calendar-edition pair imply at least six redundant source records; 310 distinct works is a conservative upper bound, not a final count.",
+  "incremental_intake": {
+    "date": "2026-10-12",
+    "new_sources": 4,
+    "new_first_party_blog_urls": [
+      "https://beitsimchatucson.org/blog/rabbi-cohns-thoughts-on-the-3rd-anniversary-of-october-7",
+      "https://beitsimchatucson.org/blog/finding-gratitude-1",
+      "https://beitsimchatucson.org/blog/a-donation-saving-and-treasuring-life",
+      "https://beitsimchatucson.org/blog/redemption-the-connections-between-us"
+    ],
+    "possible_republication": "Finding Gratitude 2024/2026 are two dated first-party URLs, but the full 2026-10-13 body comparison established 20/21 identical paragraphs and one holiday-calendar wording change; one substantive sermon work."
+  },
+  "edition_comparison_completed_at": "2026-10-13"
 }

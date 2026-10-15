@@ -2,7 +2,7 @@
   'use strict';
 
   const meta = window.__COHON_META__ || { stats: {}, topics: [], roles: [] };
-  const statusMap = { l: 'live', d: 'dead', m: 'not_listed' };
+  const statusMap = { l: 'live', d: 'dead', m: 'not_listed', u: 'not_checked' };
   const episodes = (window.__COHON_EPISODES__ || []).map((row) => ({
     id: `tj-${row.d}`,
     broadcast_date: row.d,
@@ -14,7 +14,7 @@
     topic_provenance: meta.topic_provenance,
     official_audio_url: row.a ? meta.official_prefix + row.a : null,
     official_link_status: statusMap[row.s],
-    official_link_checked_at: meta.stats.link_checked_at,
+    official_link_checked_at: row.k === undefined ? meta.stats.link_checked_at : row.k,
     podbean_url: row.p ? meta.podbean_prefix + row.p : null,
     duration: row.u || null,
     review_status: row.c ? 'metadata_crosschecked_two_first_party_sources' : 'metadata_normalized',
@@ -94,7 +94,7 @@
   }
 
   function statusLabel(status) {
-    return status === 'live' ? 'Audio live' : status === 'dead' ? 'Link unavailable' : 'No link listed';
+    return status === 'live' ? 'Audio live' : status === 'dead' ? 'Link unavailable' : status === 'not_checked' ? 'Audio link not checked' : 'No link listed';
   }
 
   function createRecordGrid(episode) {

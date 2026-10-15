@@ -19,9 +19,32 @@ YEAR_GROUPS = [(2002, 2006), (2007, 2011), (2012, 2016), (2017, 2021), (2022, 20
 
 
 def main() -> None:
-    episodes = json.loads((DATA_DIR / "episodes.json").read_text(encoding="utf-8"))
+    # The tracked canonical corpus is split by year. Root JSON files are optional
+    # transient build outputs and may not exist on a clean GitHub checkout.
+    episode_master = DATA_DIR / "episodes.json"
+    if episode_master.exists():
+        episodes = json.loads(episode_master.read_text(encoding="utf-8"))
+    else:
+        episodes = [
+            episode
+            for path in sorted(EPISODE_SPLIT_DIR.glob("*.json"))
+            for episode in json.loads(path.read_text(encoding="utf-8"))
+        ]
+        episodes.sort(key=lambda item: (item["broadcast_date"], item["id"]), reverse=True)
+    if not episodes:
+        raise RuntimeError("No canonical episodes found. Refusing empty web bundle.")
     stats = json.loads((DATA_DIR / "stats.json").read_text(encoding="utf-8"))
-    checks = json.loads((DATA_DIR / "link_checks.json").read_text(encoding="utf-8"))["checks"]
+    if len(episodes) != stats["total_records"]:
+        raise ValueError("Episode count disagrees with the source stats ledger.")
+    checks_master = DATA_DIR / "link_checks.json"
+    if checks_master.exists():
+        checks = json.loads(checks_master.read_text(encoding="utf-8"))["checks"]
+    else:
+        checks = [
+            check
+            for path in sorted(CHECK_SPLIT_DIR.glob("*.json"))
+            for check in json.loads(path.read_text(encoding="utf-8"))
+        ]
     topics = sorted({topic for episode in episodes for topic in episode["topics"]})
     roles = sorted({episode["guest_role"] for episode in episodes})
     topic_index = {topic: index for index, topic in enumerate(topics)}
@@ -38,11 +61,12 @@ def main() -> None:
                 "x": episode["description"],
                 "r": role_index[episode["guest_role"]],
                 "t": [topic_index[topic] for topic in episode["topics"]],
-                "a": official_url.removeprefix(OFFICIAL_PREFIX) if official_url else "",
-                "s": {"live": "l", "dead": "d", "not_listed": "m"}[episode["official_link_status"]],
+                "a": official_url.replace("https://www.toojewishradio.com/", OFFICIAL_PREFIX).removeprefix(OFFICIAL_PREFIX) if official_url else "",
+                "s": {"live": "l", "dead": "d", "not_listed": "m", "not_checked": "u"}[episode["official_link_status"]],
                 "p": podbean_url.removeprefix(PODBEAN_PREFIX) if podbean_url else "",
                 "u": episode.get("duration") or "",
                 "c": 1 if episode["review_status"].endswith("two_first_party_sources") else 0,
+                **({"k": None} if episode["broadcast_date"] > stats["link_checked_at"][:10] and not episode.get("official_link_checked_at") else {}),
             }
         )
 
