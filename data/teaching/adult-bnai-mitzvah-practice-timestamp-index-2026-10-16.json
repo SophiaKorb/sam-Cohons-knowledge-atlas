@@ -64,9 +64,16 @@
       [
         "47:19",
         "52:51",
-        "Prayer book logistics and closing"
+        "Prayer book logistics and instructional closing (review-needed; no learner excerpt cleared)"
       ]
-    ]
+    ],
+    "non_instructional_tail": {
+      "start": "52:52",
+      "end": "52:54",
+      "status": "PRIVATE_EXCLUDE_FROM_LEARNER_NAVIGATION",
+      "note": "Transcript-derived exclusion; no public details."
+    },
+    "navigation_accuracy": "Transcript speaker-block timestamps are approximate and not verified against audio, particularly overlapping speech, shofar, group singing, and exact section boundaries."
   },
   "qa_flags": [
     "Automated transcript misrecognizes Hebrew and group singing",
@@ -90,5 +97,6 @@
       "class_id": "BS-TEACH-008",
       "correction": "Post-class noninstructional, potentially sensitive personal comment at 52:52–52:54. Keep raw private; exclude from learner-facing excerpts until reviewed."
     }
-  ]
+  ],
+  "last_integrity_review": "2026-10-16"
 }
