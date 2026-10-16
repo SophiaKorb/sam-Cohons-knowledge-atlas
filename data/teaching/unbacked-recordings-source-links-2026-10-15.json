@@ -1,0 +1,60 @@
+{
+  "audit_date": "2026-10-15",
+  "original_source": "Beit_Simcha_Audio_Links_From_Page.csv extracted from Beit Simcha public audiocasts page",
+  "drive_backup_status": "These ten source recordings have NOT been found as master files in the verified private Google Drive archive.",
+  "status": "source_links_only_unverified_live",
+  "noted_duplicate": "History of Zionism Class 1 has two preserved distinct files; neither listed as missing here.",
+  "missing_audio": [
+    {
+      "title": "History of Zionism Class Two",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/66cbb5c55eea9a77a3c75988/1724626431063/The+History+of+Zionism+class+2.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Introductory Judaism Class 5",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/677719e26bb13c7d16effbf1/1735858730436/audio1498751410.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Introductory Judaism Class 6",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/67771b06ffc5395d2343ab9b/1735859031917/audio1829641205.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Introductory Judaism Class 7",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/67771e0f76ab0063e4df0ff0/1735859815651/audio1184562399.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Adult Bar/Bat Mitzvah Class 1",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d7c339f441276bb55d1f/1759696878847/audio1461659962.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Adult Bar/Bat Mitzvah Class 2",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d83b9fd59426374dfcd0/1759696999925/audio1587786105.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Adult Bar/Bat Mitzvah Class 3",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d883aaf7635815599ee4/1759697074393/audio1661494356.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Adult Bar/Bat Mitzvah Class 4",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d8dfb005703a2fbc3f27/1759697145691/audio1650019696.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Adult Bar/Bat Mitzvah Class 5",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d91cfac93b0e6713b0aa/1759697230361/audio1361350514.m4a",
+      "master_preservation": "missing"
+    },
+    {
+      "title": "Adult Bar/Bat Mitzvah Class 6 Pesukei D'Zimrah",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68ec1bc675ffd06ae105d54e/1760304165436/audio1966825228.m4a",
+      "master_preservation": "missing"
+    }
+  ],
+  "instructions": "Do not mark preserved until audio bytes actually downloaded, backed up to private Drive and Library, and cataloged. No public redistribution approval inferred."
+}
