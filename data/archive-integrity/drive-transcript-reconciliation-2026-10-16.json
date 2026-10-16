@@ -1,0 +1,53 @@
+{
+  "audit_date": "2026-10-16",
+  "method": "Readback of ChatGPT-linked Google Drive folder entries and file sizes; independently recalculated SHA-256 of three locally mounted source transcript uploads",
+  "backup_root": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup",
+  "audio_counts": {
+    "teaching": 4,
+    "introductory_judaism": 13,
+    "other_teaching": 4,
+    "radio_private": 2,
+    "total": 23
+  },
+  "private_raw_transcripts": {
+    "zionism_class_1": true,
+    "zionism_class_2": true,
+    "zohar": true,
+    "adult_bnai_mitzvah_1": true,
+    "adult_bnai_mitzvah_2": true,
+    "total": 5
+  },
+  "reverified_source_sha256": [
+    {
+      "source": "audio1587786105.txt",
+      "sha256": "d5404d552ac40a6c301688601639d68bee6c713677763b4e0fefc3fa0170bf54",
+      "matches_atlas": true
+    },
+    {
+      "source": "audio1461659962.txt",
+      "sha256": "48f3f5a719658eebb5e1eaca9a142f2bfb2814a807047fb60bb157509577e3ce",
+      "matches_atlas": true
+    },
+    {
+      "source": "The+History+of+Zionism+class+2.txt",
+      "sha256": "f0a55a8810958701556caa5764093583ceb4fa0f7c20d4d4ebd8068136a2cfd6",
+      "matches_atlas": true
+    }
+  ],
+  "unbacked_recording_classes": [
+    "Introductory Judaism Class 5",
+    "Introductory Judaism Class 6",
+    "Introductory Judaism Class 7",
+    "History of Zionism Class 2",
+    "Adult B'nai Mitzvah Classes 1–6"
+  ],
+  "unique_missing_master_count": 10,
+  "facebook_sermon_video_timestamp_status": "No independently verified individual video-to-sermon timestamp matches. Public search surfaced unrelated results; no claims added.",
+  "corrected_navigation": "Excluded transcript 52:52–52:54 tail of B'nai Mitzvah Class 2 from learner navigation; preserved raw transcript unchanged.",
+  "verification_limits": [
+    "Listing/size readback does not prove bytes identical to historical source hosted at Squarespace.",
+    "Verified SHA-256 checks apply to three locally available uploaded transcripts, not Drive re-download checksums.",
+    "No listening-based word accuracy or participant permission verification.",
+    "No recordings, transcripts, or content published."
+  ]
+}
