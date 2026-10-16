@@ -1,0 +1,39 @@
+{
+  "accession_date": "2026-10-15",
+  "scope": "Metadata for privately held raw classroom transcripts. Text and participant speech NOT published in this repository.",
+  "records": [
+    {
+      "teaching_id": "BS-TEACH-001",
+      "title": "History of Zionism Class 1",
+      "source_audio_filename": "History+of+Zionism+Class+1+Rabbi+Samuel+M+Cohon+(1).m4a",
+      "source_transcript_filename": "History+of+Zionism+Class+1+Rabbi+Samuel+M+Cohon+(1).txt",
+      "transcript_sha256": "82eb2b343e83a0ecf7c734003e3719788dc1384a600fedba06fe50a72ce8d586",
+      "transcript_size_bytes": 73496,
+      "transcript_last_timecode": "1:25:22",
+      "drive_private_path": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup/Transcripts PRIVATE/Teaching/History of Zionism Class 1 RAW unverified transcript.txt",
+      "chatgpt_private_path": "/Cohon Audio Archive/Transcripts PRIVATE/Teaching/History of Zionism Class 1 RAW unverified transcript.txt",
+      "match_basis": "uploaded filename, topic and timecode approximately aligned with archive audio duration",
+      "transcription_provenance": "user-provided transcript; service/model not independently established",
+      "audio_verification": "not_checked_word_by_word",
+      "editorial_status": "raw_unverified",
+      "public_release_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-004",
+      "title": "Zohar: Crown of Kabbalah",
+      "source_audio_filename": "Zohar+Crown+of+Kabbalah+8+27+24.m4a",
+      "source_transcript_filename": "Zohar+Crown+of+Kabbalah+8+27+24.txt",
+      "transcript_sha256": "078149a713283732c5d0873a28411741bcdc182cf89bb25fde5a41511c229fd3",
+      "transcript_size_bytes": 77332,
+      "transcript_last_timecode": "1:30:54",
+      "drive_private_path": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup/Transcripts PRIVATE/Teaching/Zohar Crown of Kabbalah 2024-08-27 RAW unverified transcript.txt",
+      "chatgpt_private_path": "/Cohon Audio Archive/Transcripts PRIVATE/Teaching/Zohar Crown of Kabbalah 2024-08-27 RAW unverified transcript.txt",
+      "match_basis": "uploaded filename, title and timecode approximately aligned with archive audio duration",
+      "transcription_provenance": "user-provided transcript; service/model not independently established",
+      "audio_verification": "not_checked_word_by_word",
+      "editorial_status": "raw_unverified",
+      "public_release_approved": false
+    }
+  ],
+  "privacy_note": "Speaker-labeled transcripts include classroom discussion and participant speech. Maintain private access until consent/editorial review."
+}
