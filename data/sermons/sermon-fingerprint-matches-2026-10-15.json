@@ -1,0 +1,54 @@
+{
+  "research_date": "2026-10-15",
+  "facebook_page": "https://www.facebook.com/BeitSimchaTucson/",
+  "individual_service_post_urls_verified": 0,
+  "sermon_boundaries_verified": 0,
+  "source": "https://beitsimchatucson.org/blog",
+  "matching_workflow": "Preserve raw transcript with timestamps; search for distinctive manuscript passages; independently confirm actual sermon start and end by listening, allowing ad-lib departures from manuscript.",
+  "fingerprints": [
+    {
+      "title": "Choices, Choices, Choices",
+      "occasion": "Parshat Re'ei 5786",
+      "sermon_date": "2026-08-07",
+      "start_marker": "Our society is, by its nature, a place of infinite choice",
+      "end_marker": "choose well, and so live lives that truly matter"
+    },
+    {
+      "title": "Lessons of the Heart",
+      "occasion": "Shabbat Ekev 5786",
+      "sermon_date": null,
+      "first_party_post_date": "2026-08-18",
+      "start_marker": "Do you know this classic joke? An Orthodox, a Conservative, and a Reform rabbi",
+      "end_marker": "learn to listen to our own hearts"
+    },
+    {
+      "title": "Finding Gratitude",
+      "occasion": "Shabbat Sukkot 5787",
+      "sermon_date": null,
+      "first_party_post_date": "2026-09-30",
+      "start_marker": "Sukkot is our great holiday of thanksgiving",
+      "end_marker": null
+    },
+    {
+      "title": "Redemption: The Connections Between Us",
+      "occasion": "Kol Nidrei Eve 5787",
+      "sermon_date": null,
+      "start_marker": "What invisible threads connect us to other people?",
+      "end_marker": null
+    },
+    {
+      "title": "9/11, 25 Years: Before and Since",
+      "occasion": "Rosh Hashanah 5787",
+      "sermon_date": null,
+      "start_marker": null,
+      "end_marker": "we are all one people, one humanity"
+    }
+  ],
+  "constraints": [
+    "Manuscript publication date is not automatically sermon performance date",
+    "A manuscript quotation can be skipped, paraphrased or edited in delivery",
+    "An automated match is only a candidate until service video and boundaries are directly verified",
+    "No recording URL or timestamps invented"
+  ],
+  "next_dependency": "Individual Facebook service URL plus accessible timestamped transcript (SRT/VTT or equivalent)"
+}
