@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-10-15",
+  "purpose": "External institutional holding leads for previously failed Too Jewish radio links; not audio access or rights clearance",
+  "records": [
+    {
+      "episode_id": "tj-2004-09-19",
+      "broadcast_date": "2004-09-19",
+      "guest": "Evan Wolfson",
+      "historical_original_link_status": "dead",
+      "holding_institution": "Yale University Library Manuscripts and Archives",
+      "collection": "Freedom to Marry Records",
+      "call_number": "MS 2038",
+      "series": "VII Audiovisual materials",
+      "container": "Box 496",
+      "accession_identifier": "2016-M-0049-0090",
+      "carrier": "CD-R",
+      "catalogued_duration": "00:55:55",
+      "finding_aid": "https://hdl.handle.net/10079/fa/mssa.ms.2038",
+      "finding_aid_pdf": "https://ead-pdfs.library.yale.edu/5380.pdf",
+      "finding_aid_page": 120,
+      "match_basis": "Exact program title, guest, broadcast date and format listed in archival finding aid; same date and guest in Atlas",
+      "evidence_class": "institutional_holding_documented",
+      "media_bytes_obtained": false,
+      "digital_access_copy_verified": false,
+      "playback_verified": false,
+      "rights_cleared": false,
+      "access_instructions": "Request a digital use copy through Yale Manuscripts and Archives; original carrier not served directly."
+    }
+  ]
+}
