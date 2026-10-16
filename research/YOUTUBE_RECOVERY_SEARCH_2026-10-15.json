@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-15",
+  "platform": "YouTube",
+  "queries": [
+    "site:youtube.com \"Too Jewish\" \"Sam Cohon\" radio 2004",
+    "site:youtube.com \"Too Jewish\" \"Rabbi Sam Cohon\" 2005 2006 2007",
+    "site:youtube.com \"Too Jewish with Rabbi Sam Cohon\" interview",
+    "site:youtube.com/watch \"Sam Cohon\" radio"
+  ],
+  "results": "No verifiable YouTube upload matching an original 2004–2009 Too Jewish episode identified by indexed searches",
+  "limitation": "Search-engine indexing is incomplete and not a direct authenticated YouTube channel inventory. No inference that no uploads exist.",
+  "verified_recoveries": 0,
+  "rights_clearance": false,
+  "next_steps": [
+    "Check first-party channel handles only when a confirmed source link exists",
+    "Look for guest uploads with exact broadcast dates and independently match content",
+    "Treat unrelated Sam Cohon video lectures as distinct works"
+  ]
+}
