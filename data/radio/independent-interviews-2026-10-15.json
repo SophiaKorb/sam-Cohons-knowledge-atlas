@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-15",
+  "scope": "Guest-held recording sources and separate radio/interview productions; metadata only",
+  "records": [
+    {
+      "id": "GUEST-AUDIO-2012-001",
+      "atlas_episode_id": "tj-2012-05-06",
+      "broadcast_date": "2012-05-06",
+      "guest": "Professor Nancy K. Miller",
+      "episode_type": "Too Jewish interview",
+      "guest_page": "https://nancykmiller.com/nancy-k-miller/",
+      "linked_audio_url": "https://nancykmiller.com/mp3s/Too_Jewish_5-6-12-edited.mp3",
+      "source_confirmation": "Guest's official website explicitly labels linked MP3 as Too Jewish with Rabbi Sam Cohon on May 6, 2012; Atlas annual data confirms date and guest",
+      "retrieval_observation": "Web fetch reports audio/mpeg unsupported content type; byte signature and playback were not tested",
+      "source_type": "guest_hosted_audio_link",
+      "original_atlas_link_historical_status": "live",
+      "newly_recovered_broken_episode": false,
+      "media_bytes_acquired": false,
+      "playback_verified": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "MEDIA-2016-001",
+      "atlas_episode_id": null,
+      "source": "Arizona Public Media",
+      "title": "Tucson Religious Leaders Unite to Defend Muslim Community",
+      "source_url": "https://support.azpm.org/s/36170-tucson-religious-leaders-unite-in-defense-of-muslim-community/",
+      "published_or_updated_date": "2016-01-04",
+      "participants": [
+        "Rabbi Sam Cohon",
+        "Ahmed Meiloud",
+        "Bishop Gerald Kicanas"
+      ],
+      "publisher": "Arizona Public Media",
+      "source_type": "independently_published_radio_interview",
+      "description": "Publisher page invites readers to listen to the conversation; underlying media source unverified",
+      "separate_work_not_too_jewish": true,
+      "media_bytes_acquired": false,
+      "playback_verified": false,
+      "rights_cleared": false
+    },
+    {
+      "id": "GUEST-2018-001",
+      "atlas_episode_id": "tj-2018-04-22",
+      "guest": "Carine Warsawski",
+      "guest_source": "https://www.trybalgatherings.com/press",
+      "guest_press_date": "2018-06-06",
+      "atlas_broadcast_date": "2018-04-22",
+      "note": "Guest organization press page lists Too Jewish interview with date different from recorded broadcast. Press date must not overwrite Atlas broadcast date; likely posting date, unverified.",
+      "source_type": "guest_press_crossreference",
+      "newly_recovered_broken_episode": false,
+      "media_bytes_acquired": false,
+      "rights_cleared": false
+    }
+  ],
+  "note": "Do not sum these manifestations as new Too Jewish episodes."
+}
