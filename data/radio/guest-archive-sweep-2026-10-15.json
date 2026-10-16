@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-15",
+  "scope": "2004-2009 failed-link guest archive targeted search",
+  "reviewed_episode_ids": [
+    "tj-2004-12-12",
+    "tj-2004-10-24",
+    "tj-2004-04-18",
+    "tj-2005-12-18",
+    "tj-2005-10-16",
+    "tj-2007-12-02",
+    "tj-2007-11-18",
+    "tj-2009-11-29",
+    "tj-2004-09-19"
+  ],
+  "confirmed_new_guest_hosted_audio": [],
+  "already_documented_external_holding": [
+    "tj-2004-09-19"
+  ],
+  "independent_guest_corroboration": [
+    "tj-2004-04-18"
+  ],
+  "negative_evidence_policy": "Search did not establish guest-hosted recordings for sampled episodes. Do not assert nonexistence, and do not conflate unrelated mentions of 'too Jewish' with the radio series.",
+  "new_context_source": {
+    "url": "https://www.phoenixnewtimes.com/arts-culture/jew-talk-too-much-6397604/",
+    "date": "2005-03-17",
+    "evidence": "Contemporaneous profile documents Too Jewish program carriage on Phoenix KXAM 1310 and program history",
+    "kind": "historical_distribution_context_not_audio"
+  },
+  "later_distribution_lead": {
+    "url": "https://www.wesaidgotravel.com/brave-ish-on-too-jewish-radio/",
+    "date": "2023-09-03",
+    "evidence": "Guest-authored article references historical Apple/iTunes podcast ID 391627329 and official station/streaming routes; an archival discovery lead, not verification that 2004-2009 episodes remain there",
+    "apple_podcast_legacy_id": "391627329",
+    "kind": "catalog_discovery_only"
+  },
+  "summary": {
+    "sampled_early_episodes": 9,
+    "new_playable_mp3s_verified": 0,
+    "new_failed_link_recoveries": 0,
+    "rights_approvals": 0
+  }
+}
