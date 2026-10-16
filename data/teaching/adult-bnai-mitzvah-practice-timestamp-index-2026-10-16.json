@@ -63,7 +63,7 @@
       ],
       [
         "47:19",
-        "52:49",
+        "52:51",
         "Prayer book logistics and closing"
       ]
     ]
@@ -75,5 +75,20 @@
     "Singing and shofar exact timing unverified without original audio"
   ],
   "audio_masters": "Not yet backed up",
-  "publication": "Navigation metadata only, no classroom dialogue"
+  "publication": "Navigation metadata only, no classroom dialogue",
+  "review_date": "2026-10-16",
+  "quality_corrections": [
+    {
+      "class_id": "BS-TEACH-008",
+      "correction": "Transcript continues to 52:54, beyond previous 52:49 navigation endpoint."
+    },
+    {
+      "class_id": "BS-TEACH-008",
+      "correction": "16-second span 46:01–46:17 contains no transcribed speech; shofar onset/ending requires audio verification."
+    },
+    {
+      "class_id": "BS-TEACH-008",
+      "correction": "Post-class noninstructional, potentially sensitive personal comment at 52:52–52:54. Keep raw private; exclude from learner-facing excerpts until reviewed."
+    }
+  ]
 }
