@@ -1,0 +1,79 @@
+{
+  "audited_at": "2026-10-15",
+  "scope": "Cohon original audio backed up in Google Drive; filenames and byte sizes read back; no fresh audio-level content review",
+  "drive_root": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup",
+  "verified_drive_folders": {
+    "Introductory Judaism": {
+      "present_classes": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "missing_classes": [
+        5,
+        6,
+        7
+      ],
+      "count": 13
+    },
+    "Teaching": {
+      "present": [
+        "History of Zionism Class 1 named source",
+        "History of Zionism Class 1 alternate source",
+        "History of Zionism Class 3",
+        "Zohar: Crown of Kabbalah"
+      ],
+      "missing": [
+        "History of Zionism Class 2"
+      ],
+      "count": 4
+    },
+    "Other Teaching": {
+      "present": [
+        "Torah Tykes songs original",
+        "Shema original",
+        "Shema web ready version 1",
+        "Shema web ready version 2"
+      ],
+      "count": 4
+    },
+    "Radio PRIVATE": {
+      "present": [
+        "Too Jewish 2026-06-28",
+        "Too Jewish 2026-09-27"
+      ],
+      "count": 2
+    }
+  },
+  "audio_file_count_in_verified_folders": 23,
+  "missing_source_links": [
+    {
+      "recording": "History of Zionism Class 2",
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/66cbb5c55eea9a77a3c75988/1724626431063/The+History+of+Zionism+class+2.m4a",
+      "provenance": "Earlier extracted Beit_Simcha_Audio_Links_From_Page.csv"
+    },
+    {
+      "recording": "Introductory Judaism Class 5",
+      "provenance": "Earlier extracted Beit_Simcha_Audio_Links_From_Page.csv"
+    },
+    {
+      "recording": "Introductory Judaism Class 6",
+      "provenance": "Earlier extracted Beit_Simcha_Audio_Links_From_Page.csv"
+    },
+    {
+      "recording": "Introductory Judaism Class 7",
+      "provenance": "Earlier extracted Beit_Simcha_Audio_Links_From_Page.csv"
+    }
+  ],
+  "boundary": "Size/name verification is not proof of byte-level identity with website source or correctness of speaker/session labeling. No public redistribution or manuscript/transcript verification authorized."
+}
