@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-10-15",
+  "evidence_scope": "Third-party/guest institutional or autobiographical corroboration, not audio holdings unless expressly stated",
+  "records": [
+    {
+      "episode_id": "tj-2004-04-18",
+      "broadcast_date": "2004-04-18",
+      "guest": "Gottfried Wagner",
+      "source_type": "guest_professional_chronology",
+      "source_url": "https://gottfriedhwagner.eu/wp-content/uploads/2025/01/organized.pdf",
+      "source_assertion": "Radio Tucson, April 18 2004, program Too Jewish with Rabbi Sam Cohon",
+      "match_type": "exact_date_guest_program",
+      "original_audio_link_historical_status": "dead",
+      "audio_location_verified": false,
+      "playback_verified": false,
+      "rights_cleared": false
+    },
+    {
+      "episode_id": null,
+      "guest": "Carol L. Meyers",
+      "source_type": "university_scholarly_activity_record",
+      "source_url": "https://scholars.duke.edu/person/carol/scholarly-works/artistic-productions",
+      "source_assertion": "Women at the Time of the Bible interview on Too Jewish; listing dated March 8 2006",
+      "match_type": "unresolved_atlas_date_matching",
+      "audio_location_verified": false,
+      "playback_verified": false,
+      "rights_cleared": false
+    }
+  ],
+  "prior_institutional_audio_holding": "See data/radio/external-holdings-2026-10-15.json for Yale Evan Wolfson CD-R; not duplicated in this ledger"
+}
