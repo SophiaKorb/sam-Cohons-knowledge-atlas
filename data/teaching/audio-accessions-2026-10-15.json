@@ -1,0 +1,57 @@
+{
+  "accession_date": "2026-10-15",
+  "archive_role": "Teaching audio original manifests; binary masters held in private ChatGPT Library, NOT this public GitHub repository",
+  "source_collection": "Beit Simcha audiocasts",
+  "records": [
+    {
+      "teaching_id": "BS-TEACH-001",
+      "title": "History of Zionism Class 1",
+      "manifestations": [
+        {
+          "source_filename": "History+of+Zionism+Class+1+Rabbi+Samuel+M+Cohon+(1).m4a",
+          "size_bytes": 42701237,
+          "duration_seconds": 5126.549,
+          "sha256": "d6daf248724f3b623b93a68c08c4f171018011ed22094ff6cf4f023aca40a6ee",
+          "private_library_path": "/Cohon Audio Archive/Teaching/History of Zionism Class 1 named source.m4a"
+        },
+        {
+          "source_filename": "audio1193809768.m4a",
+          "size_bytes": 81582616,
+          "duration_seconds": 5128.896,
+          "sha256": "793d6bdd4199ca817a59a2212949802d116937a62f02051e2204338d78dcb8d7",
+          "private_library_path": "/Cohon Audio Archive/Teaching/History of Zionism Class 1 alternate audio1193809768.m4a"
+        }
+      ],
+      "editorial_note": "Distinct byte hashes, content-equivalence undetermined."
+    },
+    {
+      "teaching_id": "BS-TEACH-003",
+      "title": "History of Zionism Class 3",
+      "manifestations": [
+        {
+          "source_filename": "History+of+Zionism+Class+Three.Cohon.m4a",
+          "size_bytes": 83832913,
+          "duration_seconds": 5270.368,
+          "sha256": "5cdebef605b83a75e812b5c70b15b54ad1b9e04de39f1a8633badda2ff564eca",
+          "private_library_path": "/Cohon Audio Archive/Teaching/History of Zionism Class 3.m4a"
+        }
+      ]
+    },
+    {
+      "teaching_id": "BS-TEACH-004",
+      "title": "Zohar: Crown of Kabbalah",
+      "manifestations": [
+        {
+          "source_filename": "Zohar+Crown+of+Kabbalah+8+27+24.m4a",
+          "size_bytes": 86785125,
+          "duration_seconds": 5455.968,
+          "sha256": "34244e27644eb32b3af869558e0e30cb3a8b85667a71d84a1b6092aa43cd09ba",
+          "private_library_path": "/Cohon Audio Archive/Teaching/Zohar Crown of Kabbalah 2024-08-27.m4a"
+        }
+      ]
+    }
+  ],
+  "excluded_private_radio_recording": "Too Jewish 2026-09-27 private master was saved to private Radio PRIVATE Library area but is deliberately excluded from public teaching accession records.",
+  "transcription_status": "not_yet_transcribed_from_these_sources",
+  "publication_status": "No audio publication or reuse approval inferred."
+}
