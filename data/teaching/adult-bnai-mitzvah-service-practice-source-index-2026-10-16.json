@@ -13,7 +13,11 @@
       "focus_verified_from_title": "Syllabus review",
       "download_status": "not_acquired",
       "transcript_status": "not_acquired",
-      "service_rehearsal_markers": "pending listening review"
+      "service_rehearsal_markers": "pending listening review",
+      "first_party_display_title": "Adult Bar/Bat Mitzvah Class One Syllabus Review",
+      "content_verification": "title_only",
+      "audio_source_http_status": "not_checked_dns_failure",
+      "master_backup": "not_preserved"
     },
     {
       "id": "BS-TEACH-008",
@@ -23,7 +27,11 @@
       "focus_verified_from_title": null,
       "download_status": "not_acquired",
       "transcript_status": "not_acquired",
-      "service_rehearsal_markers": "pending listening review"
+      "service_rehearsal_markers": "pending listening review",
+      "first_party_display_title": "Adult Bar/Bat Mitzvah Class 2",
+      "content_verification": "title_only",
+      "audio_source_http_status": "not_checked_dns_failure",
+      "master_backup": "not_preserved"
     },
     {
       "id": "BS-TEACH-009",
@@ -33,7 +41,11 @@
       "focus_verified_from_title": null,
       "download_status": "not_acquired",
       "transcript_status": "not_acquired",
-      "service_rehearsal_markers": "pending listening review"
+      "service_rehearsal_markers": "pending listening review",
+      "first_party_display_title": "Adult Bar/Bat Mitzvah Class 3",
+      "content_verification": "title_only",
+      "audio_source_http_status": "not_checked_dns_failure",
+      "master_backup": "not_preserved"
     },
     {
       "id": "BS-TEACH-010",
@@ -43,7 +55,11 @@
       "focus_verified_from_title": null,
       "download_status": "not_acquired",
       "transcript_status": "not_acquired",
-      "service_rehearsal_markers": "pending listening review"
+      "service_rehearsal_markers": "pending listening review",
+      "first_party_display_title": "Adult Bar/Bat Mitzvah Class 4",
+      "content_verification": "title_only",
+      "audio_source_http_status": "not_checked_dns_failure",
+      "master_backup": "not_preserved"
     },
     {
       "id": "BS-TEACH-011",
@@ -53,7 +69,11 @@
       "focus_verified_from_title": null,
       "download_status": "not_acquired",
       "transcript_status": "not_acquired",
-      "service_rehearsal_markers": "pending listening review"
+      "service_rehearsal_markers": "pending listening review",
+      "first_party_display_title": "Adult Bar/Bat Mitzvah Class 5",
+      "content_verification": "title_only",
+      "audio_source_http_status": "not_checked_dns_failure",
+      "master_backup": "not_preserved"
     },
     {
       "id": "BS-TEACH-012",
@@ -63,7 +83,16 @@
       "focus_verified_from_title": "Pesukei D'Zimrah",
       "download_status": "not_acquired",
       "transcript_status": "not_acquired",
-      "service_rehearsal_markers": "pending listening review"
+      "service_rehearsal_markers": "pending listening review",
+      "first_party_display_title": "Adult Bar-Bat Mitzvah Class 6, Pesukei D'Zimrah",
+      "content_verification": "title_only",
+      "audio_source_http_status": "not_checked_dns_failure",
+      "master_backup": "not_preserved"
     }
-  ]
+  ],
+  "last_reconciled": "2026-10-16",
+  "reconciliation_source": "https://beitsimchatucson.org/videocasts-from-beit-simcha",
+  "audio_retrieval_check": "Attempted ranged GET to static1.squarespace.com, but this runtime failed DNS resolution before HTTP response. This does not mean links are broken.",
+  "service_section_mapping_rule": "Only assign a specific service section when first-party title or direct audio/transcript review establishes it; these are practice/rehearsal sessions, not generic lecture modules.",
+  "rehearsal_index_status": "class order verified; boundaries, chants, prayers and participant practice remain unreviewed"
 }
