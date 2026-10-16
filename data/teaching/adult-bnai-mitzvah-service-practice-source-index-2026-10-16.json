@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-10-16",
+  "series": "Adult B'nai Mitzvah Service Practice",
+  "first_party_page": "https://beitsimchatucson.org/videocasts-from-beit-simcha",
+  "status": "source-links-only; audio not backed up or reviewed",
+  "privacy": "No classroom transcript/audio publication approved",
+  "records": [
+    {
+      "id": "BS-TEACH-007",
+      "title": "Class 1: Syllabus Review",
+      "sequence": 1,
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d7c339f441276bb55d1f/1759696878847/audio1461659962.m4a",
+      "focus_verified_from_title": "Syllabus review",
+      "download_status": "not_acquired",
+      "transcript_status": "not_acquired",
+      "service_rehearsal_markers": "pending listening review"
+    },
+    {
+      "id": "BS-TEACH-008",
+      "title": "Class 2",
+      "sequence": 2,
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d83b9fd59426374dfcd0/1759696999925/audio1587786105.m4a",
+      "focus_verified_from_title": null,
+      "download_status": "not_acquired",
+      "transcript_status": "not_acquired",
+      "service_rehearsal_markers": "pending listening review"
+    },
+    {
+      "id": "BS-TEACH-009",
+      "title": "Class 3",
+      "sequence": 3,
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d883aaf7635815599ee4/1759697074393/audio1661494356.m4a",
+      "focus_verified_from_title": null,
+      "download_status": "not_acquired",
+      "transcript_status": "not_acquired",
+      "service_rehearsal_markers": "pending listening review"
+    },
+    {
+      "id": "BS-TEACH-010",
+      "title": "Class 4",
+      "sequence": 4,
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d8dfb005703a2fbc3f27/1759697145691/audio1650019696.m4a",
+      "focus_verified_from_title": null,
+      "download_status": "not_acquired",
+      "transcript_status": "not_acquired",
+      "service_rehearsal_markers": "pending listening review"
+    },
+    {
+      "id": "BS-TEACH-011",
+      "title": "Class 5",
+      "sequence": 5,
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68e2d91cfac93b0e6713b0aa/1759697230361/audio1361350514.m4a",
+      "focus_verified_from_title": null,
+      "download_status": "not_acquired",
+      "transcript_status": "not_acquired",
+      "service_rehearsal_markers": "pending listening review"
+    },
+    {
+      "id": "BS-TEACH-012",
+      "title": "Class 6: Pesukei D'Zimrah",
+      "sequence": 6,
+      "source_url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/68ec1bc675ffd06ae105d54e/1760304165436/audio1966825228.m4a",
+      "focus_verified_from_title": "Pesukei D'Zimrah",
+      "download_status": "not_acquired",
+      "transcript_status": "not_acquired",
+      "service_rehearsal_markers": "pending listening review"
+    }
+  ]
+}
