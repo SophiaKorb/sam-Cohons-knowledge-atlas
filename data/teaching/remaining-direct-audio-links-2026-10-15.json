@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "status": "Historical Squarespace direct source links extracted from user's existing Beit_Simcha_Audio_Links_From_Page.csv; source URL not a verified backed-up audio file",
+  "unbacked_source_recordings": [
+    {
+      "title": "Introductory Judaism Class 5",
+      "url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/677719e26bb13c7d16effbf1/1735858730436/audio1498751410.m4a"
+    },
+    {
+      "title": "Introductory Judaism Class 6",
+      "url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/67771b06ffc5395d2343ab9b/1735859031917/audio1829641205.m4a"
+    },
+    {
+      "title": "Introductory Judaism Class 7",
+      "url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/67771e0f76ab0063e4df0ff0/1735859815651/audio1184562399.m4a"
+    },
+    {
+      "title": "History of Zionism Class 2",
+      "url": "https://static1.squarespace.com/static/60b27e1f8856205429689e16/t/66cbb5c55eea9a77a3c75988/1724626431063/The+History+of+Zionism+class+2.m4a"
+    }
+  ],
+  "other_missing_recordings": "Adult B'nai Mitzvah Classes 1–6 are listed by first-party Beit Simcha but no audio masters currently in audited Drive backup; direct URLs available from prior extraction CSV.",
+  "note": "Attempted direct Range request for Zionism Class 2 from this runtime failed on DNS, not on a confirmed HTTP 404. Do not mark link as dead. No audio acquired from URLs in this cycle."
+}
