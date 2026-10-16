@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-15",
+  "purpose": "Sermon manuscript-to-Facebook service recording matching queue",
+  "service_video_source": "https://www.facebook.com/BeitSimchaTucson/",
+  "church_service_evidence": "https://beitsimchatucson.org/worship",
+  "policy": "Service stream should not be considered a verified audio recording or timestamp until Facebook post is individually inspected.",
+  "sermons": [
+    {
+      "title": "Choices, Choices, Choices",
+      "sermon_date": "2026-08-07",
+      "manuscript": "https://beitsimchatucson.org/blog/choices-choices-choices-1",
+      "video_url": null,
+      "sermon_start_seconds": null,
+      "sermon_end_seconds": null,
+      "status": "manuscript_verified_video_unmatched"
+    },
+    {
+      "title": "Lessons of the Heart",
+      "publication_date": "2026-08-18",
+      "manuscript_index": "https://beitsimchatucson.org/blog",
+      "video_url": null,
+      "sermon_start_seconds": null,
+      "sermon_end_seconds": null,
+      "status": "manuscript_verified_delivery_date_unresolved"
+    },
+    {
+      "title": "Finding Gratitude",
+      "publication_date": "2026-09-30",
+      "occasion": "Shabbat Sukkot 5787",
+      "manuscript_index": "https://beitsimchatucson.org/blog",
+      "video_url": null,
+      "sermon_start_seconds": null,
+      "sermon_end_seconds": null,
+      "status": "manuscript_verified_video_unmatched"
+    },
+    {
+      "title": "Redemption: The Connections Between Us",
+      "occasion": "Kol Nidrei 5787",
+      "manuscript_index": "https://beitsimchatucson.org/blog",
+      "video_url": null,
+      "sermon_start_seconds": null,
+      "sermon_end_seconds": null,
+      "status": "manuscript_verified_video_unmatched"
+    },
+    {
+      "title": "9/11, 25 Years: Before and Since",
+      "occasion": "Rosh Hashanah Eve 5787",
+      "manuscript_index": "https://beitsimchatucson.org/blog",
+      "video_url": null,
+      "sermon_start_seconds": null,
+      "sermon_end_seconds": null,
+      "status": "manuscript_verified_video_unmatched"
+    }
+  ],
+  "preservation_gates": {
+    "video_access": false,
+    "sermon_boundaries_verified": false,
+    "transcription_generated": false,
+    "editorial_approval": false,
+    "republication_approval": false
+  }
+}
