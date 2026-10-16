@@ -1,0 +1,23 @@
+{
+  "searched_at": "2026-10-15",
+  "platform": "SoundCloud",
+  "searches": [
+    "site:soundcloud.com \"Too Jewish\" \"Sam Cohon\"",
+    "site:soundcloud.com \"Too Jewish\" \"Rabbi Sam\" radio",
+    "site:soundcloud.com \"Too Jewish\" \"Cohon\" 2005 2006",
+    "soundcloud too jewish radio sam cohon podcast"
+  ],
+  "outcome": "No identifiable SoundCloud recording or channel belonging to Too Jewish with Rabbi Sam Cohon found in indexed results.",
+  "false_positive": {
+    "url": "https://soundcloud.com/jewtoo",
+    "title": "Jew Too Podcast",
+    "reason": "Different podcast, created by Rabbi Emily Cohen; do not associate with Cohon’s Too Jewish"
+  },
+  "comparison_sources": [
+    "https://toojewishradio.podbean.com/p/about/",
+    "https://podcasts.apple.com/us/podcast/too-jewish/id391627329"
+  ],
+  "confirmed_new_audio": 0,
+  "scope_limit": "Web-index discovery only, not exhaustive authenticated SoundCloud platform search; no missing audio absence claim.",
+  "rights_clearance": false
+}
