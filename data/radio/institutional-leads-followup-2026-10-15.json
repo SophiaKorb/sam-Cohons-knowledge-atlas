@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-10-15",
+  "scope": "Independent historical references and separately published audio; no replacement Too Jewish recordings established",
+  "leads": [
+    {
+      "source": "Duke University scholarly works",
+      "url": "https://scholars.duke.edu/person/carol/scholarly-works/artistic-productions",
+      "person": "Carol L. Meyers",
+      "description": "Too Jewish interview Women at the Time of the Bible listed March 8 2006",
+      "assessment": "University catalog confirms appearance, but given date is Wednesday; no matching 2006 Sunday-episode guest found in annual Atlas file. Do not invent an episode ID.",
+      "kind": "unresolved_guest_appearance",
+      "audio_recovered": false
+    },
+    {
+      "source": "Gottfried Wagner chronology",
+      "url": "https://gottfriedhwagner.eu/wp-content/uploads/2025/01/organized.pdf",
+      "episode_id": "tj-2004-04-18",
+      "assessment": "Independent guest chronology confirms 2004-04-18 Too Jewish participation. No audio verified.",
+      "kind": "episode_corroboration",
+      "audio_recovered": false
+    },
+    {
+      "source": "Hearing Voices radio archive",
+      "url": "https://www.hearingvoices.org/hv-series/",
+      "description": "2008-04-30 Shoah program credits Rabbi Samuel Cohon contribution",
+      "assessment": "A separately produced radio broadcast featuring Sam; not shown to be an original Too Jewish episode or a replacement for a failed MP3. Investigate separately as a new potential media-work manifestation.",
+      "kind": "separate_media_work",
+      "audio_recovered": false
+    }
+  ],
+  "verification_note": "No audio playback, new file-byte acquisition, or publication authorization undertaken."
+}
