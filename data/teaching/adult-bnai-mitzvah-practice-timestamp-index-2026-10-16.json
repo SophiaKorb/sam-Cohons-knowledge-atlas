@@ -1,0 +1,79 @@
+{
+  "created": "2026-10-16",
+  "classification": "private transcript-derived navigation, not audio-verified",
+  "source_ids": [
+    "BS-TEACH-007",
+    "BS-TEACH-008"
+  ],
+  "class_1": {
+    "time_precision": "single block 00:03 to 52:49; section-specific timestamps unavailable",
+    "confirmed_focus": [
+      "complete Shabbat morning service leading",
+      "Hebrew reading and prayer book practice",
+      "Torah chanting preparation"
+    ]
+  },
+  "class_2": {
+    "time_precision": "approximate transcript-block ranges; verify listening before treating as exact",
+    "navigation": [
+      [
+        "00:02",
+        "06:06",
+        "Shabbat Morning 2 orientation"
+      ],
+      [
+        "06:07",
+        "13:27",
+        "Tallit blessing and Mah Tovu introduction"
+      ],
+      [
+        "14:09",
+        "18:14",
+        "Mah Tovu group singing"
+      ],
+      [
+        "18:27",
+        "23:45",
+        "Mah Tovu translation and practice resources"
+      ],
+      [
+        "24:08",
+        "26:31",
+        "Mah Tovu repeated singing"
+      ],
+      [
+        "26:31",
+        "34:46",
+        "Elohai Neshamah study and chant"
+      ],
+      [
+        "34:54",
+        "40:37",
+        "Elohai Neshamah review; Birkhot HaShachar introduction"
+      ],
+      [
+        "40:50",
+        "46:00",
+        "Morning blessings practice; shofar setup"
+      ],
+      [
+        "46:00",
+        "47:19",
+        "Shofar demonstration and discussion"
+      ],
+      [
+        "47:19",
+        "52:49",
+        "Prayer book logistics and closing"
+      ]
+    ]
+  },
+  "qa_flags": [
+    "Automated transcript misrecognizes Hebrew and group singing",
+    "Speaker numbering not independently verified",
+    "Class 1 single whole-file timecode prevents finer navigation",
+    "Singing and shofar exact timing unverified without original audio"
+  ],
+  "audio_masters": "Not yet backed up",
+  "publication": "Navigation metadata only, no classroom dialogue"
+}
