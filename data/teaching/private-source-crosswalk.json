@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-10-15",
+  "scope": "Metadata-only associations between public teaching listings and separately held private material",
+  "privacy": "Public repository contains no private audio/transcript bytes, attendee names, or unreleased quotations",
+  "matches": [
+    {
+      "teaching_id": "BS-TEACH-005",
+      "source_listing_date": "2024-10-27",
+      "private_asset_type": "original_audio_and_raw_transcript",
+      "match_status": "associated_from_private_intake_not_word_verified",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-006",
+      "source_listing_date": "2024-11-03",
+      "private_asset_type": "original_audio_only",
+      "match_status": "legacy_Class_4_txt_is_candidate_only_not_pairing",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-013",
+      "source_listing_date": "2024-11-10",
+      "private_asset_type": "original_audio_and_raw_transcript",
+      "match_status": "associated_from_private_intake_not_word_verified",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-014",
+      "source_listing_date": "2024-11-17",
+      "private_asset_type": "original_audio_only",
+      "match_status": "matching_raw_transcript_not_identified",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-015",
+      "source_listing_date": "2024-11-24",
+      "private_asset_type": "raw_transcript",
+      "match_status": "session_date_matches_listing_but_private_transcript_class_identity_unconfirmed",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-017",
+      "source_listing_date": "2024-12-15",
+      "private_asset_type": "raw_transcript",
+      "match_status": "topic_and_date_correspondence_not_audio_verified",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-020",
+      "source_listing_date": "2025-02-09",
+      "private_asset_type": "raw_transcript",
+      "match_status": "topic_date_correspondence_not_audio_verified",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-021",
+      "source_listing_date": "2025-02-16",
+      "private_asset_type": "raw_transcript",
+      "match_status": "topic_date_correspondence_not_audio_verified",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-022",
+      "source_listing_date": null,
+      "private_asset_type": "raw_transcript",
+      "match_status": "probable_history_part_1;date_provisional",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-023",
+      "source_listing_date": null,
+      "private_asset_type": "raw_transcript",
+      "match_status": "probable_history_part_2;date_provisional",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    },
+    {
+      "teaching_id": "BS-TEACH-026",
+      "source_listing_date": null,
+      "private_asset_type": "partial_raw_transcript",
+      "match_status": "possible_conversion_topic_match;incomplete_and_unconfirmed",
+      "transcript_audio_verified": false,
+      "public_republication_approved": false
+    }
+  ],
+  "unmatched_private_assets": [
+    "Torah Tykes song recording — separate collection, no Shema",
+    "Shema-related MP3 variants — source authenticity/permissions unresolved"
+  ],
+  "note": "Not a count of new unique recordings; private files may be manifestations of existing public listing records."
+}
