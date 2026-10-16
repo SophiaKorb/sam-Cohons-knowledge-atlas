@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-10-16",
+  "collection": "Adult Bar/Bat Mitzvah — Service Practice & Preparation",
+  "classification_basis": "User clarified that this series is for practicing the service, not simply academic lectures.",
+  "source_index": "data/teaching/beit-simcha-audiocasts.json",
+  "record_ids": [
+    "BS-TEACH-007",
+    "BS-TEACH-008",
+    "BS-TEACH-009",
+    "BS-TEACH-010",
+    "BS-TEACH-011",
+    "BS-TEACH-012",
+    "BS-TEACH-013",
+    "BS-TEACH-015"
+  ],
+  "pedagogical_role": "service_rehearsal_and_preparation",
+  "archive_treatment": {
+    "preserve_class_sequence": true,
+    "add_service_section_tags_after_audio_review": true,
+    "distinguish_instruction_demonstration_participant_practice": true,
+    "retain_audio_originals_privately": true,
+    "do_not_assume_covered_service_elements_except_explicit_title": true
+  },
+  "confirmed_topic": {
+    "session": 6,
+    "topic": "Pesukei D'Zimrah"
+  },
+  "content_status": "recordings_not_yet_listened_to_for_liturgical_sections",
+  "privacy": "Class participants may appear in recordings; retain private access and review before sharing."
+}
