@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-16",
+  "status": "private raw transcripts preserved; text not cleared for public release",
+  "privacy": "Classroom participants and potentially identifiable voices; no verbatim dialogue included in this public metadata",
+  "transcript_accessions": [
+    {
+      "id": "BS-TEACH-002",
+      "title": "History of Zionism Class 2",
+      "raw_filename": "The+History+of+Zionism+class+2.txt",
+      "sha256": "f0a55a8810958701556caa5764093583ceb4fa0f7c20d4d4ebd8068136a2cfd6",
+      "bytes": 68460,
+      "segments": 28,
+      "speaker_labels": 6,
+      "last_seconds": 3472,
+      "drive_path": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup/Transcripts PRIVATE/Teaching/History of Zionism Class 2 RAW unverified transcript.txt",
+      "library_path": "/Cohon Audio Archive/Transcripts PRIVATE/Teaching/History of Zionism Class 2 RAW unverified transcript.txt",
+      "topic_evidence": [
+        "early immigration to Ottoman Palestine",
+        "First and Second Aliyah",
+        "Jewish population and migration",
+        "Moses Montefiore and Edmond de Rothschild"
+      ],
+      "method": "Transcript content only; underlying audio master not backed up.",
+      "transcript_verification": "raw_unverified",
+      "source_audio_preservation": "source_link_only_no_master_backup",
+      "published": false
+    },
+    {
+      "id": "BS-TEACH-007",
+      "title": "Adult Bar/Bat Mitzvah Class 1: Syllabus Review",
+      "raw_filename": "audio1461659962.txt",
+      "sha256": "48f3f5a719658eebb5e1eaca9a142f2bfb2814a807047fb60bb157509577e3ce",
+      "bytes": 42154,
+      "segments": 1,
+      "speaker_labels": 1,
+      "last_seconds": 3169,
+      "drive_path": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup/Transcripts PRIVATE/Adult Bnai Mitzvah/Class 01 RAW unverified transcript.txt",
+      "library_path": "/Cohon Audio Archive/Transcripts PRIVATE/Adult Bnai Mitzvah/Class 01 RAW unverified transcript.txt",
+      "topic_evidence": [
+        "Shabbat morning service leadership goal",
+        "Hebrew reading and regular practice",
+        "Birchot HaShachar / morning blessings",
+        "service sections and Torah chanting preparation",
+        "Mishkan T'filah Shabbat prayer book"
+      ],
+      "method": "Transcript content only; long single speaker label spans full recording; participant speech recognition not verified.",
+      "transcript_verification": "raw_unverified",
+      "source_audio_preservation": "source_link_only_no_master_backup",
+      "published": false
+    },
+    {
+      "id": "BS-TEACH-008",
+      "title": "Adult Bar/Bat Mitzvah Class 2",
+      "raw_filename": "audio1587786105.txt",
+      "sha256": "d5404d552ac40a6c301688601639d68bee6c713677763b4e0fefc3fa0170bf54",
+      "bytes": 27348,
+      "segments": 49,
+      "speaker_labels": 5,
+      "last_seconds": 3174,
+      "drive_path": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup/Transcripts PRIVATE/Adult Bnai Mitzvah/Class 02 RAW unverified transcript.txt",
+      "library_path": "/Cohon Audio Archive/Transcripts PRIVATE/Adult Bnai Mitzvah/Class 02 RAW unverified transcript.txt",
+      "topic_evidence": [
+        "Shabbat Morning 2 service",
+        "blessing for the tallit / tzitzit",
+        "Mah Tovu reading and melody rehearsal",
+        "Elohai Neshamah reading and chant practice",
+        "Birkhot HaShachar / morning blessings"
+      ],
+      "method": "Transcript content only; prayers and transliterations subject to manual audio verification.",
+      "transcript_verification": "raw_unverified",
+      "source_audio_preservation": "source_link_only_no_master_backup",
+      "published": false
+    }
+  ],
+  "structural_note": "Timestamped speech segments do not establish actual word-level accuracy or speaker identity. Class 1's entire recording has one speaker-labeled block, limiting structural QA.",
+  "next_step": "Obtain originals, compare transcript against audio, correct Hebrew and liturgical chants, segment teaching versus singing and participant rehearsal."
+}
