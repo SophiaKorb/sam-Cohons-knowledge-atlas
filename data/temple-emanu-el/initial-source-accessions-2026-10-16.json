@@ -1,0 +1,77 @@
+{
+  "collection": "Temple Emanu-El Tucson — Rabbi Samuel M. Cohon era",
+  "status": "initial verified discovery accession",
+  "created": "2026-10-16",
+  "scope": "Cohon's 1998–2017 tenure; first-party synagogue newsletter, attributable authored pieces, teaching evidence, and contextual institutional records",
+  "independent_of": "Congregation Beit Simcha writing catalog",
+  "evidence": [
+    {
+      "id": "TEE-001",
+      "type": "first_party_newsletter",
+      "date": "2013-04-30",
+      "title": "Temple Emanu-El's Weekly E-Mail April 30, 2013",
+      "url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "attributed_work": "Baking Holiness — Rabbi Cohon's Weekly Torah Talk",
+      "authorship": "explicit attribution in newsletter",
+      "text_status": "excerpt visible; linked full text not yet recovered",
+      "also_evidences": [
+        "Zohar class",
+        "Basic/Intermediate Judaism",
+        "conversion course",
+        "Kabbalistic Shabbat"
+      ],
+      "classification": "newsletter source plus distinct authored sermon lead"
+    },
+    {
+      "id": "TEE-002",
+      "type": "authored_article",
+      "date": "2011-02-11",
+      "title": "Tucson trauma and civility",
+      "url": "https://azjewishpost.com/2011/tucson-trauma-and-civility/",
+      "authorship": "explicit byline Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "classification": "third_party_publication_of_authored_text"
+    },
+    {
+      "id": "TEE-003",
+      "type": "first_person_profile",
+      "date": "2015-09-10",
+      "title": "Rabbi Samuel M. Cohon",
+      "url": "https://azjewishpost.com/2015/rabbi-samuel-m-cohon/",
+      "authorship": "first-person piece; publication byline/name and closing affiliation",
+      "classification": "contextual first-person biographical source"
+    },
+    {
+      "id": "TEE-004",
+      "type": "congregational_history",
+      "title": "Kol Ami Synagogue — Synagogue History",
+      "url": "https://www.katucson.org/synagogue-history",
+      "fact": "Cohon joined Temple Emanu-El in 1998, served for 19 years",
+      "classification": "institutional context, not an authored work"
+    },
+    {
+      "id": "TEE-005",
+      "type": "teaching_history",
+      "date": "2014-06-06",
+      "title": "In Focus 6.6.14",
+      "url": "https://azjewishpost.com/2014/in-focus-6-6-14/",
+      "fact": "2014 remembrance of first adult B'nai Mitzvah class from 2001",
+      "classification": "third-party context, not Sam-authored text"
+    },
+    {
+      "id": "TEE-006",
+      "type": "community_event",
+      "date": "2014-08-06",
+      "title": "Tucsonans of many faiths join in prayers for peace in the Middle East",
+      "url": "https://azjewishpost.com/2014/tucsonan-of-many-faiths-join-in-prayers-for-peace-in-the-middle-east/",
+      "classification": "third-party reporting, not Sam-authored work"
+    }
+  ],
+  "deduplication": "Before adding records to global authored-work totals, compare source URLs and article bodies with data/writings/community-publications.json and both blog ledgers; this new accession makes no distinct-work total claim.",
+  "rights": "Source URLs/metadata only; no verbatim published article bodies copied",
+  "next_sources": [
+    "Locate additional Constant Contact Temple Emanu-El weekly newsletters and linked Weekly Torah Talk originals",
+    "Locate old podcasts of adult education classes through documented newsletter links",
+    "Check archived templeemanueltucson.org URLs; verify links and file bytes before backup"
+  ],
+  "privacy": "No outreach, public release of private materials or silent replacement of records"
+}
