@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-16",
+  "scope": "High-volume discovery pass for Temple Emanu-El-era Rabbi Samuel M. Cohon authored columns",
+  "sources_checked": [
+    "https://azjewishpost.com/category/rabbi/page/2/",
+    "https://azjewishpost.com/category/rabbi/page/3/",
+    "https://azjewishpost.com/category/rabbi/page/5/",
+    "https://azjewishpost.com/category/rabbi/page/7/"
+  ],
+  "source_access_limits": [
+    "Page 1, 4 and 6 returned fetch/cache errors in this pass; no exhaustive full-series claim",
+    "Search result snippets are not substitute for source-page verification"
+  ],
+  "cataloged_authored_examples": [
+    {
+      "url": "https://azjewishpost.com/2010/got-billions-giving-like-the-other-half-does/",
+      "year": 2010
+    },
+    {
+      "url": "https://azjewishpost.com/2011/tucson-trauma-and-civility/",
+      "year": 2011
+    },
+    {
+      "url": "https://azjewishpost.com/2012/a-fresh-start-or-a-september-song/",
+      "year": 2012
+    },
+    {
+      "url": "https://azjewishpost.com/2013/rabbis-corner-judaism-is-not-just-for-special-occasions/",
+      "year": 2013
+    },
+    {
+      "url": "https://azjewishpost.com/2014/letting-the-land-and-people-rest-and-grow/",
+      "year": 2014
+    },
+    {
+      "url": "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
+      "year": 2015
+    }
+  ],
+  "negative_attribution_examples": [
+    {
+      "title": "Rabbi’s corner: Protas story reveals power of human spirit",
+      "url": "https://azjewishpost.com/2012/rabbis-corner-protas-story-reveals/",
+      "byline": "Rabbi Helen T. Cohn"
+    },
+    {
+      "title": "Rabbi Jason Holtz on lessons from the patient’s side of the bed",
+      "url": "https://azjewishpost.com/2012/rabbi-jason-holtz-on-lessons-from-the-patients-side-of-the-bed/",
+      "byline": "Rabbi Jason Holtz"
+    },
+    {
+      "title": "Rabbi’s Corner: Bereishit 5787 — Recreating The Jewish World After October 7",
+      "url": "https://azjewishpost.com/2026/rabbis-corner-bereishit-5787-recreating-the-jewish-world-after-october-7/",
+      "byline": "Rabbi Malcolm Cohen"
+    }
+  ],
+  "findings": "No newly verified Sam-authored full article source located beyond current supplemental catalog during this pass. Preserve existing counts.",
+  "publication_counts_unchanged": {
+    "first_party_blog_records": 317,
+    "community_publication_ledger_records": 17
+  },
+  "next_volume_method": "Search earlier Temple Emanu-El legacy site via preserved newsletter link indexes and identify named Rabbi Cohon article pages with byline before accession. Prioritize bulk original text rather than third-party descriptions.",
+  "audio_deferred": true
+}
