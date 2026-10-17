@@ -1,10 +1,70 @@
 {
   "collection": "Authored Works",
   "source": "https://beitsimchatucson.org/blog",
-  "record_count": 265,
+  "record_count": 270,
   "archive_pages_harvested": 14,
-  "scope_note": "First-party Rabbi's Blog discovery ledger. Archive-card titles and publication dates have been enriched from the complete first-party archive traversal; source-text review remains a separate stage.",
+  "scope_note": "First-party Rabbi's Blog discovery ledger. Archive-card titles and publication dates have been enriched from the complete first-party archive traversal; source-text review remains a separate stage. Five later September–October 2026 posts individually verified 2026-10-16; archive pagination retained as historical scan status.",
   "records": [
+    {
+      "url": "https://beitsimchatucson.org/blog/resilience",
+      "title": "Resilience",
+      "source": "beitsimchatucson.org",
+      "archive_page": 1,
+      "discovery_status": "first_party_article_page_verified",
+      "published_date": "2026-10-15",
+      "author": "Samuel Cohon",
+      "full_text_ingested": false,
+      "metadata_enrichment_status": "first_party_article_metadata_verified_2026-10-16",
+      "dedupe_status": "not_yet_reviewed"
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/rabbi-cohns-thoughts-on-the-3rd-anniversary-of-october-7",
+      "title": "Rabbi Cohn’s Thoughts on the 3rd Anniversary of October 7",
+      "source": "beitsimchatucson.org",
+      "archive_page": 1,
+      "discovery_status": "first_party_article_page_verified",
+      "published_date": "2026-10-09",
+      "author": "Samuel Cohon",
+      "full_text_ingested": false,
+      "metadata_enrichment_status": "first_party_article_metadata_verified_2026-10-16",
+      "dedupe_status": "not_yet_reviewed"
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/finding-gratitude-1",
+      "title": "Finding Gratitude",
+      "source": "beitsimchatucson.org",
+      "archive_page": 1,
+      "discovery_status": "first_party_article_page_verified",
+      "published_date": "2026-09-30",
+      "author": "Samuel Cohon",
+      "full_text_ingested": false,
+      "metadata_enrichment_status": "first_party_article_metadata_verified_2026-10-16",
+      "dedupe_status": "same_title_preexisting_record_manual_text_review_required"
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/a-donation-saving-and-treasuring-life",
+      "title": "A Donation: Saving and Treasuring Life",
+      "source": "beitsimchatucson.org",
+      "archive_page": 1,
+      "discovery_status": "first_party_article_page_verified",
+      "published_date": "2026-09-28",
+      "author": "Samuel Cohon",
+      "full_text_ingested": false,
+      "metadata_enrichment_status": "first_party_article_metadata_verified_2026-10-16",
+      "dedupe_status": "not_yet_reviewed"
+    },
+    {
+      "url": "https://beitsimchatucson.org/blog/redemption-the-connections-between-us",
+      "title": "Redemption: The Connections Between Us",
+      "source": "beitsimchatucson.org",
+      "archive_page": 1,
+      "discovery_status": "first_party_article_page_verified",
+      "published_date": "2026-09-22",
+      "author": "Samuel Cohon",
+      "full_text_ingested": false,
+      "metadata_enrichment_status": "first_party_article_metadata_verified_2026-10-16",
+      "dedupe_status": "not_yet_reviewed"
+    },
     {
       "url": "https://beitsimchatucson.org/blog/our-own-odyssey",
       "title": "Our Own Odyssey",
@@ -2924,6 +2984,6 @@
   "next_archive_page": null,
   "archive_pages_date_enriched": 14,
   "date_enrichment_generated_at": "2026-09-22",
-  "metadata_enriched_records": 265,
+  "metadata_enriched_records": 270,
   "metadata_unmatched_records": 0
 }
