@@ -12,7 +12,7 @@ This is a **metadata crosswalk**, not a transcription, approval, or release. It 
 | Teaching & services | **26 distinct index listings** | Private local classroom recordings and raw transcripts also exist | These are different manifestations; do not add local audio copies as 26 new published works or assert all have audio/transcript verification |
 | Supplemental community publications | Source registry identifies JCC and AZ Jewish Post batches | — | Track separately; not automatically added to first-party distinct-work count |
 
-The README already notes at least five confirmed duplicate/republication source records and a **conservative upper bound of 312 distinct works** among the 317 first-party writing records. That number is not a verified total of unique works.
+The README already notes at least six confirmed duplicate/republication source records and a **conservative upper bound of 311 distinct works** among the 317 first-party writing records. That number is not a verified total of unique works.
 
 ## Public-to-private teaching source crosswalk
 
@@ -41,7 +41,7 @@ Use stable IDs per work and per source object; use a relation such as `isManifes
 
 ## Immediate independently executable research backlog
 
-- **Completed 2026-10-16:** Five new first-party blog records, posted after the prior 2026-09-16 catalog cutoff, independently identified and registered (Sep 22, Sep 28, Sep 30, Oct 9, Oct 15). The prior four-record delta in the private memo was time-sensitive and does not cap the number of newer posts. Review the 2026 'Finding Gratitude' article versus its 2024 namesake before any dedupe.
+- **Completed 2026-10-16:** Five new first-party blog records, posted after the prior 2026-09-16 catalog cutoff, independently identified and registered (Sep 22, Sep 28, Sep 30, Oct 9, Oct 15). The prior four-record delta in the private memo was time-sensitive and does not cap the number of newer posts. Reviewed 2026 'Finding Gratitude' against 2024 namesake: substantive republication with calendar-specific revision; both source records retained, one duplicate work relationship recorded.
 - Crosswalk private sermon manuscript titles to existing blog records by title and content evidence, while retaining unpublished originals in private storage.
 - Preserve the Class 2/“Class 4.txt” candidate-match warning, and do not certify a transcript based on a filename or topic.
 - Add source-object provenance and source-check timestamp fields incrementally; preserve distinction between link-validity checks and audio-content checks.
@@ -53,4 +53,4 @@ This file was written after inspecting the repository README and the checked-in 
 
 ## Writing sweep reconciliation checkpoint — 2026-10-16
 
-The live first-party archive displayed five later articles. These were added to `data/writings/beit-simcha-blog.json`, then `stats.json`, `sources.json`, and `README.md` were reconciled to **317** first-party writing source records. Publication dates reflect first-party pages, not sermon-delivery verification. Neither source text nor unpublished manuscripts were copied into the GitHub metadata. A 2026 *Finding Gratitude* and a 2024 *Finding Gratitude* remain separate URL/date records because title identity does not prove text identity. Other duplicate groups remain governed by the prior text-comparison ledger; the confirmed redundancy minimum is still five, not increased by the new same-title candidate.
+The live first-party archive displayed five later articles. These were added to `data/writings/beit-simcha-blog.json`, then `stats.json`, `sources.json`, and `README.md` were reconciled to **317** first-party writing source records. Publication dates reflect first-party pages, not sermon-delivery verification. Neither source text nor unpublished manuscripts were copied into the GitHub metadata. A 2026 *Finding Gratitude* and a 2024 *Finding Gratitude* remain separate URL/date records, now linked as substantively republished versions after comparing first-party page bodies. Other duplicate groups remain governed by the prior text-comparison ledger; the confirmed redundancy minimum is now six, with the revised republication evidence recorded.
