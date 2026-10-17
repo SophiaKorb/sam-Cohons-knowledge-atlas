@@ -64,7 +64,9 @@
       "source_date": "2013-04-30",
       "newsletter_url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
       "historical_original_url": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773",
-      "status": "excerpt confirmed in newsletter; full original remains unrecovered"
+      "status": "Full Sam-authored Daver Acher commentary recovered at ReformJudaism.org; Temple-hosted copy still unavailable",
+      "recovered_url": "https://reformjudaism.org/learning/torah-study/torah-commentary/emor-0",
+      "published": "2013-04"
     }
   ],
   "excluded_from_authored_count": [
@@ -100,8 +102,9 @@
       "source_url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
       "source_type": "first_party_newsletter_excerpt",
       "attribution": "Explicitly labeled Rabbi Cohon's Weekly Torah Talk",
-      "text_recovery": "introductory excerpt preserved, full original page unavailable",
-      "catalog_treatment": "PARTIALLY_RECOVERED_AUTHORSHIP_LEAD"
+      "text_recovery": "FULL text recovered in Sam-authored Daver Acher section on ReformJudaism.org",
+      "catalog_treatment": "COMPLETE_PUBLIC_AUTHOR_SECTION_RECOVERED",
+      "full_text_url": "https://reformjudaism.org/learning/torah-study/torah-commentary/emor-0"
     },
     {
       "id": "TEE-WR-WUPJ-YITRO-50",
@@ -219,5 +222,14 @@
     "Find additional original Constant Contact issues or legacy /learning/torah-talks/ pages using first-party evidence",
     "Preserve original text privately before counting any newly discovered manuscript",
     "Only then pursue audio recovery"
-  ]
+  ],
+  "recovery_milestone": {
+    "date": "2026-10-16",
+    "title": "Baking Holiness",
+    "publisher": "Union for Reform Judaism",
+    "url": "https://reformjudaism.org/learning/torah-study/torah-commentary/emor-0",
+    "date_verified": "2013-04",
+    "authorship": "Sam Cohon Daver Acher only, distinct from Rabbi Dalia Marx's main commentary",
+    "source_ledger": "data/writings/community-publications.json"
+  }
 }
