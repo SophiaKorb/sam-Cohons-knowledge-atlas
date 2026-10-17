@@ -134,6 +134,30 @@
       "attribution": "Explicit Rabbi Samuel M. Cohon, Temple Emanu-El publisher byline",
       "cross_reference": "Already in data/writings/community-publications.json; not a new supplemental writing source record",
       "classification": "authored_publication_existing_archive_record"
+    },
+    {
+      "id": "TEE-014",
+      "type": "teaching_program_documentation",
+      "date": "2014-07-04",
+      "title": "Temple Taste of Judaism celebrating 15th year",
+      "url": "https://azjewishpost.com/2014/temple-taste-of-judaism-celebrating-15th-year/",
+      "attribution": "Documented co-teaching by Rabbis Samuel M. Cohon and Batsheva Appel",
+      "teaching_program": "A Taste of Judaism",
+      "evidence_details": "Three-session introduction; contemporary report says more than 5,000 participants over prior fourteen years",
+      "classification": "third_party_program_reporting_not_audio_or_authored_article",
+      "preservation_status": "Article confirmed; no original lesson manuscripts or podcast files acquired"
+    },
+    {
+      "id": "TEE-015",
+      "type": "teaching_program_documentation",
+      "date": "2015-07-09",
+      "title": "Taste of Judaism class to feature sign language interpretation",
+      "url": "https://azjewishpost.com/2015/taste-of-judaism-class-to-feature-sign-language-interpretation/",
+      "attribution": "Documents Rabbis Samuel M. Cohon and Batsheva Appel leading the program",
+      "teaching_program": "A Taste of Judaism",
+      "evidence_details": "2015 offered American Sign Language interpretation in one series; article reports more than 5,500 participants over fifteen years",
+      "classification": "third_party_program_reporting_not_audio_or_authored_article",
+      "preservation_status": "Article confirmed; no original lesson manuscripts or podcast files acquired"
     }
   ],
   "deduplication": "Before adding records to global authored-work totals, compare source URLs and article bodies with data/writings/community-publications.json and both blog ledgers; this new accession makes no distinct-work total claim.",
@@ -173,5 +197,14 @@
     "Do not count article quotes as separately authored writings",
     "Do not infer the existence of audio recordings from event notices",
     "Preserve private sources; no outreach or source-text republication"
+  ],
+  "research_rounds": [
+    {
+      "date": "2026-10-16",
+      "scope": "Historical newsletters, original Torah Talks and Podbean feed",
+      "finding": "Only 2013-04-30 Constant Contact original surfaced in targeted indexed searches; class-podcast feed and full linked Torah Talk remained inaccessible",
+      "limitations": "Search-engine coverage is not proof the historical archives are exhausted",
+      "verified_new_leads": 2
+    }
   ]
 }
