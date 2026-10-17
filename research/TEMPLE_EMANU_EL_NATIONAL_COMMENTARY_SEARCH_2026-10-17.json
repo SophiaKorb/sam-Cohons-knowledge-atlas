@@ -1,0 +1,21 @@
+{
+  "review_date": "2026-10-17",
+  "focus": "High-volume verification of additional full Samuel M. Cohon authored Temple Emanu-El era national Torah commentaries",
+  "queries": [
+    "site:reformjudaism.org/learning/torah-study/torah-commentary/ Samuel M. Cohon excluding Emor",
+    "site:wupj.org/library/ Samuel M. Cohon excluding known #50 and #308",
+    "Samuel M. Cohon Daver Acher attribution variants",
+    "Rabbi Samuel M. Cohon Torah commentary 2010-2016 outside known publication sites"
+  ],
+  "source_pages_reconfirmed": [
+    "https://reformjudaism.org/learning/torah-study/torah-commentary/emor-0",
+    "https://wupj.org/library/the-weekly-portion/996/torah-from-around-the-world-50/",
+    "https://wupj.org/library/the-weekly-portion/993/torah-from-around-the-world-308/"
+  ],
+  "additional_complete_authored_work_identified": 0,
+  "legacy_torah_talk_wayback_attempt": "https://web.archive.org/web/2013/https://www.templeemanueltucson.org/learning/torah-talks",
+  "legacy_wayback_result": "Not accessible through current web reader; no claim about whether Wayback holds archived snapshots",
+  "integrity": "First-party blog source total 317 and supplemental source ledger 20 unchanged. Search non-findings do not demonstrate archive completeness.",
+  "recommended_next_method": "Use full historic domain snapshot CDX inventory or original server/website export; regular indexed queries repeatedly return existing entries.",
+  "audio_deferred": true
+}
