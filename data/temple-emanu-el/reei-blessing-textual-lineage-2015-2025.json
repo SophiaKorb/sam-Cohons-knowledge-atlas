@@ -1,0 +1,57 @@
+{
+  "created": "2026-10-16",
+  "work_family_id": "COHON-RE-EI-BLESSING-CREDIT",
+  "title": "Re'ei — blessing in advance / mitzvah equity loan",
+  "editorial_status": "Verified repeated distinctive reasoning and passages; distinct sermon-year adaptations with meaningful expansions. Do not automatically collapse source records or distinct delivery events.",
+  "sources": [
+    {
+      "year": 2015,
+      "type": "private_manuscript",
+      "title": "Blessings in Advance",
+      "citation": "data/temple-emanu-el/private-manuscript-accessions-2026-10-16.json",
+      "status": "complete five-page original preserved privately"
+    },
+    {
+      "year": 2015,
+      "type": "published_abbreviation",
+      "title": "At new year, have gratitude for God's latitude",
+      "url": "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
+      "status": "substantially adapted newspaper version of 2015 original"
+    },
+    {
+      "year": 2022,
+      "type": "later_sermon_adaptation",
+      "title": "Choosing Blessing",
+      "url": "https://beitsimchatucson.org/blog/choosing-blessing",
+      "status": "reuses distinctive Nechama Leibowitz, Hebrew ASHER/IM contrast, mitzvah equity loan; expands to communal-Psalm 133 reading"
+    },
+    {
+      "year": 2024,
+      "type": "candidate_later_sermon_adaptation",
+      "title": "Choosing Blessing",
+      "url": "https://beitsimchatucson.org/blog/choosing-blessing-1",
+      "status": "source record confirmed in first-party catalog; source full page could not be fetched in this comparison; version relation not confirmed"
+    },
+    {
+      "year": 2025,
+      "type": "later_sermon_adaptation",
+      "title": "Chossing Blessing",
+      "url": "https://beitsimchatucson.org/blog/chossing-blessing",
+      "status": "reuses distinct mitzvah-equity-loan argument, expanding communal-Psalm 133 sections and contemporary service context"
+    }
+  ],
+  "textual_fingerprints": [
+    "et habracha ASHER tishm'u contrasted with v'haklalla IM-lo tishm'u",
+    "Nechama Liebowitz reading that blessing is definite while curse is conditional",
+    "God extends a line of credit, a mitzvah equity loan",
+    "Developing promise of advance divine blessing and need to act ethically"
+  ],
+  "boundary": "Re-used ideas and phrases do not alone prove identical performances, or that 2022 and 2025 delivered texts should be merged as exactly the same written work.",
+  "preservation": "Private 2015 manuscript remains in Google Drive and ChatGPT Library; GitHub metadata only.",
+  "source_counts_change": 0,
+  "review_required": [
+    "Fetch 2024 article text to verify whether in same family",
+    "Run full text similarity and passage segmentation locally if archival originals are available",
+    "Model separate work-family, versions, deliveries and source manifestations"
+  ]
+}
