@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-17",
+  "family_title": "The Missing Center",
+  "older": {
+    "title": "The Missing Center",
+    "date": "2012-09-05",
+    "parashah": "Ki Tavo 5772",
+    "legacy_slug": "529-torah-talk-ki-tavo-5772",
+    "source": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+    "status": "Contemporary first-party Temple Emanu-El index excerpt; no complete 2012 article recovered"
+  },
+  "newer": {
+    "title": "The Missing Center",
+    "date": "2024-09-20",
+    "parashah": "Ki Tavo 5784",
+    "source": "https://beitsimchatucson.org/blog/the-missing-center-1",
+    "status": "Complete signed Sam Cohon sermon, Beit Simcha website"
+  },
+  "comparison": {
+    "shared": "Same title, portion, Achad Ha'am triad (God Torah Israel), first-fruits declaration Arami oveid avi and similar opening phrasing",
+    "changes": "2024 sermon expands opening with Pirkei Avot and teaching references, and adapts first-fruits paragraph",
+    "conclusion": "Strong evidence of an expanded/revised textual work family; cannot claim 2024 identical to the unavailable full 2012 piece"
+  },
+  "copyright": "Metadata and comparison only; no original bodies copied into GitHub",
+  "counts": {
+    "new_historical_article_links": 0,
+    "new_complete_historical_originals": 0,
+    "new_textual_lineages": 1
+  },
+  "audio_deferred": true
+}
