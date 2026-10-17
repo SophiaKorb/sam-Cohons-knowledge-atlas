@@ -390,6 +390,24 @@
       "type": "first_party_archived_complete_torah_talk",
       "review_state": "complete_original_individual_page_opened_authorship_verified",
       "rights": "Full text remains linked to Wayback; no full body copied into public GitHub"
+    },
+    {
+      "title": "Our Own Elijah",
+      "date": "2016-03-29",
+      "publisher": "Strauss ECE, Tucson / Temple Emanu-El-associated school",
+      "url": "https://www.straussece.com/ece-blog/2016/3/29/our-own-elijah",
+      "byline": "Rabbi Samuel M. Cohon (signed in article; blog post admin Mindy Henry)",
+      "type": "full_original_published_holiday_essay",
+      "topic": [
+        "Passover",
+        "Elijah",
+        "hope",
+        "Warsaw Ghetto uprising",
+        "family memory"
+      ],
+      "review_state": "complete_article_verified_from_publisher_indexed_text; current direct fetch intermittent or unavailable",
+      "archive_relation": "Temple Emanu-El era",
+      "rights": "Metadata only; full article not mirrored in public repo"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
