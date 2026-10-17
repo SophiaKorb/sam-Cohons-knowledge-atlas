@@ -108,6 +108,26 @@
         "press_appearance": 1
       },
       "archive_relation": "Broadcast history after Emanu-El tenure; indexed here as connected Moment press discovery, not Emanu-El-era authored writing"
+    },
+    {
+      "accession_id": "TEE-PRESS-MACHZOR-2016",
+      "title": "New, inclusive prayer book wins local fans",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2016/new-inclusive-prayer-book-wins-local-fans/",
+      "publication_year": 2016,
+      "source_type": "direct_expert_statement_and_congregational_liturgy_history",
+      "subject": "Temple Emanu-El evaluation and planned adoption of Mishkan HaNefesh for the 5778 High Holy Days",
+      "attribution_boundary": "Journalistic article quotes Sam's statements; not a wholly Sam-authored essay",
+      "verified_details": [
+        "Sam describes ritual committee review and projected transition from Gates of Repentance",
+        "Article documents a June 2014 Too Jewish interview with machzor editor Rabbi Leon Morris",
+        "Congregational implementation discussed as a future plan, not proof it occurred"
+      ],
+      "counts": {
+        "authored_sam_writing": 0,
+        "press_appearance": 1
+      },
+      "preservation_status": "Public source page accessible; no source PDF acquired"
     }
   ]
 }
