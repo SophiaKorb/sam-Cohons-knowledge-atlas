@@ -78,5 +78,36 @@
     "first_party_blog_catalog_unchanged": 317,
     "community_publications_ledger_total": 17
   },
-  "source_release": "Metadata only, no full copyrighted article text copied"
+  "source_release": "Metadata only, no full copyrighted article text copied",
+  "additional_writing_leads": [
+    {
+      "id": "TEE-WR-2011-01-08-STATEMENT",
+      "title": "Statement for Tucson shooting prayer service",
+      "event_date": "2011-01-08",
+      "publication_date": "2011-01",
+      "source_url": "https://azjewishpost.com/2011/tucson-jewish-community-anguished-over-shooting-rampage/",
+      "source_type": "contemporary_reporting_quoting_authored_statement",
+      "attribution": "News report states that a statement by Senior Rabbi Samuel M. Cohon was read to the congregation",
+      "text_recovery": "brief excerpt quoted by newspaper; complete written statement not located",
+      "catalog_treatment": "UNRECOVERED_FULL_TEXT_AUTHORSHIP_LEAD; neither complete authored article nor delivered sermon transcription",
+      "privacy": "Do not reproduce names or congregant details from secondary reporting"
+    },
+    {
+      "id": "TEE-WR-2013-EMOR",
+      "title": "Baking Holiness — Weekly Torah Talk, Parashat Emor",
+      "event_date": null,
+      "publication_date": "2013-04-30",
+      "source_url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "source_type": "first_party_newsletter_excerpt",
+      "attribution": "Explicitly labeled Rabbi Cohon's Weekly Torah Talk",
+      "text_recovery": "introductory excerpt preserved, full original page unavailable",
+      "catalog_treatment": "PARTIALLY_RECOVERED_AUTHORSHIP_LEAD"
+    }
+  ],
+  "last_writing_review": "2026-10-16",
+  "review_rules": [
+    "Published reporter account with quotes is not a full authored manuscript",
+    "Retain source objects as separate manifestations until full original can be compared",
+    "Continue writing recovery before audio"
+  ]
 }
