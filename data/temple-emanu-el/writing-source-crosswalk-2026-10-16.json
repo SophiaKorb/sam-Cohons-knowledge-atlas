@@ -102,6 +102,18 @@
       "attribution": "Explicitly labeled Rabbi Cohon's Weekly Torah Talk",
       "text_recovery": "introductory excerpt preserved, full original page unavailable",
       "catalog_treatment": "PARTIALLY_RECOVERED_AUTHORSHIP_LEAD"
+    },
+    {
+      "id": "TEE-WR-WUPJ-YITRO-50",
+      "title": "Torah from around the world #50",
+      "publication_date": null,
+      "source_url": "https://wupj.org/library/the-weekly-portion/996/torah-from-around-the-world-50/",
+      "source_type": "complete_published_original_torah_commentary",
+      "attribution": "Explicit author byline and Temple Emanu-El Tucson affiliation",
+      "text_recovery": "Complete public publisher-hosted essay read and verified",
+      "parashah": "Yitro",
+      "catalog_treatment": "NEW_VERIFIED_PUBLISHED_SOURCE; unique intellectual-work dedupe pending",
+      "cross_reference": "data/writings/community-publications.json"
     }
   ],
   "last_writing_review": "2026-10-16",
