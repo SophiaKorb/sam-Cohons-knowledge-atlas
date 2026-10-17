@@ -1,0 +1,161 @@
+{
+  "created": "2026-10-17",
+  "scope": "Temple Emanu-El Weekly Torah Talk archival recovery, original links extracted from independent Wayback index snapshots",
+  "previously_documented_links": 27,
+  "new_index_links": 18,
+  "total_verifiable_distinct_legacy_urls": 45,
+  "batches": [
+    {
+      "capture": "2015-10-19T20:46:22Z",
+      "url": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+      "slugs": [
+        "1145-torah-talk-noach-5776",
+        "1138-torah-talk-ha-azinu-5776",
+        "1133-torah-talk-vayelech-5776",
+        "1130-torah-talk-nitzavim-5776",
+        "1122-torah-talk-ki-tavo-5775",
+        "1121-torah-talk-ki-teitzei-5775",
+        "1115-torah-talk-reeh-5775",
+        "1111-torah-talk-eikev-5775",
+        "1105-torah-talk-vaetchanan-5775"
+      ],
+      "dated_index_text": [
+        {
+          "title": "Poetry, Faith, and Justice",
+          "date": "2015-09-22",
+          "parashah": "Ha'azinu",
+          "legacy_slug": "1138-torah-talk-ha-azinu-5776",
+          "evidence": "Index displays article-length text; individual page not verified"
+        }
+      ],
+      "article_urls": [
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1145-torah-talk-noach-5776",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1138-torah-talk-ha-azinu-5776",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1133-torah-talk-vayelech-5776",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1130-torah-talk-nitzavim-5776",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1122-torah-talk-ki-tavo-5775",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1121-torah-talk-ki-teitzei-5775",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1115-torah-talk-reeh-5775",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1111-torah-talk-eikev-5775",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1105-torah-talk-vaetchanan-5775",
+          "source_snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        }
+      ]
+    },
+    {
+      "capture": "2016-04-09T10:24:54Z",
+      "url": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+      "slugs": [
+        "1208-torah-talk-tazria-5776",
+        "1206-torah-talk-shemini-5776",
+        "1194-torah-talk-tzav-5776",
+        "1193-torah-talk-vayikra-5776",
+        "1192-torah-talk-pekudei-5776",
+        "1190-torah-talk-vayakhel-5776",
+        "1187-torah-talk-ki-tisa-5776",
+        "1177-torah-talk-tetzavah-5776",
+        "1176-torah-talk-terumah-5776"
+      ],
+      "dated_index_text": [
+        {
+          "title": "Can Human Sacrifice Make Us Holy?",
+          "date": "2016-04-01",
+          "parashah": "Shemini",
+          "legacy_slug": "1206-torah-talk-shemini-5776",
+          "evidence": "Index excerpt, incomplete"
+        },
+        {
+          "title": "Is God Good? Natural Disasters and Ethics",
+          "date": "2016-03-24",
+          "parashah": "Tzav",
+          "legacy_slug": "1194-torah-talk-tzav-5776",
+          "evidence": "Index excerpt, incomplete"
+        }
+      ],
+      "article_urls": [
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1208-torah-talk-tazria-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1206-torah-talk-shemini-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1194-torah-talk-tzav-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1193-torah-talk-vayikra-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1192-torah-talk-pekudei-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1190-torah-talk-vayakhel-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1187-torah-talk-ki-tisa-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1177-torah-talk-tetzavah-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        },
+        {
+          "url": "http://templeemanueltucson.org/learning/torah-talks/1176-torah-talk-terumah-5776",
+          "source_snapshot": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+          "verification": "original hyperlink on archived index; not verified full detail text"
+        }
+      ]
+    }
+  ],
+  "note": "An index article excerpt, even when long, is not proof the full underlying article survived or is entirely reproduced.",
+  "privacy": "GitHub records source metadata only",
+  "audio_deferred": true
+}
