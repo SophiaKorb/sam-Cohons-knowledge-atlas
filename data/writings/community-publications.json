@@ -255,6 +255,22 @@
       ],
       "review_state": "publisher_page_byline_verified; cross_source_dedupe_pending",
       "archive_relation": "Temple Emanu-El era"
+    },
+    {
+      "title": "Torah from around the world #50",
+      "date": null,
+      "publisher": "World Union for Progressive Judaism",
+      "url": "https://wupj.org/library/the-weekly-portion/996/torah-from-around-the-world-50/",
+      "byline": "Rabbi Samuel M. Cohon, Senior Rabbi, Temple Emanu-El, Tucson",
+      "type": "community_authored_torah_commentary",
+      "topic": [
+        "Parashat Yitro",
+        "Ten Commandments",
+        "Reform Judaism",
+        "divine commandment"
+      ],
+      "review_state": "complete_public_text_and_explicit_byline_verified; publication_date_not_shown; cross_source_dedupe_pending",
+      "archive_relation": "Temple Emanu-El era"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
