@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22",
-  "source_records_total": 312,
+  "generated_at": "2026-10-16",
+  "source_records_total": 317,
   "standalone_blog_records": 47,
-  "beit_simcha_blog_records": 265,
-  "beit_simcha_records_with_dates": 265,
+  "beit_simcha_blog_records": 270,
+  "beit_simcha_records_with_dates": 270,
   "beit_simcha_date_range": {
     "start": "2021-08-01",
-    "end": "2026-09-16"
+    "end": "2026-10-15"
   },
   "beit_simcha_records_by_year": {
     "2021": 27,
@@ -14,9 +14,9 @@
     "2023": 49,
     "2024": 62,
     "2025": 50,
-    "2026": 26
+    "2026": 31
   },
   "confirmed_redundant_source_records_minimum": 5,
-  "conservative_distinct_work_upper_bound": 307,
-  "caveat": "Distinct-work count is not final. Only confirmed near-identical republications from the first comparison pass are subtracted; strong-overlap and unreviewed records remain separate."
+  "conservative_distinct_work_upper_bound": 312,
+  "caveat": "317 first-party source records verified (47 standalone + 270 Beit Simcha). At least five near-identical republication redundancies remain supported by prior comparison; the 312 figure is an upper bound, not a confirmed unique-work total. October 2026 records include one same-title review candidate; no extra dedupe subtraction without content evidence."
 }
