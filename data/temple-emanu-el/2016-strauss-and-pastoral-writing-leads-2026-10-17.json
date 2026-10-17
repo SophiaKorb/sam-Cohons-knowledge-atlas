@@ -1,0 +1,39 @@
+{
+  "created": "2026-10-17",
+  "scope": "Newly located Sam Cohon original long-form sources from his Temple Emanu-El tenure",
+  "records": [
+    {
+      "title": "Our Own Elijah",
+      "date": "2016-03-29",
+      "source_url": "https://www.straussece.com/ece-blog/2016/3/29/our-own-elijah",
+      "publisher": "Strauss Early Childhood Education",
+      "verified_authorship": "Signed Rabbi Samuel M. Cohon; publisher post administered by Mindy Henry",
+      "status": "Complete public article text visible in indexed publisher copy; included in supplemental authored-writing ledger (26 records after accession)",
+      "privacy": "Only metadata in GitHub"
+    },
+    {
+      "title": "Eulogy for Seymour Einstein",
+      "date": "2016-05-18",
+      "source_url": "https://www.bridgewebs.com/tucsoncharity/Seymour%20Einstein%20Eulogy%205%2018%2016.pdf",
+      "type": "rabbinic funeral eulogy",
+      "length_pages": 5,
+      "verified_authorship": "PDF header credits Rabbi Samuel M. Cohon, Temple Emanu-El officiating; text is continuous to eulogy conclusion",
+      "status": "Complete public PDF readable through source reader; original PDF bytes not privately copied due download failure",
+      "privacy": "Treat as private original for archive purposes despite third-party public URL; source contains family details and historical private access instructions; no excerpt or location details reproduced in public Atlas",
+      "counts_as": "1 unique liturgical/pastoral original, held separately from authored-publication writing tally"
+    }
+  ],
+  "other_candidate": {
+    "title": "Lighten Up - It's Supposed to Be Fun",
+    "date": "2016-02-28",
+    "publisher": "Strauss ECE",
+    "url": "https://www.straussece.com/ece-blog/2016/2/28/lighten-up-its-supposed-to-be-fun",
+    "status": "indexed partial text and closing signed by Sam; direct page returned 404; full-text completeness not independently confirmed; not accessioned"
+  },
+  "next_sources": [
+    "Strauss ECE historic rabbi newsletter archive",
+    "Third-party PDFs and funeral files with explicit attribution; store privately",
+    "Avoid confusion with Rabbi Baruch Cohon's separate writings"
+  ],
+  "audio_deferred": true
+}
