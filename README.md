@@ -5,11 +5,11 @@ An independent, source-tracked archive of Rabbi Samuel M. Cohon’s public work.
 The project currently contains three substantial catalogued collections plus a discovery-only social layer:
 
 - **Collection 01: Too Jewish Radio** — 1,261 broadcasts catalogued from August 4, 2002 through September 20, 2026.
-- **Collection 02: Authored Works** — 312 first-party writing source records located: 47 from Sam's standalone blog and 265 from the Congregation Beit Simcha Rabbi's Blog.
+- **Collection 02: Authored Works** — 317 first-party writing source records located: 47 from Sam's standalone blog and 270 from the Congregation Beit Simcha Rabbi's Blog.
 - **Collection 03: Teaching & Services** — 26 unique first-party teaching-recording listings normalized from Beit Simcha's audio archive.
 - **Collection 04: Public Media discovery** — 12 first-party Facebook URLs retained as discovery-only because direct source access is login-gated.
 
-The main catalogued corpus now contains **1,599 source records** (1,261 radio + 312 writing + 26 teaching recordings). The 312 writing records are **source records, not yet a claim of 312 unique intellectual works**. Cross-source deduplication, date enrichment, and source-text review are active research stages.
+The main catalogued corpus now contains **1,604 source records** (1,261 radio + 317 writing + 26 teaching recordings). The 317 writing records are **source records, not yet a claim of 312 unique intellectual works**. Cross-source deduplication, date enrichment, and source-text review are active research stages.
 
 ## Current research status
 
@@ -24,13 +24,13 @@ The main catalogued corpus now contains **1,599 source records** (1,261 radio + 
 
 ### Authored Works
 - 47 first-party records from the complete 23-page Rabbi Sam Cohon blog archive
-- 265 first-party records from the complete 14-page Beit Simcha Rabbi's Blog archive
-- 265/265 Beit Simcha records now have first-party archive publication dates
-- 265/265 Beit Simcha titles verified from archive cards; 164 slug-derived titles corrected
+- 270 first-party records: 265 from the prior 14-page archive harvest and five newer posts confirmed on 2026-10-16
+- 270/270 Beit Simcha records have first-party archive or article publication dates
+- 265 prior Beit Simcha titles verified from archive cards (164 slug-derived titles corrected); five recent article titles verified on first-party pages
 - Cross-source deduplication in candidate-review stage
 - Individual date/source-text enrichment ongoing
 - First source-text dedupe pass complete on the seven strongest candidate groups
-- At least 5 source records confirmed as near-identical republications; conservative current upper bound is 307 distinct works from 312 source records
+- At least 5 source records confirmed as near-identical republications; conservative upper bound is 312 distinct works from 317 source records; same-title additions remain unmerged pending content review
 - Strong-overlap candidates remain separate pending manual/source-boundary review
 - Public Facebook records are kept as discovery-only when direct content is login-gated
 
@@ -49,7 +49,7 @@ Metadata discovery, source-text review, transcription, thematic synthesis, and e
 - `data/link-checks-by-year/` — audio-link verification ledger
 - `data/stats.json` — generated radio archive metrics and methods
 - `data/writings/rabbisamcohon-blog.json` — 47 first-party standalone-blog records
-- `data/writings/beit-simcha-blog.json` — 265 first-party Beit Simcha blog records
+- `data/writings/beit-simcha-blog.json` — 270 first-party Beit Simcha blog records
 - `data/writings/sources.json` — source registry and research-state ledger
 - `data/writings/dedupe-candidates.json` — cross-source title candidates plus first-pass text-comparison findings
 - `data/writings/stats.json` — authored-work chronology and dedupe metrics
