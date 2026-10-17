@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-17",
+  "snapshot": "https://web.archive.org/web/20151121232307/http://www.templeemanueltucson.org/learning/torah-talks",
+  "verified_new_distinct_legacy_urls": 4,
+  "previous_verified_total": 45,
+  "new_total": 49,
+  "new_records": [
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1151-torah-talk-toldot-5776",
+      "source_snapshot": "https://web.archive.org/web/20151121232307/http://www.templeemanueltucson.org/learning/torah-talks",
+      "status": "archived_index_link_verified_individual_article_not_recovered"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1149-torah-talk-chayei-sarah-5776",
+      "source_snapshot": "https://web.archive.org/web/20151121232307/http://www.templeemanueltucson.org/learning/torah-talks",
+      "status": "archived_index_link_verified_individual_article_not_recovered"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1148-torah-talk-vayera-5776",
+      "source_snapshot": "https://web.archive.org/web/20151121232307/http://www.templeemanueltucson.org/learning/torah-talks",
+      "status": "archived_index_link_verified_individual_article_not_recovered"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1146-torah-talk-lech-lecha-5776",
+      "source_snapshot": "https://web.archive.org/web/20151121232307/http://www.templeemanueltucson.org/learning/torah-talks",
+      "status": "archived_index_link_verified_individual_article_not_recovered"
+    }
+  ],
+  "already_registered_links_in_snapshot": [
+    "1153-torah-talk-vayeitzei-5776",
+    "1145-torah-talk-noach-5776",
+    "1138-torah-talk-ha-azinu-5776",
+    "1133-torah-talk-vayelech-5776",
+    "1130-torah-talk-nitzavim-5776"
+  ],
+  "new_title_evidence": {
+    "title": "Arguing for God’s Sake",
+    "date": "2015-11-19",
+    "linked_slug": "1153-torah-talk-vayeitzei-5776",
+    "full_text_status": "index excerpt only; individual page 404 not yet reattempted this pass"
+  },
+  "method": "Extracted URL hyperlinks from 2015-11-21 Wayback index; deduplicated against earlier 2015-10, 2016-01 sources.",
+  "audio_deferred": true,
+  "private_copyright_policy": "public metadata only; no authored full text in public GitHub"
+}
