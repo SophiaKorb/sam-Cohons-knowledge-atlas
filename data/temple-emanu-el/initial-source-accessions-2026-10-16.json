@@ -64,6 +64,46 @@
       "title": "Tucsonans of many faiths join in prayers for peace in the Middle East",
       "url": "https://azjewishpost.com/2014/tucsonan-of-many-faiths-join-in-prayers-for-peace-in-the-middle-east/",
       "classification": "third-party reporting, not Sam-authored work"
+    },
+    {
+      "id": "TEE-007",
+      "type": "delivered_sermon_announcement",
+      "date": "2013-06-01",
+      "title": "Belief Now",
+      "url": "https://azjewishpost.com/photo-gallery/in-focus-april-june-2013/",
+      "attribution": "Rabbi Samuel M. Cohon named speaker at St. Philip's in the Hills Sunday services",
+      "preservation_status": "Event and sermon title verified; no manuscript or audio recovered",
+      "classification": "sermon_delivery_evidence_not_full_text"
+    },
+    {
+      "id": "TEE-008",
+      "type": "first_party_era_byline",
+      "date": "2010",
+      "title": "Got billions? Giving like the other half does",
+      "url": "https://azjewishpost.com/2010/got-billions-giving-like-the-other-half-does/",
+      "attribution": "Article closes with Rabbi Samuel M. Cohon, senior rabbi of Temple Emanu-El; check existing community-publications ledger before adding authored-work count",
+      "preservation_status": "Public article page discoverable",
+      "classification": "authored_publication_candidate"
+    },
+    {
+      "id": "TEE-009",
+      "type": "teaching_program_announcement",
+      "date": "2016",
+      "title": "The Death of Death? Eternal Life in Jewish Tradition",
+      "url": "https://azjewishpost.com/2016/culture-shuk-doorway-to-jewish-education/",
+      "attribution": "Participant account of Rabbi Cohon's talk",
+      "preservation_status": "Session documented; no standalone teaching recording found",
+      "classification": "third_party_event_report"
+    },
+    {
+      "id": "TEE-010",
+      "type": "community_historical_context",
+      "date": "2010-08-29",
+      "title": "Temple Emanu-El Centennial Torah completion",
+      "url": "https://azjewishpost.com/2010/temple-to-celebrate-completion-of-torah-scroll/",
+      "attribution": "Event with quote from Rabbi Cohon; this is not an authored writing",
+      "preservation_status": "Article source available",
+      "classification": "context_not_authored_work"
     }
   ],
   "deduplication": "Before adding records to global authored-work totals, compare source URLs and article bodies with data/writings/community-publications.json and both blog ledgers; this new accession makes no distinct-work total claim.",
@@ -96,5 +136,12 @@
       "status": "historic first-party site; original URL target may now be obsolete",
       "priority": "medium"
     }
+  ],
+  "last_researched": "2026-10-16",
+  "editorial_rules": [
+    "Keep classes, actual written Torah Talks, sermon-delivery events and third-party articles as separate source-object types",
+    "Do not count article quotes as separately authored writings",
+    "Do not infer the existence of audio recordings from event notices",
+    "Preserve private sources; no outreach or source-text republication"
   ]
 }
