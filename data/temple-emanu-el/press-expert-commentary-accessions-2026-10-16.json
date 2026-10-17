@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "accession_id": "TEE-PRESS-MOMENT-2010-ARMAGEDDON",
+      "title": "Armageddon is Coming!",
+      "author": "Barbara Altman",
+      "publication": "Moment",
+      "section": "Jewish Word",
+      "issue": "March/April 2010",
+      "page": "19",
+      "date_precision": "issue_month_range",
+      "source_type": "press_interview_quoted_expert",
+      "quoted_expert": "Rabbi Samuel M. Cohon",
+      "affiliation_as_published": "founder of the Multi-Faith Alliance of Tucson, AZ",
+      "topic": [
+        "Jewish apocalyptic thinking",
+        "Roman oppression",
+        "Armageddon",
+        "interfaith scholarship"
+      ],
+      "attribution_boundary": "Article authored by Barbara Altman; Rabbi Cohon is directly quoted, not its author",
+      "source_original_filename": "armageddon.pdf",
+      "original_bytes": 188140,
+      "original_sha256": "4f278f31f7f2410276c07588d80e732ac0a83d73090306a6745bb41a78e62825",
+      "original_pages": 1,
+      "provenance": "PDF supplied by user in conversation October 16 2026; visible page is Moment page 19",
+      "private_copies": [
+        {
+          "location": "ChatGPT Library",
+          "path": "/Cohon Writing Archive/Press and Expert Commentary PRIVATE/Moment - Armageddon is Coming - March-April 2010.pdf",
+          "status": "uploaded_successfully"
+        },
+        {
+          "location": "Google Drive",
+          "path": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup/Transcripts PRIVATE/Teaching/Moment - Armageddon is Coming - 2010 source scan.pdf",
+          "status": "uploaded_successfully"
+        }
+      ],
+      "counts": {
+        "authored_sam_writing": 0,
+        "press_appearance": 1
+      },
+      "rights": "No full article body reproduced in GitHub. Original stored privately."
+    }
+  ]
+}
