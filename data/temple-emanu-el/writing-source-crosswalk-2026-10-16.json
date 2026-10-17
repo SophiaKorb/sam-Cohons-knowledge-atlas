@@ -1,0 +1,82 @@
+{
+  "created": "2026-10-16",
+  "scope": "Temple Emanu-El era attributed writing: public sources and recovery leads",
+  "source_of_truth": "data/writings/community-publications.json",
+  "crosswalk": [
+    {
+      "title": "The synagogue remains at the heart of Jewish life",
+      "publication_date": "2016-09-22",
+      "source_url": "https://azjewishpost.com/2016/the-synagogue-remains-at-the-heart-of-jewish-life/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "full_text_in_atlas": false,
+      "editorial_status": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "At new year, have gratitude for God’s latitude",
+      "publication_date": "2015-08-27",
+      "source_url": "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "full_text_in_atlas": false,
+      "editorial_status": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Letting the land and people rest and grow",
+      "publication_date": "2014-10-10",
+      "source_url": "https://azjewishpost.com/2014/letting-the-land-and-people-rest-and-grow/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "full_text_in_atlas": false,
+      "editorial_status": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Rabbi’s corner: Judaism is not just for special occasions",
+      "publication_date": "2013-09-27",
+      "source_url": "https://azjewishpost.com/2013/rabbis-corner-judaism-is-not-just-for-special-occasions/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "full_text_in_atlas": false,
+      "editorial_status": "source_text_verified_needs_cross_source_dedupe"
+    },
+    {
+      "title": "Got billions? Giving like the other half does",
+      "publication_date": "2010-08-25",
+      "source_url": "https://azjewishpost.com/2010/got-billions-giving-like-the-other-half-does/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "full_text_in_atlas": false,
+      "editorial_status": "first_party_byline_and_body_page_verified; cross_source_dedupe_pending"
+    },
+    {
+      "title": "A fresh start or a September song?",
+      "publication_date": "2012-09-07",
+      "source_url": "https://azjewishpost.com/2012/a-fresh-start-or-a-september-song/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "full_text_in_atlas": false,
+      "editorial_status": "publisher_page_byline_verified; cross_source_dedupe_pending"
+    }
+  ],
+  "historical_torah_talk": [
+    {
+      "title": "Baking Holiness",
+      "source_date": "2013-04-30",
+      "newsletter_url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "historical_original_url": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773",
+      "status": "excerpt confirmed in newsletter; full original remains unrecovered"
+    }
+  ],
+  "excluded_from_authored_count": [
+    "Temple event notices",
+    "Journalists' coverage featuring Rabbi Cohon",
+    "Coauthored or contributor-only pieces pending proper contribution annotation"
+  ],
+  "record_policy": "Article-level identity remains distinct from sermon work identity, reprints, and classroom recordings; cross-source duplication review pending",
+  "counts": {
+    "attributed_community_publications_in_crosswalk": 6,
+    "first_party_blog_catalog_unchanged": 317,
+    "community_publications_ledger_total": 17
+  },
+  "source_release": "Metadata only, no full copyrighted article text copied"
+}
