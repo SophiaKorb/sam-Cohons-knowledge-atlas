@@ -1,0 +1,84 @@
+{
+  "created": "2026-10-16",
+  "collection": "Temple Emanu-El Tucson / Samuel M. Cohon",
+  "purpose": "Program-level reconstruction from contemporaneous newsletters and news coverage, distinct from recordings and manuscripts",
+  "sources": [
+    {
+      "url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "date": "2013-04-30",
+      "type": "first_party_newsletter"
+    },
+    {
+      "url": "https://azjewishpost.com/2014/temple-taste-of-judaism-celebrating-15th-year/",
+      "date": "2014-07-04",
+      "type": "contemporary_program_reporting"
+    },
+    {
+      "url": "https://azjewishpost.com/2015/taste-of-judaism-class-to-feature-sign-language-interpretation/",
+      "date": "2015-07-09",
+      "type": "contemporary_program_reporting"
+    }
+  ],
+  "programs": [
+    {
+      "title": "Zohar, Soul-Text of Kabbalah",
+      "date_evidence": "Thursdays through 2013-05-16, 11:45 am",
+      "attribution": "Rabbi Samuel M. Cohon",
+      "source_index": 0,
+      "asset_status": "no session audio recovered from historical feed"
+    },
+    {
+      "title": "Basic and Intermediate Judaism / Jewish Music",
+      "date_evidence": "2013-05-01, 7 pm (as printed in newsletter)",
+      "attribution": "Rabbi Samuel M. Cohon",
+      "source_index": 0,
+      "asset_status": "no session audio recovered"
+    },
+    {
+      "title": "Sefer Book Club / Sacred Trash",
+      "date_evidence": "2013-05-01, 7 pm (newsletter lists same time as combined class; unresolved conflict)",
+      "attribution": "Rabbi Samuel M. Cohon",
+      "source_index": 0,
+      "asset_status": "no session audio recovered"
+    },
+    {
+      "title": "Conversion Group",
+      "date_evidence": "2013-05-01, 5:30–6:30 pm",
+      "attribution": "Rabbi Samuel M. Cohon",
+      "source_index": 0,
+      "asset_status": "class announced, no recording claimed"
+    },
+    {
+      "title": "A Taste of Judaism",
+      "date_evidence": "2014 summer/fall three-session series",
+      "attribution": "Rabbis Samuel M. Cohon and Batsheva Appel",
+      "source_index": 1,
+      "asset_status": "program documented; lesson recordings/manuscripts not located"
+    },
+    {
+      "title": "A Taste of Judaism",
+      "date_evidence": "2015 summer/fall three-session series, including one ASL-interpreted series",
+      "attribution": "Rabbis Samuel M. Cohon and Batsheva Appel",
+      "source_index": 2,
+      "asset_status": "program documented; lesson recordings/manuscripts not located"
+    }
+  ],
+  "recovery": {
+    "class_podcast_feed": "https://tucsontempleemanuel.podbean.com/",
+    "newsletter_direct_link_confirmed": true,
+    "accessible_episode_count_verified": 0,
+    "torah_talk_original": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773",
+    "full_text_acquired": false
+  },
+  "confidence_notes": [
+    "Two 2013 May 1 events are advertised at the same 7 pm time; do not silently reconcile this discrepancy.",
+    "Class podcast availability announced, but cannot establish that every named class has a surviving recording.",
+    "Third-party announcements establish programs, not delivery dates of each session or transcript completeness.",
+    "No public text, attendee details, or copyrighted article body copied."
+  ],
+  "next_checks": [
+    "Find original media files using recovered historical Podbean URL",
+    "Recover original Torah Talk text and compare with later reprints",
+    "Search privately held Emanu-El newsletters/manuscripts before declaring corpus exhausted"
+  ]
+}
