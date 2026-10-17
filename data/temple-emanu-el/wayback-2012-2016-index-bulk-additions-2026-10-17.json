@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-17",
+  "description": "Two further publicly archived Temple Emanu-El Tucson Weekly Torah Talk index captures, with directly extracted actual hyperlinks, not synthetic article guesses",
+  "batches": [
+    {
+      "capture": "2012-09-20T06:40:16Z",
+      "url": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+      "slugs": [
+        "540-torah-talk-vayeilech-5773",
+        "535-torah-talk-nitzavim-5772",
+        "529-torah-talk-ki-tavo-5772",
+        "525-torah-talk-ki-teitzei-5772",
+        "510-torah-talk-shoftim-5772",
+        "488-torah-talk-reeh-5772",
+        "469-torah-talk-eikev-5772",
+        "468-torah-talk-devarim-5772",
+        "470-torah-talk-matot-masei-5772"
+      ],
+      "verified_article_links": 9,
+      "records": [
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/540-torah-talk-vayeilech-5773",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/535-torah-talk-nitzavim-5772",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/529-torah-talk-ki-tavo-5772",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/525-torah-talk-ki-teitzei-5772",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/510-torah-talk-shoftim-5772",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/488-torah-talk-reeh-5772",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/469-torah-talk-eikev-5772",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/468-torah-talk-devarim-5772",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/470-torah-talk-matot-masei-5772",
+          "source_snapshot": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        }
+      ]
+    },
+    {
+      "capture": "2016-01-16T23:25:44Z",
+      "url": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+      "slugs": [
+        "1166-torah-talk-bo-5776",
+        "1165-torah-talk-vaeira-5776",
+        "1163-torah-talk-shemot-5776",
+        "1161-torah-talk-vayigash-5776",
+        "1162-torah-talk-vayechi-5776",
+        "1159-torah-talk-mikeitz-5776",
+        "1158-torah-talk-vayeshev-5776",
+        "1156-torah-talk-vayishlach-5776",
+        "1153-torah-talk-vayeitzei-5776"
+      ],
+      "verified_article_links": 9,
+      "records": [
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1166-torah-talk-bo-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1165-torah-talk-vaeira-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1163-torah-talk-shemot-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1161-torah-talk-vayigash-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1162-torah-talk-vayechi-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1159-torah-talk-mikeitz-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1158-torah-talk-vayeshev-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1156-torah-talk-vayishlach-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        },
+        {
+          "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1153-torah-talk-vayeitzei-5776",
+          "source_snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+          "status": "INDEX_LINK_VERIFIED_FULL_TEXT_NOT_YET_FETCHED"
+        }
+      ]
+    }
+  ],
+  "across_three_snapshots": {
+    "from_existing_2014_index": 9,
+    "from_2012_index": 9,
+    "from_2016_index": 9,
+    "total_historical_article_links": 27,
+    "individual_full_page_verified_so_far": 1
+  },
+  "policy": "Links are authentic but index discovery does not verify full individual article survival, unique intellectual work or authorship on each individual page. No raw text in public GitHub.",
+  "next": "Fetch dated individual captures, then search archived pagination snapshots to extend corpus",
+  "audio_deferred": true
+}
