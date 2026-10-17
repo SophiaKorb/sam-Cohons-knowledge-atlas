@@ -159,5 +159,24 @@
       "Emanu-El period independent blog and external bylined columns"
     ],
     "no_audio_work_this_round": true
-  }
+  },
+  "discovery_checks": [
+    {
+      "date": "2026-10-16",
+      "focus": "Bulk recovery of complete historical Temple Emanu-El Torah Talk writings",
+      "public_findings": "Targeted web searches still return April 30 2013 newsletter containing excerpt of Baking Holiness and previously cataloged AZ Jewish Post columns. No additional full original Torah Talk discovered.",
+      "source": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "other_congregations_excluded": "Temple Emanu-El institutions in New Jersey and Massachusetts are not Temple Emanu-El Tucson.",
+      "connected_mail_check": "Historical pre-2018 attachment query found three matches in primary connected mail; manually reviewed subjects/attachments, all unrelated to Samuel M. Cohon sermons; zero accessioned. Separate Temple Emanu-El Torah Talk query in congregational account returned zero matches.",
+      "source_text_recovered_this_pass": 0,
+      "new_authored_work_records_this_pass": 0,
+      "audio_phase": "deferred"
+    }
+  ],
+  "next_bulk_recovery_targets": [
+    "Find owner-controlled older Emanu-El DOC/DOCX sermons in Drive or private manuscript folders, focusing on 1998–2017",
+    "Find additional original Constant Contact issues or legacy /learning/torah-talks/ pages using first-party evidence",
+    "Preserve original text privately before counting any newly discovered manuscript",
+    "Only then pursue audio recovery"
+  ]
 }
