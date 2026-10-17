@@ -1,0 +1,70 @@
+{
+  "updated": "2026-10-17",
+  "source": "Wayback snapshots of Tucson Temple Emanu-El Weekly Torah Talks",
+  "index_snapshots": [
+    {
+      "date": "2012-09-20",
+      "url": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+      "entries": [
+        {
+          "title": "Near Death Experiences",
+          "date": "2012-09-19",
+          "legacy_path": "540-torah-talk-vayeilech-5773",
+          "text_status": "First-party index excerpt recovered; full original article not retrieved"
+        },
+        {
+          "title": "The Covenant of Presence",
+          "date": "2012-09-12",
+          "legacy_path": "535-torah-talk-nitzavim-5772",
+          "text_status": "First-party index excerpt recovered; full original article not retrieved"
+        },
+        {
+          "title": "The Missing Center",
+          "date": "2012-09-05",
+          "legacy_path": "529-torah-talk-ki-tavo-5772",
+          "text_status": "First-party index excerpt recovered; full original article not retrieved"
+        },
+        {
+          "title": "The Moral Value of Labor",
+          "date": "2012-08-29",
+          "legacy_path": "525-torah-talk-ki-teitzei-5772",
+          "text_status": "First-party index excerpt recovered; full original article not retrieved"
+        },
+        {
+          "title": "Applied Justice",
+          "date": "2012-08-22",
+          "legacy_path": "510-torah-talk-shoftim-5772",
+          "text_status": "First-party index excerpt recovered; full original article not retrieved"
+        }
+      ]
+    },
+    {
+      "date": "2016-01-16",
+      "url": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+      "entries": [
+        {
+          "title": "A Book in Full for the New Secular Year",
+          "date": "2015-12-23",
+          "legacy_path": "1162-torah-talk-vayechi-5776",
+          "text_status": "Full article-length body appears in Wayback index snapshot; individual page still unavailable; completeness against original unverified"
+        }
+      ]
+    }
+  ],
+  "relationship_review": [
+    {
+      "title": "The Missing Center",
+      "date": "2012-09-05",
+      "current_later_blog": "https://beitsimchatucson.org/blog/the-missing-center-1",
+      "note": "Same title and topic as later 2024 sermon; publication identity and exact overlap not yet compared"
+    }
+  ],
+  "new_metadata": "Six identified dated titles from two historical archive indexes, with first-party excerpt evidence; nine source URLs in each index were recorded in prior manifests",
+  "counts": {
+    "new_full_individual_page_captures": 0,
+    "new_dated_title_identifications": 6,
+    "previously_identified_historical_urls": 27
+  },
+  "copyright": "Public metadata and provenance only; no article body copied into GitHub",
+  "audio_deferred": true
+}
