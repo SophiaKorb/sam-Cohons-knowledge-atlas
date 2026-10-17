@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-16",
+  "scope": "Sam Cohon complete Torah essays found in national and international Reform publication archives",
+  "verified_complete_author_contributions": [
+    {
+      "title": "Baking Holiness",
+      "publisher": "Union for Reform Judaism",
+      "url": "https://reformjudaism.org/learning/torah-study/torah-commentary/emor-0",
+      "dated": "2013-04",
+      "portion": "Emor",
+      "author_section": "Daver Acher by Samuel M. Cohon only",
+      "publication_type": "secondary contribution to Dalia Marx's primary commentary"
+    },
+    {
+      "title": "Torah from around the world #50",
+      "publisher": "World Union for Progressive Judaism",
+      "url": "https://wupj.org/library/the-weekly-portion/996/torah-from-around-the-world-50/",
+      "dated": null,
+      "portion": "Yitro",
+      "publication_type": "full independent rabbinic Torah essay",
+      "dating_status": "publication date not clearly shown"
+    },
+    {
+      "title": "The Song to the Violent God (Torah from Around the World #308)",
+      "publisher": "World Union for Progressive Judaism",
+      "url": "https://wupj.org/library/the-weekly-portion/993/torah-from-around-the-world-308/",
+      "dated": null,
+      "portion": "B'Shalach",
+      "publication_type": "full independent rabbinic Torah essay",
+      "dating_status": "WUPJ publication date not clearly shown; third-party attributed 2017"
+    }
+  ],
+  "verified_sources": 3,
+  "discovery_pass": {
+    "searches": [
+      "URJ author and Daver Acher variants excluding Emor",
+      "WUPJ exact author queries excluding known #50 and #308",
+      "General Temple Emanu-El period commentary citations"
+    ],
+    "new_verified_full_essays": 0,
+    "already_cataloged": 3,
+    "limitation": "Web search index did not surface further attributable complete contributions. Not evidence that no additional essays exist."
+  },
+  "next_bulk_targets": [
+    "Publisher contributor archive / author pages that enumerate all appearances rather than search snippets",
+    "Archived historical temple Torah Talk index or original CMS export",
+    "Earlier Temple Emanu-El newsletter collections with actual author-linked full texts"
+  ],
+  "count_policy": "Three verifiable complete authored contributions in this publisher group, all already in supplemental ledger of 20 source records; no new increment this pass",
+  "audio_deferred": true
+}
