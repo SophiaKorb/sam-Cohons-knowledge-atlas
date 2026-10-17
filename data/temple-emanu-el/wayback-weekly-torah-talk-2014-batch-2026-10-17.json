@@ -95,7 +95,10 @@
     "title": "Hide and Seek with Jewish Identity",
     "wayback_url": "https://web.archive.org/web/20150103123939/http://templeemanueltucson.org/learning/torah-talks/1025-torah-talk-mikeitz-5775",
     "date": "2014-12-17",
-    "body_status": "Readable complete article-style page, not yet independently saved as a raw archival file"
+    "body_status": "Readable complete article-style page, not yet independently saved as a raw archival file",
+    "cataloged_in": "data/writings/community-publications.json",
+    "ledger_accession_commit": "7475e206b4629abc88d42fcbf71d6ac96e77fc5d",
+    "text_preservation_note": "Original complete publisher page readable on Wayback; full article not copied into GitHub or backed up as independent master."
   },
   "recovery_limits": [
     "Wayback links in an archived index don't guarantee snapshot of each detail page",
@@ -104,5 +107,13 @@
     "Do not confuse excerpt-only index with full article"
   ],
   "privacy": "Only metadata in GitHub; source pages were public first-party writings",
-  "audio_deferred": true
+  "audio_deferred": true,
+  "research_followup_2026_10_17": {
+    "attempts": "Tested alternative archive timestamps for April 2015, July 2013 and February 2016, all redirect to three previously indexed snapshots; no new article links on those dates.",
+    "delta_new_full_text_cataloged": 1,
+    "delta_new_legacy_links": 0,
+    "verified_legacy_urls_total": 45,
+    "other_detail_pages": "Individual page fetches from direct links still return 404 when capture does not exist",
+    "source_quality": "Do not count long index excerpts as independently verified complete individual pages"
+  }
 }
