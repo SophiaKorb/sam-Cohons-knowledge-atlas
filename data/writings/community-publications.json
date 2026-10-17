@@ -425,6 +425,29 @@
       "review_state": "full_signed_article_confirmed_by_publisher_index_and_complete_open_to_closing_text; cross_source_dedupe_pending",
       "archive_relation": "Temple Emanu-El era",
       "rights": "Only metadata in public repo; original remains at publisher URL"
+    },
+    {
+      "title": "The Origins of Awareness",
+      "date": "2000-10",
+      "date_precision": "Yom Kippur 5761; civil day not independently verified",
+      "publisher": "Third-party compiled teaching PDF introduced by Stuart Hameroff; original delivery at Temple Emanu-El Tucson",
+      "url": "https://avalonlibrary.net/ebooks/Rabbi%20Samuel%20Cohon%20-%20Kabbalah%20Consciousness%20and%20The%20Universe.pdf",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El Tucson",
+      "type": "complete_original_high_holy_day_sermon_third_party_preservation",
+      "topic": [
+        "Yom Kippur 5761",
+        "Kabbalah",
+        "consciousness",
+        "neuroscience",
+        "Stuart Hameroff",
+        "prayer"
+      ],
+      "review_state": "complete_first_person_sermon_verified_PDF_pages_8_to_14_inclusive; separate Hameroff scientific handout and shared syllabus must not be attributed to Sam alone",
+      "pdf_total_pages": 14,
+      "sermon_pdf_pages": "8–14 (PDF pages indexed 1-based)",
+      "source_integrity": "Full sermon from introduction to Ken yehi ratson; original PDF externally accessible, separate private master download not completed",
+      "archive_relation": "Temple Emanu-El 1998–2017",
+      "rights": "Only metadata in GitHub; source PDF remains externally linked"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
