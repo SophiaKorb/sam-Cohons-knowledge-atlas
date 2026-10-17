@@ -225,7 +225,22 @@
         "Jewish thought"
       ],
       "review_state": "source_text_verified_contextual"
+    },
+    {
+      "title": "Got billions? Giving like the other half does",
+      "date": "2010-08-25",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2010/got-billions-giving-like-the-other-half-does/",
+      "byline": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "type": "community_authored_publication",
+      "topic": [
+        "philanthropy",
+        "tzedakah",
+        "Giving Pledge"
+      ],
+      "review_state": "first_party_byline_and_body_page_verified; cross_source_dedupe_pending",
+      "archive_relation": "Temple Emanu-El era"
     }
   ],
-  "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts."
+  "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317."
 }
