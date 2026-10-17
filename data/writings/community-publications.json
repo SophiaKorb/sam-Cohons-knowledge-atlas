@@ -408,6 +408,23 @@
       "review_state": "complete_article_verified_from_publisher_indexed_text; current direct fetch intermittent or unavailable",
       "archive_relation": "Temple Emanu-El era",
       "rights": "Metadata only; full article not mirrored in public repo"
+    },
+    {
+      "title": "Lighten Up - It's Supposed to Be Fun",
+      "date": "2016-02-28",
+      "publisher": "Strauss Early Childhood Education, Temple Emanu-El Tucson",
+      "url": "https://www.straussece.com/ece-blog/2016/2/28/lighten-up-its-supposed-to-be-fun",
+      "byline": "Rabbi Samuel M. Cohon (signed at end; post published by Mindy Henry)",
+      "type": "full_original_published_holiday_essay",
+      "topic": [
+        "Purim",
+        "religious joy",
+        "Temple Emanu-El community theater",
+        "Jewish ethics"
+      ],
+      "review_state": "full_signed_article_confirmed_by_publisher_index_and_complete_open_to_closing_text; cross_source_dedupe_pending",
+      "archive_relation": "Temple Emanu-El era",
+      "rights": "Only metadata in public repo; original remains at publisher URL"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
