@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-17",
+  "discovery": "Previously uncatalogued complete Yom Kippur 5761 sermon attributed directly to Rabbi Samuel M. Cohon, Temple Emanu-El Tucson",
+  "primary_public_url": "https://avalonlibrary.net/ebooks/Rabbi%20Samuel%20Cohon%20-%20Kabbalah%20Consciousness%20and%20The%20Universe.pdf",
+  "older_url_cited_in_publication": "http://www.consciousness.arizona.edu/hameroff/Ham/Ideas/Kabbala",
+  "pdf_pages": 14,
+  "source_sections": [
+    {
+      "pages_1_based": "1–2",
+      "work": "Temple Emanu-El Kabbalah, Consciousness and the Universe 2001 syllabus",
+      "attribution": "Rabbi Samuel M. Cohon and Stuart Hameroff jointly",
+      "type": "teaching_program_document"
+    },
+    {
+      "pages_1_based": "2–8",
+      "work": "To Get to the Other Side — Kabbalah, Consciousness and the Universe",
+      "attribution": "Stuart Hameroff",
+      "type": "scientific_handout",
+      "count_as_Sam_individual_writing": false
+    },
+    {
+      "pages_1_based": "8–14",
+      "work": "The Origins of Awareness",
+      "attribution": "Rabbi Samuel M. Cohon",
+      "date": "Yom Kippur 5761 (2000)",
+      "type": "full_high_holy_day_sermon",
+      "first_person_complete_text": true,
+      "opening_and_closing_verified": true
+    }
+  ],
+  "related_teaching_program": {
+    "title": "Kabbalah, consciousness and the universe",
+    "venue": "Temple Emanu-El Adult Education Academy",
+    "scheduled_class_dates": [
+      "2001-02-04",
+      "2001-02-11",
+      "2001-02-25",
+      "2001-03-04"
+    ],
+    "instructors": [
+      "Rabbi Samuel M. Cohon",
+      "Dr. Stuart Hameroff"
+    ],
+    "audio_status": "Not attempted or recovered"
+  },
+  "rights_and_integrity": "GitHub contains no copyrighted full body. PDF has a third-party public mirror; private archival original bytes not yet preserved because network download attempts failed. Retain attribution boundaries between components.",
+  "ledger_commit": "0a040d10488b8c2d9f0e8f656b39488c6acca4ef",
+  "audio_deferred": true
+}
