@@ -171,6 +171,23 @@
       "source_text_recovered_this_pass": 0,
       "new_authored_work_records_this_pass": 0,
       "audio_phase": "deferred"
+    },
+    {
+      "date": "2026-10-16",
+      "focus": "Additional 2012–2017 public first-person publications and historical Torah Talk recovery",
+      "verified_existing_sources": [
+        "https://azjewishpost.com/2012/a-fresh-start-or-a-september-song/",
+        "https://azjewishpost.com/2013/rabbis-corner-judaism-is-not-just-for-special-occasions/",
+        "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
+        "https://azjewishpost.com/2016/the-synagogue-remains-at-the-heart-of-jewish-life/"
+      ],
+      "original_torah_talk_lead": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773",
+      "first_party_newsletter": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "result": "No newly accessible original full Torah Talk in this search. First-person articles matched already accessioned community-publications ledger.",
+      "new_complete_texts": 0,
+      "duplicate_publication_verification": "2015 gratitude newspaper version and 5775 Blessings in Advance manuscript already linked as same intellectual work in private-manuscript accession.",
+      "follow_up": "Recover first-party archived original URLs via external archive or privately held Emanu-El writings before adding counts",
+      "audio_deferred": true
     }
   ],
   "next_bulk_recovery_targets": [
