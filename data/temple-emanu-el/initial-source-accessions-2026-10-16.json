@@ -73,5 +73,28 @@
     "Locate old podcasts of adult education classes through documented newsletter links",
     "Check archived templeemanueltucson.org URLs; verify links and file bytes before backup"
   ],
-  "privacy": "No outreach, public release of private materials or silent replacement of records"
+  "privacy": "No outreach, public release of private materials or silent replacement of records",
+  "recovery_leads": [
+    {
+      "source": "Temple Emanu-El April 30 2013 newsletter link #7",
+      "url": "https://tucsontempleemanuel.podbean.com/",
+      "type": "historical_class_podcast_feed",
+      "status": "linked_from_verified_newsletter; direct page fetch failed; no audio recovered",
+      "priority": "highest"
+    },
+    {
+      "source": "Temple Emanu-El April 30 2013 newsletter link #9",
+      "url": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773",
+      "type": "Baking Holiness full Torah Talk",
+      "status": "exact original URL recovered; direct page fetch failed; only newsletter excerpt preserved as source",
+      "priority": "high"
+    },
+    {
+      "source": "Temple Emanu-El April 30 2013 newsletter link #19",
+      "url": "https://www.templeemanueltucson.org/",
+      "type": "legacy Weekly Torah Talk landing page",
+      "status": "historic first-party site; original URL target may now be obsolete",
+      "priority": "medium"
+    }
+  ]
 }
