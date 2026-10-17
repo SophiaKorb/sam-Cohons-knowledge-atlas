@@ -104,6 +104,36 @@
       "attribution": "Event with quote from Rabbi Cohon; this is not an authored writing",
       "preservation_status": "Article source available",
       "classification": "context_not_authored_work"
+    },
+    {
+      "id": "TEE-011",
+      "type": "Emanu-El-era_authored_publication",
+      "date": "2013-09-27",
+      "title": "Rabbi’s corner: Judaism is not just for special occasions",
+      "url": "https://azjewishpost.com/2013/rabbis-corner-judaism-is-not-just-for-special-occasions/",
+      "attribution": "Explicit Rabbi Samuel M. Cohon, Temple Emanu-El publisher byline",
+      "cross_reference": "Already in data/writings/community-publications.json; not a new supplemental writing source record",
+      "classification": "authored_publication_existing_archive_record"
+    },
+    {
+      "id": "TEE-012",
+      "type": "Emanu-El-era_authored_publication",
+      "date": "2014-10-10",
+      "title": "Letting the land and people rest and grow",
+      "url": "https://azjewishpost.com/2014/letting-the-land-and-people-rest-and-grow/",
+      "attribution": "Explicit Rabbi Samuel M. Cohon, Temple Emanu-El publisher byline",
+      "cross_reference": "Already in data/writings/community-publications.json; not a new supplemental writing source record",
+      "classification": "authored_publication_existing_archive_record"
+    },
+    {
+      "id": "TEE-013",
+      "type": "Emanu-El-era_authored_publication",
+      "date": "2015-08-27",
+      "title": "At new year, have gratitude for God’s latitude",
+      "url": "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
+      "attribution": "Explicit Rabbi Samuel M. Cohon, Temple Emanu-El publisher byline",
+      "cross_reference": "Already in data/writings/community-publications.json; not a new supplemental writing source record",
+      "classification": "authored_publication_existing_archive_record"
     }
   ],
   "deduplication": "Before adding records to global authored-work totals, compare source URLs and article bodies with data/writings/community-publications.json and both blog ledgers; this new accession makes no distinct-work total claim.",
