@@ -31,6 +31,26 @@
       "release": "Private manuscript remains private; GitHub records metadata only",
       "count_policy": "One intellectual work, two retained textual expressions (private full sermon and public shorter column). Do not increment unique work estimate for newspaper column.",
       "follow_up": "Compare against newspaper article text; search earlier sermon originals and organize manuscripts into private Emanu-El dedicated folder"
+    },
+    {
+      "work_id": "TEE-SERVICE-OUTLINE-5777",
+      "title": "High Holiday Outline 5777",
+      "document_date": "2016-09-20",
+      "author_or_lead": "Temple Emanu-El, Tucson; Rabbi Samuel M. Cohon credited as clergy and liturgical leader",
+      "original_filename": "High Holiday Outline 5777 9 20 2016.docx",
+      "source_drive_id": "17vn0mqBxStxGpkIG1gZHU-8Gzjz5oWR1",
+      "source_drive_url": "https://drive.google.com/file/d/17vn0mqBxStxGpkIG1gZHU-8Gzjz5oWR1/view",
+      "access_level": "private_connected_Google_Drive",
+      "source_status": "Readable original DOCX fetched and inspected via authenticated Drive",
+      "classification": "private_first_party_service_outline_not_sermon_manuscript",
+      "historical_details": [
+        "Rosh Hashanah Eve 5777 service order, spoken cues, prayer texts and participatory roles",
+        "Rabbi Cohon's service introduction indicated by the keywords Flat Tires or Late; full introduction is not reproduced in the outline",
+        "Drash program introduced as more than 550 congregants contributing more than 800 delivered drashot as of outline's drafting; not Sam-authored works",
+        "Jane Schlamowitz is explicitly credited for the evening's Akedat Yitzchak drash; Rabbi Batsheva Appel identified as sermon speaker"
+      ],
+      "editorial_policy": "Do not assign 800 congregational drashot or other speakers' sermons to Sam. Document is private and no original body is placed in GitHub.",
+      "count_policy": "One new private historical planning document; zero new complete Sam sermon manuscripts"
     }
   ]
 }
