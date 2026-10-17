@@ -1,0 +1,34 @@
+{
+  "accessions": [
+    {
+      "date": "2026-10-16",
+      "collection": "Temple Emanu-El Tucson authored manuscript accession",
+      "title": "Blessings in Advance",
+      "internal_heading": "Parshat Re'ei 5775, Rabbi Samuel M. Cohon",
+      "approx_year": 2015,
+      "work_id": "TEE-MANUSCRIPT-RE-EI-5775",
+      "original_filename": "Advance Blessings -- Rabbi Samuel M. Cohon Sermon on   Re'ei 5775.docx",
+      "source_library_file_id": "file_00000000b59c81f58d4cb92751d75a1f",
+      "source_size_bytes": 21410,
+      "source_document_pages": 5,
+      "manuscript_quality": "Full five-page textual manuscript opened and inspected; no audio or delivery verification",
+      "source_evidence": [
+        "Author and parashah explicitly in document heading",
+        "Mentions Kurn Hebrew School, an institutional Emanu-El context cue",
+        "Text discusses Re'ei and gratitude, blessing offered in advance, ethical choices and approaching Elul"
+      ],
+      "cross_reference": {
+        "candidate": "At new year, have gratitude for God’s latitude",
+        "published_url": "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
+        "finding": "Strong thematic and phrasing association; requires full published article text comparison to determine excerpt/republication relationship; not collapsed"
+      },
+      "private_locations": {
+        "chatgpt_library": "Original document present as user library item",
+        "google_drive": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup/Transcripts PRIVATE/Teaching/Blessings in Advance Reei 5775 original manuscript.docx"
+      },
+      "release": "Private manuscript remains private; GitHub records metadata only",
+      "count_policy": "One recovered manuscript source object, not automatically one new unique work. Does not increase 317 public first-party blog records.",
+      "follow_up": "Compare against newspaper article text; search earlier sermon originals and organize manuscripts into private Emanu-El dedicated folder"
+    }
+  ]
+}
