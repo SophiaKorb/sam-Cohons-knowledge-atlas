@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-16",
+  "collection": "Temple Emanu-El Tucson — volume-oriented writing recovery",
+  "objective": "Consolidate attributable readable Emanu-El-era published writing into one high-throughput source index; do not conflate reported oral statements with complete manuscripts.",
+  "verified_public_text_sources": [
+    {
+      "title": "Tucson trauma and civility",
+      "date": "2011-02-11",
+      "url": "https://azjewishpost.com/2011/tucson-trauma-and-civility/",
+      "attribution": "Rabbi Samuel M. Cohon",
+      "source_type": "community_authored_publication",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    },
+    {
+      "title": "The synagogue remains at the heart of Jewish life",
+      "date": "2016-09-22",
+      "url": "https://azjewishpost.com/2016/the-synagogue-remains-at-the-heart-of-jewish-life/",
+      "attribution": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    },
+    {
+      "title": "At new year, have gratitude for God’s latitude",
+      "date": "2015-08-27",
+      "url": "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
+      "attribution": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    },
+    {
+      "title": "Letting the land and people rest and grow",
+      "date": "2014-10-10",
+      "url": "https://azjewishpost.com/2014/letting-the-land-and-people-rest-and-grow/",
+      "attribution": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    },
+    {
+      "title": "Rabbi’s corner: Judaism is not just for special occasions",
+      "date": "2013-09-27",
+      "url": "https://azjewishpost.com/2013/rabbis-corner-judaism-is-not-just-for-special-occasions/",
+      "attribution": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    },
+    {
+      "title": "Rabbi’s Corner: Giving thanks for hard-won lessons",
+      "date": "2011-11-10",
+      "url": "https://azjewishpost.com/2011/rabbis-corner-giving-thanks-for-hard-won-lessons/",
+      "attribution": "Rabbi Samuel M. Cohon",
+      "source_type": "community_authored_publication",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    },
+    {
+      "title": "Rabbi Samuel M. Cohon",
+      "date": "2015-09-10",
+      "url": "https://azjewishpost.com/2015/rabbi-samuel-m-cohon/",
+      "attribution": "Rabbi Samuel M. Cohon",
+      "source_type": "first_person_profile_essay",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    },
+    {
+      "title": "Got billions? Giving like the other half does",
+      "date": "2010-08-25",
+      "url": "https://azjewishpost.com/2010/got-billions-giving-like-the-other-half-does/",
+      "attribution": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    },
+    {
+      "title": "A fresh start or a September song?",
+      "date": "2012-09-07",
+      "url": "https://azjewishpost.com/2012/a-fresh-start-or-a-september-song/",
+      "attribution": "Rabbi Samuel M. Cohon, Temple Emanu-El",
+      "source_type": "community_authored_publication",
+      "source_status": "publisher page published; URL cataloged",
+      "content_archived_as_original_file": false
+    }
+  ],
+  "counts": {
+    "readable_public_publisher_pages": 9,
+    "new_records_added_this_round": 0
+  },
+  "additional_leads": [
+    {
+      "title": "Baking Holiness",
+      "date": "2013-04-30",
+      "url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "status": "newsletter excerpt available, complete source lost"
+    },
+    {
+      "title": "2011 written statement after Tucson shooting",
+      "date": "2011-01",
+      "url": "https://azjewishpost.com/2011/tucson-jewish-community-anguished-over-shooting-rampage/",
+      "status": "partial reported quotation; full statement missing"
+    },
+    {
+      "title": "2012 pilgrimage dispatches",
+      "date": "2012-05 through 2012-06",
+      "url": "https://azjewishpost.com/2012/local-jews-and-christians-share-joy-on-interfaith-mission/",
+      "status": "original dispatches not independently recovered"
+    }
+  ],
+  "limitations": "This pass found no new independently recoverable full historical Torah Talk texts. All publication pages are web sources, not saved full-file archival masters. Count of published pages is a collection crosswalk, not a new additions count. Rights and attribution review before private full-text capture.",
+  "next": "Search historical newsletter issues and existing privately owned sermon manuscripts in bulk. Audio later.",
+  "privacy": "No private sources copied into public repository"
+}
