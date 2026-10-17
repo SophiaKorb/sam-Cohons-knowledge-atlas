@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-17",
+  "scope": "Complete census of 51 distinct first-party archived Temple Emanu-El Torah Talk URLs",
+  "method": "Reconstructed 51 distinct article URL slugs from five verified GitHub Wayback manifests; queried Wayback /__wb/calendarcaptures/2 against the apex hostname for the two Gregorian years associated with their Hebrew year, in batches",
+  "unique_urls_checked": 51,
+  "year_windows_per_slug": 2,
+  "positive_individual_capture_urls": [
+    {
+      "slug": "1025-torah-talk-mikeitz-5775",
+      "capture": "2015-01-03T12:39:39Z",
+      "url": "https://web.archive.org/web/20150103123939/http://templeemanueltucson.org/learning/torah-talks/1025-torah-talk-mikeitz-5775",
+      "title": "Hide and Seek with Jewish Identity",
+      "already_accessioned": true
+    },
+    {
+      "slug": "535-torah-talk-nitzavim-5772",
+      "capture": "2012-09-22T04:40:29Z",
+      "url": "https://web.archive.org/web/20120922044029/http://templeemanueltucson.org/learning/torah-talks/535-torah-talk-nitzavim-5772",
+      "title": "The Covenant of Presence",
+      "complete_first_party_article_retrieved": true
+    },
+    {
+      "slug": "1192-torah-talk-pekudei-5776",
+      "capture": "2016-04-09T19:16:55Z",
+      "url": "https://web.archive.org/web/20160409191655/http://templeemanueltucson.org/learning/torah-talks/1192-torah-talk-pekudei-5776",
+      "title": "But Why Did You Build It?",
+      "complete_first_party_article_retrieved": true
+    }
+  ],
+  "negative_calendar_results_in_examined_years": 48,
+  "notes": [
+    "Positive result means calendar API returned a 200 capture and page opened with an attributable essay from beginning to a natural ending",
+    "Negative result means no individual capture returned for those years/hostname, not proof absent in other URL forms or later years",
+    "Index snapshots may still preserve substantial or apparently complete texts for negative individual-page results"
+  ],
+  "ledger_path": "data/writings/community-publications.json",
+  "new_full_individual_page_writings_this_pass": 2,
+  "supplemental_publication_records_after": 25,
+  "historical_original_url_inventory_still": 51,
+  "privacy": "Only metadata in GitHub; source text retained at publisher's archived source link",
+  "audio_deferred": true
+}
