@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-16",
+  "scope": "First-party authored writing discovery and catalog consistency sweep",
+  "status": "completed_for_first_party_discovery_through_2026-10-15_not_full_manuscript_or_text_proofreading",
+  "source_count": {
+    "standalone_blog": 47,
+    "beit_simcha_blog": 270,
+    "total": 317
+  },
+  "new_first_party_posts": [
+    {
+      "date": "2026-09-22",
+      "title": "Redemption: The Connections Between Us",
+      "url": "https://beitsimchatucson.org/blog/redemption-the-connections-between-us"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "A Donation: Saving and Treasuring Life",
+      "url": "https://beitsimchatucson.org/blog/a-donation-saving-and-treasuring-life"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "Finding Gratitude",
+      "url": "https://beitsimchatucson.org/blog/finding-gratitude-1"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Rabbi Cohn’s Thoughts on the 3rd Anniversary of October 7",
+      "url": "https://beitsimchatucson.org/blog/rabbi-cohns-thoughts-on-the-3rd-anniversary-of-october-7",
+      "note": "First-party article title spells Cohn; archive card uses Cohon. Preserve as published and mark possible title typo rather than silently correcting."
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Resilience",
+      "url": "https://beitsimchatucson.org/blog/resilience"
+    }
+  ],
+  "duplicate_review": {
+    "related_urls": [
+      "https://beitsimchatucson.org/blog/finding-gratitude",
+      "https://beitsimchatucson.org/blog/finding-gratitude-1"
+    ],
+    "finding": "confirmed substantive republication with calendar-specific revision, 2024 and 2026 sources both retained",
+    "confirmed_redundancies_minimum": 6,
+    "conservative_distinct_work_upper_bound": 311
+  },
+  "earlier_claim_316": "superseded by five records after 2026-09-16; do not assert memo was accurate on its original snapshot date",
+  "synchronized_files": [
+    "data/writings/beit-simcha-blog.json",
+    "data/writings/stats.json",
+    "data/writings/sources.json",
+    "data/writings/dedupe-candidates.json",
+    "README.md",
+    "research/ARCHIVAL_RECONCILIATION_2026-10-15.md"
+  ],
+  "remaining_separate_work": [
+    "Compare private sermon manuscript documents to published first-party texts before claiming final cross-manifestation matches",
+    "Continue comprehensive manual textual and attribution QA for all published writings",
+    "Assess public rights and editorial release gates before reuse; no private source text published"
+  ],
+  "release": "Metadata updates to GitHub only; no private manuscript or classroom audio/transcript copied."
+}
