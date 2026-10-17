@@ -1,0 +1,108 @@
+{
+  "created": "2026-10-17",
+  "discovery": "Historical Wayback snapshot of actual Temple Emanu-El Tucson Weekly Torah Talks collection",
+  "snapshot": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+  "capture_timestamp": "2015-01-01T12:10:30Z",
+  "wayback_capture_period_shown": "2012-09-20 to 2016-04-09 (8 captures of index shown by Wayback UI)",
+  "index_verified": true,
+  "source_title": "Temple Emanu-El - Weekly Torah Talks",
+  "new_legacy_article_links": 9,
+  "complete_individual_pages_verified": 1,
+  "individual_pages": [
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1026-torah-talk-vayigash-5775",
+      "title": "Revenge and Grace",
+      "date": "2014-12-29",
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "Index entry link verified; individual full page not recovered",
+      "attribution": "In Rabbi Samuel M. Cohon's Weekly Torah Talks site collection; individual byline not yet verified"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1025-torah-talk-mikeitz-5775",
+      "title": "Hide and Seek with Jewish Identity",
+      "date": "2014-12-17",
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "COMPLETE archived individual source page retrieved",
+      "attribution": "Page explicitly names Rabbi Samuel M. Cohon"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1023-torah-talk-vayeishev-5775",
+      "title": "Transformers",
+      "date": "2014-12-10",
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "Index entry link verified; individual full page not recovered",
+      "attribution": "In Rabbi Samuel M. Cohon's Weekly Torah Talks site collection; individual byline not yet verified"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1022-torah-talk-vayishlach-5775",
+      "title": "Wrestling with Holiness",
+      "date": "2014-12-03",
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "Index entry link verified; individual full page not recovered",
+      "attribution": "In Rabbi Samuel M. Cohon's Weekly Torah Talks site collection; individual byline not yet verified"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1020-torah-talk-vayeitzei-5775",
+      "title": "Travelin' Man — Finding God in the Wilderness",
+      "date": "2014-11-26",
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "Index entry link verified; individual full page not recovered",
+      "attribution": "In Rabbi Samuel M. Cohon's Weekly Torah Talks site collection; individual byline not yet verified"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1013-torah-talk-toldot-5775",
+      "title": "Title pending original individual page verification",
+      "date": null,
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "Index entry link verified; individual full page not recovered",
+      "attribution": "In Rabbi Samuel M. Cohon's Weekly Torah Talks site collection; individual byline not yet verified"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1011-torah-talk-chayei-sarah-5775",
+      "title": "Title pending original individual page verification",
+      "date": null,
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "Index entry link verified; individual full page not recovered",
+      "attribution": "In Rabbi Samuel M. Cohon's Weekly Torah Talks site collection; individual byline not yet verified"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1006-torah-talk-vayeira-5775",
+      "title": "Title pending original individual page verification",
+      "date": null,
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "Index entry link verified; individual full page not recovered",
+      "attribution": "In Rabbi Samuel M. Cohon's Weekly Torah Talks site collection; individual byline not yet verified"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1004-torah-talk-lech-lcha-5775",
+      "title": "Title pending original individual page verification",
+      "date": null,
+      "year": 5775,
+      "url_evidence": "https://web.archive.org/web/20150101121030/http://www.templeemanueltucson.org/learning/torah-talks",
+      "text_recovery": "Index entry link verified; individual full page not recovered",
+      "attribution": "In Rabbi Samuel M. Cohon's Weekly Torah Talks site collection; individual byline not yet verified"
+    }
+  ],
+  "full_page_verified": {
+    "title": "Hide and Seek with Jewish Identity",
+    "wayback_url": "https://web.archive.org/web/20150103123939/http://templeemanueltucson.org/learning/torah-talks/1025-torah-talk-mikeitz-5775",
+    "date": "2014-12-17",
+    "body_status": "Readable complete article-style page, not yet independently saved as a raw archival file"
+  },
+  "recovery_limits": [
+    "Wayback links in an archived index don't guarantee snapshot of each detail page",
+    "Pagination start=5/start=10 returned 404 on this precise capture",
+    "Eight of nine individual page links returned 404 on exact-date Wayback access; try independent timestamps and non-www host variants",
+    "Do not confuse excerpt-only index with full article"
+  ],
+  "privacy": "Only metadata in GitHub; source pages were public first-party writings",
+  "audio_deferred": true
+}
