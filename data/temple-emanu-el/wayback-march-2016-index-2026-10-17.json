@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-17",
+  "snapshot": "https://web.archive.org/web/20160315204844/http://www.templeemanueltucson.org/learning/torah-talks",
+  "additional_original_links": [
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1175-torah-talk-mishpatim-5776",
+      "snapshot": "https://web.archive.org/web/20160315204844/http://www.templeemanueltucson.org/learning/torah-talks",
+      "status": "index_link_only"
+    },
+    {
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/1174-torah-talk-yitro-5776",
+      "snapshot": "https://web.archive.org/web/20160315204844/http://www.templeemanueltucson.org/learning/torah-talks",
+      "status": "index_link_only"
+    }
+  ],
+  "other_index_links_count": 7,
+  "prior_total": 49,
+  "new_total": 51,
+  "methodology": "Deduplicated nine observed article URLs against five earlier index inventories and November 2015 index",
+  "rights": "Only metadata. No private manuscript published.",
+  "audio_deferred": true
+}
