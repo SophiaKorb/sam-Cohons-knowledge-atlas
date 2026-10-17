@@ -20,14 +20,16 @@
       "cross_reference": {
         "candidate": "At new year, have gratitude for God’s latitude",
         "published_url": "https://azjewishpost.com/2015/at-new-year-have-gratitude-for-gods-latitude/",
-        "finding": "Strong thematic and phrasing association; requires full published article text comparison to determine excerpt/republication relationship; not collapsed"
+        "finding": "CONFIRMED textual adaptation: newspaper column reuses substantive structure and distinctive phrasing (blessing vs curse, Nechama Leibowitz, Rashi, mitzvah equity loan), while shortening and adapting manuscript ending.",
+        "relationship": "same_intellectual_work_editorially_adapted_publication",
+        "verified_on": "2026-10-16"
       },
       "private_locations": {
         "chatgpt_library": "Original document present as user library item",
         "google_drive": "/Google Drive/05 Synagogue & Religious School/Sam Cohon Original Audio Backup/Transcripts PRIVATE/Teaching/Blessings in Advance Reei 5775 original manuscript.docx"
       },
       "release": "Private manuscript remains private; GitHub records metadata only",
-      "count_policy": "One recovered manuscript source object, not automatically one new unique work. Does not increase 317 public first-party blog records.",
+      "count_policy": "One intellectual work, two retained textual expressions (private full sermon and public shorter column). Do not increment unique work estimate for newspaper column.",
       "follow_up": "Compare against newspaper article text; search earlier sermon originals and organize manuscripts into private Emanu-El dedicated folder"
     }
   ]
