@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-16",
+  "title": "Adult B'nai Mitzvah Shabbat Morning Service Rehearsal Crosswalk",
+  "source_material": [
+    "Private raw transcript audio1461659962.txt Class 1",
+    "Private raw transcript audio1587786105.txt Class 2"
+  ],
+  "method": "Only instructional descriptions and printed page references explicitly identifiable in user-supplied transcripts. Full classroom dialogue not included.",
+  "goal": "Prepare adults to lead an entire Shabbat morning service; Hebrew reading and worship leadership skills take priority over theoretical lecture content.",
+  "service_selection": {
+    "prayer_book": "Mishkan T'filah Shabbat (as transcribed; verify proper bibliographic edition)",
+    "service": "Shabbat Morning 2",
+    "basis": "Class 1 syllabus and Class 2 introduction",
+    "practice_principle": "Frequent repetition; read Hebrew aloud and rehearse chanting; participate in Shabbat morning services"
+  },
+  "sequence": [
+    {
+      "step": 1,
+      "unit": "Tallit blessing",
+      "class": 2,
+      "page": 171,
+      "technique": "Repeated group reading, pronunciation and memorization",
+      "range": "00:02–13:27",
+      "confidence": "transcript_explicit",
+      "review": "Hebrew wording and pronunciation need listening verification"
+    },
+    {
+      "step": 2,
+      "unit": "Mah Tovu",
+      "class": 2,
+      "page": 172,
+      "technique": "Read Hebrew, learn repetitive melody, then group singing",
+      "range": "13:27–26:31",
+      "confidence": "transcript_explicit",
+      "review": "Automated text garbled during group singing; verify chant with audio"
+    },
+    {
+      "step": 3,
+      "unit": "Elohai Neshamah",
+      "class": 2,
+      "page": 174,
+      "technique": "Read and chant, repeat for fluency",
+      "range": "26:31–40:37",
+      "confidence": "transcript_explicit",
+      "review": "Chant text and Hebrew syllables require manual checking"
+    },
+    {
+      "step": 4,
+      "unit": "Birkhot HaShachar",
+      "class": 2,
+      "pages": "175–178",
+      "technique": "Morning blessings and Hebrew reading practice",
+      "range": "34:54–end of instructional transcript",
+      "confidence": "transcript_explicit_for_topic_and_pages; temporal end not verified",
+      "review": "Do not infer full coverage of every blessing from transcript"
+    }
+  ],
+  "future_goals_from_syllabus": [
+    {
+      "unit": "Torah chanting and aliyah",
+      "status": "planned in Class 1, not established as taught in Class 2"
+    },
+    {
+      "unit": "Haftarah",
+      "status": "conditional, if class time permits; not confirmed completed"
+    },
+    {
+      "unit": "Pesukei D'Zimrah",
+      "status": "Class 6 recording title confirms module, contents not yet reviewed"
+    }
+  ],
+  "privacy": "Do not export student speech, class attendee names, personal remarks, or instruction as full public transcript.",
+  "limitations": [
+    "Page numbers depend on referenced prayer-book edition; corroborate against physical copy before learner publication",
+    "Transcript transcription errors in Hebrew chants prevent canonical prayer text derivation",
+    "Class 1 lacks fine-grained timestamps; session navigation by minute is not supported",
+    "Ranges are approximate raw transcript-derived, not audio validated"
+  ],
+  "publication_status": "metadata_only_not_a_cleared_teaching_handout"
+}
