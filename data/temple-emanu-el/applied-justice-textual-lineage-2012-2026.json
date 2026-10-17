@@ -1,0 +1,33 @@
+{
+  "created": "2026-10-17",
+  "family": "Applying Jewish justice to the practical world",
+  "older": {
+    "title": "Applied Justice",
+    "date": "2012-08-22",
+    "source": "https://web.archive.org/web/20120920064016/http://www.templeemanueltucson.org/learning/torah-talks",
+    "legacy_slug": "510-torah-talk-shoftim-5772",
+    "status": "First-party original index excerpt only, not complete 2012 article"
+  },
+  "later": {
+    "title": "Justice & Making the Ideal Real",
+    "date": "2026-08-18",
+    "parashah": "Shoftim 5786",
+    "source": "https://beitsimchatucson.org/blog/justice-amp-making-the-ideal-real-1",
+    "byline": "Samuel Cohon",
+    "status": "Complete first-party 2026 sermon"
+  },
+  "comparison": {
+    "evidence": "Both texts have the unusual shared construction 'applying divine law to a very human, fallible, earthbound population' and 'great, idealistic proclamations designed to further morality' applied to ordinary 'mundane daily life', while the later version expands the list of denominational identities and adds a fresh introduction.",
+    "same_portion": "Shoftim",
+    "conclusion": "Strong evidence of authorial reuse and rewriting across 14 years; full 2012 essay not available and no identity claim is made."
+  },
+  "metadata_only": true,
+  "previous_lineages": 2,
+  "new_lineages": 1,
+  "expected_lineages_total": 3,
+  "counts_unchanged": {
+    "historical_torah_talk_links": 51,
+    "supplemental_publication_sources": 28
+  },
+  "audio_deferred": true
+}
