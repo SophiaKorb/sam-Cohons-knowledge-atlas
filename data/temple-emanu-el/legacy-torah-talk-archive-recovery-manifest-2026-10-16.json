@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-16",
+  "collection": "Rabbi Samuel M. Cohon / Temple Emanu-El Tucson",
+  "goal": "Bulk recovery of the first-party Torah Talk corpus instead of isolated publications",
+  "original_index_url": "https://www.templeemanueltucson.org/learning/torah-talks",
+  "known_detail_pages": [
+    {
+      "url": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773",
+      "title": "Baking Holiness",
+      "parashah": "Emor",
+      "hebrew_year": 5773,
+      "newsletter_date": "2013-04-30",
+      "source": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "status": "excerpt verified in original newsletter; article full body not retrieved"
+    }
+  ],
+  "navigation_evidence": [
+    {
+      "label": "Rabbi Samuel M. Cohon's Weekly Torah Talk",
+      "points_to": "https://www.templeemanueltucson.org/learning/torah-talks",
+      "source": "same contemporaneous original newsletter; Quick Links section"
+    },
+    {
+      "label": "READ MORE following Baking Holiness",
+      "points_to": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773",
+      "source": "same newsletter's Torah Talk section"
+    }
+  ],
+  "verification": {
+    "newsletter_accessible": true,
+    "legacy_index_accessible": false,
+    "legacy_detail_accessible": false,
+    "source_of_url": "embedded first-party newsletter hyperlinks",
+    "full_text_corpus_recovered_count": 0
+  },
+  "capture_strategy": [
+    "Retrieve archived snapshots of the index path and list all actual article hrefs before attempting article full text",
+    "Preserve per-URL provenance, canonical title, date, quoted excerpt if public, and per-page retrieval verification",
+    "Deduplicate across the existing 317 blog URLs and 17 community-publication records",
+    "Keep any recovered private document originals in restricted storage, not GitHub"
+  ],
+  "exclusions": [
+    "No speculative URLs constructed from neighboring numeric IDs",
+    "No assumed annual writing volume from weekly branding",
+    "No count of newsletter mention as complete recovered Torah Talk"
+  ],
+  "next_source": "Wayback archive or privately controlled legacy website export",
+  "audio_deferred": true
+}
