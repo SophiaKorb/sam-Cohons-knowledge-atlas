@@ -40,7 +40,25 @@
         "authored_sam_writing": 0,
         "press_appearance": 1
       },
-      "rights": "No full article body reproduced in GitHub. Original stored privately."
+      "rights": "No full article body reproduced in GitHub. Original stored privately.",
+      "publisher_pdf_url": "https://momentmag.com/wp-content/uploads/2015/08/armageddon.pdf",
+      "publisher_source_verified": "The Moment domain hosts a PDF corresponding to the submitted article; source's issue is March/April 2010 even though asset URL contains 2015/08"
+    },
+    {
+      "accession_id": "TEE-PRESS-MOMENT-TOO-JEWISH-2016",
+      "title": "Top Ten Jewish Podcasts",
+      "publisher": "Moment",
+      "url": "https://momentmag.com/top-ten-jewish-podcasts/",
+      "publication_year": "2016 (publisher page published approximately 10 years before 2026; exact date not confirmed)",
+      "source_type": "press_profile_of_broadcast",
+      "subject": "Too Jewish with Rabbi Sam Cohon & Friends",
+      "finding": "Moment selected Too Jewish among top ten Jewish podcasts, identifies Sam as senior rabbi of Temple Emanu-El, states show aired since 2002 and had podcast version introduced in 2010",
+      "author_credited": "Unknown until publisher byline read",
+      "preservation_status": "Publisher webpage link verified; original website article not privately backed up",
+      "counts": {
+        "authored_sam_writing": 0,
+        "press_appearance": 1
+      }
     }
   ]
 }
