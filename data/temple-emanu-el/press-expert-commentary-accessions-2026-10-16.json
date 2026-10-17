@@ -59,6 +59,55 @@
         "authored_sam_writing": 0,
         "press_appearance": 1
       }
+    },
+    {
+      "accession_id": "TEE-PRESS-NCE-OUTREACH-2002",
+      "title": "Tucson: Infill and Outreach Draw",
+      "publisher": "National Center to Encourage Judaism / The Proclaimer",
+      "url": "https://www.ncejudaism.org/wp-content/uploads/2017/02/proclaimer-02-fall.pdf",
+      "date": "2002 (source newsletter; source PDF hosted later)",
+      "source_type": "expert_quote_and_program_history",
+      "subject": "Temple Emanu-El outreach, Taste of Judaism enrollment and congregational growth",
+      "attribution_boundary": "Article is organization-written; Sam is directly quoted, not author",
+      "finding": "Historical report quotes Sam on affiliation, conversion, outreach and rising enrollment; numbers are contemporaneous claims not independently audited",
+      "preservation_status": "publisher PDF public; no independent master backed up",
+      "counts": {
+        "authored_sam_writing": 0,
+        "press_appearance": 1
+      }
+    },
+    {
+      "accession_id": "TEE-PRESS-TUCSONWEEKLY-TOOJEWISH-2013",
+      "title": "Richard Lewis Coming to Tucson To Help Celebrate 10 Years of Too Jewish Radio Show",
+      "publisher": "Tucson Weekly",
+      "url": "https://www.tucsonweekly.com/newsopinion/richard-lewis-coming-to-tucson-to-help-celebrate-10-years-of-too-jewish-radio-show-3618473/",
+      "date": "2013-01",
+      "source_type": "journalist_coverage_and_radio_anniversary",
+      "author_credited": "Jim Nintzel",
+      "subject": "2013 ten-year Too Jewish celebration at Fox Theatre and Sam's Emanu-El leadership",
+      "attribution_boundary": "Journalism, not Sam-authored writing",
+      "preservation_status": "publisher webpage public; no original file master backed up",
+      "counts": {
+        "authored_sam_writing": 0,
+        "press_appearance": 1
+      }
+    },
+    {
+      "accession_id": "TEE-PRESS-MOMENT-EPSTEIN-2019",
+      "title": "Reviews | Elie Wiesel: An Extraordinary Life and Legacy",
+      "publisher": "Moment",
+      "url": "https://momentmag.com/reviews-elie-wiesel-an-extraordinary-life-and-legacy/",
+      "date": "2019",
+      "date_precision": "year",
+      "source_type": "broadcast_interview_reference",
+      "subject": "Nadine Epstein interview by Rabbi Sam Cohon on Too Jewish, dated May 28, 2019 on publisher page",
+      "attribution_boundary": "Publisher source verifies radio interview reference; Sam does not author the Moment review",
+      "preservation_status": "publisher webpage public; cited podcast interview linked by publisher, audio not recovered",
+      "counts": {
+        "authored_sam_writing": 0,
+        "press_appearance": 1
+      },
+      "archive_relation": "Broadcast history after Emanu-El tenure; indexed here as connected Moment press discovery, not Emanu-El-era authored writing"
     }
   ]
 }
