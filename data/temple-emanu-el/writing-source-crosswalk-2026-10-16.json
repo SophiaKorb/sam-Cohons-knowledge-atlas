@@ -114,6 +114,18 @@
       "parashah": "Yitro",
       "catalog_treatment": "NEW_VERIFIED_PUBLISHED_SOURCE; unique intellectual-work dedupe pending",
       "cross_reference": "data/writings/community-publications.json"
+    },
+    {
+      "id": "TEE-WR-WUPJ-BESHALACH-308",
+      "title": "The Song to the Violent God",
+      "publication_date": null,
+      "source_url": "https://wupj.org/library/the-weekly-portion/993/torah-from-around-the-world-308/",
+      "source_type": "complete_published_original_torah_commentary",
+      "attribution": "Publisher explicitly credits Rabbi Samuel M. Cohon as senior rabbi, Temple Emanu-El Tucson",
+      "text_recovery": "Full text accessible on publisher page",
+      "catalog_treatment": "NEW_VERIFIED_PUBLISHED_SOURCE; dedupe as an intellectual work pending",
+      "dating_note": "Third-party Sefaria compilation labels 2017; original page has no visible date, so publication date remains null",
+      "third_party_url": "https://voices.sefaria.org/sheets/464127"
     }
   ],
   "last_writing_review": "2026-10-16",
