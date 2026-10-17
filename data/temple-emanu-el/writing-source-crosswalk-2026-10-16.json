@@ -109,5 +109,55 @@
     "Published reporter account with quotes is not a full authored manuscript",
     "Retain source objects as separate manifestations until full original can be compared",
     "Continue writing recovery before audio"
-  ]
+  ],
+  "volume_recovery_round": {
+    "date": "2026-10-16",
+    "priority": "bulk writing discovery before audio",
+    "cross_source_writing_leads": [
+      {
+        "id": "TEE-W-2012-ISRAEL-01",
+        "type": "original_first_person_pilgrimage_report",
+        "date": "2012-05-31",
+        "title": "Temple Emanu-El Israel pilgrimage report #1 (original title unknown)",
+        "secondary_evidence": "https://azjewishpost.com/2012/local-jews-and-christians-share-joy-on-interfaith-mission/",
+        "source_status": "Contemporary reporter cites Sam's May 31 first Temple pilgrimage report and quotes its substance; original standalone report not recovered",
+        "recovery_status": "original_full_text_missing"
+      },
+      {
+        "id": "TEE-W-2012-ISRAEL-02",
+        "type": "original_first_person_pilgrimage_report",
+        "date": "2012-06-02",
+        "date_qualifier": "Saturday shul-hopping trip date in narrative; exact report publication date unknown",
+        "title": "Temple Emanu-El Israel pilgrimage report covering three Jerusalem synagogues (original title unknown)",
+        "secondary_evidence": "https://azjewishpost.com/2012/local-jews-and-christians-share-joy-on-interfaith-mission/",
+        "source_status": "Reporter cites another Temple report by Sam about Aleppo, Italian and Great Synagogue visits",
+        "recovery_status": "original_full_text_missing"
+      },
+      {
+        "id": "TEE-W-2016-PRAYER",
+        "type": "first_person_standalone_blog",
+        "date": "2016-08-29",
+        "title": "The Power of Prayer in Your Daily Life",
+        "original_url": "https://www.rabbisamcohon.com/single-post/2016/08/29/the-power-of-prayer-in-your-daily-life",
+        "source_status": "Already cataloged among 47 standalone blog records; falls within Emanu-El tenure",
+        "recovery_status": "first_party_source_url_cataloged; not a new writing record"
+      },
+      {
+        "id": "TEE-W-2011-ISRAEL-PULPIT",
+        "type": "sermon_delivery_reference",
+        "date": "2011",
+        "title": "Kol Nidre sermon opposing continued Iraq occupation (title unknown)",
+        "secondary_evidence": "https://azjewishpost.com/2011/israel-debate-tricky-for-jewish-professionals-in-tucson-across-u-s/",
+        "source_status": "Sam's own retrospective description of past Kol Nidre sermon; no transcript/manuscript recovered",
+        "recovery_status": "delivery_lead_only"
+      }
+    ],
+    "source_deduplication": "Separate reported originals, existing blog work and undated sermon mentions; none should increase 317 first-party blog source count without new actual source URL.",
+    "next_bulk_targets": [
+      "All dated Temple pilgrimage reports in 2012",
+      "Weekly Torah Talk archive on old synagogue domain",
+      "Emanu-El period independent blog and external bylined columns"
+    ],
+    "no_audio_work_this_round": true
+  }
 }
