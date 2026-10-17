@@ -30,7 +30,7 @@ The main catalogued corpus now contains **1,604 source records** (1,261 radio + 
 - Cross-source deduplication in candidate-review stage
 - Individual date/source-text enrichment ongoing
 - First source-text dedupe pass complete on the seven strongest candidate groups
-- At least 5 source records confirmed as near-identical republications; conservative upper bound is 312 distinct works from 317 source records; same-title additions remain unmerged pending content review
+- At least 6 source records confirmed as republications or revised versions; conservative upper bound is 311 distinct works from 317 source records; 2024 and 2026 Finding Gratitude are linked as versions, not collapsed
 - Strong-overlap candidates remain separate pending manual/source-boundary review
 - Public Facebook records are kept as discovery-only when direct content is login-gated
 
