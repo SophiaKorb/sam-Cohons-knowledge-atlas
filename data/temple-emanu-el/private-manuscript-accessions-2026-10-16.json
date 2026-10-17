@@ -71,6 +71,28 @@
       "file_title": "WHERE WERE YOU WHEN IT HAPPENED.docx",
       "evidence": "Speaker describes being in high school in 1941 and Navy service in 1943; incompatible with Samuel M. Cohon's generation",
       "treatment": "Exclude from Samuel M. Cohon corpus, author to be separately verified"
+    },
+    {
+      "file_title": "sermon.docx (Google Drive id 1X1ELU0Ha0RpEbkYcqHbq8vNU7JGcLkY-)",
+      "date": "2021-06-18",
+      "evidence": "Opening is a 2021 aufruf sermon with distinct first-person speaker, not Rabbi Samuel M. Cohon; outside Emanu-El tenure",
+      "treatment": "Do not assign to Samuel M. Cohon's original sermon corpus"
+    },
+    {
+      "file_title": "sermon.docx (Google Drive id 1GF_TcQbMuPEPzwYf3oQO3AMFhm5MRi2l)",
+      "date": "2021-06-18",
+      "evidence": "Related revised draft of same 2021 aufruf sermon; not Sam Cohon author",
+      "treatment": "Exclude; linked likely manuscript variants but not public Atlas intellectual work"
+    }
+  ],
+  "discovery_rounds": [
+    {
+      "date": "2026-10-16",
+      "scope": "Source-specific historic sermon and 5773–5777 manuscript lookup in connected Library and Drive",
+      "finding": "Original 5777 High Holiday outline exists and is already accessioned; 5775 Blessings in Advance already accessioned. No further Sam-authored Emanu-El-era sermon manuscript identified.",
+      "negative_matches": "Two generic sermon.docx items from 2021 are not Sam-authored and excluded.",
+      "verified_new_complete_manuscripts": 0,
+      "privacy": "No raw document contents committed"
     }
   ]
 }
