@@ -52,5 +52,25 @@
       "editorial_policy": "Do not assign 800 congregational drashot or other speakers' sermons to Sam. Document is private and no original body is placed in GitHub.",
       "count_policy": "One new private historical planning document; zero new complete Sam sermon manuscripts"
     }
+  ],
+  "attribution_exclusions": [
+    {
+      "file_title": "Jewish Life Through Music.docx",
+      "original_author": "Rabbi Baruch Cohon",
+      "year": 2009,
+      "evidence": "Document opens with explicit byline 'by Rabbi Baruch Cohon, for Temple EmanuEl, Tucson, Sept. 2009'",
+      "treatment": "Family intellectual heritage; not Samuel M. Cohon authored work"
+    },
+    {
+      "file_title": "MOMENTS OF CONNECTION.docx",
+      "year": "5770 / 2009",
+      "evidence": "Year and first-person sermon text checked; authorship not explicit in examined section",
+      "treatment": "Unattributed until verified; do not assign to Samuel M. Cohon"
+    },
+    {
+      "file_title": "WHERE WERE YOU WHEN IT HAPPENED.docx",
+      "evidence": "Speaker describes being in high school in 1941 and Navy service in 1943; incompatible with Samuel M. Cohon's generation",
+      "treatment": "Exclude from Samuel M. Cohon corpus, author to be separately verified"
+    }
   ]
 }
