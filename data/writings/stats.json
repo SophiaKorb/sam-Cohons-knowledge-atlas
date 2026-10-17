@@ -16,7 +16,7 @@
     "2025": 50,
     "2026": 31
   },
-  "confirmed_redundant_source_records_minimum": 5,
-  "conservative_distinct_work_upper_bound": 312,
-  "caveat": "317 first-party source records verified (47 standalone + 270 Beit Simcha). At least five near-identical republication redundancies remain supported by prior comparison; the 312 figure is an upper bound, not a confirmed unique-work total. October 2026 records include one same-title review candidate; no extra dedupe subtraction without content evidence."
+  "confirmed_redundant_source_records_minimum": 6,
+  "conservative_distinct_work_upper_bound": 311,
+  "caveat": "317 source records; six confirmed/substantive republication redundancies, including 2024 and 2026 Finding Gratitude revised versions. 311 is a conservative upper bound, not verified unique-work total."
 }
