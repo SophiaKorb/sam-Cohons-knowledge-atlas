@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-17",
+  "method": "Inspected extracted first-party original Wayback index pages, including ending paragraphs and whether Read more teaser markers appear",
+  "records": [
+    {
+      "title": "Poetry, Faith, and Justice",
+      "date": "2015-09-22",
+      "snapshot": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+      "legacy_slug": "1138-torah-talk-ha-azinu-5776",
+      "index_characters_extracted": 2334,
+      "has_read_more": false,
+      "ends_with": "May you be sealed in the Book of Life for a good year, a g’mar chatimah tovah, and have an easy fast on Yom Kippur.",
+      "status": "APPARENT_COMPLETE_INDEX_BODY_PENDING_INDIVIDUAL_PAGE_COMPARISON"
+    },
+    {
+      "title": "A Book in Full for the New Secular Year",
+      "date": "2015-12-23",
+      "snapshot": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+      "legacy_slug": "1162-torah-talk-vayechi-5776",
+      "index_characters_extracted": 2954,
+      "has_read_more": false,
+      "ends_with": "May we all be blessed with the ability to continually turn to this great text of Torah, and find inspiration in its depth, beauty, and brilliance.",
+      "status": "APPARENT_COMPLETE_INDEX_BODY_PENDING_INDIVIDUAL_PAGE_COMPARISON"
+    }
+  ],
+  "ledger": "data/writings/community-publications.json",
+  "ledger_count_after": 23,
+  "original_urls_count_still": 51,
+  "source_preservation": "Underlying public Wayback captures available. No standalone private full-text copies made; GitHub contains metadata only.",
+  "review_limits": [
+    "Ending paragraph and no read-more indicate apparent rather than incontrovertible completeness",
+    "Page-level series attribution survives, but original individual article byline could not be opened",
+    "No new original URL discovered in this pass"
+  ],
+  "audio_deferred": true
+}
