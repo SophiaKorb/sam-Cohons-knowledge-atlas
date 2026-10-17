@@ -322,6 +322,40 @@
       "archive_relation": "Temple Emanu-El era",
       "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1025-torah-talk-mikeitz-5775",
       "rights": "Metadata only; original article not republished in GitHub"
+    },
+    {
+      "title": "Poetry, Faith, and Justice",
+      "date": "2015-09-22",
+      "url": "https://web.archive.org/web/20151019204622/http://www.templeemanueltucson.org/learning/torah-talks",
+      "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1138-torah-talk-ha-azinu-5776",
+      "topic": [
+        "Ha'azinu 5776",
+        "Yom Kippur",
+        "faith",
+        "justice"
+      ],
+      "publisher": "Temple Emanu-El Tucson / archived first-party Weekly Torah Talks",
+      "byline": "Rabbi Samuel M. Cohon (archive identifies series as Rabbi Cohon's)",
+      "type": "first_party_historical_torah_talk_wayback_index_body",
+      "review_state": "apparently_complete_first_party_index_text; original individual article not recovered; needs text-integrity review",
+      "rights": "Only metadata in public GitHub; full text is on external first-party archived index"
+    },
+    {
+      "title": "A Book in Full for the New Secular Year",
+      "date": "2015-12-23",
+      "url": "https://web.archive.org/web/20160116232544/http://templeemanueltucson.org/learning/torah-talks",
+      "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1162-torah-talk-vayechi-5776",
+      "topic": [
+        "Vayechi 5776",
+        "Genesis",
+        "secular new year",
+        "theology"
+      ],
+      "publisher": "Temple Emanu-El Tucson / archived first-party Weekly Torah Talks",
+      "byline": "Rabbi Samuel M. Cohon (archive identifies series as Rabbi Cohon's)",
+      "type": "first_party_historical_torah_talk_wayback_index_body",
+      "review_state": "apparently_complete_first_party_index_text; original individual article not recovered; needs text-integrity review",
+      "rights": "Only metadata in public GitHub; full text is on external first-party archived index"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
