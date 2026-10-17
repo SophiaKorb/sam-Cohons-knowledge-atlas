@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-17",
+  "method": "Queried Internet Archive /__wb/calendarcaptures/2 index for both www and apex historical temple domain; checked 2012–2017 and tested surviving original snapshot timestamp",
+  "new_capture": {
+    "url": "https://web.archive.org/web/20160323234816/http://templeemanueltucson.org/learning/torah-talks",
+    "date": "2016-03-23",
+    "new_unique_original_links": 0,
+    "already_cataloged_links": 9,
+    "new_identified_torah_talk": {
+      "title": "Letting God In",
+      "date": "2016-03-18",
+      "portion": "Vayikra 5776",
+      "legacy_slug": "1193-torah-talk-vayikra-5776",
+      "attribution": "The index explicitly labels this 'Rabbi Cohon's Weekly Torah Talk on Vayikra 5776'",
+      "status": "substantial original excerpt on first-party archived index; complete original not verified"
+    }
+  },
+  "calendar_capture_results": {
+    "year_2012": "2012-09-20",
+    "year_2015": [
+      "2015-10-11",
+      "2015-10-19",
+      "2015-11-21"
+    ],
+    "year_2016": [
+      "2016-01-16",
+      "2016-03-15",
+      "2016-03-23",
+      "2016-04-09"
+    ],
+    "year_2013": "no calendar entries returned",
+    "year_2014": "no calendar entries returned",
+    "year_2017": "no calendar entries returned"
+  },
+  "cautions": [
+    "Calendar endpoint enumerates captures for exact index URL variants, not all individual archived pages",
+    "A calendar index may not reveal captures under other paths or query-string pagination",
+    "No new complete authored essay recovered",
+    "Do not assume an index excerpt is complete"
+  ],
+  "historical_links_total_unchanged": 51,
+  "authored_supplemental_records_total_unchanged": 23,
+  "private_full_text_storage": "none added",
+  "audio_deferred": true
+}
