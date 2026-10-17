@@ -8,11 +8,11 @@ This is a **metadata crosswalk**, not a transcription, approval, or release. It 
 | Dataset | Verified repository baseline | Later research claim | Treatment |
 |---|---:|---:|---|
 | Too Jewish radio | 1,261 broadcasts | — | Retain 1,261; link verification is a separate question from broadcast discovery |
-| First-party authored writing (standalone blog + Beit Simcha) | 47 + 265 = **312 source records** | Private October 2026 editorial memo describes **316** first-party records (47 + 269) | **312 is still the checked-in catalog baseline**; do not replace with 316 without four identifiable added source records, record-level source URLs, and dedupe checks |
+| First-party authored writing (standalone blog + Beit Simcha) | 47 + 270 = **317 verified first-party source records** as of 2026-10-16 | Earlier private editorial memo described **316** (47 + 269) | Five later posts (2026-09-22 through 2026-10-15) individually verified and added after the 2026-09-16 baseline. Earlier 316 claim is superseded for current inventory, not retroactively verified as a snapshot. |
 | Teaching & services | **26 distinct index listings** | Private local classroom recordings and raw transcripts also exist | These are different manifestations; do not add local audio copies as 26 new published works or assert all have audio/transcript verification |
 | Supplemental community publications | Source registry identifies JCC and AZ Jewish Post batches | — | Track separately; not automatically added to first-party distinct-work count |
 
-The README already notes at least five confirmed duplicate/republication source records and a **conservative upper bound of 307 distinct works** among the 312 first-party writing records. That number is not a verified total of unique works.
+The README already notes at least five confirmed duplicate/republication source records and a **conservative upper bound of 312 distinct works** among the 317 first-party writing records. That number is not a verified total of unique works.
 
 ## Public-to-private teaching source crosswalk
 
@@ -41,7 +41,7 @@ Use stable IDs per work and per source object; use a relation such as `isManifes
 
 ## Immediate independently executable research backlog
 
-- Identify the precise four Beit Simcha blog records implied by the private memo's 269 vs repository's 265; verify first-party URLs/titles/dates, check whether they are truly newly discovered or alternate presentations, then update all generated counts together.
+- **Completed 2026-10-16:** Five new first-party blog records, posted after the prior 2026-09-16 catalog cutoff, independently identified and registered (Sep 22, Sep 28, Sep 30, Oct 9, Oct 15). The prior four-record delta in the private memo was time-sensitive and does not cap the number of newer posts. Review the 2026 'Finding Gratitude' article versus its 2024 namesake before any dedupe.
 - Crosswalk private sermon manuscript titles to existing blog records by title and content evidence, while retaining unpublished originals in private storage.
 - Preserve the Class 2/“Class 4.txt” candidate-match warning, and do not certify a transcript based on a filename or topic.
 - Add source-object provenance and source-check timestamp fields incrementally; preserve distinction between link-validity checks and audio-content checks.
@@ -50,3 +50,7 @@ Use stable IDs per work and per source object; use a relation such as `isManifes
 ## Methodology and limits
 
 This file was written after inspecting the repository README and the checked-in `data/writings/sources.json`, `data/writings/stats.json`, and `data/teaching/beit-simcha-audiocasts.json`, plus the separate private archival inventory and its October research memo. It does not imply that a new audio recording was listened to, a manuscript compared word-for-word, a source checksum calculated, or an updated live website deployed.
+
+## Writing sweep reconciliation checkpoint — 2026-10-16
+
+The live first-party archive displayed five later articles. These were added to `data/writings/beit-simcha-blog.json`, then `stats.json`, `sources.json`, and `README.md` were reconciled to **317** first-party writing source records. Publication dates reflect first-party pages, not sermon-delivery verification. Neither source text nor unpublished manuscripts were copied into the GitHub metadata. A 2026 *Finding Gratitude* and a 2024 *Finding Gratitude* remain separate URL/date records because title identity does not prove text identity. Other duplicate groups remain governed by the prior text-comparison ledger; the confirmed redundancy minimum is still five, not increased by the new same-title candidate.
