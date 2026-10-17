@@ -18,5 +18,15 @@
   "new_total": 51,
   "methodology": "Deduplicated nine observed article URLs against five earlier index inventories and November 2015 index",
   "rights": "Only metadata. No private manuscript published.",
-  "audio_deferred": true
+  "audio_deferred": true,
+  "dated_title_evidence": [
+    {
+      "title": "But Why Did You Build It?",
+      "date": "2016-03-09",
+      "portion": "Pekudei 5776",
+      "legacy_slug": "1192-torah-talk-pekudei-5776",
+      "source": "https://web.archive.org/web/20160315204844/http://www.templeemanueltucson.org/learning/torah-talks",
+      "status": "Original index excerpt verified; not complete individual article"
+    }
+  ]
 }
