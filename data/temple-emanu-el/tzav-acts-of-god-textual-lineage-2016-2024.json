@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-17",
+  "family_title": "Natural disasters, divine goodness, and moral choice",
+  "early_work": {
+    "title": "Is God Good? Natural Disasters and Ethics",
+    "date": "2016-03-24",
+    "portion": "Tzav 5776",
+    "legacy_slug": "1194-torah-talk-tzav-5776",
+    "source": "https://web.archive.org/web/20160409102454/http://templeemanueltucson.org/learning/torah-talks",
+    "state": "Original Temple Emanu-El index excerpt, explicitly ends with Read more, full first-party article not retrieved"
+  },
+  "later_work": {
+    "title": "The Choice to Be Good",
+    "date": "2024-04-05",
+    "portion": "Tzav 5784",
+    "source": "https://beitsimchatucson.org/blog/the-choice-to-be-good",
+    "state": "Complete first-party signed Beit Simcha sermon available"
+  },
+  "evidence": [
+    {
+      "type": "distinctive_shared_text",
+      "description": "Both texts discuss the titled document Acts of God listing natural disasters plus fires and trampling incidents over 2000 years; both use the unusual phrasing 'I have rarely failed to rise to appropriately flavored ideological bait'; both discuss whether an all-powerful, good God causes mass disasters."
+    },
+    {
+      "type": "editorial_change",
+      "description": "The 2016 introduction says the speaker rediscovered the document during office spring cleaning, while the 2024 edition describes an email asking discussion on the radio show."
+    },
+    {
+      "type": "same_parashah",
+      "description": "Both identified as Tzav in their respective Hebrew years"
+    }
+  ],
+  "finding": "Very likely direct revision/reworking of the 2016 commentary into 2024 Beit Simcha sermon, not independently confirmed whether entire 2016 original was reproduced.",
+  "count_policy": "Two separately published dated textual versions, one related sermon family; do not infer 2016 full text survived in full.",
+  "text_policy": "Metadata and short comparative description only; original text lives at its sources.",
+  "audio_deferred": true
+}
