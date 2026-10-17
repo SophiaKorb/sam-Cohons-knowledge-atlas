@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-17",
+  "method": "Internet Archive /__wb/calendarcaptures/2 for individual original Torah Talk article URLs, unlike previous index-only checks",
+  "tested": [
+    {
+      "slug": "1025-torah-talk-mikeitz-5775",
+      "year": 2015,
+      "calendar_result": "2015-01-03 12:39:39, HTTP 200",
+      "confirmed_existing_complete_page": true
+    },
+    {
+      "slug": "1026-torah-talk-vayigash-5775",
+      "year": 2015,
+      "calendar_result": "no captures returned for both www and apex host"
+    },
+    {
+      "slug": "1193-torah-talk-vayikra-5776",
+      "year": 2016,
+      "calendar_result": "no captures returned"
+    },
+    {
+      "slug": "716-torah-talk-emor-5773",
+      "year": 2013,
+      "calendar_result": "no captures returned; separate complete URJ Daver Acher already cataloged"
+    },
+    {
+      "slug": "1138-torah-talk-ha-azinu-5776",
+      "year": 2015,
+      "calendar_result": "no captures returned; substantial apparently complete index body survives"
+    },
+    {
+      "slug": "1162-torah-talk-vayechi-5776",
+      "year": 2016,
+      "calendar_result": "no captures returned; substantial apparently complete index body survives"
+    },
+    {
+      "slug": "540-torah-talk-vayeilech-5773",
+      "year": 2012,
+      "calendar_result": "no captures returned"
+    }
+  ],
+  "interpretation": "Exact-path checks support that the known Mikeitz full page has its own captured HTTP 200 copy, whereas tested alternatives do not show direct captures in those years; query result {} does not prove total absence across other URL variants or years.",
+  "new_complete_texts": 0,
+  "new_article_links": 0,
+  "unchanged_total_legacy_links": 51,
+  "unchanged_supplemental_publication_records": 23,
+  "next_method": "Batch exact-path calendar requests over all 51 URLs, across expected and adjacent years; then retrieve any 200 captures.",
+  "audio_deferred": true
+}
