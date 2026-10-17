@@ -356,6 +356,40 @@
       "type": "first_party_historical_torah_talk_wayback_index_body",
       "review_state": "apparently_complete_first_party_index_text; original individual article not recovered; needs text-integrity review",
       "rights": "Only metadata in public GitHub; full text is on external first-party archived index"
+    },
+    {
+      "title": "The Covenant of Presence",
+      "date": "2012-09-12",
+      "url": "https://web.archive.org/web/20120922044029/http://templeemanueltucson.org/learning/torah-talks/535-torah-talk-nitzavim-5772",
+      "legacy_url": "http://www.templeemanueltucson.org/learning/torah-talks/535-torah-talk-nitzavim-5772",
+      "topic": [
+        "Nitzavim 5772",
+        "covenant",
+        "teshuvah",
+        "divine presence"
+      ],
+      "byline": "Rabbi Samuel M. Cohon",
+      "publisher": "Temple Emanu-El Tucson",
+      "type": "first_party_archived_complete_torah_talk",
+      "review_state": "complete_original_individual_page_opened_authorship_verified",
+      "rights": "Full text remains linked to Wayback; no full body copied into public GitHub"
+    },
+    {
+      "title": "But Why Did You Build It?",
+      "date": "2016-03-09",
+      "url": "https://web.archive.org/web/20160409191655/http://templeemanueltucson.org/learning/torah-talks/1192-torah-talk-pekudei-5776",
+      "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1192-torah-talk-pekudei-5776",
+      "topic": [
+        "Pekudei 5776",
+        "Tabernacle",
+        "sanctuary",
+        "spirituality"
+      ],
+      "byline": "Rabbi Cohon",
+      "publisher": "Temple Emanu-El Tucson",
+      "type": "first_party_archived_complete_torah_talk",
+      "review_state": "complete_original_individual_page_opened_authorship_verified",
+      "rights": "Full text remains linked to Wayback; no full body copied into public GitHub"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
