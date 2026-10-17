@@ -39,7 +39,8 @@
       "author": "Samuel Cohon",
       "full_text_ingested": false,
       "metadata_enrichment_status": "first_party_article_metadata_verified_2026-10-16",
-      "dedupe_status": "same_title_preexisting_record_manual_text_review_required"
+      "dedupe_status": "confirmed_substantive_republication_with_calendar_revision",
+      "related_manifestation_url": "https://beitsimchatucson.org/blog/finding-gratitude"
     },
     {
       "url": "https://beitsimchatucson.org/blog/a-donation-saving-and-treasuring-life",
@@ -965,7 +966,9 @@
       "published_date": "2024-10-29",
       "author": "Samuel M. Cohon",
       "full_text_ingested": false,
-      "metadata_enrichment_status": "first_party_archive_card_verified"
+      "metadata_enrichment_status": "first_party_archive_card_verified",
+      "dedupe_status": "confirmed_substantive_republication_with_calendar_revision",
+      "related_manifestation_url": "https://beitsimchatucson.org/blog/finding-gratitude-1"
     },
     {
       "url": "https://beitsimchatucson.org/blog/the-shadow-of-a-flying-bird",
