@@ -11,7 +11,10 @@
       "hebrew_year": 5773,
       "newsletter_date": "2013-04-30",
       "source": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
-      "status": "excerpt verified in original newsletter; article full body not retrieved"
+      "status": "FULL SAM-AUTHORED TEXT RECOVERED ON URJ PUBLISHER SITE; former Temple URL still unavailable",
+      "recovered_publisher_url": "https://reformjudaism.org/learning/torah-study/torah-commentary/emor-0",
+      "recovered_publication_date": "2013-04",
+      "authorship_boundary": "Sam wrote Daver Acher 'Baking Holiness' only; article's main Emor commentary belongs to Rabbi Dalia Marx"
     }
   ],
   "navigation_evidence": [
@@ -31,9 +34,11 @@
     "legacy_index_accessible": false,
     "legacy_detail_accessible": false,
     "source_of_url": "embedded first-party newsletter hyperlinks",
-    "full_text_corpus_recovered_count": 0
+    "full_text_corpus_recovered_count": 1,
+    "first_party_publisher_full_text_verified": true
   },
   "capture_strategy": [
+    "Recovered 2013 Baking Holiness as an independently readable URJ hosted public essay. Maintain original legacy path as manifestation and do not claim the old page was restored.",
     "Retrieve archived snapshots of the index path and list all actual article hrefs before attempting article full text",
     "Preserve per-URL provenance, canonical title, date, quoted excerpt if public, and per-page retrieval verification",
     "Deduplicate across the existing 317 blog URLs and 17 community-publication records",
@@ -45,5 +50,6 @@
     "No count of newsletter mention as complete recovered Torah Talk"
   ],
   "next_source": "Wayback archive or privately controlled legacy website export",
-  "audio_deferred": true
+  "audio_deferred": true,
+  "last_updated": "2026-10-16"
 }
