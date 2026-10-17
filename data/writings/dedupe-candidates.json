@@ -208,9 +208,36 @@
       ],
       "text_comparison_date": "2026-09-22",
       "text_comparison_method": "normalized 5-word-shingle Jaccard plus directional containment over first-party page text"
+    },
+    {
+      "canonical_candidate": "Finding Gratitude (2024 and 2026)",
+      "confidence": "first_party_full_page_comparison",
+      "records": [
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/finding-gratitude",
+          "published_date": "2024-10-29"
+        },
+        {
+          "source": "beitsimchatucson.org",
+          "url": "https://beitsimchatucson.org/blog/finding-gratitude-1",
+          "published_date": "2026-09-30"
+        }
+      ],
+      "status": "confirmed_substantive_republication_with_calendar_revision",
+      "comparisons": [
+        {
+          "target": "https://beitsimchatucson.org/blog/finding-gratitude-1",
+          "finding": "same sermon body with date-specific change near conclusion",
+          "note": "First-party pages have matching extended body passages and thematic progression. 2024 references Shemini Atzeret and Simchat Torah occurring Thursday; 2026 adjusts to the next Shabbat and Saturday night. Both are distinct dated publications; do not erase original versions."
+        }
+      ],
+      "text_comparison_date": "2026-10-16",
+      "text_comparison_method": "direct first-party page paragraph comparison; no numerical overlap statistic computed"
     }
   ],
-  "confirmed_redundant_source_records_minimum": 5,
-  "conservative_distinct_work_upper_bound_from_312": 307,
-  "note": "The upper bound only subtracts confirmed near-identical republications. Strong-overlap and unreviewed candidates remain separate until manual/source-boundary review."
+  "confirmed_redundant_source_records_minimum": 6,
+  "conservative_distinct_work_upper_bound_from_312": 306,
+  "note": "New 2024/2026 Finding Gratitude republication identified on 2026-10-16. The earlier 312-record upper-bound field is historical, retained for traceability; current 317-record source corpus has an upper bound of 311 distinct works from six established redundancies.",
+  "conservative_distinct_work_upper_bound_from_317": 311
 }
