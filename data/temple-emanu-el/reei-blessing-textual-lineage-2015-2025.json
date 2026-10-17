@@ -2,7 +2,7 @@
   "created": "2026-10-16",
   "work_family_id": "COHON-RE-EI-BLESSING-CREDIT",
   "title": "Re'ei — blessing in advance / mitzvah equity loan",
-  "editorial_status": "Verified repeated distinctive reasoning and passages; distinct sermon-year adaptations with meaningful expansions. Do not automatically collapse source records or distinct delivery events.",
+  "editorial_status": "2015 manuscript and 2015 newspaper adaptation confirmed. 2022 and 2025 adaptations verified. 2024 adaptation confirmed at overlapping introductory passage only; cannot assign full-text equivalence.",
   "sources": [
     {
       "year": 2015,
@@ -30,7 +30,9 @@
       "type": "candidate_later_sermon_adaptation",
       "title": "Choosing Blessing",
       "url": "https://beitsimchatucson.org/blog/choosing-blessing-1",
-      "status": "source record confirmed in first-party catalog; source full page could not be fetched in this comparison; version relation not confirmed"
+      "status": "Verified archive page explicitly publishes Choosing Blessing on 2024-09-03 as Shabbat Re'ei 5784 by Rabbi Samuel M. Cohon. Opening passage about Tucson school schedule, Elul, cheshbon hanefesh and ethical choice matches the 2015 manuscript's distinctive introductory structure; full-page pairwise comparison remains outstanding.",
+      "archive_url": "https://beitsimchatucson.org/blog?offset=1729714824192",
+      "relation_confidence": "opening_passage_reuse_verified_full_text_not_compared"
     },
     {
       "year": 2025,
