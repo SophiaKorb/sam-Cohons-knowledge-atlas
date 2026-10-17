@@ -287,6 +287,23 @@
       ],
       "review_state": "complete_publisher_hosted_article_and_byline_verified; Sefaria teaching sheet labels 2017 but publisher date absent; verify chronology; cross-source dedupe pending",
       "archive_relation": "Temple Emanu-El era"
+    },
+    {
+      "title": "Baking Holiness",
+      "date": "2013-04",
+      "publisher": "Union for Reform Judaism / ReformJudaism.org",
+      "url": "https://reformjudaism.org/learning/torah-study/torah-commentary/emor-0",
+      "byline": "Samuel M. Cohon (Daver Acher response; principal commentary by Rabbi Dalia Marx)",
+      "type": "authored_essay_embedded_in_joint_torah_commentary_page",
+      "topic": [
+        "Emor",
+        "challah",
+        "showbread",
+        "holiness"
+      ],
+      "review_state": "complete_first_party_contribution_verified_at_publisher; original temple newsletter excerpt matched; author section must be separated from Dalia Marx's commentary",
+      "archive_relation": "Temple Emanu-El era",
+      "historical_temple_source": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
