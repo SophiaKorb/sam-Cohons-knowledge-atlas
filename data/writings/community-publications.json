@@ -304,6 +304,24 @@
       "review_state": "complete_first_party_contribution_verified_at_publisher; original temple newsletter excerpt matched; author section must be separated from Dalia Marx's commentary",
       "archive_relation": "Temple Emanu-El era",
       "historical_temple_source": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773"
+    },
+    {
+      "title": "Hide and Seek with Jewish Identity",
+      "date": "2014-12-17",
+      "publisher": "Temple Emanu-El Tucson / archived first-party Weekly Torah Talk",
+      "url": "https://web.archive.org/web/20150103123939/http://templeemanueltucson.org/learning/torah-talks/1025-torah-talk-mikeitz-5775",
+      "byline": "Rabbi Samuel M. Cohon",
+      "type": "first_party_historical_torah_talk_archived_via_wayback",
+      "topic": [
+        "Mikeitz 5775",
+        "Joseph",
+        "dreams",
+        "Jewish identity"
+      ],
+      "review_state": "complete_readable_first_party_archived_individual_page_verified; cross_source_dedupe_pending",
+      "archive_relation": "Temple Emanu-El era",
+      "legacy_url": "http://templeemanueltucson.org/learning/torah-talks/1025-torah-talk-mikeitz-5775",
+      "rights": "Metadata only; original article not republished in GitHub"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
