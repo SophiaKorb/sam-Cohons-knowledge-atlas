@@ -482,6 +482,23 @@
       "archive_relation": "post-Temple Emanu-El",
       "review_state": "complete_byline_and_body_verified_on_publisher_site; cross-blog dedupe pending",
       "rights": "Metadata only, full text stays with publisher"
+    },
+    {
+      "title": "Fifth annual Ride for the Living affirms Jewish vitality today — in Poland",
+      "date": "2018-09-28",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2018/fifth-annual-ride-for-the-living-affirms-jewish-vitality-today-in-poland/",
+      "byline": "Rabbi Samuel Cohon",
+      "type": "complete_signed_first_person_community_article",
+      "topic": [
+        "Jewish revival in Poland",
+        "Ride for the Living",
+        "Auschwitz",
+        "Krakow JCC"
+      ],
+      "archive_relation": "post-Temple Emanu-El, reports 2015 sabbatical experiences during Emanu-El tenure",
+      "review_state": "complete_signed_article_verified_on_publisher_website; check for republication later",
+      "rights": "Only metadata publicly archived"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
