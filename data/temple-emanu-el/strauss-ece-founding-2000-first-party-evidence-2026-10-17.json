@@ -1,0 +1,26 @@
+{
+  "accession_date": "2026-10-17",
+  "source_url": "https://www.straussece.com/about",
+  "source_type": "first_party_institutional_history",
+  "institution": "Strauss Early Childhood Education, established at Temple Emanu-El Tucson",
+  "date": "2000-05",
+  "founding_organizers": [
+    "Rabbi Samuel M. Cohon",
+    "Cary Marmis",
+    "Harold Bongarten"
+  ],
+  "reported_initial_enrollment": 16,
+  "reported_initial_classrooms": 3,
+  "notes": "School history independently confirms a substantial early Temple Emanu-El initiative led jointly by Sam and colleagues. Later enrollment figures are not interpreted as audited longitudinal measures.",
+  "relation_to_writings": "Separate contextual evidence supporting 1998–2017 career chronology. Neither an authored sermon nor a manuscript.",
+  "cross_reference": [
+    "https://www.straussece.com/ece-blog/2016/2/28/lighten-up-its-supposed-to-be-fun",
+    "https://www.straussece.com/ece-blog/2016/3/29/our-own-elijah"
+  ],
+  "counts": {
+    "new_authored_writings": 0,
+    "career_history_source": 1
+  },
+  "preservation": "Metadata and source link only; source original not independently backed up",
+  "audio_deferred": true
+}
