@@ -1,0 +1,32 @@
+{
+  "accession_date": "2026-10-17",
+  "scope": "Temple Emanu-El Tucson, early-career written public statements 2010–2011",
+  "sources": [
+    {
+      "date": "2011-01-08",
+      "work": "Temple Emanu-El written memorial and healing statement following January 8 Tucson mass shooting",
+      "author": "Rabbi Samuel M. Cohon",
+      "primary_report": "https://azjewishpost.com/2011/tucson-jewish-community-anguished-over-shooting-rampage/",
+      "independent_reprint": "https://jewishjournal.com/news/united-states/arizona_shooting/86707/",
+      "status": "Multiple contiguous authored paragraphs quoted in January 10 AJP report; delivered via synagogue prayer service in absentia; full independent written statement not located",
+      "classification": "verified excerpt of personally authored pastoral/public statement; not a complete sermon or complete manuscript",
+      "duplicate_caution": "AJP report by Sheila Wilensky and Jewish Journal news piece are reporter-authored, not Sam-authored publications"
+    },
+    {
+      "date": "2010-05-07",
+      "work": "Arizona Rabbis to Governor: Repeal Anti-Immigration Law",
+      "publisher": "Religious Action Center of Reform Judaism",
+      "source": "https://rac.org/press-room/arizona-rabbis-governor-repeal-anti-immigration-law",
+      "status": "Complete collective Reform rabbinical letter reproduced online, Samuel M. Cohon among signatories",
+      "classification": "co-signed public advocacy letter; not individual Sam authorship",
+      "duplicate_caution": "Do not count as complete individually authored Sam writing"
+    }
+  ],
+  "count_policy": {
+    "new_individual_complete_sermons": 0,
+    "new_historical_source_accessions": 2,
+    "unchanged_supplemental_publication_records": 31
+  },
+  "privacy": "Public source pointers and metadata only",
+  "audio_deferred": true
+}
