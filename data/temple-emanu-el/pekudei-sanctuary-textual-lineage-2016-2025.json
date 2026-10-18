@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-17",
+  "family": "The place and purpose of a sanctuary",
+  "early_work": {
+    "title": "But Why Did You Build It?",
+    "date": "2016-03-09",
+    "parashah": "Pekudei 5776",
+    "source": "https://web.archive.org/web/20160409191655/http://templeemanueltucson.org/learning/torah-talks/1192-torah-talk-pekudei-5776",
+    "status": "Complete original first-party Temple Emanu-El page; Rabbi Cohon identified in title"
+  },
+  "later_work": {
+    "title": "A Place for Us",
+    "date": "2025-03-31",
+    "parashah": "Pekudei 5785",
+    "source": "https://beitsimchatucson.org/blog/a-place-for-us",
+    "status": "Complete original first-party Beit Simcha sermon signed by Samuel Cohon",
+    "disambiguation": "Not /blog/a-place-for-us-1, a different sermon dated May 2025 on Israel/Tazria-Metzora"
+  },
+  "comparison": {
+    "strong_shared_material": [
+      "The same question about whether a transcendent God needs a fixed sanctuary or Tabernacle",
+      "Distinctive wording that humans rather than God need the Tabernacle, and human concrete needs for sacred space",
+      "Same Ruth Brin poetic passage contrasting the Tower of Babel and the sanctuary",
+      "Shared sequence of arguments about the spiritual value of a communal house of prayer"
+    ],
+    "revisions": [
+      "2025 adds an anecdote from Sam's Santa Barbara cantor years and a contemporary aspiration for Beit Simcha's own sanctuary",
+      "2016 closes by connecting the wilderness Tabernacle to the existing congregation's house of worship"
+    ],
+    "conclusion": "Extensive direct textual reuse with new introduction and contemporary congregational framing; preserve as two authored versions in a single intellectual work family, not as duplicate web captures"
+  },
+  "count_policy": "No new source URLs or historical originals; one new verified cross-era textual lineage",
+  "rights": "GitHub stores metadata and characterization, not full essay or quoted poem",
+  "audio_deferred": true
+}
