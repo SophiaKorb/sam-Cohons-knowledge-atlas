@@ -448,6 +448,40 @@
       "source_integrity": "Full sermon from introduction to Ken yehi ratson; original PDF externally accessible, separate private master download not completed",
       "archive_relation": "Temple Emanu-El 1998–2017",
       "rights": "Only metadata in GitHub; source PDF remains externally linked"
+    },
+    {
+      "title": "Mount Sinai: revelation or inspiration?",
+      "date": "2019-01-25",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2019/mount-sinai-revelation-or-inspiration/",
+      "byline": "Rabbi Samuel M. Cohon, Congregation Beit Simcha",
+      "type": "complete_signed_community_torah_column",
+      "topic": [
+        "Yitro",
+        "Sinai",
+        "progressive revelation",
+        "Samuel S. Cohon"
+      ],
+      "archive_relation": "post-Temple Emanu-El",
+      "review_state": "complete_byline_and_body_verified_on_publisher_site; cross-blog dedupe pending",
+      "rights": "Metadata only, full text stays with publisher"
+    },
+    {
+      "title": "Four steps to tackle our biggest issue now, starting with building bridges",
+      "date": "2020-01-10",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2020/four-steps-to-tackle-our-biggest-issue-now-starting-with-building-bridges/",
+      "byline": "Rabbi Samuel M. Cohon, Congregation Beit Simcha",
+      "type": "complete_signed_community_opinion_column",
+      "topic": [
+        "antisemitism",
+        "interfaith alliances",
+        "security",
+        "civic responsibility"
+      ],
+      "archive_relation": "post-Temple Emanu-El",
+      "review_state": "complete_byline_and_body_verified_on_publisher_site; cross-blog dedupe pending",
+      "rights": "Metadata only, full text stays with publisher"
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. Added 2010-08-25 Rabbi's Corner Emanu-El bylined article (2026-10-16); count for supplemental source ledger only, not first-party 317. Three additional bylined Emanu-El era columns verified 2026-10-16; dedupe pending; no addition to first-party blog total."
