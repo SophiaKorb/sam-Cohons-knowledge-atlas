@@ -148,6 +148,9 @@ def main():
             refugees["review_state"] == "reform_movement_attributed_excerpt_verified_full_manuscript_not_recovered",
             "Original 2015 Temple manuscript still missing")
     editorial = refugees["historical_editorial_manuscript_evidence"]
+    require(editorial["roundup_byline"] == "Mark J. Pelavin" and
+            "does not establish present-day possession" in editorial["byline_evidence"],
+            "Named URJ editor must not be misrepresented as current manuscript custodian")
     require(editorial["complete_written_text_recovered"] is False and
             editorial["rights_assessed"] is False and
             editorial["review_date"] == "2026-10-22" and
