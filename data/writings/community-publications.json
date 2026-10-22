@@ -308,7 +308,7 @@
         "Stuart Hameroff",
         "Temple Emanu-El"
       ],
-      "review_state": "external_public_pdf_text_checked_screenshots_unavailable_original_manuscript_unverified",
+      "review_state": "cross_representation_correspondence_observed_original_manuscript_unverified",
       "source_document_title": "Kabbalah, consciousness and the universe",
       "source_document_pages": 14,
       "sermon_pdf_pages_1_indexed": [
@@ -333,7 +333,26 @@
       "rights_status": "not_assessed",
       "core_catalogue_count_included": false,
       "discovered_at": "2026-10-22",
-      "evidence_boundary": "External third-party mirror carries the apparent full sermon but is not verified first-party hosting or a rights grant. Do not copy text into repo, declare editorially authenticated original, merge with existing works, or add to 316 blog records. Scientific assertions in 2000 sermon are historical authorial content, not verified contemporary science."
+      "evidence_boundary": "External third-party mirror carries the apparent full sermon but is not verified first-party hosting or a rights grant. Do not copy text into repo, declare editorially authenticated original, merge with existing works, or add to 316 blog records. Scientific assertions in 2000 sermon are historical authorial content, not verified contemporary science.",
+      "public_textual_crosscheck": {
+        "status": "secondary_transcription_corresponds_at_intro_headings_opening_and_ending_not_independent_authentication",
+        "witness_url": "https://www.scribd.com/document/6647607/Kabbala-Consciousness-and-the-Universe",
+        "observation": "Scribd's publicly indexed transcription identifies the same compilation, author, first sermon paragraph and closing; the text could derive directly from the same mirror/source. This is cross-representation consistency, not authorial provenance.",
+        "byte_for_byte_identity_verified": false
+      },
+      "institutional_context": {
+        "url": "https://hameroff.arizona.edu/",
+        "finding": "University of Arizona confirms Hameroff's professional affiliation, not this particular jointly taught course or the sermon text.",
+        "original_host_authenticated": false
+      },
+      "external_mirror_index": {
+        "url": "https://avalonlibrary.net/ebooks/?C=M%3BO%3DA",
+        "observed_modified_date": "2018-05-31",
+        "date_limit": "Third-party mirrored listing timestamp only; not manuscript creation date, publication approval or first posting date."
+      },
+      "provenance_audit_path": "data/verification/temple-2000-source-authentication-audit-2026-10-22.json",
+      "first_party_text_authentication_status": "unverified",
+      "screen_or_byte_verification_status": "web_pdf_text_readable_screenshots_and_container_download_failed"
     },
     {
       "title": "Music article welcome, falls short",
