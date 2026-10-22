@@ -285,7 +285,9 @@
         "original_link_result": "publisher link timed out in attempted retrieval; no full body delivered",
         "independent_archive_snapshot_result": "Wayback/Archive.org public endpoint attempts inaccessible in this environment; no snapshot located or ruled out",
         "complete_written_text_recovered": false,
-        "rights_assessed": false
+        "rights_assessed": false,
+        "roundup_byline": "Mark J. Pelavin",
+        "byline_evidence": "The URJ publisher page identifies Mark J. Pelavin under 'About the Author'; this credits the compiler but does not establish present-day possession of any manuscript."
       },
       "research_priority": "high_original_2015_manuscript",
       "next_recovery_step": "Locate editor-retained 2015 submission or an archival Temple Emanu-El manuscript; any request to publisher or individual requires explicit authorization and no message has been sent."
