@@ -4,22 +4,22 @@ An independent, source-tracked archive of Rabbi Samuel M. Cohon’s public work.
 
 The project currently contains three substantial catalogued collections plus a discovery-only social layer:
 
-- **Collection 01: Too Jewish Radio** — 1,263 broadcasts catalogued from August 4, 2002 through October 4, 2026 (latest two entries staged for source/link QA).
+- **Collection 01: Too Jewish Radio** — 1,265 broadcasts catalogued from August 4, 2002 through October 18, 2026 (three newly publisher-listed MP3 URLs awaiting independent verification).
 - **Collection 02: Authored Works** — 316 first-party writing source records located: 47 from Sam's standalone blog and 269 from the Congregation Beit Simcha Rabbi's Blog.
 - **Collection 03: Teaching & Services** — 26 unique first-party teaching-recording listings normalized from Beit Simcha's audio archive.
 - **Collection 04: Public Media discovery** — 12 first-party Facebook URLs retained as discovery-only because direct source access is login-gated.
 
-The main catalogued corpus now contains **1,605 source records** (1,263 radio + 316 writing + 26 teaching recordings). The 316 writing records are **publication/source records, not a claim of 316 unique intellectual works**. Cross-source deduplication, date enrichment, and source-text review are active research stages.
+The main catalogued corpus now contains **1,607 source records** (1,265 radio + 316 writing + 26 teaching recordings). The 316 writing records are **publication/source records, not a claim of 316 unique intellectual works**. Cross-source deduplication, date enrichment, and source-text review are active research stages.
 
 ## Current research status
 
 ### Too Jewish Radio
-- 1,263 broadcast records normalized (September 27 direct official MP3 now link-verified via targeted HEAD; October 4 remains Podbean-only)
+- 1,265 broadcast records normalized (September 27 direct official MP3 now link-verified via targeted HEAD; October 4 remains Podbean-only)
 - 1,219 first-party MP3 links checked in the September 22 batch, plus a targeted first-party September 27 HEAD 200 audio/mpeg check on October 15 (without audio download)
 - 889 official links responded successfully to HEAD in the September 22 batch; 1 additional verified October 15 (890 link-live records total; no playback claims)
-- 737 records cross-checked against the official listing and Podbean catalogue; one new item is Podbean-only
+- 738 records cross-checked against the official listing and Podbean catalogue; one new item is Podbean-only
 - 330 listed links unavailable
-- 43 broadcasts with no official audio link listed
+- 42 broadcasts with no official audio link listed
 - 0 transcript-level reviews claimed in the first radio batch
 
 ### Authored Works
@@ -67,7 +67,7 @@ Two radio broadcasts (September 27 and October 4) and one first-party blog entry
 - `.github/workflows/pages.yml` — GitHub Pages deployment workflow
 
 
-### Historical evidence intake (not included in the 1,605 core catalogue records)
+### Historical evidence intake (not included in the 1,607 core catalogue records)
 - Two attributed **excerpt-only** Temple Emanu-El-era writing leads were preserved in `data/writings/community-publications.json`: *Baking Holiness* (first-party newsletter dated April 30, 2013) and *The Necessary Chutzpah of Saving Refugees* (2015 Union for Reform Judaism roundup). Neither complete original manuscript is ingested, and neither is added to the 316 core blog-source total.
 - The same 2013 newsletter advertises a Temple Emanu-El podcast account for adult classes, with Sam teaching Basic/Intermediate Judaism and Zohar. `historical-source-leads.json` preserves the historical channel URL, **not** a claim that a particular MP3 was recovered or remains playable.
 - Publisher Podbean pages exposed Download hrefs for the September 27 and October 4, 2026 *Too Jewish* episodes. Their direct audio response, bytes and rights remain **unverified**; the source episode rows retain their original official-link statuses, and the core counts do not change.
@@ -110,3 +110,9 @@ The atlas is centered on Sam Cohon's own public work, first-party congregational
 The project does **not** ingest unrelated scandal coverage.
 
 Episode audio, sermon text, article text, and descriptions remain with their original publishers. The atlas stores source-tracked metadata and research-navigation records rather than republishing full copyrighted texts.
+
+### October 21, 2026: Too Jewish publisher-listing intake (unpublished research branch)
+
+The official show index now lists **October 11: Jonah Platt** and **October 18: Professor Shai Davidai**. The previous October 4 Podbean-only item (Rabbi Noa Kushner) also now has an official indexed MP3 href. All three publisher MP3 URLs have `official_link_status=not_checked`: the first-party HTML link is confirmed, but an independent successful HTTP response, binary acquisition, audio playback and reuse rights have not been verified. The 2026 ledger includes 42 radio records; the overall radio corpus now contains **1,265 episodes**. The full-corpus September 22 HTTP checks and September 27 private audio/transcription work retain their historical provenance. The full-episode editorially reviewed transcript count remains **zero**. The research index contains 1,265 radio, 316 first-party writing source records, and 26 teaching recordings = **1,607 source records**.
+
+This is a research-branch-only intake; it does not merge into `main` or update the deployed public archive.
