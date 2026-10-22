@@ -82,5 +82,43 @@
     "private_original_access_or_change": false,
     "publish_transcript": false,
     "contact_anyone": false
+  },
+  "additional_followup": {
+    "checked_at": "2026-10-22",
+    "conclusion": "No authoritative Temple file or editorially authenticated 2000 text identified; 2015 original still unavailable; a specific separate 2008 publisher-listed episode is identified but unplayed.",
+    "2000_manuscript": {
+      "source_pdf_confirmed_pages": 14,
+      "original_temple_source_recovered": false,
+      "pdf_text_evidence": "The first page names Rabbi Samuel Cohon, while the introduction describes co-teaching with him in the first person and separately credits Dr Stuart Hameroff's handout; do not attribute the entire mixed compilation to Cohon based on cover heading alone. The sermon section explicitly credits Cohon.",
+      "visual_inspection_attempt": "web PDF screenshot attempts on pages 8 and 14 failed with cache miss",
+      "attempted_legacy_first_party": "http://www.consciousness.arizona.edu/hameroff/Ham/Ideas/Kabbala",
+      "archived_copy_probe": "Wayback replay inaccessible through research browser, not a confirmed empty archive",
+      "third_party_scribd_rights_note": "An uploader/interface license label on Scribd is not proof that Rabbi Cohon or Dr. Hameroff licensed the underlying work; original publication rights remain unassessed."
+    },
+    "2015_sermon": {
+      "legacy_link": "https://www.templeemanueltucson.org/worship/shabbat/sermons/1135-rh-5776-chutpzah",
+      "fetch_attempt": "HTTPS/www and HTTP/non-www variants inaccessible in research browser",
+      "full_text_recovered": false,
+      "publisher_excerpt_only": "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round",
+      "caveat": "A failed link and blocked Wayback interface do not prove no public snapshot exists."
+    },
+    "2008_other_production": {
+      "publisher_series_url": "https://www.hearingvoices.org/hv-series/",
+      "episode_number": "009",
+      "episode_date": "2008-04-30",
+      "title": "Shoah: For Holocaust Remembrance Day",
+      "named_presenter": "Rabbi Samuel Cohon of Temple Emanuel Tucson and Too Jewish Radio",
+      "destination_url": "https://hearingvoices.com/2008/04/hv009-shoah/",
+      "destination_open_result": "cache miss in research browser",
+      "audio_enclosure_discovered": false,
+      "audio_bytes_confirmed": false,
+      "classification": "separate independent radio production, neither a Temple teaching podcast nor canonical Too Jewish episode"
+    },
+    "2013_temple_audio": {
+      "podcast_channel": "https://tucsontempleemanuel.podbean.com/",
+      "episode_identifier_found": false,
+      "enclosure_found": false,
+      "binary_found": false
+    }
   }
 }
