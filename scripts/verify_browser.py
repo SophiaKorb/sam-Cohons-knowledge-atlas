@@ -8,7 +8,7 @@ with sync_playwright() as p:
     page.goto(path)
     summary = page.locator("#radio-summary").inner_text().lower()
     print("Radio summary on mobile:", repr(summary), flush=True)
-    assert "1263 matching radio records" in summary.replace(",", "").lower(), summary
+    assert "1265 matching radio records" in summary.replace(",", "").lower(), summary
     page.locator("#radio-q").fill("Noa Kushner")
     assert "1 matching radio record" in page.locator("#radio-summary").inner_text().lower()
     assert not page.locator("#radio-more").is_visible(), "Unexpected radio Show more"
