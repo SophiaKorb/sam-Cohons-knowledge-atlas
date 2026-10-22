@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-21",
+  "status": "first_party_html_audio_href_observed_only",
+  "official_archive": "https://www.toojewishradio.com/too_jewish_shows.htm",
+  "items": [
+    {
+      "id": "tj-2026-10-04",
+      "guest": "Rabbi Noa Kushner",
+      "official_audio_url": "https://www.toojewishradio.com/Too%20Jewish%20MP3%27s/Too_Jewish_2026-10-04.mp3",
+      "status_change": "Podbean-only to first-party publisher-listed"
+    },
+    {
+      "id": "tj-2026-10-11",
+      "guest": "Jonah Platt",
+      "official_audio_url": "https://www.toojewishradio.com/Too%20Jewish%20MP3%27s/Too_Jewish_2026-10-11.mp3",
+      "status_change": "new first-party catalogue item"
+    },
+    {
+      "id": "tj-2026-10-18",
+      "guest": "Professor Shai Davidai",
+      "official_audio_url": "https://www.toojewishradio.com/Too%20Jewish%20MP3%27s/Too_Jewish_2026-10-18.mp3",
+      "status_change": "new first-party catalogue item"
+    }
+  ],
+  "verification_boundary": {
+    "official_listing_and_href_observed": true,
+    "independent_http_probe": false,
+    "binary_retrieved": false,
+    "playback_or_content_checked": false,
+    "full_transcript_reviewed": false,
+    "rights_assessed": false
+  },
+  "podbean_crosscheck_for_new_rows": false,
+  "private_media_changed": false,
+  "public_site_deployed": false,
+  "note": "Web source resolution confirms publisher href destination but cannot decode MP3 audio. In particular do not infer HTTP 200, binary integrity, playback or authorization from the catalogue HTML link."
+}
