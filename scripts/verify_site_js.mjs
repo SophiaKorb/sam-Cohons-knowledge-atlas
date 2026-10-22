@@ -22,7 +22,7 @@ const inline = [...page.matchAll(/<script\s*>([\s\S]*?)<\/script>/g)].map(x => x
 if (inline.length !== 1) throw new Error('Expected exactly one inline behavior script');
 new Script(inline[0], { filename: 'dist/index.html:inline-script' });
 const radio = loaded.window.__COHON_EPISODES__ || [];
-if (radio.length !== 1263) throw new Error('Site loaded ' + radio.length + ' radio records');
+if (radio.length !== 1265) throw new Error('Site loaded ' + radio.length + ' radio records');
 if (loaded.window.SAM_WRITINGS?.length !== 316) throw new Error('Writing bundle differs from 316');
 if (loaded.window.SAM_TEACHING?.length !== 26) throw new Error('Teaching bundle differs from 26');
 if (loaded.window.__COHON_META__?.stats?.total_records !== radio.length) throw new Error('Site radio totals differ');
