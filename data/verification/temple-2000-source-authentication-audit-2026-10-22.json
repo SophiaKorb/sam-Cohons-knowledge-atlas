@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-10-22",
+  "scope": "Yom Kippur 5761 The Origins of Awareness provenance audit; 2015 Temple manuscript and 2013 audio bounded negative checks",
+  "manuscript": {
+    "title": "The Origins of Awareness",
+    "author_attribution": "Rabbi Samuel M. Cohon (PDF-internal named sermon author)",
+    "ritual_date": "Yom Kippur 5761 (2000)",
+    "source_witness_url": "https://avalonlibrary.net/ebooks/Rabbi%20Samuel%20Cohon%20-%20Kabbalah%20Consciousness%20and%20The%20Universe.pdf",
+    "source_pdf_index_page_count": 14,
+    "title_and_author_page_number_1_based": 8,
+    "apparent_last_page_number_1_based": 14,
+    "attribution_basis": "PDF opening identifies a winter 2001 Temple class co-taught with Rabbi Samuel Cohon, then states it reproduces a Yom Kippur sermon by him; PDF page 8 supplies matching title, holiday, rabbi name and Temple Emanu-El/Tucson attribution; page 14 concludes with a blessing.",
+    "additional_textual_representation": {
+      "url": "https://www.scribd.com/document/6647607/Kabbala-Consciousness-and-the-Universe",
+      "observed_evidence": "Scribd visible text reproduces the same document introduction, syllabus, 2000 sermon heading/opening, and ending.",
+      "independence_assessment": "Not independently authenticated: the Scribd and Avalon text could be descendants of one identical source and do not establish author's final wording or publication permission.",
+      "binary_or_page_exact_comparison": false
+    },
+    "additional_listed_mirror": {
+      "url": "https://magicgatebg.com/Books/Rabbi%20Samuel%20Cohon%20-%20Kabbala%20-%20Consciousness%20and%20the%20universe.pdf",
+      "observed_evidence": "Search listing mirrors document beginning; direct PDF open yielded a cache miss.",
+      "independence_assessment": "No independent document text or binary identity verification beyond search listing."
+    },
+    "external_affiliation_context": {
+      "url": "https://hameroff.arizona.edu/",
+      "publisher": "University of Arizona",
+      "observed_evidence": "Current institutional professional page confirms Stuart Hameroff's University of Arizona affiliation and consciousness research.",
+      "does_not_corrobate_specific_sermon": true,
+      "note": "Do not present this generic biography as evidence that the university currently hosts or authorized the Cohon sermon."
+    },
+    "historical_academic_source": {
+      "url": "http://www.consciousness.arizona.edu/hameroff/Ham/Ideas/Kabbala",
+      "status": "legacy path associated with source by public search-index label; modern arizona.edu and archive.consciousness.arizona.edu equivalents could not be accessed directly",
+      "source_ownership_authenticated": false
+    },
+    "reproduction_listing": {
+      "url": "https://avalonlibrary.net/ebooks/?C=M%3BO%3DA",
+      "observed_evidence": "Third-party archive index lists the mirrored PDF, circa 445 KB, with 2018-05-31 listing modification; index timestamp is the mirror's metadata and not evidence of original sermon creation or author approval."
+    },
+    "qa_limits": {
+      "pdf_web_text_pages_visible": true,
+      "pdf_screenshot_success": false,
+      "pdf_screenshot_attempts": [
+        8,
+        14
+      ],
+      "container_pdf_download_success": false,
+      "checksum_established": false,
+      "signed_original_compared": false,
+      "first_party_source_recovered": false,
+      "full_legal_rights_cleared": false,
+      "audio_recovered": false,
+      "full_text_public_repo_ingested": false
+    },
+    "assessment": "Attributed substantial public reproduction corroborated across mirror/index and secondary transcription. Authenticity of Temple manuscript or author-final text NOT established. Do not claim original recovered.",
+    "count_in_1607_core_catalogue": false
+  },
+  "refugee_sermon_2015": {
+    "original_temple_url": "https://www.templeemanueltucson.org/worship/shabbat/sermons/1135-rh-5776-chutpzah",
+    "latest_access": "not accessible in current web reader using HTTP, HTTPS or alternative domain",
+    "historical_source": "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round",
+    "historical_editor": "Mark J. Pelavin",
+    "written_copy_historically_obtained_inference": true,
+    "complete_sermon_copy_recovered": false,
+    "archive_snapshot_search_result": "No authenticated manuscript snapshot located with search queries; archive.org replay access unavailable. Not an archive-wide negative.",
+    "outbound_contact": false
+  },
+  "early_2013_audio": {
+    "source_channel": "https://tucsontempleemanuel.podbean.com/",
+    "status": "source-advertised historical podcast account",
+    "specific_episode_metadata_recovered": false,
+    "rss_guid_recovered": false,
+    "audio_enclosure_recovered": false,
+    "audio_binary_recovered": false,
+    "rights_assessed": false,
+    "research_note": "2013 podcast advertised in first-party newsletter, but no stable episode URL or 2013 audio file discovered in bounded public searches."
+  },
+  "controls": {
+    "branch_only": true,
+    "main_merge": false,
+    "production_deploy": false,
+    "private_original_access_or_change": false,
+    "publish_transcript": false,
+    "contact_anyone": false
+  }
+}
