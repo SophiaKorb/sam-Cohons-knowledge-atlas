@@ -1,0 +1,33 @@
+# Early Temple Emanu-El source discovery — 2026-10-22
+
+**Branch-only source ledger supplement.** This checkpoint follows `temple-historical-recovery-2026-10-22.md`. It stores metadata and archival claims, **not** copyrighted sermon text or audio. No original Temple file was acquired; no rights have been assessed.
+
+## Significant discovery: Yom Kippur 5761 (2000) written sermon
+
+**Title:** *The Origins of Awareness*. **Attributed author:** Rabbi Samuel M. Cohon. **Location/event:** Temple Emanu-El, Tucson, Yom Kippur 5761 (2000). **Date precision:** Jewish year and holiday source-confirmed; exact Gregorian date not independently verified.
+
+- **[View indexed 14-page PDF hosted at Avalon Library](https://avalonlibrary.net/ebooks/Rabbi%20Samuel%20Cohon%20-%20Kabbalah%20Consciousness%20and%20The%20Universe.pdf)**. Its collection heading is *Kabbalah, consciousness and the universe*. The **sermon starts on PDF page 8 (index 7) and concludes on PDF page 14 (index 13)**. Opening title/byline and final `Ken yehi ratson` blessing are visible in extracted web-PDF text. No original signed manuscript has been checked; the source appears complete but its completeness against an independent original has **not** been verified.
+- **Compiler/intellectual provenance:** The PDF's opening paragraph speaks in the first person about co-teaching with Rabbi Cohon and says it reprints three items: a winter 2001 Temple Emanu-El class syllabus, a *To Get to the Other Side* lecture handout credited to **Dr. Stuart Hameroff**, and the *Origins of Awareness* sermon credited to Cohon. The syllabus names Rabbi Cohon and Dr. Hameroff, with February–March 2001 sessions. The PDF's page text has an institutional Hameroff URL and the web index displays a previous source path `http://www.consciousness.arizona.edu/hameroff/Ham/Ideas/Kabbala`; that original academic URL was not retrievable in this cycle.
+- **Additional discovered distribution (not independent textual authentication):** [magicgatebg mirrored PDF](https://magicgatebg.com/Books/Rabbi%20Samuel%20Cohon%20-%20Kabbala%20-%20Consciousness%20and%20the%20universe.pdf), and [Scribd transcription listing](https://www.scribd.com/document/6647607/Kabbala-Consciousness-and-the-Universe). Mirrors and transcriptions could all descend from one copy. **Do not** represent them as independent author approvals, versions, or a verified original.
+- **QA limitation:** Web PDF parsing yielded 14 pages with title, full apparent sermon text and a closing blessing. The required PDF screenshot tool was attempted on pages 1, 11, and 14 but returned errors, as did local authenticated downloads; **visual fidelity, full pagination integrity against the author's original, and digital preservation are unverified**. No file bytes or checksum are claimed.
+- **Rights boundary:** Do not copy the sermon, syllabus, lecture handout, or PDF into the public GitHub repo, publish a transcript, or infer a Creative Commons grant. Only source metadata and URLs were added. It remains supplemental and not a core first-party authored-work publication.
+- **Historical research value:** This manuscript witness predates the 2013 Torah Talk and 2015 refugee sermon by more than a decade. It also gives directly attributed details for a **winter 2001 course syllabus**, *Kabbalah, Consciousness and the Universe* (February 4, 11, 25 and March 4), but does **not** imply recordings exist for those sessions. This course is **not** part of the 26 unique Beit Simcha audio listings.
+
+## 2015 refugee sermon: unchanged missing-original status
+
+The [Union for Reform Judaism Rosh Hashanah roundup](https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round) still supplies selected excerpts of *The Necessary Chutzpah of Saving Refugees* and a historic Temple manuscript URL, not a complete recoverable original. Its named editor, **Mark J. Pelavin**, says he considered only sermons for which he could obtain written text; this is historical evidence of a written witness available to him at that time, not proof of current custody. The linked Temple site timed out. Wayback CDX/replay endpoint requests were inaccessible to the tool; no archive-wide nonexistence claim is valid. **No one was contacted**.
+
+## Evidence for historical recordings: 2012 institutional music and 2013 class podcasts
+
+1. **October 4, 2012 signed letter:** [*Music article welcome, falls short*](https://azjewishpost.com/2012/music-article-welcome-falls-short/), explicitly by Rabbi Samuel M. Cohon. He describes music and recordings associated with Temple Emanu-El's High Holy Days, festivals and Shabbat. This is **authorial historical testimony of a recording practice**, not a recovered event-specific audio file. It identifies no filenames, durations, exact dates, original masters, RSS GUIDs, checksums, or current ownership.
+2. **April 30, 2013 first-party Temple newsletter:** [Congregation newsletter](https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998), explicitly advertising `tucsontempleemanuel.podbean.com` for class podcasts. This is **first-party evidence of a historical podcast channel**, not proof any specific class mentioned in the newsletter was recorded.
+3. **October 22 specific RSS access attempts:** `https://tucsontempleemanuel.podbean.com/feed.xml` and `https://feed.podbean.com/tucsontempleemanuel/feed.xml`; both unavailable through the research browser. No episode GUID, metadata, individual enclosure or playable bytes recovered. The channel's previously observed Podbean invalid-site/login redirect remains the latest source-level observation.
+4. **Future recovery gate:** inspect independent contemporaneous class playlists or archives only when they expose **specific recordings**, then verify byte access, source identity, timestamps/checksums and rights before classification as recovered; never infer media from scheduling material.
+
+## Bounded release safeguards
+
+- Public research branch only; `main` and deployments unchanged.
+- New supplemental community ledger entries: **one 2000 sermon reproduction** and **one 2012 author-signed letter**. New 2012 recording provenance lead in the **historical-source** ledger. These are discovery evidence, not additions to the canonical counts.
+- Core source-record total is **1,265 Too Jewish broadcasts + 316 blog publications + 26 teaching recordings = 1,607**, unchanged. No distinct-work inference or editorially reviewed radio transcript claim.
+- Personal/private Drive, original MP3/M4A masters, and private transcript derivatives untouched; no private URLs or contents inserted.
+- No unapproved merges, deploys, publication, contact, or rights determinations.
