@@ -153,7 +153,7 @@ def main():
             editorial["review_date"] == "2026-10-22" and
             editorial["source"] == "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round" and
             "written text" in editorial["basis"].lower() and
-            "available to that editor" in editorial["interpretation"] and
+            "editor had access to a written version" in editorial["interpretation"] and
             "inaccessible" in editorial["independent_archive_snapshot_result"],
             "URJ editor-method lead must not imply a recovered original or rights")
     current_note = (ROOT / "docs" / "temple-historical-recovery-2026-10-22.md").read_text(encoding="utf-8")
