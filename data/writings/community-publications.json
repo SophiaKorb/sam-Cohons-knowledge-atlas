@@ -291,7 +291,73 @@
       },
       "research_priority": "high_original_2015_manuscript",
       "next_recovery_step": "Locate editor-retained 2015 submission or an archival Temple Emanu-El manuscript; any request to publisher or individual requires explicit authorization and no message has been sent."
+    },
+    {
+      "title": "The Origins of Awareness — Yom Kippur 5761 (2000)",
+      "date": "2000",
+      "date_basis": "Yom Kippur 5761 attribution within sermon reproduction; precise Gregorian date not independently checked",
+      "publisher": "Historical compilation by co-teacher Dr. Stuart Hameroff, presently available through third-party mirrored PDF",
+      "url": "https://avalonlibrary.net/ebooks/Rabbi%20Samuel%20Cohon%20-%20Kabbalah%20Consciousness%20and%20The%20Universe.pdf",
+      "byline": "Rabbi Samuel M. Cohon (explicit attribution within the PDF; Temple Emanu-El, Tucson)",
+      "type": "historical_sermon_substantially_complete_public_reproduction",
+      "topic": [
+        "Yom Kippur",
+        "consciousness",
+        "Kabbalah",
+        "Jewish mysticism",
+        "Stuart Hameroff",
+        "Temple Emanu-El"
+      ],
+      "review_state": "external_public_pdf_text_checked_screenshots_unavailable_original_manuscript_unverified",
+      "source_document_title": "Kabbalah, consciousness and the universe",
+      "source_document_pages": 14,
+      "sermon_pdf_pages_1_indexed": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "sermon_section_heading": "The Origins of Awareness — Yom Kippur 5761 — Rabbi Samuel M. Cohon — Temple Emanu-El, Tucson",
+      "document_compiler_context": "Introduction says co-teacher Dr. Stuart Hameroff reprints the course syllabus, his class handout, and Cohon's Yom Kippur sermon; course dated winter 5761, February–March 2001.",
+      "purported_earlier_academic_source": "http://www.consciousness.arizona.edu/hameroff/Ham/Ideas/Kabbala",
+      "purported_earlier_source_status": "historical URL displayed as PDF source metadata; presently inaccessible; provenance not independently confirmed",
+      "alternative_public_reproduction": "https://magicgatebg.com/Books/Rabbi%20Samuel%20Cohon%20-%20Kabbala%20-%20Consciousness%20and%20the%20universe.pdf",
+      "completeness_boundary": "Searchable PDF text contains titled opening and concluding blessing (Ken yehi ratson) on final page. All cited sermon pages were text-visible in the web reader; screenshot attempts for visual PDF QA failed. This is a substantial, apparently complete public reproduction; no independent verification against an author's original signed manuscript or Temple repository.",
+      "original_temple_manuscript_recovered": false,
+      "publicly_available_substantial_sermon_text": true,
+      "full_text_ingested": false,
+      "audio_binary_recovered": false,
+      "rights_status": "not_assessed",
+      "core_catalogue_count_included": false,
+      "discovered_at": "2026-10-22",
+      "evidence_boundary": "External third-party mirror carries the apparent full sermon but is not verified first-party hosting or a rights grant. Do not copy text into repo, declare editorially authenticated original, merge with existing works, or add to 316 blog records. Scientific assertions in 2000 sermon are historical authorial content, not verified contemporary science."
+    },
+    {
+      "title": "Music article welcome, falls short",
+      "date": "2012-10-04",
+      "date_basis": "AZ Jewish Post publication date",
+      "publisher": "Arizona Jewish Post",
+      "url": "https://azjewishpost.com/2012/music-article-welcome-falls-short/",
+      "byline": "Rabbi Samuel M. Cohon (signed first-person letter)",
+      "type": "historical_author_signed_letter_recording_provenance",
+      "topic": [
+        "cantorial music",
+        "Temple Emanu-El Tucson",
+        "high holidays",
+        "recording history",
+        "Shabbat"
+      ],
+      "review_state": "publisher_signed_letter_text_verified",
+      "full_text_ingested": false,
+      "recording_history_claim": "Cohon describes extensive music and recording at Temple Emanu-El on High Holy Days, festivals and Shabbat as of 2012.",
+      "recording_claim_limit": "No recording titles, sessions, enclosures, file identifiers, audio binaries, access rights, or preservation custody are provided by this letter.",
+      "core_catalogue_count_included": false,
+      "discovered_at": "2026-10-22",
+      "evidence_boundary": "Author's first-person historical statement is evidence Temple had a recording practice, not evidence any particular 2012 service, music session or sermon can currently be played or independently recovered."
     }
   ],
-  "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. On 2026-10-14 two Temple Emanu-El-era published excerpt records added as external historical leads, excluded from 316 core first-party writing count; no full manuscripts or audio claimed."
+  "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. On 2026-10-14 two Temple Emanu-El-era published excerpt records added as external historical leads, excluded from 316 core first-party writing count; no full manuscripts or audio claimed. October 22: added metadata only for 2000 Yom Kippur substantial public sermon reproduction and 2012 signed Temple recording history letter; both supplemental and excluded from first-party 316 blog record count."
 }
