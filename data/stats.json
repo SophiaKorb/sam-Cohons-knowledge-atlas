@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-22T04:38:08+00:00",
-  "source_checked_at": "2026-09-22",
-  "total_records": 1263,
+  "generated_at": "2026-10-22T04:21:24.196Z",
+  "source_checked_at": "2026-10-21",
+  "total_records": 1265,
   "date_range": {
     "start": "2002-08-04",
-    "end": "2026-10-04"
+    "end": "2026-10-18"
   },
   "years": 25,
-  "direct_audio_listed": 1220,
-  "without_audio_link": 43,
+  "direct_audio_listed": 1223,
+  "without_audio_link": 42,
   "rss_items": 20,
   "rss_matches": 20,
   "podbean_items": 746,
   "podbean_matches": 738,
-  "two_source_records": 737,
+  "two_source_records": 738,
   "transcript_reviewed": 0,
   "topic_counts": {
-    "Books & literature": 575,
+    "Books & literature": 576,
     "Religion, Torah & Jewish thought": 263,
     "Israel & the Middle East": 184,
-    "Film, television & theater": 164,
+    "Film, television & theater": 165,
     "Science, health & psychology": 164,
     "Politics, law & public affairs": 127,
-    "Music": 108,
+    "Music": 109,
     "Education & youth": 106,
     "General Jewish life": 91,
     "Identity, family & community": 72,
@@ -31,7 +31,7 @@
     "Jewish history & memory": 51,
     "Jewish movements & institutions": 48,
     "Philanthropy & social action": 47,
-    "Antisemitism & Jewish security": 36,
+    "Antisemitism & Jewish security": 37,
     "Interfaith & pluralism": 14
   },
   "year_counts": {
@@ -59,13 +59,13 @@
     "2023": 53,
     "2024": 52,
     "2025": 52,
-    "2026": 40
+    "2026": 42
   },
   "role_counts": {
-    "Author / writer": 551,
+    "Author / writer": 552,
     "Guest / community voice": 222,
     "Rabbi / clergy": 170,
-    "Artist / performer": 130,
+    "Artist / performer": 131,
     "Organization leader": 72,
     "Scholar / educator": 65,
     "Public official / diplomat": 30,
@@ -81,18 +81,22 @@
   "link_status_counts": {
     "live": 890,
     "dead": 330,
-    "not_listed": 43
+    "not_listed": 42,
+    "not_checked": 3
   },
   "link_verification_method": "September 22 full-corpus HTTP HEAD verification (historical timestamp retained), plus October 15 individually documented HEAD 200 audio/mpeg for September 27 episode. Link status is not an audio-content or rights review.",
   "incremental_intake": {
-    "date": "2026-10-12",
+    "date": "2026-10-21",
     "added": [
-      "tj-2026-09-27",
+      "tj-2026-10-11",
+      "tj-2026-10-18"
+    ],
+    "updated": [
       "tj-2026-10-04"
     ],
-    "evidence": "Official radio listing and Podbean (9/27); Podbean only pending official listing (10/4).",
-    "scope": "Both newly added shows are catalogued. September 27 official MP3 now independently HEAD 200 audio/mpeg from GitHub runner (Oct 15) and is marked link-live; October 4 remains Podbean-only with no listed official MP3. Older 2026 and prior full-corpus results retain Sept 22 check dates.",
-    "generated_site": "Source and compact browser bundles are synchronized on the current research branch; full archive links have NOT been rechecked."
+    "evidence": "Three direct publisher MP3 hrefs observed in current first-party episode index. Audio HTTP response, bytes, playback, transcripts, and rights not independently reviewed.",
+    "scope": "2026 Oct 11 and Oct 18 episodes added; Oct 4 upgraded from Podbean-only to first-party official listing. Three newly listed MP3s remain HTTP-not-checked. No full corpus link recheck.",
+    "generated_site": "Research source and browser bundles to be synchronized without production deployment."
   },
   "targeted_link_checks": [
     {
@@ -102,6 +106,18 @@
       "content_type": "audio/mpeg",
       "evidence_path": "data/verification/too-jewish-2026-09-27-head-2026-10-15.json",
       "method": "targeted read-only HEAD, no audio bytes downloaded"
+    }
+  ],
+  "incremental_intake_history": [
+    {
+      "date": "2026-10-12",
+      "added": [
+        "tj-2026-09-27",
+        "tj-2026-10-04"
+      ],
+      "evidence": "Official radio listing and Podbean (9/27); Podbean only pending official listing (10/4).",
+      "scope": "Both newly added shows are catalogued. September 27 official MP3 now independently HEAD 200 audio/mpeg from GitHub runner (Oct 15) and is marked link-live; October 4 remains Podbean-only with no listed official MP3. Older 2026 and prior full-corpus results retain Sept 22 check dates.",
+      "generated_site": "Source and compact browser bundles are synchronized on the current research branch; full archive links have NOT been rechecked."
     }
   ]
 }
