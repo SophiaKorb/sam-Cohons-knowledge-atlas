@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14",
+  "generated_at": "2026-10-22",
   "scope": "First-party historical teaching-channel leads; neither a new teaching-recording count nor evidence of surviving audio",
   "records": [
     {
@@ -20,7 +20,31 @@
       "evidence_boundary": "The newsletter does not establish that every named class was individually recorded or that any episode remains playable. This is a recovery lead, not a new verified recording.",
       "last_access_attempt_date": "2026-10-21",
       "observed_access_result": "Historical Podbean channel redirects to a login URL with error=Invalid Podbean Site(2) in public web inspection; provider error is not permanent proof every old media file is lost.",
-      "next_steps": "Search independent first-party playlists, archived RSS/enclosure listings and any user-controlled backup. If a specific media URL emerges, test it separately and verify audio bytes/checksum before classifying it as recovered."
+      "next_steps": "Search independent first-party playlists, archived RSS/enclosure listings and any user-controlled backup. If a specific media URL emerges, test it separately and verify audio bytes/checksum before classifying it as recovered.",
+      "rss_checks": {
+        "checked_at": "2026-10-22",
+        "attempted_urls": [
+          "https://tucsontempleemanuel.podbean.com/feed.xml",
+          "https://feed.podbean.com/tucsontempleemanuel/feed.xml"
+        ],
+        "result": "Both public RSS endpoint fetches failed as inaccessible through current research browser; no episode IDs, RSS item GUIDs or enclosure URLs were obtained.",
+        "interpretation": "Endpoint failures do not prove all historic RSS items or audio are irrecoverable."
+      }
+    },
+    {
+      "id": "TE-2012-HOLIDAY-SERVICES-RECORDING-LEAD",
+      "title": "Temple Emanu-El Tucson music and service recording practice (as of 2012)",
+      "publisher": "Rabbi Samuel M. Cohon, first-person letter published by Arizona Jewish Post",
+      "evidence_url": "https://azjewishpost.com/2012/music-article-welcome-falls-short/",
+      "evidence_date": "2012-10-04",
+      "source_statement": "In a signed letter, Rabbi Cohon describes Temple Emanu-El's substantial music (and recording) associated with High Holy Days, festivals and Shabbat.",
+      "evidence_status": "signed_author_testimony_public_letter_verified",
+      "media_recovery_status": "no_audio_binary_or_specific_class_episode_recovered",
+      "rights_status": "not_assessed",
+      "historical_channel_url": null,
+      "last_access_attempt_date": "2026-10-22",
+      "evidence_boundary": "This source verifies a historical recording practice in general. It does not identify a particular recording of Cohon, a master, an episode, a direct audio link, a checksum, or ownership.",
+      "next_steps": "Search legitimate Temple recording inventories and old public music archives for concrete titles, dates and original media IDs; do not infer individual surviving audio."
     }
   ]
 }
