@@ -32,4 +32,4 @@ for (const codeFile of parts) {
     throw new Error('Browser data script is not loaded by the landing page: ' + basename);
   }
 }
-console.log('PASS: HTML inline JS syntax and 1,263/316/26 browser-loaded records');
+console.log('PASS: HTML inline JS syntax and 1,265/316/26 browser-loaded records');
