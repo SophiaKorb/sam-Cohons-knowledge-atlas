@@ -148,6 +148,30 @@ def main():
             origins[0]["rights_status"] == "not_assessed" and
             origins[0]["core_catalogue_count_included"] is False,
             "2000 public sermon reproduction is not a verified Temple original or cleared full text")
+    provenance = origins[0]["public_textual_crosscheck"]
+    require(provenance["byte_for_byte_identity_verified"] is False and
+            "not_independent_authentication" in provenance["status"] and
+            origins[0]["first_party_text_authentication_status"] == "unverified" and
+            origins[0]["institutional_context"]["original_host_authenticated"] is False and
+            origins[0]["provenance_audit_path"] ==
+            "data/verification/temple-2000-source-authentication-audit-2026-10-22.json",
+            "Secondary 2000 PDF representations must not imply first-party manuscript authentication")
+    verification = load(DATA / "verification" / "temple-2000-source-authentication-audit-2026-10-22.json")
+    evidence = verification["manuscript"]
+    qa_limits = evidence["qa_limits"]
+    require(evidence["count_in_1607_core_catalogue"] is False and
+            evidence["source_pdf_index_page_count"] == 14 and
+            evidence["apparent_last_page_number_1_based"] == 14 and
+            evidence["assessment"].endswith("Do not claim original recovered.") and
+            qa_limits["signed_original_compared"] is False and
+            qa_limits["full_legal_rights_cleared"] is False and
+            qa_limits["checksum_established"] is False and
+            qa_limits["pdf_screenshot_success"] is False and
+            qa_limits["full_text_public_repo_ingested"] is False and
+            verification["refugee_sermon_2015"]["complete_sermon_copy_recovered"] is False and
+            verification["early_2013_audio"]["audio_binary_recovered"] is False and
+            verification["controls"]["contact_anyone"] is False,
+            "New verification ledger must preserve rights, byte-level and historical-recovery boundaries")
     recording_letter = [r for r in community if r["title"] == "Music article welcome, falls short"]
     require(len(recording_letter) == 1 and
             recording_letter[0]["date"] == "2012-10-04" and
