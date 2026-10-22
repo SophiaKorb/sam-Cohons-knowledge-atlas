@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12",
+  "generated_at": "2026-10-21",
   "scope": "Samuel M. Cohon public work",
   "exclusion_policy": "Do not ingest scandal-related news coverage. Prioritize Sam Cohon's own public work, first-party congregational materials, radio, teaching, interviews, and neutral biographical/professional context.",
   "sources": [
@@ -8,7 +8,7 @@
       "url": "https://toojewishradio.com/too_jewish_shows.htm",
       "type": "first_party_radio",
       "status": "ingested",
-      "records": 1262
+      "records": 1265
     },
     {
       "name": "Too Jewish Podbean",
@@ -89,6 +89,7 @@
     "Community publication batch added 2026-09-23. Seven records are supplemental source records and are not yet added to the distinct authored-work count pending cross-source deduplication.",
     "Second AZ Jewish Post authored-work batch added: 5 older columns (2011–2016). Supplemental community-publication ledger now contains 12 records total; distinct-work count remains unchanged pending dedupe.",
     "2026-10-12 incremental intake: broadcast ledger has 1,263 items, but official radio list has 1,262 (10/4 Podbean-only until listed by official website). New first-party Beit Simcha blog card is 10/9, bringing that source to 266. The apparent 2026 re-use of Finding Gratitude's older URL requires version comparison; do not double-count it.",
-    "October 12: added distinct 2026 source URL /finding-gratitude-1 and two other late-September 2026 blog entries; older /finding-gratitude URL (2024) stays. Date/title based source records distinct; reuse/near-identity needs textual comparison. Draft branch 1,263 radio + 316 first-party writing + 26 teaching = 1,605 core catalogue records."
+    "October 12: added distinct 2026 source URL /finding-gratitude-1 and two other late-September 2026 blog entries; older /finding-gratitude URL (2024) stays. Date/title based source records distinct; reuse/near-identity needs textual comparison. Draft branch 1,263 radio + 316 first-party writing + 26 teaching = 1,605 core catalogue records.",
+    "October 21, 2026: official index lists the Oct 4, Oct 11 and Oct 18 episodes with direct MP3 hrefs; last two added to research catalogue. All 3 links remain independently HTTP-not-checked. Existing publisher link history and private audio work remain unchanged."
   ]
 }
