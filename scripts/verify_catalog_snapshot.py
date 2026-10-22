@@ -147,6 +147,21 @@ def main():
     require(refugees["full_text_ingested"] is False and
             refugees["review_state"] == "reform_movement_attributed_excerpt_verified_full_manuscript_not_recovered",
             "Original 2015 Temple manuscript still missing")
+    editorial = refugees["historical_editorial_manuscript_evidence"]
+    require(editorial["complete_written_text_recovered"] is False and
+            editorial["rights_assessed"] is False and
+            editorial["review_date"] == "2026-10-22" and
+            editorial["source"] == "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round" and
+            "written text" in editorial["basis"].lower() and
+            "available to that editor" in editorial["interpretation"] and
+            "inaccessible" in editorial["independent_archive_snapshot_result"],
+            "URJ editor-method lead must not imply a recovered original or rights")
+    current_note = (ROOT / "docs" / "temple-historical-recovery-2026-10-22.md").read_text(encoding="utf-8")
+    require("written version" in current_note and
+            "no" in current_note.lower() and
+            "1,607" in current_note and
+            "No contact attempted" in current_note,
+            "Current historical recovery provenance or publication gate missing")
     temple_channel = next(r for r in historical if r["id"] == "TE-2013-PODCAST-LEAD")
     require(temple_channel["last_access_attempt_date"] == "2026-10-21" and
             temple_channel["media_recovery_status"] ==
