@@ -14,12 +14,12 @@ The main catalogued corpus now contains **1,607 source records** (1,265 radio + 
 ## Current research status
 
 ### Too Jewish Radio
-- 1,265 broadcast records normalized (September 27 direct official MP3 now link-verified via targeted HEAD; October 4 remains Podbean-only)
+- 1,265 broadcast records normalized (September 27 direct official MP3 now link-verified via targeted HEAD; October 4 listed on the official publisher site but independent audio response still unverified)
 - 1,219 first-party MP3 links checked in the September 22 batch, plus a targeted first-party September 27 HEAD 200 audio/mpeg check on October 15 (without audio download)
 - 889 official links responded successfully to HEAD in the September 22 batch; 1 additional verified October 15 (890 link-live records total; no playback claims)
-- 738 records cross-checked against the official listing and Podbean catalogue; one new item is Podbean-only
-- 330 listed links unavailable
-- 42 broadcasts with no official audio link listed
+- 738 records cross-checked against the official listing and Podbean catalogue; newer October 11 and 18 items are first-party official-listing only
+- 330 historic listed links unavailable at their prior checks
+- 42 broadcasts with no official audio link listed; 3 newly listed URLs awaiting independent HTTP verification
 - 0 transcript-level reviews claimed in the first radio batch
 
 ### Authored Works
@@ -68,7 +68,7 @@ Two radio broadcasts (September 27 and October 4) and one first-party blog entry
 
 
 ### Historical evidence intake (not included in the 1,607 core catalogue records)
-- Two attributed **excerpt-only** Temple Emanu-El-era writing leads were preserved in `data/writings/community-publications.json`: *Baking Holiness* (first-party newsletter dated April 30, 2013) and *The Necessary Chutzpah of Saving Refugees* (2015 Union for Reform Judaism roundup). Neither complete original manuscript is ingested, and neither is added to the 316 core blog-source total.
+- Two Temple Emanu-El-era manuscript leads are preserved in `data/writings/community-publications.json`: *Baking Holiness* (April 2013 Temple newsletter excerpt and now complete Reform movement **published parallel adaptation**) and *The Necessary Chutzpah of Saving Refugees* (2015 URJ roundup excerpt only). Neither **original Temple manuscript** was recovered; no copyrighted full text was copied into GitHub; neither is added to the core 316 blog-source total.
 - The same 2013 newsletter advertises a Temple Emanu-El podcast account for adult classes, with Sam teaching Basic/Intermediate Judaism and Zohar. `historical-source-leads.json` preserves the historical channel URL, **not** a claim that a particular MP3 was recovered or remains playable.
 - Publisher Podbean pages exposed Download hrefs for the September 27 and October 4, 2026 *Too Jewish* episodes. Their direct audio response, bytes and rights remain **unverified**; the source episode rows retain their original official-link statuses, and the core counts do not change.
 
@@ -116,3 +116,7 @@ Episode audio, sermon text, article text, and descriptions remain with their ori
 The official show index now lists **October 11: Jonah Platt** and **October 18: Professor Shai Davidai**. The previous October 4 Podbean-only item (Rabbi Noa Kushner) also now has an official indexed MP3 href. All three publisher MP3 URLs have `official_link_status=not_checked`: the first-party HTML link is confirmed, but an independent successful HTTP response, binary acquisition, audio playback and reuse rights have not been verified. The 2026 ledger includes 42 radio records; the overall radio corpus now contains **1,265 episodes**. The full-corpus September 22 HTTP checks and September 27 private audio/transcription work retain their historical provenance. The full-episode editorially reviewed transcript count remains **zero**. The research index contains 1,265 radio, 316 first-party writing source records, and 26 teaching recordings = **1,607 source records**.
 
 This is a research-branch-only intake; it does not merge into `main` or update the deployed public archive.
+
+### October 21: historical Temple Emanu-El sermon and audio source recovery
+
+A complete authored April 2013 **published adaptation** of *Baking Holiness* was located in the Reform movement's [Emor commentary](https://reformjudaism.org/learning/torah-study/torah-commentary/priests-men-and-women). The first-party April 30 Temple newsletter preserves the related earlier excerpt but its direct original article link could not be retrieved. The 2015 *Necessary Chutzpah of Saving Refugees* full Temple sermon is still missing; the URJ passage remains excerpt-only. The 2013 Temple Emanu-El class Podbean channel currently redirects to a login/invalid-site page, without any original 2013 audio recovered. These results are tracked in [the bounded historical recovery checkpoint](docs/temple-historical-recovery-2026-10-21.md) and the historical source ledgers. No private sources, publisher full-text transcriptions, rights assumptions, or new core records were added.
