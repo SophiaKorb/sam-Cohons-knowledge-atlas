@@ -74,7 +74,8 @@
       "url": "https://azjewishpost.com/",
       "type": "community_publication",
       "status": "authored_and_coauthored_material_ingestion_in_progress",
-      "records": 10
+      "records": 14,
+      "notes": "Count includes authored articles, coauthored publications, first-person context and a 2012 music/recording letter; these supplemental items are not added to the core first-party blog count."
     },
     {
       "name": "Beit Simcha Adult Education Academy",
@@ -83,6 +84,15 @@
       "status": "program_index_ingested",
       "records": 7,
       "headline_count_included": false
+    },
+    {
+      "name": "Historical 2000 sermon reproduction",
+      "url": "https://avalonlibrary.net/ebooks/Rabbi%20Samuel%20Cohon%20-%20Kabbalah%20Consciousness%20and%20The%20Universe.pdf",
+      "type": "historical_external_manuscript_reproduction",
+      "status": "metadata_only_substantial_public_pdf_original_temple_manuscript_unverified",
+      "records": 1,
+      "headline_count_included": false,
+      "notes": "14-page public PDF contains a titled, complete-looking 2000 Yom Kippur sermon attributed to Rabbi Samuel M. Cohon on PDF pages 8–14 and a winter 2001 Temple Emanu-El syllabus credited to Cohon and Dr Stuart Hameroff. Source is a third-party mirror. PDF screenshots and digital-byte preservation were inaccessible. No full text in GitHub; rights not assessed."
     }
   ],
   "notes": [
@@ -91,6 +101,7 @@
     "2026-10-12 incremental intake: broadcast ledger has 1,263 items, but official radio list has 1,262 (10/4 Podbean-only until listed by official website). New first-party Beit Simcha blog card is 10/9, bringing that source to 266. The apparent 2026 re-use of Finding Gratitude's older URL requires version comparison; do not double-count it.",
     "October 12: added distinct 2026 source URL /finding-gratitude-1 and two other late-September 2026 blog entries; older /finding-gratitude URL (2024) stays. Date/title based source records distinct; reuse/near-identity needs textual comparison. Draft branch 1,263 radio + 316 first-party writing + 26 teaching = 1,605 core catalogue records.",
     "October 21, 2026: official index lists the Oct 4, Oct 11 and Oct 18 episodes with direct MP3 hrefs; last two added to research catalogue. All 3 links remain independently HTTP-not-checked. Existing publisher link history and private audio work remain unchanged.",
-    "2026-10-21 historical manuscript recovery: April 2013 authored full published Reform movement adaptation for Baking Holiness located, but Temple original remains unrecovered; 2015 Refugees original remains missing; 2013 class Podbean channel currently redirects invalid/login. Supplemental source metadata only; no increase to core writing or audio totals."
+    "2026-10-21 historical manuscript recovery: April 2013 authored full published Reform movement adaptation for Baking Holiness located, but Temple original remains unrecovered; 2015 Refugees original remains missing; 2013 class Podbean channel currently redirects invalid/login. Supplemental source metadata only; no increase to core writing or audio totals.",
+    "October 22 2026: bounded full-looking Yom Kippur 5761 sermon reproduction in externally mirrored Hameroff compilation, plus first-person 2012 Temple service recording testimony. Both are metadata-only supplementary research; 2013 historical Podbean RSS endpoints did not return item GUIDs or enclosures. AZ Jewish Post supplemental ledger now 14 records; core counts unchanged."
   ]
 }
