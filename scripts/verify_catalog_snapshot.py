@@ -157,12 +157,17 @@ def main():
             "HTTP link validation misrepresented as speech-to-text completion")
     require(stats["link_checked_at"] == "2026-09-22T04:38:34+00:00",
             "Full corpus HEAD timestamp must remain historical")
-    require(stats["link_status_counts"].get("not_checked", 0) == 0 and
+    require(stats["link_status_counts"].get("not_checked", 0) == 3 and
             stats["link_status_counts"]["live"] == 890,
             "Targeted HEAD count reconciliation mismatch")
-    require(latest_episodes["2026-10-04"]["official_link_status"] == "not_listed",
-            "October 4 official audio listing remains unverified")
-    require(sum([len(radio), len(writing), len(standalone), len(teaching)]) == 1605, "Corpus total mismatch")
+    require(latest_episodes["2026-10-04"]["official_link_status"] == "not_checked",
+            "October 4 official URL must remain HTTP-unchecked")
+    require(sum([len(radio), len(writing), len(standalone), len(teaching)]) == 1607, "Corpus total mismatch")
+    for episode_id in ("tj-2026-10-04", "tj-2026-10-11", "tj-2026-10-18"):
+        row = {r["id"]: r for r in radio}[episode_id]
+        require(row["official_link_status"] == "not_checked" and row["official_audio_url"]
+                and row["official_http_status"] is None and row["transcript_status"] == "not_ingested",
+                "Publisher href is not independent audio verification: " + episode_id)
 
     lookup = {r["url"]: r for r in writing}
     older = "https://beitsimchatucson.org/blog/finding-gratitude"
@@ -186,7 +191,7 @@ def main():
 
     registry = {entry["name"]: entry for entry in sources}
     require(registry["Congregation Beit Simcha Rabbi's Blog"]["records"] == len(writing), "Source registry mismatch")
-    require(registry["Too Jewish Radio official archive"]["records"] == len(radio) - 1, "Podbean-only episode needs separate provenance")
+    require(registry["Too Jewish Radio official archive"]["records"] == len(radio), "Podbean-only episode needs separate provenance")
 
     meta = read_js_array(DIST / "data-meta.js", "window.__COHON_META__=", ";")
     require(meta["stats"] == stats, "Site radio stats and source metrics differ")
@@ -201,7 +206,10 @@ def main():
     require(all(all(0 <= t < len(meta["topics"]) for t in r["t"]) for r in compact), "Topic index outside dictionary")
     latest = {r["d"]: r for r in compact}
     require(latest["2026-09-27"]["s"] == "l" and "k" not in latest["2026-09-27"], "Verified recent MP3 must appear checked in browser")
-    require(latest["2026-10-04"]["s"] == "m", "Podbean-only episode must not claim listed official audio")
+    require(latest["2026-10-04"]["s"] == "u", "Official-listed Oct 4 URL must remain independently unverified")
+    for broadcast_date in ("2026-10-11", "2026-10-18"):
+        require(latest[broadcast_date]["s"] == "u" and latest[broadcast_date].get("k") is None,
+                "New unprobed publisher links must display HTTP-unchecked state")
 
     site_writing = read_js_array(DIST / "writings-data.js", "window.SAM_WRITINGS=", ";")
     require(len(site_writing) == len(writing) + len(standalone), "Site writing count mismatch")
@@ -212,12 +220,12 @@ def main():
     require(all(site_editions[u].get("relation_status") == edition_status for u in (older, newer)),
             "Generated writing browser uses old Gratitude edition status")
     html = (DIST / "index.html").read_text(encoding="utf-8")
-    require("1,605" in html and "1,599" not in html, "Stale site aggregate")
+    require("1,607" in html and "1,599" not in html, "Stale site aggregate")
     require("makeRadioBrowser()" in html and "data-2022-2026.js" in html, "Radio browser missing")
     require("310 distinct works" in html, "Distinct-work upper-bound notice missing")
 
     print(f"PASS: {len(radio)} radio + {len(writing) + len(standalone)} writing + "
-          f"{len(teaching)} teaching = 1,605 indexed records; editions and site bundles agree.")
+          f"{len(teaching)} teaching = 1,607 indexed records; editions and site bundles agree.")
 
 
 if __name__ == "__main__":
