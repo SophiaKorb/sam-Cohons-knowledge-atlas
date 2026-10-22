@@ -45,6 +45,28 @@
       "last_access_attempt_date": "2026-10-22",
       "evidence_boundary": "This source verifies a historical recording practice in general. It does not identify a particular recording of Cohon, a master, an episode, a direct audio link, a checksum, or ownership.",
       "next_steps": "Search legitimate Temple recording inventories and old public music archives for concrete titles, dates and original media IDs; do not infer individual surviving audio."
+    },
+    {
+      "id": "HV-2008-009-COHON",
+      "title": "Hearing Voices episode 009: Shoah — For Holocaust Remembrance Day",
+      "broadcast_date": "2008-04-30",
+      "publisher": "Hearing Voices (independent radio series)",
+      "first_party_publisher_index_url": "https://www.hearingvoices.org/hv-series/",
+      "publisher_episode_url": "https://hearingvoices.com/2008/04/hv009-shoah/",
+      "episode_identifier": "HV009",
+      "source_statement": "Publisher episode 009's index identifies Rabbi Samuel Cohon of Temple Emanu-El, Tucson and Too Jewish Radio as the presenter of an episode of Holocaust survivor stories.",
+      "evidence_status": "publisher_index_specific_episode_and_named_presenter_verified",
+      "media_recovery_status": "specific_episode_listed_without_verified_audio_enclosure_or_binary",
+      "content_classification": "independent_third_party_radio_program_not_temples_2013_podbean_and_not_too_jewish_canonical_episode",
+      "publisher_episode_url_result": "Referenced by 'Listen' link in publisher's original catalogue, but the individual detail page did not load in the October 22 research browser. No direct playable media URL extracted.",
+      "audio_enclosure_url": null,
+      "audio_bytes_verified": false,
+      "speaker_voice_verified_by_listening": false,
+      "rights_status": "not_assessed",
+      "latest_public_check": "2026-10-22",
+      "core_catalogue_count_included": false,
+      "evidence_boundary": "Specific episode ID and claimed program presentation are confirmed from primary publisher metadata, but no episode file or recording of Cohon's voice was downloaded or listened to. Do not count as recovered audio or as 2008 Too Jewish show, and do not infer any 2013 Temple class audio.",
+      "next_steps": "Use a readable first-party Hearing Voices episode page or authorized source archive to recover concrete audio enclosure and verify bytes/voice; no outreach authorized."
     }
   ]
 }
