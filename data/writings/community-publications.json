@@ -273,7 +273,22 @@
       ],
       "review_state": "reform_movement_attributed_excerpt_verified_full_manuscript_not_recovered",
       "full_text_ingested": false,
-      "evidence_boundary": "URJ publisher quotes excerpts of Sam's sermon and links to a legacy Temple Emanu-El manuscript; only the attributed URJ excerpt was inspected. Full legacy sermon file not retrieved. Do not count as full manuscript or as a proven unique work relative to other sources."
+      "evidence_boundary": "URJ editor says roundup included only sermons for which written texts were obtained, and cites excerpts and a Temple URL for this sermon. This supports historical access to a written text, not a claim that the editor retains a copy, that the Temple site survives, or that the manuscript has been recovered. No full text or rights were verified; do not change distinct-work totals.",
+      "historical_editorial_manuscript_evidence": {
+        "source": "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round",
+        "publisher": "Union for Reform Judaism",
+        "basis": "The roundup editor states that only sermons for which a written text was obtained were included; this named 2015 sermon is included and excerpts are presented.",
+        "interpretation": "Strong contemporaneous evidence that the editor had access to a written version at compilation time; preservation and present-day custody are unknown.",
+        "review_date": "2026-10-22",
+        "original_temple_link": "https://www.templeemanueltucson.org/worship/shabbat/sermons/1135-rh-5776-chutpzah",
+        "original_link_last_attempt": "2026-10-22",
+        "original_link_result": "publisher link timed out in attempted retrieval; no full body delivered",
+        "independent_archive_snapshot_result": "Wayback/Archive.org public endpoint attempts inaccessible in this environment; no snapshot located or ruled out",
+        "complete_written_text_recovered": false,
+        "rights_assessed": false
+      },
+      "research_priority": "high_original_2015_manuscript",
+      "next_recovery_step": "Locate editor-retained 2015 submission or an archival Temple Emanu-El manuscript; any request to publisher or individual requires explicit authorization and no message has been sent."
     }
   ],
   "batch_note": "Third community-publication pass adds first-person/profile and contributed material separately from core authored-column counts. On 2026-10-14 two Temple Emanu-El-era published excerpt records added as external historical leads, excluded from 316 core first-party writing count; no full manuscripts or audio claimed."
