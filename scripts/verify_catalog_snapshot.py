@@ -184,6 +184,29 @@ def main():
             "no_audio_binary_or_specific_class_episode_recovered" and
             service_lead[0]["rights_status"] == "not_assessed",
             "2012 recording-practice claim must not imply any recovered audio")
+    independent_episode = [r for r in historical if r["id"] == "HV-2008-009-COHON"]
+    require(len(independent_episode) == 1 and
+            independent_episode[0]["broadcast_date"] == "2008-04-30" and
+            independent_episode[0]["episode_identifier"] == "HV009" and
+            independent_episode[0]["publisher"] == "Hearing Voices (independent radio series)" and
+            independent_episode[0]["first_party_publisher_index_url"] ==
+            "https://www.hearingvoices.org/hv-series/" and
+            independent_episode[0]["media_recovery_status"] ==
+            "specific_episode_listed_without_verified_audio_enclosure_or_binary" and
+            independent_episode[0]["audio_enclosure_url"] is None and
+            independent_episode[0]["audio_bytes_verified"] is False and
+            independent_episode[0]["speaker_voice_verified_by_listening"] is False and
+            independent_episode[0]["rights_status"] == "not_assessed" and
+            independent_episode[0]["core_catalogue_count_included"] is False,
+            "Independent radio HV009 may not be counted as a recovered class, canonical radio episode, or playable master")
+    followup = verification["additional_followup"]
+    require(followup["2000_manuscript"]["original_temple_source_recovered"] is False and
+            followup["2015_sermon"]["full_text_recovered"] is False and
+            followup["2008_other_production"]["episode_number"] == "009" and
+            followup["2008_other_production"]["audio_enclosure_discovered"] is False and
+            followup["2008_other_production"]["audio_bytes_confirmed"] is False and
+            followup["2013_temple_audio"]["enclosure_found"] is False,
+            "New historical research must preserve manuscript and media evidence tiers")
     historical_2013 = next(r for r in historical if r["id"] == "TE-2013-PODCAST-LEAD")
     require(historical_2013["rss_checks"]["checked_at"] == "2026-10-22" and
             len(historical_2013["rss_checks"]["attempted_urls"]) == 2 and
