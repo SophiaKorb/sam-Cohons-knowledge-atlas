@@ -156,8 +156,9 @@ def main():
     recovery_note = (ROOT / "docs" / "temple-historical-recovery-2026-10-21.md").read_text(encoding="utf-8")
     require("Baking Holiness" in recovery_note and
             "The Necessary Chutzpah of Saving Refugees" in recovery_note and
-            "no original" not in recovery_note.lower() or len(recovery_note) > 1000,
-            "Historical recovery checkpoint missing or truncated")
+            "historical class audio" in recovery_note.lower() and
+            "does not reproduce manuscripts" in recovery_note.lower(),
+            "Historical recovery checkpoint missing or incomplete")
     latest_episodes = {r["broadcast_date"]: r for r in radio}
     for date in ("2026-09-27", "2026-10-04"):
         episode = latest_episodes[date]
