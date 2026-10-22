@@ -136,6 +136,28 @@ def main():
         relevant = [r for r in community if excerpt_title in r["title"]]
         require(len(relevant) == 1 and relevant[0]["full_text_ingested"] is False,
                 f"Historical excerpt must not be treated as full manuscript: {excerpt_title}")
+    baking = next(r for r in community if r["title"].startswith("Baking Holiness"))
+    require(baking["original_temple_manuscript_recovered"] is False and
+            baking["full_text_ingested"] is False and
+            baking["complete_parallel_text_status"] ==
+            "complete_authored_published_commentary_readable_at_source_not_copied" and
+            baking["complete_parallel_published_url"].startswith("https://reformjudaism.org/"),
+            "Reform movement complete adaptation must not be mistaken for Temple original")
+    refugees = next(r for r in community if r["title"].startswith("The Necessary Chutzpah"))
+    require(refugees["full_text_ingested"] is False and
+            refugees["review_state"] == "reform_movement_attributed_excerpt_verified_full_manuscript_not_recovered",
+            "Original 2015 Temple manuscript still missing")
+    temple_channel = next(r for r in historical if r["id"] == "TE-2013-PODCAST-LEAD")
+    require(temple_channel["last_access_attempt_date"] == "2026-10-21" and
+            temple_channel["media_recovery_status"] ==
+            "no_audio_binary_or_specific_class_episode_recovered" and
+            "Invalid Podbean Site" in temple_channel["observed_access_result"],
+            "2013 teaching podcast redirect is a lead, not an audio recovery")
+    recovery_note = (ROOT / "docs" / "temple-historical-recovery-2026-10-21.md").read_text(encoding="utf-8")
+    require("Baking Holiness" in recovery_note and
+            "The Necessary Chutzpah of Saving Refugees" in recovery_note and
+            "no original" not in recovery_note.lower() or len(recovery_note) > 1000,
+            "Historical recovery checkpoint missing or truncated")
     latest_episodes = {r["broadcast_date"]: r for r in radio}
     for date in ("2026-09-27", "2026-10-04"):
         episode = latest_episodes[date]
