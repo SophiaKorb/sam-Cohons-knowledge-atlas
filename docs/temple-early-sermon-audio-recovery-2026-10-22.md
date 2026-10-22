@@ -41,3 +41,25 @@ The [current University of Arizona Hameroff page](https://hameroff.arizona.edu/)
 The 2015 Temple refugee sermon still has only the contemporaneous [URJ excerpt and historical written-text editorial lead](https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round). Neither the Temple target nor an independently authenticated public historical snapshot returned a full copy. The 2013 Podbean class channel yielded no **specific** episode GUID or audio enclosure; no early audio was reclassified.
 
 Structured machine-readable evidence boundaries, attempted source URLs and positive/negative observations are in `data/verification/temple-2000-source-authentication-audit-2026-10-22.json`. No 2000 sermon text, private audio or private transcript was copied into the repository, and no new core records, merge, deployment, contact, or publication occurred.
+
+## October 22 — further bounded provenance and episode-specific search
+
+### 2000 `The Origins of Awareness`: attribution vs original authentication
+
+Rechecked the 14-page third-party PDF and publicly indexed Scribd transcription. The compilation **cover says Rabbi Samuel Cohon** but its **first-person introduction describes co-teaching *with* Rabbi Cohon** and credits Dr. Stuart Hameroff for the separately included scientific class handout. Accordingly **the cover heading must not be treated as authorship of every section**. The sermon has a distinct internal heading and attributes *The Origins of Awareness* to Rabbi Samuel M. Cohon, Temple Emanu-El Tucson, Yom Kippur 5761. This strengthens **section attribution**, not independent certification of an author-final Temple manuscript.
+
+The Avalon PDF web reader exposed parsed content across 14 pages. Mandatory screenshot attempts on the actual sermon title and closing pages (PDF indices 7, 13) failed with a cache miss; independent container download could not resolve the external host. The historic academic address `http://www.consciousness.arizona.edu/hameroff/Ham/Ideas/Kabbala` did not yield an institutional copy; direct Wayback replay could not be accessed. Scribd's displayed uploader/license badge cannot establish that the rights holder authorized this specific material. No SHA-256, first-party original, or copyright clearance is claimed. See the [public Avalon PDF](https://avalonlibrary.net/ebooks/Rabbi%20Samuel%20Cohon%20-%20Kabbalah%20Consciousness%20and%20The%20Universe.pdf) and [secondary Scribd rendition](https://www.scribd.com/document/6647607/Kabbala-Consciousness-and-the-Universe).
+
+### 2015 refugee sermon: original still missing
+
+The directly linked Temple path `https://www.templeemanueltucson.org/worship/shabbat/sermons/1135-rh-5776-chutpzah` could not be opened using tested domain/protocol variations. The [URJ 2015 sermon roundup](https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round), compiled by Mark J. Pelavin, still contains excerpts and contemporaneous evidence a written version was provided to the editor. Historical replay/CDX requests through the available archive reader were inaccessible. **No complete original, rights release, or archive-wide absence is established**, and no inquiry was sent.
+
+### New distinct public audio-program identifier: Hearing Voices `009` (2008)
+
+An original **independent radio publisher** keeps a [Hearing Voices historical program catalogue](https://www.hearingvoices.org/hv-series/) identifying **episode 009**, aired **April 30, 2008**, *Shoah: For Holocaust Remembrance Day*. The program description explicitly attributes the presenting role to **Rabbi Samuel Cohon of Temple Emanuel, Tucson and Too Jewish Radio**. A publisher-provided episode link points to `https://hearingvoices.com/2008/04/hv009-shoah/`, but the detail page failed to load. No direct audio enclosure, file bytes, playback, spectral/voice verification, master ownership or licensing was recovered.
+
+**Category boundary:** `HV009` is **not** a Temple Emanu-El 2013 adult-class Podbean episode and **not** one of the 1,265 canonical `Too Jewish` broadcasts. It is an episode-specific, independently published radio-production lead, not recovered audio. Preserve the published number/date and distinct producer so it can be pursued without polluting historical class/master counts. The older first-party 2013 Temple class channel still yields **no** individual episode GUIDs or enclosures.
+
+### Change and safety review
+
+All additions are **metadata and links** on the existing isolated research branch. New audio lead added only to `data/teaching/historical-source-leads.json`, with provenance boundaries in `data/verification/temple-2000-source-authentication-audit-2026-10-22.json`; this does not alter the **1,607** core source-record counts, permissions, private backups, manuscripts, transcripts, public website, `main`, or deployed releases. No publisher, named editor, Temple or any other individual was contacted.
