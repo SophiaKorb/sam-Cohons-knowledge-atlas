@@ -233,7 +233,7 @@
       "publisher": "Temple Emanu-El Tucson (archived congregational newsletter)",
       "url": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
       "byline": "Rabbi Samuel M. Cohon (newsletter identifies Rabbi Cohon's Weekly Torah Talk and includes first-person excerpt)",
-      "type": "historical_torah_talk_excerpt_only",
+      "type": "historical_torah_talk_excerpt_with_complete_published_parallel_version",
       "topic": [
         "challah",
         "holiness",
@@ -241,9 +241,20 @@
         "Jewish food",
         "Temple Emanu-El"
       ],
-      "review_state": "first_party_newsletter_excerpt_verified_full_sermon_missing",
+      "review_state": "first_party_newsletter_excerpt_plus_full_authored_reform_movement_adaptation_verified",
       "full_text_ingested": false,
-      "evidence_boundary": "A short passage is printed in the 2013-04-30 first-party Temple Emanu-El newsletter; the Read More link points to a legacy site and is not recovered here. Preserve the publication as an excerpt, not a complete manuscript or recorded sermon; not part of core 316 writing source count."
+      "evidence_boundary": "Complete April 2013 authored Reform movement commentary has been found and publisher page reviewed. The original 2013 Temple Emanu-El version remains inaccessible; differences in first-paragraph specificity preclude declaring exact identity. Metadata and source links only; no full copyrighted text stored and no core count increase.",
+      "complete_parallel_published_url": "https://reformjudaism.org/learning/torah-study/torah-commentary/priests-men-and-women",
+      "complete_parallel_alternate_url": "https://reformjudaism.org/learning/torah-study/torah-commentary/emor-0",
+      "complete_parallel_publisher": "ReformJudaism.org (Union for Reform Judaism)",
+      "complete_parallel_work_title": "Baking Holiness",
+      "complete_parallel_attribution": "Daver Acher by Samuel M. Cohon",
+      "complete_parallel_date": "2013-04",
+      "complete_parallel_text_status": "complete_authored_published_commentary_readable_at_source_not_copied",
+      "relationship_to_newsletter": "The first-person opening and theme closely correspond, but first-party versions differ in editorial details; same-work or adapted-republication candidate. Do not claim verbatim identity or original manuscript recovery.",
+      "legacy_full_temple_url": "https://www.templeemanueltucson.org/learning/torah-talks/716-torah-talk-emor-5773",
+      "legacy_url_observation": "Direct original Temple article URL not retrievable in 2026-10-21 check; not conclusive that all historical copies are lost.",
+      "original_temple_manuscript_recovered": false
     },
     {
       "title": "The Necessary Chutzpah of Saving Refugees — Rosh Hashanah sermon excerpt",
