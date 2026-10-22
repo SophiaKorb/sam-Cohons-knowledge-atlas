@@ -136,6 +136,42 @@ def main():
         relevant = [r for r in community if excerpt_title in r["title"]]
         require(len(relevant) == 1 and relevant[0]["full_text_ingested"] is False,
                 f"Historical excerpt must not be treated as full manuscript: {excerpt_title}")
+    origins = [r for r in community if r["title"].startswith("The Origins of Awareness")]
+    require(len(origins) == 1 and
+            origins[0]["date"] == "2000" and
+            origins[0]["type"] == "historical_sermon_substantially_complete_public_reproduction" and
+            origins[0]["sermon_pdf_pages_1_indexed"] == [7, 8, 9, 10, 11, 12, 13] and
+            origins[0]["original_temple_manuscript_recovered"] is False and
+            origins[0]["publicly_available_substantial_sermon_text"] is True and
+            origins[0]["full_text_ingested"] is False and
+            origins[0]["audio_binary_recovered"] is False and
+            origins[0]["rights_status"] == "not_assessed" and
+            origins[0]["core_catalogue_count_included"] is False,
+            "2000 public sermon reproduction is not a verified Temple original or cleared full text")
+    recording_letter = [r for r in community if r["title"] == "Music article welcome, falls short"]
+    require(len(recording_letter) == 1 and
+            recording_letter[0]["date"] == "2012-10-04" and
+            recording_letter[0]["full_text_ingested"] is False and
+            recording_letter[0]["core_catalogue_count_included"] is False,
+            "2012 signed recording-history letter must remain supplemental metadata")
+    service_lead = [r for r in historical if r["id"] == "TE-2012-HOLIDAY-SERVICES-RECORDING-LEAD"]
+    require(len(service_lead) == 1 and
+            service_lead[0]["media_recovery_status"] ==
+            "no_audio_binary_or_specific_class_episode_recovered" and
+            service_lead[0]["rights_status"] == "not_assessed",
+            "2012 recording-practice claim must not imply any recovered audio")
+    historical_2013 = next(r for r in historical if r["id"] == "TE-2013-PODCAST-LEAD")
+    require(historical_2013["rss_checks"]["checked_at"] == "2026-10-22" and
+            len(historical_2013["rss_checks"]["attempted_urls"]) == 2 and
+            "no episode IDs" in historical_2013["rss_checks"]["result"],
+            "2013 RSS access failure must not be represented as recovered enclosures")
+    discovery_note = (ROOT / "docs" / "temple-early-sermon-audio-recovery-2026-10-22.md").read_text(encoding="utf-8")
+    require("Origins of Awareness" in discovery_note and
+            "2012 signed letter" in discovery_note and
+            "No one was contacted" in discovery_note and
+            "visual fidelity" in discovery_note and
+            "1,607" in discovery_note,
+            "Early-sermon recovery checkpoint lacks metadata or explicit caveats")
     baking = next(r for r in community if r["title"].startswith("Baking Holiness"))
     require(baking["original_temple_manuscript_recovered"] is False and
             baking["full_text_ingested"] is False and
