@@ -1,0 +1,45 @@
+{
+  "scope": "External-historical sermon witness metadata, separate from 316 core first-party blog records and 19 supplemental publications",
+  "reviewed_at": "2026-10-22",
+  "records": [
+    {
+      "id": "TEMPLE-2001-EREV-ROSH-HASHANAH-AUTHOR-SELF-EXCERPT",
+      "work_kind": "delivered_holiday_sermon_historical_first_party_self_quotation",
+      "title": "Erev Rosh Hashanah 5762 sermon after September 11 attacks (original title not verified)",
+      "sermon_event_date": "2001-09-17",
+      "event_date_basis": "Author's 2026 retrospective explicitly dates Rosh Hashanah start September 17, 2001 and describes having delivered a replacement Erev Rosh Hashanah sermon that year",
+      "source_witness_title": "9/11, 25 Years: Before and Since",
+      "source_witness_date": "2026-09-16",
+      "source_witness_url": "https://beitsimchatucson.org/blog/911-25-years-before-and-since",
+      "source_type": "rabbi-authored_first_party_retrospective_with_quoted_excerpt",
+      "byline": "Samuel M. Cohon",
+      "evidence_summary": "Cohon retrospectively states that his originally planned Rosh Hashanah 2001 sermons were never delivered because of the September 11 attacks; he separately quotes an excerpt from the substitute Erev Rosh Hashanah sermon he actually delivered.",
+      "delivery_status": "excerpt_of_reportedly_delivered_sermon",
+      "original_pre_911_drafts_status": "existence_historically_reported_but_not_delivered_and_not_recovered",
+      "complete_original_sermon_recovered": false,
+      "original_drafts_recovered": false,
+      "excerpt_published_by_author": true,
+      "original_temple_manuscript_authenticated": false,
+      "copyright_full_text_ingested": false,
+      "catalogue_blog_duplicate_url_verified": true,
+      "core_count_added": false,
+      "rights_status": "not_assessed",
+      "interpretation_boundary": "A 2026 author-written self-quotation is evidence of words he retrospectively attributes to the delivered 2001 sermon; it is not a verified facsimile of the full original or confirmation that the precise excerpt matches a contemporaneous signed document. Undelivered drafts should never be counted as delivered sermons.",
+      "next_steps": "If a 2001 Temple service transcript or original sermon manuscript appears, compare separately with the 2026 quotation, preserving original planned undelivered drafts versus delivered revised sermon."
+    }
+  ],
+  "cross_checks": {
+    "2000_sermon": "The Origins of Awareness Yom Kippur 5761 remains a third-party mirrored copy, not author-authenticated Temple manuscript",
+    "2015_sermon": "The Necessary Chutzpah of Saving Refugees remains contemporaneous URJ excerpts only",
+    "2008_audio": "Hearing Voices HV009 remains first-party programme listing only, with no verified enclosure or bytes",
+    "2013_audio": "First-party historic Temple Podbean channel, no verified item GUID or enclosure"
+  },
+  "safeguards": {
+    "branch_only": true,
+    "no_merge": true,
+    "no_deploy": true,
+    "no_contact": true,
+    "no_audio_or_manuscript_publication": true,
+    "no_private_originals_modified": true
+  }
+}
