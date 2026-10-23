@@ -124,6 +124,30 @@ def main():
     require(len(writing) + len(standalone) == wstats["source_records_total"], "Writing totals mismatch")
     require(len({r["url"] for r in writing}) == len(writing), "Blog canonical URLs not unique")
     require(len(teaching) == 26, "Unexpected teaching listing count")
+    temple_witnesses = load(DATA / "writings" / "historical-sermon-witnesses.json")
+    historical_2001 = temple_witnesses["records"]
+    require(len(historical_2001) == 1 and
+            historical_2001[0]["id"] == "TEMPLE-2001-EREV-ROSH-HASHANAH-AUTHOR-SELF-EXCERPT" and
+            historical_2001[0]["source_witness_url"] ==
+            "https://beitsimchatucson.org/blog/911-25-years-before-and-since" and
+            historical_2001[0]["delivery_status"] == "excerpt_of_reportedly_delivered_sermon" and
+            historical_2001[0]["original_pre_911_drafts_status"] ==
+            "existence_historically_reported_but_not_delivered_and_not_recovered" and
+            historical_2001[0]["complete_original_sermon_recovered"] is False and
+            historical_2001[0]["original_drafts_recovered"] is False and
+            historical_2001[0]["original_temple_manuscript_authenticated"] is False and
+            historical_2001[0]["copyright_full_text_ingested"] is False and
+            historical_2001[0]["core_count_added"] is False and
+            historical_2001[0]["rights_status"] == "not_assessed" and
+            any(r["url"] == historical_2001[0]["source_witness_url"] for r in writing),
+            "2001 replacement sermon excerpt and undelivered drafts must remain distinct, linked to existing blog source")
+    recent_checkpoint = (ROOT / "docs" / "temple-recovery-2026-10-22-late-audit.md").read_text(encoding="utf-8")
+    require("September 2001" in recent_checkpoint and
+            "never delivered" in recent_checkpoint and
+            "not an original manuscript" in recent_checkpoint and
+            "HV009" in recent_checkpoint and
+            "1,607" in recent_checkpoint,
+            "Late manuscript/audio provenance checkpoint missing or overly strong")
     community = load(DATA / "writings" / "community-publications.json")["records"]
     historical = load(DATA / "teaching" / "historical-source-leads.json")["records"]
     require(len({r["url"] for r in community}) == len(community), "Community source URLs not unique")
