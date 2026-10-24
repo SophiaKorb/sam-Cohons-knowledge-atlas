@@ -196,6 +196,34 @@ def main():
             verification["early_2013_audio"]["audio_binary_recovered"] is False and
             verification["controls"]["contact_anyone"] is False,
             "New verification ledger must preserve rights, byte-level and historical-recovery boundaries")
+    yk_window = origins[0]["calendar_corroboration"]
+    require(yk_window["observed_civil_window_start"] == "2000-10-08" and
+            yk_window["observed_civil_window_end"] == "2000-10-09" and
+            yk_window["source"] == "https://www.hebcal.com/holidays/yom-kippur-2000" and
+            "delivery_day_unverified" in yk_window["event_date_confidence"],
+            "Oct 23 calendars must be event-level, not fabricated sermon delivery time")
+    erev_witness = historical_2001[0]["calendar_corroboration"]
+    require(erev_witness["erev_rosh_hashanah_civil_date"] == "2001-09-17" and
+            erev_witness["first_day_of_rosh_hashanah"] == "2001-09-18" and
+            "not_delivery_documentation" in erev_witness["corroboration_level"],
+            "2001 Erev Rosh Hashanah holiday date is not documentary proof of original delivery")
+    recheck = verification["october_23_recheck"]
+    require(recheck["manuscript_2000"]["original_first_party_manuscript_found"] is False and
+            recheck["manuscript_2000"]["exact_service_or_sermon_delivery_time_confirmed"] is False and
+            recheck["manuscript_2000"]["screenshot_result"].startswith("Web screenshot retrieval failed") and
+            recheck["refugee_2015"]["original_text_recovered"] is False and
+            recheck["retrospective_2001"]["excerpt_is_original_verified_manuscript"] is False and
+            recheck["hv009"]["direct_audio_url_recovered"] is False and
+            recheck["hv009"]["cohon_voice_verified"] is False and
+            recheck["permission_controls"]["publish_manuscripts_or_transcripts"] is False,
+            "Oct 23 audit must not overclaim source, rights, audio or delivery")
+    latest_checkpoint = (ROOT / "docs" / "temple-recovery-2026-10-23-calendar-and-hv009.md").read_text(encoding="utf-8")
+    require("October 8" in latest_checkpoint and
+            "September 17" in latest_checkpoint and
+            "2015 written-text access" in latest_checkpoint and
+            "not recovered" in latest_checkpoint and
+            "1,607" in latest_checkpoint,
+            "October 23 recovery checkpoint missing calendar, access or source-count boundaries")
     recording_letter = [r for r in community if r["title"] == "Music article welcome, falls short"]
     require(len(recording_letter) == 1 and
             recording_letter[0]["date"] == "2012-10-04" and
