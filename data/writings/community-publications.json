@@ -353,7 +353,7 @@
       "provenance_audit_path": "data/verification/temple-2000-source-authentication-audit-2026-10-22.json",
       "first_party_text_authentication_status": "unverified",
       "screen_or_byte_verification_status": "web_pdf_text_readable_screenshots_and_container_download_failed",
-      "calendar_corrobation": {
+      "calendar_corroboration": {
         "source": "https://www.hebcal.com/holidays/yom-kippur-2000",
         "source_publisher": "Hebcal",
         "hebrew_date": "10 Tishrei 5761",
