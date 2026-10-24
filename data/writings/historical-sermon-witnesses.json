@@ -25,7 +25,15 @@
       "core_count_added": false,
       "rights_status": "not_assessed",
       "interpretation_boundary": "A 2026 author-written self-quotation is evidence of words he retrospectively attributes to the delivered 2001 sermon; it is not a verified facsimile of the full original or confirmation that the precise excerpt matches a contemporaneous signed document. Undelivered drafts should never be counted as delivered sermons.",
-      "next_steps": "If a 2001 Temple service transcript or original sermon manuscript appears, compare separately with the 2026 quotation, preserving original planned undelivered drafts versus delivered revised sermon."
+      "next_steps": "If a 2001 Temple service transcript or original sermon manuscript appears, compare separately with the 2026 quotation, preserving original planned undelivered drafts versus delivered revised sermon.",
+      "calendar_corroboration": {
+        "source": "https://www.hebcal.com/hebcal?c=off&d=on&maj=on&mf=on&min=on&mod=on&month=9&nx=on&s=on&set=on&ss=on&v=1&year=2001&yt=G",
+        "source_publisher": "Hebcal",
+        "erev_rosh_hashanah_civil_date": "2001-09-17",
+        "first_day_of_rosh_hashanah": "2001-09-18",
+        "corroboration_level": "independent_calendar_date_only_not_delivery_documentation",
+        "note": "Matches the 2001 Erev Rosh Hashanah timing in Cohon's 2026 first-party retrospective. Does not independently document that a particular manuscript was delivered or authenticate the excerpt."
+      }
     }
   ],
   "cross_checks": {
