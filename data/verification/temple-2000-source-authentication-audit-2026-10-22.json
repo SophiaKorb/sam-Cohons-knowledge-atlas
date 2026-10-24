@@ -120,5 +120,68 @@
       "enclosure_found": false,
       "binary_found": false
     }
+  },
+  "october_23_recheck": {
+    "checked_at": "2026-10-23",
+    "verification_scope": "Date precision and publisher episode details, with no source-body ingestion",
+    "manuscript_2000": {
+      "holiday_source": "https://www.hebcal.com/holidays/yom-kippur-2000",
+      "calendar_window": "2000-10-08 evening to 2000-10-09 evening (Yom Kippur 5761)",
+      "exact_service_or_sermon_delivery_time_confirmed": false,
+      "original_first_party_manuscript_found": false,
+      "publisher_copy_downloaded": false,
+      "screenshot_attempts_on_pdf_page_indices": [
+        7,
+        13
+      ],
+      "screenshot_result": "Web screenshot retrieval failed with cache miss again; parsed 14-page public mirrored PDF text remains available but no visual comparison or file checksum.",
+      "historical_institutional_source": "http://www.consciousness.arizona.edu/hameroff/Ham/Ideas/Kabbala",
+      "historical_institutional_source_status": "Unavailable in web reader; inability to access does not establish that source never existed or an archive does not hold it."
+    },
+    "retrospective_2001": {
+      "author_retrospective": "https://beitsimchatucson.org/blog/911-25-years-before-and-since",
+      "independent_calendar": "https://www.hebcal.com/hebcal?c=off&d=on&maj=on&mf=on&min=on&mod=on&month=9&nx=on&s=on&set=on&ss=on&v=1&year=2001&yt=G",
+      "erev_rosh_hashanah_civil_date": "2001-09-17",
+      "first_day_of_holiday": "2001-09-18",
+      "excerpt_is_original_verified_manuscript": false,
+      "original_pre_september_11_drafts_reported_undelivered": true,
+      "primary_2026_blog_record_already_exists": true
+    },
+    "refugee_2015": {
+      "contemporaneous_urj": "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round",
+      "original_link": "https://www.templeemanueltucson.org/worship/shabbat/sermons/1135-rh-5776-chutpzah",
+      "original_text_recovered": false,
+      "written_version_2015_in_editorial_access_inferred": true,
+      "current_editorial_custody_known": false,
+      "direct_url_and_archive_replay_result": "Original inaccessible in current research environment; archived replay also inaccessible; no assertion of archive-wide absence."
+    },
+    "hv009": {
+      "primary_index": "https://www.hearingvoices.org/hv-series/",
+      "source_entry": "009 2008-04-30 Shoah: For Holocaust Remembrance Day",
+      "credited_role": "Rabbi Samuel Cohon, presenter (publisher metadata)",
+      "source_components_from_multiple_producers": true,
+      "programme_page": "https://hearingvoices.com/2008/04/hv009-shoah/",
+      "programme_page_response": "Cache miss",
+      "additional_access_attempts": [
+        "https://www.hearingvoices.org/2008/04/hv009-shoah/",
+        "https://hearingvoices.com/feed/",
+        "https://hearingvoices.com/2008/04/hv009-shoah/feed/",
+        "https://web.archive.org/web/20080501000000/http://hearingvoices.com/2008/04/hv009-shoah/"
+      ],
+      "additional_result": "Web reader inaccessible and container direct network name resolution blocked; cannot independently test content, media mime type, enclosure, signature or voice.",
+      "direct_audio_url_recovered": false,
+      "audio_binary_recovered": false,
+      "cohon_voice_verified": false,
+      "separate_production_not_canonical_too_jewish": true,
+      "separate_from_2013_podbean_classes": true
+    },
+    "permission_controls": {
+      "private_content_copied": false,
+      "rights_verified": false,
+      "publish_manuscripts_or_transcripts": false,
+      "contact_anyone": false,
+      "merge": false,
+      "deploy": false
+    }
   }
 }
