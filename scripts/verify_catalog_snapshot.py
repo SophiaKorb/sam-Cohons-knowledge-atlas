@@ -124,6 +124,43 @@ def main():
     require(len(writing) + len(standalone) == wstats["source_records_total"], "Writing totals mismatch")
     require(len({r["url"] for r in writing}) == len(writing), "Blog canonical URLs not unique")
     require(len(teaching) == 26, "Unexpected teaching listing count")
+    source_gates = load(DATA / "verification" / "temple-source-recovery-gates-2026-10-23.json")
+    require(source_gates["checked_at"] == "2026-10-23" and
+            len(source_gates["targets"]) == 5 and
+            len({r["id"] for r in source_gates["targets"]}) == 5 and
+            all(r["core_count_change"] == 0 and r["repeat_condition"] for r in source_gates["targets"]) and
+            source_gates["unchanged_core"] == {
+                "radio": 1265,
+                "first_party_blog": 316,
+                "teaching": 26,
+                "total": 1607,
+                "supplemental_publications": 19
+            },
+            "Source recovery gates must preserve five distinct targets and unchanged core counts")
+    gate_by_id = {r["id"]: r for r in source_gates["targets"]}
+    require(gate_by_id["TEMPLE-2000-ORIGINS"]["original_manuscript_recovered"] is False and
+            gate_by_id["TEMPLE-2000-ORIGINS"]["rights_cleared"] is False and
+            gate_by_id["TEMPLE-2001-EREV-ROSH-HASHANAH"]["delivered_replacement_complete_recovered"] is False and
+            gate_by_id["TEMPLE-2001-EREV-ROSH-HASHANAH"]["planned_undelivered_drafts_recovered"] is False and
+            gate_by_id["TEMPLE-2015-REFUGEE"]["original_manuscript_recovered"] is False and
+            gate_by_id["HV-2008-009"]["audio_binary_recovered"] is False and
+            gate_by_id["HV-2008-009"]["cohon_voice_listened_and_confirmed"] is False and
+            gate_by_id["HV-2008-009"]["not_too_jewish_core"] is True and
+            gate_by_id["HV-2008-009"]["not_2013_temple_class"] is True and
+            gate_by_id["TE-2013-PODBEAN"]["audio_binary_recovered"] is False and
+            gate_by_id["TE-2013-PODBEAN"]["specific_episode_recovered"] is False,
+            "Unrecovered originals, episodes and manuscripts must not be upgraded by broken links or replicated indexes")
+    require(source_gates["read_only_private_search"]["private_file_names_or_ids_recorded"] is False and
+            source_gates["read_only_private_search"]["no_grounds_for_archive_wide_absence"] is True and
+            all(v is False for k,v in source_gates["permissions"].items() if k != "private_originals_untouched") and
+            source_gates["permissions"]["private_originals_untouched"] is True,
+            "Source metadata gate must preserve privacy, rights, release and no-contact boundaries")
+    gate_note = (ROOT / "docs" / "temple-recovery-2026-10-23-source-gates.md").read_text(encoding="utf-8")
+    require("## Actionable evidence gates" in gate_note and
+            "source-recovery-gates-2026-10-23.json" in gate_note and
+            "no authenticated original or playable historical recording" in gate_note.lower() and
+            "1,607" in gate_note,
+            "Bounded negative search must retain a readable checkpoint and future evidence triggers")
     temple_witnesses = load(DATA / "writings" / "historical-sermon-witnesses.json")
     historical_2001 = temple_witnesses["records"]
     require(len(historical_2001) == 1 and
