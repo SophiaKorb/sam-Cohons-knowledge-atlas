@@ -66,7 +66,31 @@
       "latest_public_check": "2026-10-22",
       "core_catalogue_count_included": false,
       "evidence_boundary": "Specific episode ID and claimed program presentation are confirmed from primary publisher metadata, but no episode file or recording of Cohon's voice was downloaded or listened to. Do not count as recovered audio or as 2008 Too Jewish show, and do not infer any 2013 Temple class audio.",
-      "next_steps": "Use a readable first-party Hearing Voices episode page or authorized source archive to recover concrete audio enclosure and verify bytes/voice; no outreach authorized."
+      "next_steps": "Use a readable first-party Hearing Voices episode page or authorized source archive to recover concrete audio enclosure and verify bytes/voice; no outreach authorized.",
+      "index_recheck": {
+        "checked_at": "2026-10-23",
+        "source": "https://www.hearingvoices.org/hv-series/",
+        "source_position": "Hearing Voices Series entry 009, 2008-04-30",
+        "program_description": "Rabbi Samuel Cohon of Temple Emanuel, Tucson and Too Jewish Radio presents a themed collection of Holocaust survivor stories.",
+        "publisher_listed_components": [
+          "Descended from the Holocaust — Dr. Alan Berkenwald, Life Stories audio diary",
+          "Yom Hashoah 1994 — Billings/Cleveland services, interviews and response to antisemitic crimes",
+          "Voices of the Shoah — excerpts from Rhino Records testimony project",
+          "Belsen Concentration Camp — Patrick Gordon Walker BBC recording from May 1945"
+        ],
+        "component_authorship_boundary": "The series credits constituent audio diaries, old broadcast reports and documentary excerpts to other producers. Publisher description does not identify a standalone Cohon source recording or establish rights to those constituent works.",
+        "attempted_first_party_endpoints": [
+          "https://hearingvoices.com/2008/04/hv009-shoah/",
+          "https://www.hearingvoices.org/2008/04/hv009-shoah/",
+          "https://hearingvoices.com/feed/",
+          "https://hearingvoices.com/2008/04/hv009-shoah/feed/"
+        ],
+        "result": "Publisher series index accessible and identifies full episode metadata. The detail page and alternate entry/feed links returned cache miss or were inaccessible. Direct media enclosure, GUID, checksum, runtime, playback and Cohon voice confirmation remain unavailable.",
+        "archived_replay_attempt": "https://web.archive.org/web/20080501000000/http://hearingvoices.com/2008/04/hv009-shoah/ was inaccessible; no claim is made about whether the Wayback collection contains snapshots.",
+        "media_enclosure_verified": false,
+        "program_voice_authenticated": false,
+        "core_radio_catalogue_entry_added": false
+      }
     }
   ]
 }
