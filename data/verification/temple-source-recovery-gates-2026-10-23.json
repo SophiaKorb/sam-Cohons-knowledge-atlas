@@ -1,0 +1,108 @@
+{
+  "checked_at": "2026-10-23",
+  "task": "Bounded original-manuscript / specific publisher audio recovery, no contact or publication",
+  "provenance_policy": "Only source-specific file/episode identity, first-party authorization and recoverable bytes can upgrade statuses. An inaccessible URL, mirror index, or multi-domain syndication is not an authenticated original, a new intellectual work, or an independently verified recording.",
+  "targets": [
+    {
+      "id": "TEMPLE-2000-ORIGINS",
+      "title": "The Origins of Awareness",
+      "existing_evidence": "Explicitly attributed Yom Kippur 5761 sermon section in public 14-page mixed-author compilation; title and ending visible in secondary representations.",
+      "urls": [
+        "https://avalonlibrary.net/ebooks/Rabbi%20Samuel%20Cohon%20-%20Kabbalah%20Consciousness%20and%20The%20Universe.pdf",
+        "https://www.scribd.com/document/6647607/Kabbala-Consciousness-and-the-Universe",
+        "http://www.consciousness.arizona.edu/hameroff/Ham/Ideas/Kabbala"
+      ],
+      "this_pass": "Targeted publisher, academic-domain, exact-title and legacy-path searches did not return an original Temple or authenticated university-hosted copy; authorized document-index search did not identify a clearly matching manuscript. Multiple public copies may share one upstream source.",
+      "original_manuscript_recovered": false,
+      "audio_recovered": false,
+      "rights_cleared": false,
+      "core_count_change": 0,
+      "repeat_condition": "Only revisit identical dead paths if a new archival resolver/capture, independently identified first-party archival holding, authorized title-matched original, or direct accessible file bytes becomes available."
+    },
+    {
+      "id": "TEMPLE-2001-EREV-ROSH-HASHANAH",
+      "title": "Post-September 11 delivered Erev Rosh Hashanah 5762 sermon",
+      "existing_evidence": "Rabbi Cohon's already indexed first-party September 2026 retrospective includes self-quoted excerpt and distinguishes delivered replacement from pre-9/11 undelivered drafts.",
+      "urls": [
+        "https://beitsimchatucson.org/blog/911-25-years-before-and-since"
+      ],
+      "this_pass": "No original 2001 Temple manuscript identified in targeted public searches or titled authorized document-index search. Existing modern blog remains source of retrospective excerpt only.",
+      "delivered_replacement_complete_recovered": false,
+      "planned_undelivered_drafts_recovered": false,
+      "delivery_status": "retrospectively_reported_delivered_only_replacement",
+      "original_manuscript_authenticated": false,
+      "core_count_change": 0,
+      "repeat_condition": "Pursue only when an original dated 2001 Temple manuscript, service program or authorized held draft is independently identified; track delivered revision and unused drafts separately."
+    },
+    {
+      "id": "TEMPLE-2015-REFUGEE",
+      "title": "The Necessary Chutzpah of Saving Refugees",
+      "existing_evidence": "URJ attributed 2015 sermon excerpt and editorial method stating a written text was obtained for every included sermon; Mark J. Pelavin compiled roundup.",
+      "urls": [
+        "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round",
+        "https://www.templeemanueltucson.org/worship/shabbat/sermons/1135-rh-5776-chutpzah"
+      ],
+      "this_pass": "Exact-title, publisher, archival-index and original-Tucson-domain searches did not recover complete text. Authorized document-index search provided no clearly matching manuscript. URJ page still excerpt-only.",
+      "original_manuscript_recovered": false,
+      "current_URJ_or_editor_manuscript_custody_confirmed": false,
+      "rights_cleared": false,
+      "core_count_change": 0,
+      "repeat_condition": "New independent snapshot of exact old path, documented held submission, a specifically identified archived file or explicit permission to seek a copy; no unsolicited contact."
+    },
+    {
+      "id": "HV-2008-009",
+      "title": "Hearing Voices: Shoah: For Holocaust Remembrance Day",
+      "episode_number": "009",
+      "episode_date": "2008-04-30",
+      "existing_evidence": "Publisher's Hearing Voices series index identifies Samuel Cohon as program presenter and links to a historical episode page.",
+      "first_party_index_variants": [
+        "https://www.hearingvoices.org/hv-series/",
+        "https://hearingvoices.com/hv-series/"
+      ],
+      "publisher_page": "https://hearingvoices.com/2008/04/hv009-shoah/",
+      "this_pass": "Both first-party branded domain variants present the same episode listing, not independent audio witnesses. Publisher Listen destination continues inaccessible in web reader. Targeted exact-episode, mp3, repository and public-media searches yielded no grounded direct HV009 enclosure, published audio manifest or accessible original program file.",
+      "publisher_listing_confirmed": true,
+      "direct_audio_enclosure_identified": false,
+      "audio_binary_recovered": false,
+      "cohon_voice_listened_and_confirmed": false,
+      "rights_cleared": false,
+      "not_too_jewish_core": true,
+      "not_2013_temple_class": true,
+      "core_count_change": 0,
+      "repeat_condition": "New source-supplied enclosure URL or documented public-radio distributor accession ID with an independently verifiable media file. Do not reconstruct URL by guessing filenames."
+    },
+    {
+      "id": "TE-2013-PODBEAN",
+      "title": "Temple Emanu-El 2013 historical class podcast account",
+      "existing_evidence": "First-party congregation email in April 2013 advertises podcast channel; no indexed specific episode has been authenticated.",
+      "publisher_newsletter": "https://myemail.constantcontact.com/Temple-Emanu-El-s-Weekly-E-Mail-April-30--2013.html?aid=swWNZiBFfdg&soid=1101864458998",
+      "historic_channel": "https://tucsontempleemanuel.podbean.com/",
+      "this_pass": "No separate class item GUID, specific episode permalink, original audio enclosure or master was discovered. Generic Podbean channel and prior inaccessible RSS URLs do not qualify as a recording.",
+      "specific_episode_recovered": false,
+      "audio_binary_recovered": false,
+      "core_count_change": 0,
+      "repeat_condition": "Contemporaneous verified RSS snapshot with item GUID/enclosure; first-party episode permalink; or authorized named class master with verified metadata. Never promote advertised class dates alone."
+    }
+  ],
+  "read_only_private_search": {
+    "scope": "Authorized linked document index, exact source titles and 2001/2015 date variations",
+    "finding": "No confidently identifiable original for the requested 2000, 2001 or 2015 manuscripts. Keyword matches were often unrelated documents; no irrelevant document bodies were opened.",
+    "private_file_names_or_ids_recorded": false,
+    "no_grounds_for_archive_wide_absence": true
+  },
+  "unchanged_core": {
+    "radio": 1265,
+    "first_party_blog": 316,
+    "teaching": 26,
+    "total": 1607,
+    "supplemental_publications": 19
+  },
+  "permissions": {
+    "private_originals_untouched": true,
+    "copyrighted_full_text_copied": false,
+    "contacted_any_person_or_org": false,
+    "transcripts_published": false,
+    "merged": false,
+    "deployed": false
+  }
+}
