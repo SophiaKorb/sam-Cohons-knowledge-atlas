@@ -352,7 +352,16 @@
       },
       "provenance_audit_path": "data/verification/temple-2000-source-authentication-audit-2026-10-22.json",
       "first_party_text_authentication_status": "unverified",
-      "screen_or_byte_verification_status": "web_pdf_text_readable_screenshots_and_container_download_failed"
+      "screen_or_byte_verification_status": "web_pdf_text_readable_screenshots_and_container_download_failed",
+      "calendar_corrobation": {
+        "source": "https://www.hebcal.com/holidays/yom-kippur-2000",
+        "source_publisher": "Hebcal",
+        "hebrew_date": "10 Tishrei 5761",
+        "observed_civil_window_start": "2000-10-08",
+        "observed_civil_window_end": "2000-10-09",
+        "event_date_confidence": "holiday_window_independently_confirmed_sermon_delivery_day_unverified",
+        "note": "Calendar dates verify the holiday, not the service, exact delivery hour or provenance of reproduced manuscript."
+      }
     },
     {
       "title": "Music article welcome, falls short",
