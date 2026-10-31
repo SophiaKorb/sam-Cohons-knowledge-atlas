@@ -1,0 +1,70 @@
+{
+  "research_date": "2026-10-31",
+  "checkpoint_start_sha": "3095109182ec9ce978cbe73e29381cdc6cad9071",
+  "purpose": "Verified 2015 primary signatory source for Cohon, explicitly distinct from his missing Rosh Hashanah sermon and from unrelated similarly named archives",
+  "records": [
+    {
+      "id": "HIAS-2015-REFUGEE-RABBINIC-LETTER-COHON-SIGNATORY",
+      "source_title": "1000 Rabbis in Support of Welcoming Refugees",
+      "source_publisher": "HIAS",
+      "source_public_url": "https://hias.org/wp-content/uploads/hias_1000_rabbis_support_refugees.pdf",
+      "text_document_date": "2015-12-02",
+      "signatory_list_as_of": "2015-12-04 13:00 (as printed on source)",
+      "source_list_reported_count": 1216,
+      "subject_name_as_printed": "Rabbi Samuel M. Cohon - Tucson, AZ",
+      "source_text_location": "pdf parsed text: name appears among alphabetized C names on page 4? Parser lines 231–232; PDF page number may differ; no visual page assertion",
+      "source_evidence_tier": "primary_organization_hosted_contemporaneous_signatory_list_text_verified",
+      "independent_reporting": {
+        "publisher": "KOLD / Tucson News Now",
+        "publication_date": "2015-12-04",
+        "url": "https://www.kold.com/story/30672691/tucson-rabbi-signs-national-letter-in-support-of-welcoming-refugees/",
+        "statement": "News report names Rabbi Samuel Cohon at Tucson's Temple Emanu-El as signatory and quotes his views. Secondary corroboration of participation, not sermon text.",
+        "source_kind": "contemporaneous_local_report"
+      },
+      "documentary_risks": [
+        "Letter and signatory appendix are a collective multi-rabbi action and not individually authored by Samuel M. Cohon.",
+        "Dated December 2015; not identical to or a transcription of his autumn 2015 Rosh Hashanah sermon.",
+        "Text parser accessed HIAS-hosted PDF; direct screenshot of page index 2 failed with cache miss, so page-image fidelity and original file bytes/checksum were not verified.",
+        "The PDF states there were 1216 signatories by Dec 4 at 1pm; avoid treating 1216 as a manually recounted total.",
+        "One historic news article does not authorize public reuse of either copyrighted full letter or copyrighted sermon."
+      ],
+      "distinct_from_target_sermon": {
+        "target_title": "The Necessary Chutzpah of Saving Refugees",
+        "original_temple_sermon_manuscript_recovered": false,
+        "text_shared_with_original_sermon_verified": false,
+        "target_sermon_original_url": "https://www.templeemanueltucson.org/worship/shabbat/sermons/1135-rh-5776-chutpzah",
+        "last_known_direct_sermon_text_evidence": "https://urj.org/blog/our-second-annual-rosh-hashanah-sermon-round"
+      },
+      "authored_work_classification": "collectively_signed_statement_not_an_individually_authored_sermon",
+      "full_text_ingested": false,
+      "copyright_rights_cleared": false,
+      "core_catalogue_count_included": false,
+      "supplemental_publications_count_included": false,
+      "verified_specific_hv009_audio_connection": false
+    }
+  ],
+  "unchanged_recovery_flags": {
+    "origins_2000_original": false,
+    "erev_2001_delivered_manuscript": false,
+    "erev_2001_undelivered_drafts": false,
+    "necessary_chutzpah_2015_original": false,
+    "hearing_voices_hv009_audio": false,
+    "temple_podbean_2013_audio": false
+  },
+  "unchanged_counts": {
+    "radio": 1265,
+    "first_party_blog": 316,
+    "teaching": 26,
+    "core_total": 1607,
+    "supplemental_publication_records": 19
+  },
+  "release_gates": {
+    "research_branch_only": true,
+    "no_private_originals_read": true,
+    "no_public_full_text_copied": true,
+    "no_contact": true,
+    "no_workflow_modification": true,
+    "no_merge": true,
+    "no_deploy": true
+  }
+}
