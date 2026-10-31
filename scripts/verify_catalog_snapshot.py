@@ -124,6 +124,41 @@ def main():
     require(len(writing) + len(standalone) == wstats["source_records_total"], "Writing totals mismatch")
     require(len({r["url"] for r in writing}) == len(writing), "Blog canonical URLs not unique")
     require(len(teaching) == 26, "Unexpected teaching listing count")
+    context_2000 = load(DATA / "verification" / "temple-2000-context-and-false-positive-2015-bulletins-2026-10-31.json")
+    events_2000 = context_2000["first_party_historical_context"]
+    reject_2015 = context_2000["same_title_false_positive"]
+    require(context_2000["review_date"] == "2026-10-31" and
+            events_2000["source_url"] == "https://www.katucson.org/history-v2" and
+            {e["date"] for e in events_2000["date_specific_events"]} == {"2000-03-11", "2000-03-17"} and
+            events_2000["original_yom_kippur_2000_manuscript_confirmed"] is False and
+            events_2000["original_2001_erev_rosh_hashanah_manuscript_confirmed"] is False and
+            events_2000["original_2015_refugee_sermon_confirmed"] is False,
+            "March 2000 heritage events cannot authenticate October 2000 or other historical sermons")
+    require(len(reject_2015["identified_docs"]) == 2 and
+            all(r["owning_congregation"] == "Temple Beth Shalom" and
+                r["shulcloud_collection"] == "15008" and
+                "/15008/uploads/Newsletter/" in r["url"]
+                for r in reject_2015["identified_docs"]) and
+            reject_2015["separate_verified_tucson_archive_host_prefix"] ==
+            "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/" and
+            reject_2015["excluded_from_sam_cohon_corpus"] is True and
+            reject_2015["exclude_audio_and_sermon_inferences"] is True,
+            "2015 same-title Temple Times PDFs from different congregation must not enter Tucson corpus")
+    require(all(value is False for value in context_2000["original_work_boundaries"].values()) and
+            context_2000["count_constraints"]["total"] == 1607 and
+            context_2000["count_constraints"]["supplemental_publications"] == 19 and
+            context_2000["count_constraints"]["new_core_records"] == 0 and
+            context_2000["release_and_rights_controls"]["public_metadata_only"] is True and
+            all(v is False for k,v in context_2000["release_and_rights_controls"].items()
+                if k != "public_metadata_only"),
+            "October 31 provenance supplement must not assert new originals, publication, private changes or deployment")
+    identity_note = (ROOT / "docs" / "temple-recovery-2026-10-31-chronology-and-2015-source-identity.md").read_text(encoding="utf-8")
+    require("March 11, 2000" in identity_note and
+            "Temple Beth Shalom" in identity_note and
+            "Temple Emanu-El, 225 North Country Club Road" in identity_note and
+            "HV009" in identity_note and
+            "1,607" in identity_note,
+            "2000 chronology / 2015 false-positive audit lacks supporting readable checkpoint")
     successor_holdings = load(DATA / "verification" / "temple-successor-archive-holdings-2026-10-31.json")
     require(successor_holdings["review_date"] == "2026-10-31" and
             len(successor_holdings["source_holding_leads"]) == 3 and
