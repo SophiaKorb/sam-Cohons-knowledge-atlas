@@ -1,4 +1,4 @@
-# November archival continuation — AJA MS-630 contains a genuine Tucson Temple sermon, but not Cohon's
+# October 31 archival continuation — AJA MS-630 contains a genuine Tucson Temple sermon, but not Cohon's
 
 **Research date:** October 31, 2026. **Branch:** `research/2026-10-21-too-jewish-intake`. **Scope:** verified public metadata and documentary provenance only.
 
