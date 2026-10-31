@@ -124,6 +124,42 @@ def main():
     require(len(writing) + len(standalone) == wstats["source_records_total"], "Writing totals mismatch")
     require(len({r["url"] for r in writing}) == len(writing), "Blog canonical URLs not unique")
     require(len(teaching) == 26, "Unexpected teaching listing count")
+    successor_holdings = load(DATA / "verification" / "temple-successor-archive-holdings-2026-10-31.json")
+    require(successor_holdings["review_date"] == "2026-10-31" and
+            len(successor_holdings["source_holding_leads"]) == 3 and
+            len({x["id"] for x in successor_holdings["source_holding_leads"]}) == 3 and
+            successor_holdings["core_records_unchanged"] == {
+                "radio": 1265,
+                "first_party_blog": 316,
+                "teaching": 26,
+                "total": 1607,
+                "supplemental_publications": 19
+            },
+            "October 31 new archive routes must not inflate core publication counts")
+    successor_by_id = {x["id"]: x for x in successor_holdings["source_holding_leads"]}
+    require(successor_by_id["KOL-AMI-LEGACY-TEMPLE-EMANU-EL"]["source"] ==
+            "https://www.katucson.org/synagogue-history" and
+            successor_by_id["KOL-AMI-LEGACY-TEMPLE-EMANU-EL"]["specific_target_manuscripts_confirmed_in_holding"] is False and
+            successor_by_id["TEMPLE-TIMES-2021-LEGACY-SHULCLOUD"]["source"] ==
+            "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/21-jun-jul.pdf" and
+            successor_by_id["TEMPLE-TIMES-2021-LEGACY-SHULCLOUD"]["specific_target_manuscripts_confirmed_in_holding"] is False and
+            successor_by_id["PRX-HEARING-VOICES-PUBLISHER-GROUP"]["hv009_prx_item_verified"] is False and
+            successor_by_id["PRX-HEARING-VOICES-PUBLISHER-GROUP"]["hv009_enclosure_recovered"] is False and
+            successor_by_id["PRX-HEARING-VOICES-PUBLISHER-GROUP"]["hv009_audio_bytes_verified"] is False,
+            "Institutional successor, 2021 bulletin and PRX catalogue may not be misrepresented as target manuscripts/media")
+    require(len(successor_holdings["false_positive_collections"]) == 3 and
+            all(x["assessment"] for x in successor_holdings["false_positive_collections"]) and
+            all(not value for key,value in successor_holdings["permissions"].items()
+                if key != "private_originals_untouched") and
+            successor_holdings["permissions"]["private_originals_untouched"] is True and
+            all(not value for fields in successor_holdings["target_recovery_status"].values()
+                for value in fields.values()),
+            "Recovery audit must retain identity disambiguation, five missing originals, and full rights gates")
+    successor_note = (ROOT / "docs" / "temple-recovery-2026-10-31-successor-archives.md").read_text(encoding="utf-8")
+    require("Kol Ami" in successor_note and "Temple Times" in successor_note and
+            "PRX" in successor_note and "Samuel S. Cohon" in successor_note and
+            "1,607" in successor_note and "No manuscripts" in successor_note,
+            "Successor archive research checkpoint missing or overclaiming source recovery")
     source_gates = load(DATA / "verification" / "temple-source-recovery-gates-2026-10-23.json")
     require(source_gates["checked_at"] == "2026-10-23" and
             len(source_gates["targets"]) == 5 and
