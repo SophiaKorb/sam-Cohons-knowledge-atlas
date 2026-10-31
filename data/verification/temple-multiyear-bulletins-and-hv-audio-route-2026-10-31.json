@@ -1,0 +1,148 @@
+{
+  "review_date": "2026-10-31",
+  "research_scope": "Source-specific archival route refinement after October 31 successor archive discovery; only verified public links and careful negative evidence.",
+  "temple_times_verified_public_issues": [
+    {
+      "issue": "April 2019",
+      "volume": "LXVII",
+      "number": "8",
+      "original_pdf_url": "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/19-apr.pdf",
+      "source_verification": "Web PDF text parser identifies masthead as monthly magazine of Temple Emanu-El of Tucson with Country Club Road address.",
+      "visual_screenshot_verified": false,
+      "target_year_manuscript_found": false
+    },
+    {
+      "issue": "August 2019",
+      "volume": "LXVII",
+      "number": "12",
+      "original_pdf_url": "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/19-aug.pdf",
+      "source_verification": "PDF title and internal masthead identify Tucson congregation; article by Rabbi Batsheva Appel and 5780 service preparations.",
+      "visual_screenshot_verified": false,
+      "target_year_manuscript_found": false
+    },
+    {
+      "issue": "September 2019",
+      "volume": "LXVIII",
+      "number": "1",
+      "original_pdf_url": "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/19-sep.pdf",
+      "source_verification": "Indexed PDF source title and masthead identify September 2019 Tucson Temple Times.",
+      "visual_screenshot_verified": false,
+      "target_year_manuscript_found": false
+    },
+    {
+      "issue": "October 2019",
+      "volume": "LXVIII",
+      "number": "2",
+      "original_pdf_url": "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/19-oct.pdf",
+      "source_verification": "Indexed PDF source title and masthead identify October 2019 Tucson Temple Times.",
+      "visual_screenshot_verified": false,
+      "target_year_manuscript_found": false
+    },
+    {
+      "issue": "January 2020",
+      "volume": "LXVIII",
+      "number": "5",
+      "original_pdf_url": "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/20-jan.pdf",
+      "source_verification": "PDF text directly identifies January 2020 Tucson Temple Times, Volume LXVIII No. 5; merger discussions reported.",
+      "visual_screenshot_verified": false,
+      "target_year_manuscript_found": false
+    },
+    {
+      "issue": "June/July 2021",
+      "volume": "LXIX",
+      "number": "10",
+      "original_pdf_url": "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/21-jun-jul.pdf",
+      "source_verification": "Prior October 31 checkpoint: indexed Tucson Temple Times issue containing transition discussion.",
+      "visual_screenshot_verified": false,
+      "target_year_manuscript_found": false
+    }
+  ],
+  "collection_boundary": {
+    "collection": "Legacy Temple Emanu-El of Tucson original institutional newsletter",
+    "verified_public_issue_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "collection_host": "images.shulcloud.com",
+    "collection_identifier": "2920",
+    "older_2000_2001_2015_issue_urls_found": false,
+    "assume_all_years_or_months_present": false,
+    "do_not_guess_file_paths": true,
+    "source_text_copyright_reproduced": false,
+    "pdf_visual_qa_limit": "Web screenshot requests for examined 2019/2020 PDF title pages were unsuccessful; text parser identified title/masthead, not a verified raster image, checksum or byte-preserved original.",
+    "conclusion": "Genuine multi-year 2019–2021 institutional document collection, but later than Cohon's Temple service and no verified original target manuscript."
+  },
+  "hearing_voices_publisher_media_route": {
+    "publisher_home_url": "https://hearingvoices.com/",
+    "publisher_series_index_url": "https://hearingvoices.com/hv-series/",
+    "explicit_source_supplied_media_examples_other_episodes": [
+      {
+        "number": "101",
+        "label": "John Ono Lennon",
+        "media_url": "https://hearingvoices.com/news/wp-content/uploads/hours/101JohnOnoLennon.mp3",
+        "hosted_link_visible_on_publisher_homepage": true,
+        "media_bytes_checked": false
+      },
+      {
+        "number": "073",
+        "label": "Home Team",
+        "media_url": "https://hearingvoices.com/news/wp-content/uploads/hours/073HomeTeam.mp3",
+        "hosted_link_visible_on_publisher_homepage": true,
+        "media_bytes_checked": false
+      },
+      {
+        "number": "074",
+        "label": "Bloody Hell",
+        "media_url": "https://hearingvoices.com/news/wp-content/uploads/hours/074BloodyHell.mp3",
+        "hosted_link_visible_on_publisher_homepage": true,
+        "media_bytes_checked": false
+      }
+    ],
+    "relevance": "A source-supplied example of the producer's public self-hosted hourly MP3 scheme; proves neither HV009 hosting nor surviving audio for Cohon.",
+    "hv009_listed_by_producer": true,
+    "hv009_exact_source_supplied_media_url_found": false,
+    "hv009_program_page_accessible": false,
+    "hv009_audio_recovered": false,
+    "hv009_voice_authenticated": false,
+    "hv009_url_inferred_or_guessed": false,
+    "not_part_of_canonical_too_jewish_catalogue": true,
+    "not_2013_temple_class_audio": true
+  },
+  "university_archival_disambiguation": {
+    "source": "https://swja.arizona.edu/content/temple-emanu-el",
+    "source_type": "University of Arizona Southwest Jewish Archives institutional history landing page",
+    "finding": "An authenticated Tucson Temple Emanu-El historical institutional page exists, but this public landing page is not a specific finding aid for Rabbi Samuel M. Cohon's 2000–2015 sermon texts.",
+    "separate_accessible_collection": {
+      "url": "https://swja.arizona.edu/content/bloom-southwest-jewish-archives-photograph-collection-ca-1850-ca-1995",
+      "collection": "SJA 006, Bloom Southwest Jewish Archives photographs, ca. 1850–1995",
+      "relevance_boundary": "Authentic collection with some historical Temple images but its dated scope precedes the requested 2000–2015 manuscripts; not evidence of Cohon sermons."
+    },
+    "target_manuscript_custody_verified": false
+  },
+  "unchanged_targets": {
+    "origins_2000_original_recovered": false,
+    "erev_2001_delivered_original_recovered": false,
+    "erev_2001_undelivered_drafts_recovered": false,
+    "refugee_2015_original_recovered": false,
+    "HV009_audio_recovered": false,
+    "podbean_2013_specific_class_audio_recovered": false
+  },
+  "canonical_counts_unchanged": {
+    "radio": 1265,
+    "first_party_blogs": 316,
+    "teaching": 26,
+    "total": 1607,
+    "supplemental_publications": 19
+  },
+  "safety": {
+    "only_public_verifiable_metadata_committed": true,
+    "private_originals_untouched": true,
+    "copyrighted_transcripts_or_full_text_published": false,
+    "contact_attempted": false,
+    "merged": false,
+    "deployed": false,
+    "workflow_modified": false
+  },
+  "qa_context": "Existing CI uses Ubuntu latest (26.04) and Playwright 1.55, with browser installation blocked; source-ledger tests may pass while full CI still fails. A metadata-only update should not claim full browser QA until actually tested."
+}
