@@ -1,0 +1,124 @@
+{
+  "review_date": "2026-10-31",
+  "purpose": "Evidence-based source discovery beyond exhausted Temple sermon URL and old Podbean feed; historical institution and archive routes, not claimed manuscript or audio recovery.",
+  "source_holding_leads": [
+    {
+      "id": "KOL-AMI-LEGACY-TEMPLE-EMANU-EL",
+      "source": "https://www.katucson.org/synagogue-history",
+      "source_type": "current_successor_congregation_official_history",
+      "entity": "Kol Ami Synagogue, Tucson, Arizona",
+      "known_verified_facts": [
+        "Kol Ami's official history identifies Temple Emanu-El and Congregation Or Chadash as its predecessor communities.",
+        "The Temple Emanu-El history says Rabbi Samuel M. Cohon was hired in 1998 and served through the later transition, before Rabbi Batsheva Appel.",
+        "The successor's principal campus is the former Temple Emanu-El Country Club Road property."
+      ],
+      "independent_second_party_context": {
+        "source": "https://www.pimacountyinterfaith.org/kol_ami_synagogue",
+        "date": "2023-08-13",
+        "finding": "A recorded institutional interview says the two original congregations were dissolved over a multiyear period and replaced by Kol Ami rather than simply being merged as legal entities."
+      },
+      "archival_relevance": "Grounded successor-organization research route for any public records catalogue or legacy Temple Emanu-El materials held by Kol Ami; its actual custody of 2000/2001/2015 sermon manuscripts or historical class audio has NOT been verified.",
+      "specific_target_manuscripts_confirmed_in_holding": false,
+      "specific_historical_audio_confirmed_in_holding": false,
+      "contact_attempted": false,
+      "rights_assessed": false,
+      "next_evidence_gate": "Discover a directly accessible legacy collection finding aid or individual dated original manuscript/media item belonging to this organization. No outreach or private library access."
+    },
+    {
+      "id": "TEMPLE-TIMES-2021-LEGACY-SHULCLOUD",
+      "source": "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/21-jun-jul.pdf",
+      "source_type": "public_hosted_original_congregational_newsletter_with_internal_institutional_masthead",
+      "published_issue": "Temple Times, June/July 2021, Volume LXIX, No. 10",
+      "known_verified_facts": [
+        "Public PDF search/web-text reader identifies magazine as Temple Times, The Monthly Magazine of Temple Emanu-El of Tucson, Arizona.",
+        "The issue's contemporary copy discusses the transition to Kol Ami and the ongoing joint Temple Emanu-El/Or Chadash communities.",
+        "The publicly indexed URL path is under legacy ShulCloud collection 2920 / Documents / Temple-Times."
+      ],
+      "limits": [
+        "This is a 2021 original congregational bulletin, not a 2000, 2001, or 2015 original sermon manuscript.",
+        "Web PDF text reader returned text, but the screenshot for PDF page 1 failed with cache miss and direct local HTTP request failed DNS resolution; page-image QA, byte verification and file hash were not completed.",
+        "The ShulCloud numeric collection ID and 2021 link do not establish that older decades exist at the same path. Do not generate speculative older filenames or claim the collection is complete."
+      ],
+      "specific_target_manuscripts_confirmed_in_holding": false,
+      "specific_historical_audio_confirmed_in_holding": false,
+      "publication_rights_assessed": false,
+      "next_evidence_gate": "Use indexed, real 2000–2015 Temple Times issue URLs or an authorized archive listing if later discovered. Do not guess paths or claim that the 2021 edition authenticates Cohon's missing sermons."
+    },
+    {
+      "id": "PRX-HEARING-VOICES-PUBLISHER-GROUP",
+      "source": "https://assets1.prx.org/group/hearingvoices/",
+      "source_type": "independent_public_radio_distributor_historical_producer_group_list",
+      "known_verified_facts": [
+        "Search index for the PRX Hearing Voices group identifies the producer's catalog, a Hearing Voices series with 60 listed pieces, and other producer series.",
+        "PRX documentation describes a broadcast-program distribution marketplace."
+      ],
+      "limits": [
+        "This source gives a separately indexed distribution/discovery path, not a documented PRX piece ID for HV009 or a verified Cohon voice track.",
+        "Opening the producer group through the web fetcher produced cache miss; HV009 was not identified in PRX search results and no source-provided media enclosure was recovered.",
+        "The same title of a producer series does not verify HV009 was deposited, licensed or playable there."
+      ],
+      "hv009_prx_item_verified": false,
+      "hv009_enclosure_recovered": false,
+      "hv009_audio_bytes_verified": false,
+      "rights_assessed": false,
+      "next_evidence_gate": "Locate a distinct PRX piece page explicitly titled HV009 or Shoah with its own immutable piece ID; verify it independently before claiming distributor custody or audio recovery."
+    }
+  ],
+  "false_positive_collections": [
+    {
+      "source": "https://lib.arizona.edu/special-collections/collections/temple-emanu-el-sisterhood-tucson-arizona-records",
+      "identity": "Temple Emanu-El Sisterhood (Tucson) MS 505",
+      "collection_dates": "1910–1941",
+      "assessment": "Genuine Tucson institutional archive but collection dates predate the 2000–2015 sermons; not a documented holding of target manuscripts."
+    },
+    {
+      "source": "https://archives.sdsu.edu/repositories/2/resources/85",
+      "identity": "Rabbi Morton J. Cohn (San Diego) MS-0561",
+      "assessment": "Different person and different Temple Emanu-El in San Diego; not Rabbi Samuel M. Cohon of Tucson."
+    },
+    {
+      "source": "https://www.americanjewisharchives.org/research/finding-aids/",
+      "identity": "Samuel S. Cohon Papers MS-276 (1888–1959)",
+      "assessment": "Samuel Solomon Cohon is a different historical person from Rabbi Samuel M. Cohon; do not promote that archive as the target collection despite name similarities."
+    }
+  ],
+  "target_recovery_status": {
+    "TEMPLE-2000-ORIGINS": {
+      "authenticated_first_party_original": false,
+      "source_text_or_audio_uploaded": false
+    },
+    "TEMPLE-2001-EREV-ROSH-HASHANAH": {
+      "delivered_sermon_complete_original": false,
+      "undelivered_drafts_original": false
+    },
+    "TEMPLE-2015-REFUGEE": {
+      "authenticated_original": false,
+      "original_url_snapshot_recovered": false
+    },
+    "HV-2008-009": {
+      "distributor_piece_id_verified": false,
+      "audio_binary_verified": false,
+      "canonical_too_jewish_episode": false
+    },
+    "TE-2013-PODBEAN": {
+      "episode_guid_verified": false,
+      "audio_binary_verified": false
+    }
+  },
+  "core_records_unchanged": {
+    "radio": 1265,
+    "first_party_blog": 316,
+    "teaching": 26,
+    "total": 1607,
+    "supplemental_publications": 19
+  },
+  "permissions": {
+    "private_originals_untouched": true,
+    "full_source_text_copied_to_public_repo": false,
+    "external_contact_made": false,
+    "unapproved_publication": false,
+    "rights_assessed": false,
+    "merged": false,
+    "deployed": false
+  }
+}
