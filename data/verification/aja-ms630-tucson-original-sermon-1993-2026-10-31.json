@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-31",
+  "archive": {
+    "institution": "American Jewish Archives",
+    "collection": "MS-630, Rabbi Alexander M. Schindler Digital Collection",
+    "series": "A, UAHC, 1961-1996",
+    "box": 11,
+    "folder": 3,
+    "heading": "Outreach [Missionizing], 1993-1994",
+    "url": "https://collections.americanjewisharchives.org/ms/ms0630/ms0630.011.003.pdf"
+  },
+  "authentic_tucson_item": {
+    "title": "Outreach in the Synagogue: A Plan for the Future",
+    "sermon_date": "1993-12-03",
+    "author": "Rabbi Thomas A. Louchheim",
+    "temple": "Temple Emanu-El, 225 North Country Club Road, Tucson, Arizona",
+    "letter_by_author": "1993-12-17",
+    "author_letter_identifies_delivered_sermon": true,
+    "recipient": "Rabbi Alexander M. Schindler",
+    "acknowledgement": "1993-12-29",
+    "source_type": "AJA digitized first-party letter and Tucson Temple sermon typescript",
+    "samuel_m_cohon_authorship": false,
+    "within_2000_2001_2015_target_dates": false
+  },
+  "limitations": {
+    "first_party_tucson_item_found": true,
+    "cohon_sermon_found": false,
+    "custody_of_later_cohon_manuscripts_confirmed": false,
+    "full_copyright_text_imported": false,
+    "web_pdf_text_extracted": true,
+    "visual_page_verified": false,
+    "screenshot_attempt_result": "page 0 cache miss",
+    "original_pdf_bytes_or_checksum_verified": false,
+    "rights_assessed": false
+  },
+  "other_public_search": {
+    "aja_ms674_cohon_name_indexed": false,
+    "source_supplied_hv009_enclosure_found": false,
+    "prx_hv009_piece_id_found": false,
+    "temple_2013_podbean_episode_guid_found": false,
+    "statement": "No original for target work found; this is not a claim of archival absence."
+  },
+  "specific_target_status": {
+    "original_2000": false,
+    "delivered_replacement_2001": false,
+    "undelivered_drafts_2001": false,
+    "refugee_sermon_2015": false,
+    "hv009_audio_2008": false,
+    "podbean_class_audio_2013": false
+  },
+  "source_counts": {
+    "radio": 1265,
+    "blog": 316,
+    "teaching": 26,
+    "core": 1607,
+    "supplemental": 19,
+    "added": 0
+  },
+  "controls": {
+    "public_metadata_only": true,
+    "private_originals_untouched": true,
+    "no_contact": true,
+    "no_merge": true,
+    "no_deploy": true,
+    "no_workflow_edits": true,
+    "no_audio_or_text_publication": true
+  }
+}
