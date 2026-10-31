@@ -124,6 +124,43 @@ def main():
     require(len(writing) + len(standalone) == wstats["source_records_total"], "Writing totals mismatch")
     require(len({r["url"] for r in writing}) == len(writing), "Blog canonical URLs not unique")
     require(len(teaching) == 26, "Unexpected teaching listing count")
+    hias_2015 = load(DATA / "verification" / "hias-2015-primary-signatory-witness-2026-10-31.json")
+    require(hias_2015["research_date"] == "2026-10-31" and
+            len(hias_2015["records"]) == 1 and
+            hias_2015["records"][0]["id"] == "HIAS-2015-REFUGEE-RABBINIC-LETTER-COHON-SIGNATORY",
+            "HIAS 2015 source must be an individually identified, single public signatory witness")
+    hias_record = hias_2015["records"][0]
+    require(hias_record["source_publisher"] == "HIAS" and
+            hias_record["source_public_url"] ==
+            "https://hias.org/wp-content/uploads/hias_1000_rabbis_support_refugees.pdf" and
+            hias_record["text_document_date"] == "2015-12-02" and
+            hias_record["signatory_list_as_of"].startswith("2015-12-04") and
+            hias_record["subject_name_as_printed"] == "Rabbi Samuel M. Cohon - Tucson, AZ" and
+            hias_record["source_evidence_tier"] ==
+            "primary_organization_hosted_contemporaneous_signatory_list_text_verified" and
+            hias_record["source_list_reported_count"] == 1216,
+            "HIAS witness requires exact first-party dated source, printed named signatory and reported count")
+    require(hias_record["authored_work_classification"] ==
+            "collectively_signed_statement_not_an_individually_authored_sermon" and
+            hias_record["distinct_from_target_sermon"]["original_temple_sermon_manuscript_recovered"] is False and
+            hias_record["distinct_from_target_sermon"]["text_shared_with_original_sermon_verified"] is False and
+            hias_record["full_text_ingested"] is False and
+            hias_record["copyright_rights_cleared"] is False and
+            hias_record["core_catalogue_count_included"] is False and
+            hias_record["supplemental_publications_count_included"] is False and
+            all(value is False for value in hias_2015["unchanged_recovery_flags"].values()) and
+            hias_2015["unchanged_counts"] == {
+                "radio": 1265, "first_party_blog": 316, "teaching": 26,
+                "core_total": 1607, "supplemental_publication_records": 19},
+            "HIAS signatory letter must not be misclassified as original sermon or counted as individually authored publication")
+    require(all(value is True for value in hias_2015["release_gates"].values()),
+            "HIAS evidence gate must preserve privacy, no contact and no production changes")
+    hias_note = (ROOT / "docs" / "temple-recovery-2026-10-31-hias-primary-source.md").read_text(encoding="utf-8")
+    require("1216" in hias_note.replace(",", "") and
+            "signed rather than individually authored" in hias_note and
+            "not" in hias_note and
+            "1,607" in hias_note and "HIAS" in hias_note,
+            "HIAS primary source checkpoint missing date/count or evidence-tier caveat")
     context_2000 = load(DATA / "verification" / "temple-2000-context-and-false-positive-2015-bulletins-2026-10-31.json")
     events_2000 = context_2000["first_party_historical_context"]
     reject_2015 = context_2000["same_title_false_positive"]
