@@ -1,0 +1,95 @@
+{
+  "review_date": "2026-10-31",
+  "purpose": "Distinguish an independently published 2000 Tucson congregational chronology from missing sermon manuscripts, and exclude a different congregation's misleading 2015 Temple Times title.",
+  "first_party_historical_context": {
+    "source_url": "https://www.katucson.org/history-v2",
+    "organization": "Kol Ami Synagogue (Tucson); successor institutional history of Temple Emanu-El",
+    "observation": "Official detailed Temple history identifies 90th-anniversary celebrations in March 2000, including a Heritage Shabbat held at the Stone Avenue Temple on March 11 and a separate March 17 recognition of Joan and Donald Diamond.",
+    "date_specific_events": [
+      {
+        "date": "2000-03-11",
+        "name": "90th Anniversary Heritage Shabbat",
+        "place": "Stone Avenue Temple, Tucson"
+      },
+      {
+        "date": "2000-03-17",
+        "name": "90th Anniversary donor recognition",
+        "persons": "Joan and Donald Diamond"
+      }
+    ],
+    "event_relation_to_target_sermon": "Historical 2000-era congregation activities; not the Yom Kippur 5761 sermon, not a manuscript or written service transcript.",
+    "original_yom_kippur_2000_manuscript_confirmed": false,
+    "original_2001_erev_rosh_hashanah_manuscript_confirmed": false,
+    "original_2015_refugee_sermon_confirmed": false,
+    "rights_assessed": false
+  },
+  "historical_public_museum_context": {
+    "source_url": "https://azjewishpost.com/2010/jewish-history-museum-celebrates-with-centennial-exhibit/",
+    "publisher": "Arizona Jewish Post",
+    "source_publication_date": "2010-08-20",
+    "observation": "A 2010 centennial exhibit at the Jewish History Museum, in the original Stone Avenue Temple building, reportedly displayed an early Temple Emanu-El newsletter among other historical materials.",
+    "evidence_type": "contemporaneous secondary description of publicly exhibited early historical document",
+    "target_sermon_year_issue_identified": false,
+    "target_manuscript_custody_established": false,
+    "collection_scope_limit": "The reported exhibit concerns early institutional heritage, not authenticated writings from 2000, 2001, or 2015.",
+    "external_contact_made": false
+  },
+  "same_title_false_positive": {
+    "identified_docs": [
+      {
+        "url": "https://images.shulcloud.com/15008/uploads/Newsletter/Newsletter-201503.pdf",
+        "issue": "March/April 2015",
+        "owning_congregation": "Temple Beth Shalom",
+        "shulcloud_collection": "15008"
+      },
+      {
+        "url": "https://images.shulcloud.com/15008/uploads/Newsletter/Newsletter-201509.pdf",
+        "issue": "September/October 2015",
+        "owning_congregation": "Temple Beth Shalom",
+        "shulcloud_collection": "15008"
+      }
+    ],
+    "separate_verified_tucson_archive_host_prefix": "https://images.shulcloud.com/2920/uploads/Documents/Temple-Times/",
+    "exclusion_basis": "2015 PDF mastheads identify Temple Beth Shalom (Established 1953; United Synagogue of Conservative Judaism), whereas authenticated Tucson Temple Times mastheads identify Temple Emanu-El at 225 N Country Club Road. The collections have different ShulCloud IDs and publishers.",
+    "target_year_matches_without_identity_proof_must_be_rejected": true,
+    "excluded_from_sam_cohon_corpus": true,
+    "exclude_audio_and_sermon_inferences": true
+  },
+  "additional_recheck": {
+    "author_operated_blog": "https://www.rabbisamcohon.com/",
+    "status": "Public Rabbi Sam Cohon blog homepage verified; visible 2018–2021 era posts and tags are not evidence that either requested original 2000/2001/2015 Temple manuscript is hosted there.",
+    "hearing_voices_publisher_series_url": "https://www.hearingvoices.org/hv-series/",
+    "hv009_dated_listing_and_presenter_attribution": true,
+    "hv009_individual_detail_url": "https://hearingvoices.com/2008/04/hv009-shoah/",
+    "hv009_detail_result": "Cache miss in web browser, including a fresh publisher-index link traversal",
+    "hv009_publisher_supplied_audio_file_url_recovered": false,
+    "hv009_file_bytes_or_voice_verified": false,
+    "historic_podbean_2013_episode_guid_recovered": false
+  },
+  "original_work_boundaries": {
+    "delivered_2001_original_recovered": false,
+    "planned_2001_undelivered_drafts_recovered": false,
+    "original_2000_sermon_recovered": false,
+    "original_2015_refugee_sermon_recovered": false,
+    "hv009_audio_recovered": false,
+    "temple_2013_class_audio_recovered": false
+  },
+  "count_constraints": {
+    "canonical_radio": 1265,
+    "first_party_blogs": 316,
+    "teaching_recordings": 26,
+    "total": 1607,
+    "supplemental_publications": 19,
+    "new_core_records": 0
+  },
+  "release_and_rights_controls": {
+    "public_metadata_only": true,
+    "production_changed": false,
+    "private_originals_modified": false,
+    "copyrighted_manuscripts_or_transcripts_published": false,
+    "external_contact": false,
+    "merged": false,
+    "deployed": false,
+    "workflow_config_modified": false
+  }
+}
