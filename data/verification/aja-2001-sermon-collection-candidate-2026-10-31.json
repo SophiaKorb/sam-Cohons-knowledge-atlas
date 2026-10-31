@@ -1,0 +1,64 @@
+{
+  "reviewed_at": "2026-10-31",
+  "scope": "Public archival finding-aid verification, not manuscript/audio recovery",
+  "source": "https://7079.sydneyplus.com/archive/final/Theme.aspx?f=FindingAids%2Fms0674.pdf&m=resource&r=692678",
+  "collection": {
+    "institution": "American Jewish Archives",
+    "identifier": "MS-674",
+    "title": "September 11 Sermon Collection",
+    "dates": "2001",
+    "extent": "0.4 linear feet; 1 Hollinger box",
+    "processed": "February 2002",
+    "contributions": "Solicited 9/11 response sermons from Reform rabbis, many drafted for High Holy Days",
+    "draft_boundary": "Most preserved versions are drafts, not all evidence of delivery",
+    "inventory": "Box 1, nine surname-range folders",
+    "contributor_index_mentions_cohon": false,
+    "contributor_index_mentions_thomas_louchheim": true,
+    "cohon_specific_folder_listed": false,
+    "cohon_original_verified": false,
+    "visual_page_verified": false,
+    "visual_limit": "Web screenshot failed cache miss; text extraction usable",
+    "copyright_cleared": false
+  },
+  "source_specific_findings": [
+    {
+      "id": "2001-delivered-replacement",
+      "status": "not_recovered",
+      "boundary": "Later first-party self-excerpt remains the only identified author-witness; MS-674 does not list Cohon"
+    },
+    {
+      "id": "2001-undelivered-pre-911-drafts",
+      "status": "not_recovered",
+      "boundary": "Do not infer any submission or delivery from a collection containing other rabbis' drafts"
+    },
+    {
+      "id": "ms882-bulletin-disambiguation",
+      "status": "wrong_congregation_example",
+      "source": "https://collections.americanjewisharchives.org/ms/ms0882/00409/ms0882.00409.2001-04-01.pdf",
+      "boundary": "The example digital 2001 Temple Emanuel bulletin concerns Cherry Hill / Voorhees, NJ, not Tucson; no Tucson title-specific issue discovered"
+    },
+    {
+      "id": "hv009",
+      "status": "no_source_supplied_enclosure_or_prx_piece_id",
+      "source": "https://hearingvoices.com/hv-series/",
+      "boundary": "Publisher programme listing is not verified playable audio"
+    }
+  ],
+  "other_originals": {
+    "origins_2000": false,
+    "necessary_chutzpah_2015": false,
+    "temple_2013_podbean": false
+  },
+  "core_record_count": 1607,
+  "supplemental_record_count": 19,
+  "controls": {
+    "public_metadata_only": true,
+    "private_originals_accessed": false,
+    "rights_released": false,
+    "contacted_anyone": false,
+    "full_text_imported": false,
+    "workflow_changed": false,
+    "merged": false,
+    "deployed": false
+  }
+}
