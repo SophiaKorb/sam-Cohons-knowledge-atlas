@@ -63,7 +63,7 @@
       "audio_bytes_verified": false,
       "speaker_voice_verified_by_listening": false,
       "rights_status": "not_assessed",
-      "latest_public_check": "2026-10-22",
+      "latest_public_check": "2026-10-31",
       "core_catalogue_count_included": false,
       "evidence_boundary": "Specific episode ID and claimed program presentation are confirmed from primary publisher metadata, but no episode file or recording of Cohon's voice was downloaded or listened to. Do not count as recovered audio or as 2008 Too Jewish show, and do not infer any 2013 Temple class audio.",
       "next_steps": "Use a readable first-party Hearing Voices episode page or authorized source archive to recover concrete audio enclosure and verify bytes/voice; no outreach authorized.",
@@ -90,6 +90,23 @@
         "media_enclosure_verified": false,
         "program_voice_authenticated": false,
         "core_radio_catalogue_entry_added": false
+      },
+      "prx_shoah_2022_candidate": {
+        "checked_at": "2026-10-31",
+        "distributor_station_source": "https://exchange.prx.org/station/wcpn?m=false&page=22",
+        "distributor_station": "WCPN",
+        "source_section": "Purchased Pieces",
+        "exact_distributor_listed_title": "HV Special: Shoah (Holocaust Remembrance)",
+        "exact_distributor_listed_date": "2022-04-25",
+        "record_status": "separate_title_level_prx_candidate_not_hv009_crosswalk_authenticated",
+        "prx_piece_id": null,
+        "prx_piece_url": null,
+        "source_supplied_audio_enclosure": null,
+        "same_program_as_2008_hv009_verified": false,
+        "cohon_presenter_credit_on_prx_piece_verified": false,
+        "media_bytes_verified": false,
+        "source_verification_ledger": "data/verification/prx-wcpn-shoah-title-candidate-2026-10-31.json",
+        "caveat": "PRX station purchase list gives named 2022 title, not enough to equate to original 2008 HV009. Do not add a new audio core record or assert that the producer owns a Cohon recording."
       }
     }
   ]
