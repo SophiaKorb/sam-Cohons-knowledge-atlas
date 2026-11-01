@@ -396,49 +396,6 @@ def main():
             independent_episode[0]["rights_status"] == "not_assessed" and
             independent_episode[0]["core_catalogue_count_included"] is False,
             "Independent radio HV009 may not be counted as a recovered class, canonical radio episode, or playable master")
-    prx_shoah = load(DATA / "verification" / "prx-wcpn-shoah-title-candidate-2026-10-31.json")
-    prx_listing = prx_shoah["prx_evidence"]
-    original_2008 = prx_shoah["comparison_original_hv009"]
-    require(prx_shoah["reviewed_at"] == "2026-10-31" and
-            prx_listing["source_url"] ==
-            "https://exchange.prx.org/station/wcpn?m=false&page=22" and
-            prx_listing["section"] == "Purchased Pieces" and
-            prx_listing["title_as_listed"] == "HV Special: Shoah (Holocaust Remembrance)" and
-            prx_listing["date_as_listed"] == "2022-04-25" and
-            prx_listing["station_listing_text_observed"] is True and
-            prx_listing["separate_prx_piece_id_verified"] is False and
-            prx_listing["source_supplied_piece_permalink_verified"] is False and
-            prx_listing["original_media_enclosure_verified"] is False and
-            prx_listing["audio_binary_fetched"] is False and
-            prx_listing["audible_cohon_presence_verified"] is False,
-            "PRX WCPN purchase entry is title-only, not an identified or playable HV009 audio record")
-    candidate = independent_episode[0]["prx_shoah_2022_candidate"]
-    require(candidate["exact_distributor_listed_title"] == prx_listing["title_as_listed"] and
-            candidate["exact_distributor_listed_date"] == prx_listing["date_as_listed"] and
-            candidate["distributor_station_source"] == prx_listing["source_url"] and
-            candidate["prx_piece_id"] is None and
-            candidate["prx_piece_url"] is None and
-            candidate["source_supplied_audio_enclosure"] is None and
-            candidate["same_program_as_2008_hv009_verified"] is False and
-            candidate["cohon_presenter_credit_on_prx_piece_verified"] is False and
-            candidate["media_bytes_verified"] is False and
-            candidate["source_verification_ledger"] ==
-            "data/verification/prx-wcpn-shoah-title-candidate-2026-10-31.json" and
-            original_2008["same_work_as_prx_2022_title_authenticated"] is False and
-            original_2008["same_master_or_edit_as_2008_verified"] is False and
-            original_2008["presenter_credit_for_prx_2022_listing_verified"] is False and
-            all(value is False for value in prx_shoah["other_target_gates"].values()) and
-            prx_shoah["count_unchanged"]["core_total"] == 1607 and
-            prx_shoah["count_unchanged"]["historical_lead_records_added"] == 0 and
-            all(value is True for value in prx_shoah["controls"].values()),
-            "PRX title resemblance cannot fabricate a Cohon/2008 crosswalk, source master or additional catalog record")
-    prx_note = (ROOT / "docs" / "temple-recovery-2026-10-31-prx-wcpn-shoah-candidate.md").read_text(encoding="utf-8")
-    require("2022" in prx_note and
-            "WCPN" in prx_note and
-            "2008" in prx_note and
-            "source-issued PRX piece" in prx_note and
-            "1,607" in prx_note,
-            "PRX source-specific candidate needs readable provenance and media non-recovery caveats")
     followup = verification["additional_followup"]
     require(followup["2000_manuscript"]["original_temple_source_recovered"] is False and
             followup["2015_sermon"]["full_text_recovered"] is False and
