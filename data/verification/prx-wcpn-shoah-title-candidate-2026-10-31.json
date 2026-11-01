@@ -1,0 +1,69 @@
+{
+  "reviewed_at": "2026-10-31",
+  "target": "Hearing Voices HV009 (2008-04-30), Shoah: For Holocaust Remembrance Day",
+  "research_type": "first_party_distributor_transaction_list_candidate_crosswalk",
+  "prx_evidence": {
+    "distributor": "PRX — Public Radio Exchange",
+    "source_url": "https://exchange.prx.org/station/wcpn?m=false&page=22",
+    "listing_owner": "WCPN / ideastream (Cleveland public radio)",
+    "section": "Purchased Pieces",
+    "title_as_listed": "HV Special: Shoah (Holocaust Remembrance)",
+    "date_as_listed": "2022-04-25",
+    "date_precision": "Date printed next to title in PRX purchased-pieces list; do not reclassify as original publication or broadcast date",
+    "evidence_tier": "PRX distributor-hosted station purchased-piece title and date, searchable-index text only",
+    "station_listing_text_observed": true,
+    "station_listing_direct_page_reader_access": false,
+    "page_access_result": "Search-index text readable; full station detail returned HTTP 403 to web reader",
+    "separate_prx_piece_id_verified": false,
+    "source_supplied_piece_permalink_verified": false,
+    "original_media_enclosure_verified": false,
+    "audio_binary_fetched": false,
+    "audible_cohon_presence_verified": false,
+    "rights_or_license_verified": false
+  },
+  "comparison_original_hv009": {
+    "source": "https://www.hearingvoices.org/hv-series/",
+    "title": "Shoah: For Holocaust Remembrance Day",
+    "episode_code": "HV009",
+    "original_broadcast_date": "2008-04-30",
+    "publisher_identifies_rabbi_samuel_cohon_as_presenter": true,
+    "named_producers_and_constituent_archival_audio_exist": true,
+    "same_work_as_prx_2022_title_authenticated": false,
+    "same_master_or_edit_as_2008_verified": false,
+    "presenter_credit_for_prx_2022_listing_verified": false,
+    "permitted_inference": "A later, similar-titled PRX-distributed/purchased program is a candidate for a potential derivative, encore, or distinct program; no equivalence established.",
+    "prohibited_inferences": [
+      "HV009 was purchased in 2022",
+      "PRX possesses original 2008 HV009 media",
+      "2022 broadcast contains an audible Cohon voice",
+      "PRX rights imply reuse rights for third-party Holocaust survivor audio",
+      "HV009 is one of 1265 canonical Too Jewish episodes"
+    ]
+  },
+  "other_target_gates": {
+    "original_2000_sermon_recovered": false,
+    "delivered_2001_replacement_manuscript_recovered": false,
+    "pre_911_2001_undelivered_drafts_recovered": false,
+    "original_2015_refugee_sermon_recovered": false,
+    "temple_2013_podbean_class_enclosure_recovered": false
+  },
+  "next_evidence_needed": "An actual PRX piece URL or stable numeric identifier explicitly linked to the 2022 title; read producer/host/contents; verify audio bytes and compare title/credits/context before deciding any 2008 identity or Cohon voice. Do not fabricate URL or contact station.",
+  "count_unchanged": {
+    "core_radio": 1265,
+    "core_blogs": 316,
+    "core_teaching": 26,
+    "core_total": 1607,
+    "supplemental_publications": 19,
+    "canonical_records_added": 0,
+    "historical_lead_records_added": 0
+  },
+  "controls": {
+    "public_metadata_only": true,
+    "no_full_transcript_or_audio_ingested": true,
+    "no_private_originals_touched": true,
+    "no_contact": true,
+    "no_workflow_change": true,
+    "no_merge": true,
+    "no_deploy": true
+  }
+}
